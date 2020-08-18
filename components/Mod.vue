@@ -206,7 +206,7 @@ export default {
         {
           hid: "twitter:image",
           property: "twitter:image",
-          content: this.image,
+          content: this.logo,
         },
         {
           hid: "description",
@@ -226,7 +226,7 @@ export default {
         {
           hid: "itemprop:image",
           itemprop: "image",
-          content: this.image,
+          content: this.logo,
         },
         {
           hid: "itemprop:description",
