@@ -10,17 +10,5 @@
 <script>
 export default {
   props: ["images"],
-  data() {
-    return {
-      //
-    };
-  },
-  components: {},
 };
 </script>
-
-<i18n>
-{
-
-}
-</i18n>

@@ -1,5 +1,5 @@
 <template>
-  <v-row v-if="$vuetify.breakpoint.lgAndUp" justify="center">
+  <v-row v-if="$device.isDesktop" justify="center">
     <v-col lg="9" xl="9">
       <v-card outlined>
         <slot name="primary"></slot>
@@ -24,13 +24,3 @@
     </v-col>
   </v-row>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      //
-    };
-  },
-};
-</script>

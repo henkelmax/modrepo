@@ -18,7 +18,7 @@
       </v-tabs-items>
     </template>
     <template slot="secondary">
-      <v-card-title>{{ $t("table_of_contents") }}</v-card-title>
+      <v-card-title>Table of contents</v-card-title>
       <v-list>
         <v-list-item-group>
           <template v-for="(tab, index) in tabs">
@@ -78,14 +78,3 @@ export default {
   },
 };
 </script>
-
-<i18n>
-{
-  "en": {
-    "table_of_contents": "Table of contents"
-  },
-  "de": {
-    "table_of_contents": "Inhaltsverzeichnis"
-  }
-}
-</i18n>

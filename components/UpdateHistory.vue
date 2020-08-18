@@ -12,7 +12,7 @@
                 x-small
                 class="mr-1 white--text"
                 color="green"
-              >{{ $t(tag) }}</v-chip>
+              >{{ translateTag(tag) }}</v-chip>
             </v-list-item-subtitle>
             <v-list-item-subtitle
               v-for="(message, i) in version.updateMessages"
@@ -31,7 +31,7 @@
                   <v-icon v-else color="green">mdi-alpha-r-circle</v-icon>
                 </div>
               </template>
-              <span>{{ $t(version.releaseType) }}</span>
+              <span>{{ translateReleaseType(version.releaseType) }}</span>
             </v-tooltip>
           </v-list-item-action>
         </v-list-item>
@@ -61,20 +61,3 @@ export default {
   },
 };
 </script>
-
-<i18n>
-{
-  "en": {
-    "alpha": "Alpha",
-    "beta": "Beta",
-    "release": "Release",
-    "recommended": "Recommended"
-  },
-  "de": {
-    "alpha": "Alpha",
-    "beta": "Beta",
-    "release": "Release",
-    "recommended": "Empfohlen"
-  }
-}
-</i18n>

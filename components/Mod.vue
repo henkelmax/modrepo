@@ -10,7 +10,7 @@
             <v-breadcrumbs-item
               href="_"
               :disabled="item.disabled"
-              @click.prevent="$eventBus.$emit('push', item.path)"
+              @click.prevent="push(item.path)"
             >{{ item.text }}</v-breadcrumbs-item>
           </template>
         </v-breadcrumbs>
@@ -41,20 +41,19 @@
           background-color="transparent"
           show-arrows
         >
-          <v-tab href="#overview">{{ $t("overview") }}</v-tab>
-          <v-tab v-if="!!$slots.images || !!images" href="#images">{{ $t("images") }}</v-tab>
-          <v-tab v-if="!!$slots.update_history" href="#update_history">{{ $t("update_history") }}</v-tab>
-          <v-tab v-if="!!$slots.wiki" href="#wiki">{{ $t("wiki") }}</v-tab>
-          <v-tab v-if="!!$slots.faq || !!faq || !!generalFaq" href="#faq">{{ $t("faq") }}</v-tab>
-          <v-tab v-if="!!$slots.credits || !!credits" href="#credits">{{ $t("credits") }}</v-tab>
+          <v-tab href="#overview">Overview</v-tab>
+          <v-tab v-if="!!$slots.images || !!images" href="#images">Images</v-tab>
+          <v-tab v-if="!!$slots.update_history" href="#update_history">Update History</v-tab>
+          <v-tab v-if="!!$slots.wiki" href="#wiki">Wiki</v-tab>
+          <v-tab v-if="!!$slots.faq || !!faq || !!generalFaq" href="#faq">FAQ</v-tab>
+          <v-tab v-if="!!$slots.credits || !!credits" href="#credits">Credits</v-tab>
           <v-tab v-if="issueslink" href="#issues">
             <div
               class="pa-1 pt-3"
               @click.prevent.stop="open(issueslink)"
               style="width: 100%; height: 100%;"
             >
-              <v-icon class="mr-2">mdi-open-in-new</v-icon>
-              {{ $t("issues") }}
+              <v-icon class="mr-2">mdi-open-in-new</v-icon>Issues
             </div>
           </v-tab>
         </v-tabs>
@@ -76,7 +75,7 @@
                     color="light-blue accent-4"
                     :href="downloadlink"
                     target="_blank"
-                  >{{ $t("download") }}</v-btn>
+                  >Download</v-btn>
                 </v-container>
               </template>
             </SplitPanel>
@@ -238,28 +237,3 @@ export default {
   },
 };
 </script>
-
-<i18n>
-{
-  "en": {
-    "overview": "Overview",
-    "images": "Images",
-    "update_history": "Update History",
-    "wiki": "Wiki",
-    "faq": "FAQ",
-    "issues": "Issues",
-    "download": "Download",
-    "credits": "Credits"
-  },
-  "de": {
-    "overview": "Übersicht",
-    "images": "Bilder",
-    "update_history": "Updateverlauf",
-    "wiki": "Wiki",
-    "faq": "FAQ",
-    "issues": "Issues",
-    "download": "Herunterladen",
-    "credits": "Credits"
-  }
-}
-</i18n>

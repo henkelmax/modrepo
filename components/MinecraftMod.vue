@@ -11,7 +11,7 @@
     :faq="faq"
     :credits="credits"
     parentPath="/minecraft"
-    :parentTitle="$t('minecraft_mods')"
+    parentTitle="Minecraft Mods"
   >
     <slot slot="versions">
       <v-chip
@@ -24,13 +24,11 @@
     </slot>
 
     <slot slot="sidebar">
-      <p class="title text--primary ml-4">{{ $t("versions") }}</p>
+      <p class="title text--primary ml-4">Versions</p>
       <v-list>
         <v-list-item>
-          <v-list-item-title class="font-italic font-weight-medium">{{ $t("game_version") }}</v-list-item-title>
-          <v-list-item-title
-            class="font-italic font-weight-medium text-right"
-          >{{ $t("mod_version") }}</v-list-item-title>
+          <v-list-item-title class="font-italic font-weight-medium">Game Version</v-list-item-title>
+          <v-list-item-title class="font-italic font-weight-medium text-right">Mod Version</v-list-item-title>
         </v-list-item>
         <v-list-item v-for="(version, i) in versions" :key="i">
           <v-list-item-title class>{{ version.gameVersion }}</v-list-item-title>
@@ -131,24 +129,6 @@ export default {
   },
 };
 </script>
-
-<i18n>
-{
-  "en": {
-
-    "versions": "Versions",
-    "game_version": "Game Version",
-    "mod_version": "Mod Version",
-    "minecraft_mods": "Minecraft Mods"
-  },
-  "de": {
-    "versions": "Versionen",
-    "game_version": "Spielversion",
-    "mod_version": "Modversion",
-    "minecraft_mods": "Minecraft Mods"
-  }
-}
-</i18n>
 
 <style scoped>
 .v-list-item {

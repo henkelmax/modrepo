@@ -1,6 +1,6 @@
 <template>
   <v-card outlined class="pa-2 ma-5">
-    <v-card-title class="headline">{{ $t("update_activity") }}</v-card-title>
+    <v-card-title class="headline">Update Activity</v-card-title>
 
     <v-list two-line>
       <div v-for="(version, index) in versions" :key="index">
@@ -14,7 +14,7 @@
                 x-small
                 class="mr-1 white--text"
                 color="green"
-              >{{ $t(tag) }}</v-chip>
+              >{{ translateTag(tag) }}</v-chip>
             </v-list-item-subtitle>
             <v-list-item-subtitle
               v-for="(message, i) in version.updateMessages"
@@ -33,7 +33,7 @@
                   <v-icon v-else color="green">mdi-alpha-r-circle</v-icon>
                 </div>
               </template>
-              <span>{{ $t(version.releaseType) }}</span>
+              <span>{{ translateReleaseType(version.releaseType) }}</span>
             </v-tooltip>
           </v-list-item-action>
         </v-list-item>
@@ -63,22 +63,3 @@ export default {
   },
 };
 </script>
-
-<i18n>
-{
-  "en": {
-    "alpha": "Alpha",
-    "beta": "Beta",
-    "release": "Release",
-    "recommended": "Recommended",
-    "update_activity": "Update Activity"
-  },
-  "de": {
-    "alpha": "Alpha",
-    "beta": "Beta",
-    "release": "Release",
-    "recommended": "Empfohlen",
-    "update_activity": "Update Aktivität"
-  }
-}
-</i18n>

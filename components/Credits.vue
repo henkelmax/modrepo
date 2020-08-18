@@ -4,9 +4,9 @@
       <template v-slot:default>
         <thead>
           <tr>
-            <th class="text-left">{{ $t("name") }}</th>
-            <th class="text-left">{{ $t("license") }}</th>
-            <th class="text-left">{{ $t("by") }}</th>
+            <th class="text-left">Name</th>
+            <th class="text-left">License</th>
+            <th class="text-left">By</th>
           </tr>
         </thead>
         <tbody>
@@ -48,18 +48,3 @@ export default {
   },
 };
 </script>
-
-<i18n>
-{
-  "en": {
-    "name": "Name",
-    "license": "License",
-    "by": "By"
-  },
-  "de": {
-    "name": "Name",
-    "license": "Lizenz",
-    "by": "Von"
-  }
-}
-</i18n>

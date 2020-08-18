@@ -1,6 +1,5 @@
 
 const modIDs = ['advancedtools', 'better_respawn', 'camera', 'car', 'corpse', 'easy_villagers', 'fakeblocks', 'gravestone', 'mining_dimension', 'reap', 'shulkerbox', 'sleeping_bags', 'storage_overhaul'];
-const languages = ['de'];
 
 const siteName = 'ModRepo';
 const siteDescription = 'Minecraft Mods and more';
@@ -43,28 +42,14 @@ export default {
   ],
   modules: [
     '@nuxtjs/axios',
-    ['nuxt-i18n', {
-      vueI18nLoader: true
-    }]
+    '@nuxtjs/device'
   ],
-  i18n: {
-    locales: ['en', ...languages],
-    defaultLocale: 'en',
-    vueI18n: {
-      fallbackLocale: 'en'
-    }
-  },
-  moment: {
-    defaultLocale: 'en',
-    locales: languages
-  },
   axios: {},
   vuetify: {},
   build: {},
   generate: {
     routes: modIDs
-      .flatMap(modid => [`/minecraft/${modid}/overview`, `/minecraft/${modid}/images`, `/minecraft/${modid}/update_history`, `/minecraft/${modid}/update_history`, `/minecraft/${modid}/credits`])
-      .flatMap(path => [path, ...languages.flatMap(lang => `/${lang}${path}`)]),
+      .flatMap(modid => [`/minecraft/${modid}/overview`, `/minecraft/${modid}/images`, `/minecraft/${modid}/update_history`, `/minecraft/${modid}/update_history`, `/minecraft/${modid}/credits`]),
     exclude: [/\/.*[A-Z].*/],
     fallback: '404.html'
   }

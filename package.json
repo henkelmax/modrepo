@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/device": "^1.2.7",
     "nuxt": "^2.14.0",
-    "nuxt-i18n": "^6.13.9",
     "vue-observe-visibility": "^0.4.6"
   },
   "devDependencies": {
