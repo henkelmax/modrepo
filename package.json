@@ -1,0 +1,22 @@
+{
+  "name": "modrepo",
+  "version": "1.0.0",
+  "author": "Max Henkel",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "nuxt": "^2.14.0",
+    "nuxt-i18n": "^6.13.9",
+    "vue-observe-visibility": "^0.4.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
