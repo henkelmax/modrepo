@@ -4,24 +4,20 @@
       <v-flex cols="12">
         <v-card>
           <v-card-text>
-            <div :class="{ privacyDark: $vuetify.theme.dark, privacy: !$vuetify.theme.dark }">
+            <div :class="{ imprintDark: dark, imprint: !dark }">
               <h1>Impressum</h1>
               <br />
               <div>Angaben gemäß § 5 TMG</div>
               <br />
               <div>
-                <img
-                  v-if="$vuetify.theme.dark"
-                  :src="require('~/assets/address.svg')"
-                  height="75px"
-                />
+                <img v-if="dark" :src="require('~/assets/address.svg')" height="75px" />
                 <img v-else :src="require('~/assets/address-black.svg')" height="75px" />
               </div>
               <br />
               <div>
                 <h2>Kontakt:</h2>E-Mail:
                 <br />
-                <img v-if="$vuetify.theme.dark" :src="require('~/assets/mail.svg')" height="16px" />
+                <img v-if="dark" :src="require('~/assets/mail.svg')" height="16px" />
                 <img v-else :src="require('~/assets/mail-black.svg')" height="16px" />
               </div>
               <br />
@@ -57,11 +53,24 @@
   </v-container>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      dark: false,
+    };
+  },
+  mounted() {
+    this.dark = this.$vuetify.theme.dark;
+  },
+};
+</script>
+
 <style scoped>
-.privacy {
+.imprint {
   color: black;
 }
-.privacyDark {
+.imprintDark {
   color: white;
 }
 a {

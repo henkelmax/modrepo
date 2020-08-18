@@ -4,7 +4,7 @@
       <v-flex cols="12">
         <v-card>
           <v-card-text>
-            <div :class="{ privacyDark: $vuetify.theme.dark, privacy: !$vuetify.theme.dark }">
+            <div :class="{ privacyDark: dark, privacy: !dark }">
               <h1>Datenschutzerklärung</h1>
               <br />
               <p>
@@ -23,6 +23,19 @@
     </v-layout>
   </v-container>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      dark: false,
+    };
+  },
+  mounted() {
+    this.dark = this.$vuetify.theme.dark;
+  },
+};
+</script>
 
 <style scoped>
 .privacy {
