@@ -76,7 +76,7 @@
 export default {
   data() {
     return {
-      dark: false,
+      dark: null,
       drawer: true,
       title: "ModRepo",
       items: [
@@ -97,8 +97,7 @@ export default {
   },
   mounted() {
     if (process.browser) {
-      this.dark = JSON.parse(localStorage.dark ? localStorage.dark : false);
-      this.$vuetify.theme.dark = this.dark;
+      this.dark = this.isDarkMode();
     }
   },
   watch: {
@@ -106,6 +105,15 @@ export default {
       if (process.browser) {
         localStorage.dark = dark;
         this.$vuetify.theme.dark = dark;
+      }
+    },
+  },
+  methods: {
+    isDarkMode() {
+      if (localStorage.dark) {
+        return JSON.parse(localStorage.dark);
+      } else {
+        return window.matchMedia("(prefers-color-scheme: dark)").matches;
       }
     },
   },
