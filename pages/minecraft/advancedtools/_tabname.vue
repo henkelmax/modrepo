@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/advancedtools/logo_advancedtools.png')"
     id="advancedtools"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/advanced_tools/files/all"
+    sourcelink="https://github.com/henkelmax/advanced-tools"
     issueslink="https://github.com/henkelmax/advanced-tools/issues"
     :images="images"
     :credits="credits"

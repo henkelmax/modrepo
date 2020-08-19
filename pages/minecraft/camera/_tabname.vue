@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/camera/logo_camera.png')"
     id="camera"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/camera-mod/files/all"
+    sourcelink="https://github.com/henkelmax/camera"
     issueslink="https://github.com/henkelmax/camera/issues"
     :images="images"
     :credits="credits"

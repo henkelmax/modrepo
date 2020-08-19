@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/shulkerbox/logo_shulkerbox.png')"
     id="shulkerbox"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/advanced-shulkerboxes/files/all"
+    sourcelink="https://github.com/henkelmax/advanced-shulkerboxes"
     issueslink="https://github.com/henkelmax/advanced-shulkerboxes/issues"
   >
     <v-container slot="overview">

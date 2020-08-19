@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/easy_villagers/logo_easy_villagers.png')"
     id="easy_villagers"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/easy-villagers/files/all"
+    sourcelink="https://github.com/henkelmax/easy-villagers"
     issueslink="https://github.com/henkelmax/easy-villagers/issues"
     :credits="credits"
   >

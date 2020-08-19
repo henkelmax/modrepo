@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/sleeping_bags/logo_sleeping_bags.png')"
     id="sleeping_bags"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/sleeping-bags/files/all"
+    sourcelink="https://github.com/henkelmax/sleeping-bags"
     issueslink="https://github.com/henkelmax/sleeping-bags/issues"
     :images="images"
   >

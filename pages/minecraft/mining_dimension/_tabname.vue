@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/mining_dimension/logo_mining_dimension.png')"
     id="mining_dimension"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/advanced-mining-dimension/files/all"
+    sourcelink="https://github.com/henkelmax/advanced-mining-dimension"
     issueslink="https://github.com/henkelmax/advanced-mining-dimension/issues"
     :credits="credits"
   >

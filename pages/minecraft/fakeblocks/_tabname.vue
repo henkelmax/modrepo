@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/fakeblocks/logo_fakeblocks.png')"
     id="fakeblocks"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/fakeblocks/files/all"
+    sourcelink="https://github.com/henkelmax/fake-blocks"
     issueslink="https://github.com/henkelmax/fake-blocks/issues"
   >
     <v-container slot="overview">
