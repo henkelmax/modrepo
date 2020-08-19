@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <!-- Desktop Toolbar -->
-    <v-app-bar fixed app v-if="!$vuetify.breakpoint.smAndDown">
+    <v-app-bar fixed app v-if="isDesktop()">
       <v-icon class="mr-3 pointer" @click="push('/')">mdi-wrench</v-icon>
       <v-toolbar-title class="headline mr-4 pointer" @click="push('/')">{{ title }}</v-toolbar-title>
       <v-btn
@@ -26,7 +26,7 @@
     <!-- End Desktop Toolbar -->
 
     <!-- Mobile Toolbar -->
-    <v-app-bar app v-if="$vuetify.breakpoint.smAndDown">
+    <v-app-bar app v-if="!isDesktop()">
       <v-app-bar-nav-icon @click.stop="drawer = true"></v-app-bar-nav-icon>
       <v-icon class="mr-3 pointer" @click="push('/')">mdi-wrench</v-icon>
       <v-toolbar-title class="headline pointer" @click="push('/')">{{ title }}</v-toolbar-title>
@@ -34,7 +34,7 @@
     <!-- End Mobile Toolbar -->
 
     <!-- Mobile Drawer -->
-    <v-navigation-drawer app v-if="$vuetify.breakpoint.smAndDown" v-model="drawer">
+    <v-navigation-drawer app v-if="!isDesktop()" v-model="drawer">
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="headline" @click="drawer = false; push('/')">{{ title }}</v-list-item-title>
@@ -64,8 +64,8 @@
     <!-- Footer -->
     <v-footer class="pa-3">
       <v-spacer></v-spacer>
-      <span v-if="!$vuetify.breakpoint.smAndDown" class="mr-2 pointer" @click="push('/privacy')">Privacy</span>
-      <span v-if="!$vuetify.breakpoint.smAndDown" class="mr-4 pointer" @click="push('/imprint')">Imprint</span>
+      <span v-if="isDesktop()" class="mr-2 pointer" @click="push('/privacy')">Privacy</span>
+      <span v-if="isDesktop()" class="mr-4 pointer" @click="push('/imprint')">Imprint</span>
       <div class="mr-2">&copy; {{ new Date().getFullYear() }} Max Henkel</div>
     </v-footer>
     <!-- End Footer -->
@@ -85,6 +85,11 @@ export default {
         { title: "Imprint", path: "/imprint", mobileOnly: true },
       ],
     };
+  },
+  methods: {
+    isDesktop() {
+      return !this.mounted || !this.$vuetify.breakpoint.smAndDown;
+    },
   },
 };
 </script>

@@ -24,16 +24,6 @@
   </v-container>
 </template>
 
-<script>
-export default {
-  watch: {
-    darkMode(dark){
-      console.log(dark)
-    }
-  },
-};
-</script>
-
 <style scoped>
 .privacy {
   color: black;

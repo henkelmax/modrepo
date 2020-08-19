@@ -6,10 +6,12 @@ Vue.directive('observe-visibility', ObserveVisibility);
 Vue.mixin({
   data() {
     return {
-      darkMode: null
+      darkMode: null,
+      mounted: false
     };
   },
   mounted() {
+    this.mounted = true;
     if (process.browser) {
       this.darkMode = this.isDarkMode();
       this.$vuetify.theme.dark = this.darkMode;
