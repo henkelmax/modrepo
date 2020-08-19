@@ -41,8 +41,7 @@ export default {
     '@nuxtjs/moment'
   ],
   modules: [
-    '@nuxtjs/axios',
-    '@nuxtjs/device'
+    '@nuxtjs/axios'
   ],
   axios: {},
   vuetify: {},
