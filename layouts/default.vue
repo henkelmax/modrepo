@@ -18,7 +18,7 @@
       <client-only>
         <v-icon class="mr-3">mdi-white-balance-sunny</v-icon>
         <div>
-          <v-switch hide-details v-model="dark" style="padding: 0px;"></v-switch>
+          <v-switch hide-details v-model="darkMode" style="padding: 0px;"></v-switch>
         </div>
         <v-icon style="transform: rotate(180deg);">mdi-brightness-2</v-icon>
       </client-only>
@@ -51,7 +51,7 @@
           <v-divider :key="i"></v-divider>
         </template>
       </v-list>
-      <v-switch class="pl-4" hide-details v-model="dark" label="Dark Mode"></v-switch>
+      <v-switch class="pl-4" hide-details v-model="darkMode" label="Dark Mode"></v-switch>
     </v-navigation-drawer>
     <!-- End Mobile Drawer -->
 
@@ -76,7 +76,6 @@
 export default {
   data() {
     return {
-      dark: null,
       drawer: true,
       title: "ModRepo",
       items: [
@@ -86,36 +85,6 @@ export default {
         { title: "Imprint", path: "/imprint", mobileOnly: true },
       ],
     };
-  },
-  computed: {
-    flag() {
-      return this.langs.find((e) => e.value === this.language).flag;
-    },
-    languageName() {
-      return this.langs.find((e) => e.value === this.language).name;
-    },
-  },
-  mounted() {
-    if (process.browser) {
-      this.dark = this.isDarkMode();
-    }
-  },
-  watch: {
-    dark(dark) {
-      if (process.browser) {
-        localStorage.dark = dark;
-        this.$vuetify.theme.dark = dark;
-      }
-    },
-  },
-  methods: {
-    isDarkMode() {
-      if (localStorage.dark) {
-        return JSON.parse(localStorage.dark);
-      } else {
-        return window.matchMedia("(prefers-color-scheme: dark)").matches;
-      }
-    },
   },
 };
 </script>
