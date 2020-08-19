@@ -83,6 +83,13 @@ export default {
             link: "https://www.curseforge.com/members/aikinitt",
           },
         },
+        {
+          element: { name: "Spanish translation" },
+          name: {
+            name: "itsTekiO",
+            link: "https://www.curseforge.com/members/itstekio",
+          },
+        },
       ],
     };
   },
