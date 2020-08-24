@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/better_respawn/logo_better_respawn.png')"
     id="better_respawn"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/better-respawn/files/all"
+    sourcelink="https://github.com/henkelmax/better-respawn"
     issueslink="https://github.com/henkelmax/better-respawn/issues"
     :images="images"
   >

@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/gravestone/logo_gravestone.png')"
     id="gravestone"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/all"
+    sourcelink="https://github.com/henkelmax/gravestone"
     issueslink="https://github.com/henkelmax/gravestone/issues"
     :images="images"
     :credits="credits"

@@ -47,6 +47,15 @@
           <v-tab v-if="!!$slots.wiki" href="#wiki">Wiki</v-tab>
           <v-tab v-if="!!$slots.faq || !!faq || !!generalFaq" href="#faq">FAQ</v-tab>
           <v-tab v-if="!!$slots.credits || !!credits" href="#credits">Credits</v-tab>
+          <v-tab v-if="sourcelink" href="#source">
+            <div
+              class="pa-1 pt-3"
+              @click.prevent.stop="open(sourcelink)"
+              style="width: 100%; height: 100%;"
+            >
+              <v-icon class="mr-2">mdi-open-in-new</v-icon>Source
+            </div>
+          </v-tab>
           <v-tab v-if="issueslink" href="#issues">
             <div
               class="pa-1 pt-3"
@@ -113,6 +122,7 @@
               <Empty v-else />
             </slot>
           </v-tab-item>
+          <v-tab-item v-if="sourcelink" value="source"></v-tab-item>
           <v-tab-item v-if="issueslink" value="issues"></v-tab-item>
         </v-tabs-items>
       </v-col>
@@ -134,6 +144,7 @@ export default {
     "logo",
     "id",
     "downloadlink",
+    "sourcelink",
     "issueslink",
     "images",
     "faq",

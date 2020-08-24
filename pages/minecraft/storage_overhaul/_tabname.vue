@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/storage_overhaul/logo_storage_overhaul.png')"
     id="storage_overhaul"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/storage-overhaul/files/all"
+    sourcelink="https://github.com/henkelmax/storage-overhaul"
     issueslink="https://github.com/henkelmax/storage-overhaul/issues"
     :images="images"
   >

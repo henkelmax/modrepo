@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/car/logo_car.png')"
     id="car"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/ultimate-car-mod/files/all"
+    sourcelink="https://github.com/henkelmax/ultimate-car-mod"
     issueslink="https://github.com/henkelmax/ultimate-car-mod/issues"
     :images="images"
     :credits="credits"

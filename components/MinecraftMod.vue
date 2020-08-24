@@ -6,6 +6,7 @@
     :id="id"
     :downloadlink="downloadlink"
     :issueslink="issueslink"
+    :sourcelink="sourcelink"
     :images="images"
     :generalFaq="generalFaq"
     :faq="faq"
@@ -63,6 +64,7 @@ export default {
     "logo",
     "id",
     "downloadlink",
+    "sourcelink",
     "issueslink",
     "images",
     "faq",

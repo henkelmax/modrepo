@@ -5,6 +5,7 @@
     :logo="require('~/assets/minecraft/corpse/logo_corpse.png')"
     id="corpse"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/corpse/files/all"
+    sourcelink="https://github.com/henkelmax/corpse"
     issueslink="https://github.com/henkelmax/corpse/issues"
     :images="images"
     :credits="credits"
