@@ -143,6 +143,13 @@ export default {
             link: "https://github.com/ReyhanAhmad",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "kazmurenko",
+            link: "https://www.curseforge.com/members/kazmurenko",
+          },
+        },
       ],
     };
   },
