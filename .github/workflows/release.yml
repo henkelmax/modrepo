@@ -17,7 +17,7 @@ jobs:
       - name: Build website
         run: |
           yarn install --non-interactive
-          yarn generate
+          yarn generate --fail-on-error
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.5.9
         with:
