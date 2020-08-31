@@ -41,7 +41,11 @@
               <p></p>
               <h2>Erfassung allgemeiner Informationen beim Besuch unserer Website</h2>
               <h3>Art und Zweck der Verarbeitung:</h3>
-              <p>Wenn Sie auf unsere Website zugreifen, d.h., wenn Sie sich nicht registrieren oder anderweitig Informationen übermitteln, werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers, Ihre IP-Adresse und ähnliches.</p>
+              <p>Wenn Sie auf unsere Website zugreifen, d.h., wenn Sie sich nicht registrieren oder anderweitig Informationen übermitteln, werden automatisch Informationen allgemeiner Natur erfasst. Mehr Informatione hierzu finden Sie auf <a
+                  href="https://docs.github.com/en/github/site-policy/github-privacy-statement"
+                  target="_blank"
+                  rel="nofollow noopener"
+                >GitHub Privacy Statement</a>.</p>
               <p>Sie werden insbesondere zu folgenden Zwecken verarbeitet:</p>
               <ul>
                 <li>Sicherstellung eines problemlosen Verbindungsaufbaus der Website,</li>
