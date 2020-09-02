@@ -3,34 +3,63 @@ import { ObserveVisibility } from 'vue-observe-visibility';
 
 Vue.directive('observe-visibility', ObserveVisibility);
 
-Vue.mixin({
+Vue.prototype.$global = new Vue({
   data() {
     return {
       darkMode: null,
+      cookieDialog: null
+    };
+  },
+  created() {
+    if (process.browser) {
+      this.darkMode = this.isDarkMode();
+    }
+  },
+  watch: {
+    darkMode(dark) {
+      if (process.browser && this.cookieDialog) {
+        if (this.isCookiesAllowed()) {
+          localStorage.dark = dark;
+        } else {
+          this.cookieDialog.open().then((result) => {
+            if (result) {
+              localStorage.cookies = true;
+              localStorage.dark = dark;
+            }
+          });
+        }
+      }
+    }
+  },
+  methods: {
+    isDarkMode() {
+      if (localStorage.dark) {
+        return JSON.parse(localStorage.dark);
+      } else {
+        return window.matchMedia("(prefers-color-scheme: dark)").matches;
+      }
+    },
+    isCookiesAllowed() {
+      if (localStorage.cookies) {
+        return JSON.parse(localStorage.cookies);
+      } else {
+        return false;
+      }
+    }
+  }
+});
+
+Vue.mixin({
+  data() {
+    return {
       mounted: false
     };
   },
   mounted() {
     this.mounted = true;
-    if (process.browser) {
-      this.darkMode = this.isDarkMode();
-      this.$vuetify.theme.dark = this.darkMode;
-    }
   },
-  watch: {
-    darkMode(dark) {
-      if (process.browser) {
-        localStorage.dark = dark;
-        this.$vuetify.theme.dark = dark;
-        function update(vue) {
-          vue.darkMode = dark;
-          for (let child of vue.$children) {
-            update(child);
-          }
-        }
-        update(this.$root);
-      }
-    }
+  beforeUpdate() {
+    this.$vuetify.theme.dark = this.$global.darkMode;
   },
   methods: {
     push(path) {
@@ -38,13 +67,6 @@ Vue.mixin({
         this.$router.push(path);
       }
       window.scrollTo(0, 0);
-    },
-    isDarkMode() {
-      if (localStorage.dark) {
-        return JSON.parse(localStorage.dark);
-      } else {
-        return window.matchMedia("(prefers-color-scheme: dark)").matches;
-      }
     },
     translateReleaseType(type) {
       switch (type) {
