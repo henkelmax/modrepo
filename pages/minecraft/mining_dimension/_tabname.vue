@@ -39,51 +39,75 @@
       <br />
       <br />
       <h2>Configuration (1.16.2 and higher)</h2>
-      <p>Due to the changes in Minecraft 1.16, you have to create a datapack to modify the dimension itself.</p>
       <p>
-        <b><i>Overworld dimension</i></b>
+        Due to the changes in Minecraft 1.16, you have to create a datapack to modify the dimension itself. Example data packs can be found
+        <a
+          href="https://github.com/henkelmax/advanced-mining-dimension/tree/master/datapacks"
+          target="_blank"
+        >here</a>.
+      </p>
+      <p>
+        <b>
+          <i>Overworld dimension</i>
+        </b>
         &emsp;
         The dimension from where you can teleport to the mining dimension and back
       </p>
       <p>
-        <b><i>Show custom world warning</i></b>
+        <b>
+          <i>Show custom world warning</i>
+        </b>
         &emsp;
         If the game should show the custom world warning when loading a world
       </p>
       <br />
       <h2>Configuration (1.15.2 and lower)</h2>
       <p>
-        <b><i>Cave percentage</i></b>
+        <b>
+          <i>Cave percentage</i>
+        </b>
         &emsp;
         The Amount of caves generated
       </p>
       <p>
-        <b><i>Canyon percentage</i></b>
+        <b>
+          <i>Canyon percentage</i>
+        </b>
         &emsp;
         The Amount of canyons generated
       </p>
       <p>
-        <b><i>Lava lakes</i></b>
+        <b>
+          <i>Lava lakes</i>
+        </b>
         &emsp;
         If lava lakes should be generated
       </p>
       <p>
-        <b><i>Spawners</i></b>
+        <b>
+          <i>Spawners</i>
+        </b>
         &emsp;
         If dungeons with spawners should be generated
       </p>
       <p>
-        <b><i>Stone variants</i></b>
+        <b>
+          <i>Stone variants</i>
+        </b>
         &emsp;
         If the different stone variants should be generated
       </p>
       <p>
-        <b><i>Ores</i></b>
+        <b>
+          <i>Ores</i>
+        </b>
         &emsp;
         If ores should be generated
       </p>
       <p>
-        <b><i>Lava</i></b>
+        <b>
+          <i>Lava</i>
+        </b>
         &emsp;
         If lava should be generated in caves below level 11
       </p>

@@ -17,7 +17,7 @@ jobs:
       - name: Build website
         run: |
           yarn install --non-interactive
-          yarn generate
+          yarn generate --fail-on-error
       - name: Install SSH client
         uses: webfactory/ssh-agent@v0.2.0
         with:
