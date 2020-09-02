@@ -1,65 +1,56 @@
 <template>
-  <v-card outlined class="pa-2 ma-5">
-    <v-card-title class="headline">Update Activity</v-card-title>
-
-    <v-list two-line>
-      <div v-for="(version, index) in versions" :key="index">
-        <v-list-item>
-          <v-list-item-content>
-            <v-list-item-title>[{{ version.gameVersion }}] {{ version.mod.name }} {{ version.version }}</v-list-item-title>
-            <v-list-item-subtitle class="text--primary">
-              <v-chip
-                v-for="(tag, i) in version.tags"
-                :key="'tag' + i"
-                x-small
-                class="mr-1 white--text"
-                color="green"
-              >{{ translateTag(tag) }}</v-chip>
-            </v-list-item-subtitle>
-            <v-list-item-subtitle
-              v-for="(message, i) in version.updateMessages"
-              :key="'msg' + i"
-              v-text="message"
-            ></v-list-item-subtitle>
-          </v-list-item-content>
-
-          <v-list-item-action>
-            <v-list-item-action-text v-text="$moment(version.publishDate).fromNow()"></v-list-item-action-text>
-            <v-tooltip bottom>
-              <template v-slot:activator="{ on }">
-                <div v-on="on">
-                  <v-icon v-if="version.releaseType==='alpha'" color="red">mdi-alpha-a-circle</v-icon>
-                  <v-icon v-else-if="version.releaseType==='beta'" color="blue">mdi-alpha-b-circle</v-icon>
-                  <v-icon v-else color="green">mdi-alpha-r-circle</v-icon>
-                </div>
-              </template>
-              <span>{{ translateReleaseType(version.releaseType) }}</span>
-            </v-tooltip>
-          </v-list-item-action>
-        </v-list-item>
-
-        <v-divider v-if="index + 1 < versions.length"></v-divider>
-      </div>
-    </v-list>
-  </v-card>
+  <Activity />
 </template>
 
 <script>
+import Activity from "~/components/Activity.vue";
+
 export default {
-  props: ["modid"],
+  components: {
+    Activity,
+  },
   data() {
     return {
-      versions: [],
+      title: "Activity",
+      description: "Recent updates and changelogs.",
     };
   },
-  components: {},
-  created() {
-    this.$axios
-      .get(`https://update.maxhenkel.de/updates?limit=16`)
-      .then((result) => {
-        this.versions = result.data;
-      })
-      .catch((err) => {});
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: this.title,
+        },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content: this.description,
+        },
+        {
+          hid: "description",
+          name: "description",
+          content: this.description,
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: this.title,
+        },
+        {
+          hid: "itemprop:name",
+          itemprop: "name",
+          content: this.title,
+        },
+        {
+          hid: "itemprop:description",
+          itemprop: "description",
+          content: this.description,
+        },
+      ],
+    };
   },
 };
 </script>
