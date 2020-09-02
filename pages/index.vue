@@ -12,20 +12,19 @@
       </v-col>
     </v-row>
     <h1 class="display-2">Minecraft Mods</h1>
-    <MinecraftMods />
+    <Overview />
     <h1 class="display-2">Activity</h1>
     <Activity />
   </div>
 </template>
 
 <script>
-import MinecraftMods from "~/pages/minecraft/index.vue";
-import Activity from "~/pages/minecraft/activity.vue";
+import Overview from "~/components/Overview.vue";
+import Activity from "~/components/Activity.vue";
 
 export default {
-  layout: "default",
   components: {
-    MinecraftMods,
+    Overview,
     Activity,
   },
 };

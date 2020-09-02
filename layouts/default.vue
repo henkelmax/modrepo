@@ -18,7 +18,7 @@
       <client-only>
         <v-icon class="mr-3">mdi-white-balance-sunny</v-icon>
         <div>
-          <v-switch hide-details v-model="darkMode" style="padding: 0px;"></v-switch>
+          <v-switch hide-details v-model="$global.darkMode" style="padding: 0px;"></v-switch>
         </div>
         <v-icon style="transform: rotate(180deg);">mdi-brightness-2</v-icon>
       </client-only>
@@ -51,13 +51,14 @@
           <v-divider :key="i"></v-divider>
         </template>
       </v-list>
-      <v-switch class="pl-4" hide-details v-model="darkMode" label="Dark Mode"></v-switch>
+      <v-switch class="pl-4" hide-details v-model="$global.darkMode" label="Dark Mode"></v-switch>
     </v-navigation-drawer>
     <!-- End Mobile Drawer -->
 
     <!-- Content -->
     <v-main>
       <nuxt />
+      <CookieDialog ref="cookieDialog" />
     </v-main>
     <!-- End Content -->
 
@@ -73,7 +74,12 @@
 </template>
 
 <script>
+import CookieDialog from "~/components/CookieDialog.vue";
+
 export default {
+  components: {
+    CookieDialog,
+  },
   data() {
     return {
       drawer: true,
@@ -85,6 +91,9 @@ export default {
         { title: "Imprint", path: "/imprint", mobileOnly: true },
       ],
     };
+  },
+  mounted() {
+    this.$global.cookieDialog = this.$refs.cookieDialog;
   },
   methods: {
     isDesktop() {

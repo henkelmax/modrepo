@@ -151,6 +151,15 @@ export default {
       credits: [
         {
           element: {
+            name: "Block Models",
+          },
+          name: {
+            name: "Bommel24",
+            link: "https://github.com/Bommel24",
+          },
+        },
+        {
+          element: {
             name: "3 Cylinder Engine Sounds",
             link: "https://freesound.org/people/qubodup/sounds/147243/",
           },
