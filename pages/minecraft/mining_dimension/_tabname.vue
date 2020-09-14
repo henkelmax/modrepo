@@ -136,6 +136,13 @@ export default {
             link: "https://www.curseforge.com/members/itstekio",
           },
         },
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "Mikeliro",
+            link: "https://github.com/Mikeliro",
+          },
+        },
       ],
     };
   },
