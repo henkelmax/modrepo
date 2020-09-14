@@ -115,10 +115,17 @@ export default {
           },
         },
         {
-          element: { name: "Portuguese translation" },
+          element: { name: "Brazilian Portuguese translation" },
           name: {
             name: "srbedrock",
             link: "https://curseforge.com/members/srbedrock",
+          },
+        },
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "Mikeliro",
+            link: "hhttps://github.com/Mikeliro",
           },
         },
         {
