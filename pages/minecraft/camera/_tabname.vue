@@ -164,6 +164,20 @@ export default {
             link: "https://github.com/Imbarainbow",
           },
         },
+        {
+          element: { name: "Spanish translation" },
+          name: {
+            name: "Yupoman",
+            link: "https://github.com/Yupoman",
+          },
+        },
+        {
+          element: { name: "Argentinian Spanish translation" },
+          name: {
+            name: "Yupoman",
+            link: "https://github.com/Yupoman",
+          },
+        },
       ],
     };
   },
