@@ -55,7 +55,7 @@ export default {
   components: {},
   created() {
     this.$axios
-      .get(`https://update.maxhenkel.de/updates?limit=16`)
+      .get(`https://update.maxhenkel.de/updates?amount=16`)
       .then((result) => {
         this.versions = result.data;
       })
