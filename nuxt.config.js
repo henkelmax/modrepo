@@ -6,7 +6,6 @@ const siteDescription = 'Minecraft Mods and more';
 const siteLogo = '/icon.png';
 
 export default {
-  mode: 'universal',
   target: 'static',
   head: {
     titleTemplate: `%s - ${siteName}`,
