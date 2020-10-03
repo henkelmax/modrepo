@@ -1,6 +1,14 @@
 <template>
   <v-row justify="center" class="ma-2">
-    <v-col lg="3" xl="3" md="4" sm="6" cols="12" v-for="(mod, i) in mods" :key="i">
+    <v-col
+      lg="3"
+      xl="3"
+      md="4"
+      sm="6"
+      cols="12"
+      v-for="(mod, i) in mods"
+      :key="i"
+    >
       <ModCard
         :name="mod.name"
         :description="mod.description"
@@ -131,6 +139,14 @@ export default {
           logo: require("~/assets/minecraft/easy_villagers/logo_easy_villagers.png"),
           downloadLink:
             "https://www.curseforge.com/minecraft/mc-mods/easy-villagers/files/all",
+        },
+        {
+          name: "Persistent Players",
+          description: "Players stay in the world when they log out.",
+          modid: "persistent_players",
+          logo: require("~/assets/minecraft/persistent_players/logo_persistent_players.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/persistent-players/files/all",
         },
       ],
     };
