@@ -1,12 +1,11 @@
 
-const modIDs = ['advancedtools', 'better_respawn', 'camera', 'car', 'corpse', 'easy_villagers', 'fakeblocks', 'gravestone', 'mining_dimension', 'reap', 'shulkerbox', 'sleeping_bags', 'storage_overhaul'];
+const modIDs = ['advancedtools', 'better_respawn', 'camera', 'car', 'corpse', 'easy_villagers', 'fakeblocks', 'gravestone', 'mining_dimension', 'reap', 'shulkerbox', 'sleeping_bags', 'storage_overhaul', 'persistent_players'];
 
 const siteName = 'ModRepo';
 const siteDescription = 'Minecraft Mods and more';
 const siteLogo = '/icon.png';
 
 export default {
-  mode: 'universal',
   target: 'static',
   head: {
     titleTemplate: `%s - ${siteName}`,
