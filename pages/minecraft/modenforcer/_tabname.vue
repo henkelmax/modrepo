@@ -8,6 +8,7 @@
     sourcelink="https://github.com/henkelmax/mod-enforcer"
     issueslink="https://github.com/henkelmax/mod-enforcer/issues"
     :faq="faq"
+    :images="images"
   >
     <v-container slot="overview">
       <p>Ensures that players have the same mods as the server.</p>
@@ -39,6 +40,10 @@ export default {
           answer:
             "No. This mod has to be installed on the server and the client.",
         },
+      ],
+      images: [
+        require("~/assets/minecraft/modenforcer/image_modenforcer_1.png"),
+        require("~/assets/minecraft/modenforcer/image_modenforcer_2.png"),
       ],
     };
   },
