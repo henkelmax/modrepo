@@ -148,6 +148,14 @@ export default {
           downloadLink:
             "https://www.curseforge.com/minecraft/mc-mods/persistent-players/files/all",
         },
+        {
+          name: "Mod Enforcer",
+          description: "Ensures that players have the same mods as the server.",
+          modid: "modenforcer",
+          logo: require("~/assets/minecraft/modenforcer/logo_modenforcer.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/mod-enforcer/files/all",
+        },
       ],
     };
   },
