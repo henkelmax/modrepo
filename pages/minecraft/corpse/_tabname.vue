@@ -34,11 +34,15 @@
       <br />
       <v-img :src="require('~/assets/minecraft/corpse/image_corpse_2.png')"></v-img>
       <br />
-      <v-img :src="require('~/assets/minecraft/corpse/image_corpse_3.png')"></v-img>
-      <br />
       <p>
         After 1 hour, the corpse will turn into a skeleton, indicating that it existed for a longer time.
         This won’t change the functionality of the corpse.
+      </p>
+      <br />
+      <v-img :src="require('~/assets/minecraft/corpse/image_corpse_3.png')"></v-img>
+      <br />
+      <p>
+        You get all your items back into their original slots when transferring the items.
       </p>
       <br />
       <v-img :src="require('~/assets/minecraft/corpse/image_corpse_4.png')"></v-img>
