@@ -12,38 +12,149 @@
     :faq="faq"
   >
     <v-container slot="overview">
-      <p>This mod adds a gravestone to your Minecraft world.</p>
-      <p>When you die a gravestone will be placed at your death position and the players name is written on it.</p>
-      <p>Optionally you can get a piece of paper with the necessary informations about your death.</p>
-      <p>There is also an option to automatically remove this item when you break the gravestone.</p>
-      <p>When you break the gravestone it will drop the items of your inventory.</p>
-      <p>If you enable the gamerule keepInventory there will be placed no gravestone.</p>
-      <p>You can also break the gravestone with silktouch to get it as an item to use it for decoration.</p>
-      <p>When you rightclick the gravestone the name of the player who died and the death time will be displayed.</p>
-      <p>The gravestone can be named by simply renaming it in an anvil and then placing it.</p>
+      <h2>Basic Functionality</h2>
+      <p>
+        Every time you die, a grave is placed at your position. To retrieve your
+        items just break the grave. There is also a config option to get your
+        items back by sneaking on the grave (1.16.3+ only).
+      </p>
+
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_1.png')"></v-img>
+
+      <v-img
+        :src="require('~/assets/minecraft/gravestone/image_gravestone_1.png')"
+      ></v-img>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_2.png')"></v-img>
+      <p>
+        When you right-click the grave it will show information regarding the
+        death of the player.
+      </p>
+      <v-img
+        :src="require('~/assets/minecraft/gravestone/image_gravestone_2.png')"
+      ></v-img>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_3.png')"></v-img>
+      <h2>Sorting (1.16.3+)</h2>
+      <p>
+        Since version 1.16.3-2.0.0 the grave is now able to store your items
+        back into their original slots.
+      </p>
+      <video style="width: 100%" autoplay loop muted>
+        <source
+          :src="require('~/assets/minecraft/gravestone/video_gravestone_1.mp4')"
+          type="video/mp4"
+        />
+      </video>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_4.png')"></v-img>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_5.png')"></v-img>
+      <h2>The Obituary</h2>
+      <p>
+        Everytime you die you get an obituary. If you don't want that you can
+        disable it in the config.
+      </p>
+      <p>It contains:</p>
+      <ul>
+        <li>The name of the player</li>
+        <li>The dimension the player died in</li>
+        <li>The date the player died</li>
+        <li>The coordinates where the player died</li>
+        <li>An image of the player with its equipment at the time of death</li>
+        <li>A list of every item the player had when he died</li>
+      </ul>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_6.png')"></v-img>
+      <p>
+        If you don't want to keep the obituary after you recovered your items,
+        you can enable the automatic removal in the config.
+      </p>
+      <v-img
+        :src="require('~/assets/minecraft/gravestone/image_gravestone_3.png')"
+      ></v-img>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_7.png')"></v-img>
+      <v-img
+        :src="require('~/assets/minecraft/gravestone/image_gravestone_4.png')"
+      ></v-img>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_8.png')"></v-img>
+      <h2>Naming the Grave</h2>
+      <p>
+        If you break the grave with silk touch, you get it dropped as an item.
+        You can also craft graves.
+      </p>
+      <p>
+        Naming the grave in an anvil, allows you to have custom text displayed
+        on your grave.
+      </p>
+      <v-img
+        :src="require('~/assets/minecraft/gravestone/image_gravestone_5.png')"
+      ></v-img>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_9.png')"></v-img>
+      <v-img
+        :src="require('~/assets/minecraft/gravestone/image_gravestone_6.png')"
+      ></v-img>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_10.png')"></v-img>
+      <h2>Customization</h2>
+      <p>There are several things you can change in the configs:</p>
+      <ul>
+        <li>The color of the text on the grave</li>
+        <li>If the skull on the grave should be rendered</li>
+        <li>Whether you want to get the obituary on death</li>
+        <li>The plocks that can get replaced by a grave</li>
+        <li>
+          If the death note should get removed form the players inventory when
+          breaking a grave
+        </li>
+        <li>If only the owners of the grave should be able to break it</li>
+        <li>If a ghost of the player should spawn when breaking the grave</li>
+        <li>
+          If the ghost should be friendly and defend the player or if it should
+          attack the player
+        </li>
+        <li>If the grave should get broken when sneaking on the grave</li>
+        <li>
+          If the items should get sorted back into their original slots when
+          breaking the grave
+        </li>
+      </ul>
       <br />
-      <v-img :src="require('~/assets/minecraft/gravestone/image_gravestone_11.png')"></v-img>
+      <h2>Recovering Lost Items (1.16.3+)</h2>
+      <p>
+        If you somehow lost your items you can recover them with the recover
+        command.
+      </p>
+      <p>
+        The syntax is
+        <code>
+          /restore &lt;player&gt; &lt;death_id&gt; &lt;replace|add&gt;</code
+        >.
+      </p>
+      <p>
+        The parameter 'player' is the player whose inventory should get
+        restored.
+      </p>
+      <p>
+        The parameter 'death_id' is the ID of the death. You can find it out by
+        enabling advanced tooltips (F3 + H) and opening the obituary. The death
+        ID also gets written into the logs if a grave couldn't get placed.
+      </p>
+      <p>
+        The last parameter defines if you want to get the players inventory
+        replaced (Overwritten) or added (Just adds the items to the players
+        existing inventory).
+      </p>
       <br />
+      <p>
+        You can also get a pre made restore command by sneaking and
+        right-clicking the obituary as an admin.
+      </p>
+      <br />
+      <h2>Edge Cases</h2>
+      <p>
+        If you die inside a block, the grave is placed at the next empty space
+        above your location. If there is no free block above your position, or
+        you are above the build limit, your items drop as usual.
+      </p>
+      <p>
+        If you fall into the void, the grave is placed at Y=1. If there is no
+        free space it will get placed at the next free spot above.
+      </p>
     </v-container>
   </Mod>
 </template>
@@ -61,11 +172,6 @@ export default {
         require("~/assets/minecraft/gravestone/image_gravestone_4.png"),
         require("~/assets/minecraft/gravestone/image_gravestone_5.png"),
         require("~/assets/minecraft/gravestone/image_gravestone_6.png"),
-        require("~/assets/minecraft/gravestone/image_gravestone_7.png"),
-        require("~/assets/minecraft/gravestone/image_gravestone_8.png"),
-        require("~/assets/minecraft/gravestone/image_gravestone_9.png"),
-        require("~/assets/minecraft/gravestone/image_gravestone_10.png"),
-        require("~/assets/minecraft/gravestone/image_gravestone_11.png"),
       ],
       credits: [
         {
