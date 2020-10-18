@@ -108,6 +108,13 @@ export default {
             link: "https://www.curseforge.com/members/kazmurenko",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "The_BadUser",
+            link: "https://github.com/vanja-san",
+          },
+        },
       ],
     };
   },
