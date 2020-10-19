@@ -1,6 +1,6 @@
 <template>
   <Mod
-    title="The Ultimate Plane Mod"
+    title="Ultimate Plane Mod"
     description="Planes in Minecraft."
     :logo="require('~/assets/minecraft/plane/logo_plane.png')"
     id="plane"

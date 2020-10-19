@@ -1,6 +1,6 @@
 <template>
   <Mod
-    title="The Ultimate Car Mod"
+    title="Ultimate Car Mod"
     description="This mod brings cars, road construction and biodiesel production into your Minecraft world."
     :logo="require('~/assets/minecraft/car/logo_car.png')"
     id="car"

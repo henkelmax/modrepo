@@ -157,7 +157,7 @@ export default {
             "https://www.curseforge.com/minecraft/mc-mods/mod-enforcer/files/all",
         },
         {
-          name: "The Ultimate Plane Mod",
+          name: "Ultimate Plane Mod",
           description: "Planes in Minecraft.",
           modid: "plane",
           logo: require("~/assets/minecraft/plane/logo_plane.png"),
