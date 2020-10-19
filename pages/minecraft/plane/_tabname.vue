@@ -13,7 +13,7 @@
     <v-container slot="overview">
       <p>
         This mod adds planes into your Minecraft world. It requires the
-        <a href="/minecraft/car/overview">Ultimate Car Mod</a> for the fuel and
+        <a @click="push('/minecraft/car/overview')">Ultimate Car Mod</a> for the fuel and
         the gas station.
       </p>
       <v-img
