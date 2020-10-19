@@ -206,9 +206,6 @@ export default {
   },
   mounted() {
     this.tab = this.$route.params.tabname;
-    if (!this.$route.params.tabname) {
-      this.$router.push({ path: "overview", append: true });
-    }
   },
   methods: {
     open(link) {
