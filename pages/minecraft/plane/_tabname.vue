@@ -153,7 +153,7 @@
         per second (b/s).
       </p>
       <v-img
-        :src="require('~/assets/minecraft/plane/image_plane_8.png')"
+        :src="require('~/assets/minecraft/plane/image_plane_10.png')"
       ></v-img>
     </v-container>
   </Mod>
