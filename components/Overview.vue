@@ -156,6 +156,14 @@ export default {
           downloadLink:
             "https://www.curseforge.com/minecraft/mc-mods/mod-enforcer/files/all",
         },
+        {
+          name: "Ultimate Plane Mod",
+          description: "Planes in Minecraft.",
+          modid: "plane",
+          logo: require("~/assets/minecraft/plane/logo_plane.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/ultimate-plane-mod/files/all",
+        },
       ],
     };
   },

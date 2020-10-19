@@ -195,6 +195,13 @@ export default {
             link: "https://www.curseforge.com/members/renkor92",
           },
         },
+        {
+          element: { name: "Swedish translation" },
+          name: {
+            name: "A. Regnander",
+            link: "https://github.com/Regnander",
+          },
+        },
       ],
       faq: [
         {

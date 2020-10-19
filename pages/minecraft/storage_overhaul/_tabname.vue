@@ -8,6 +8,7 @@
     sourcelink="https://github.com/henkelmax/storage-overhaul"
     issueslink="https://github.com/henkelmax/storage-overhaul/issues"
     :images="images"
+    :credits="credits"
   >
     <v-container slot="overview">
       <v-img :src="require('~/assets/minecraft/storage_overhaul/image_storage_overhaul_1.png')"></v-img>
@@ -106,6 +107,13 @@ export default {
           name: {
             name: "kazmurenko",
             link: "https://www.curseforge.com/members/kazmurenko",
+          },
+        },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "The_BadUser",
+            link: "https://github.com/vanja-san",
           },
         },
       ],

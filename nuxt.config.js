@@ -1,5 +1,5 @@
 
-const modIDs = ['advancedtools', 'better_respawn', 'camera', 'car', 'corpse', 'easy_villagers', 'fakeblocks', 'gravestone', 'mining_dimension', 'reap', 'shulkerbox', 'sleeping_bags', 'storage_overhaul', 'persistent_players', 'modenforcer'];
+const modIDs = ['advancedtools', 'better_respawn', 'camera', 'car', 'corpse', 'easy_villagers', 'fakeblocks', 'gravestone', 'mining_dimension', 'reap', 'shulkerbox', 'sleeping_bags', 'storage_overhaul', 'persistent_players', 'modenforcer', 'plane'];
 
 const siteName = 'ModRepo';
 const siteDescription = 'Minecraft Mods and more';
