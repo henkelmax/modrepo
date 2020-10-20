@@ -164,6 +164,14 @@ export default {
           downloadLink:
             "https://www.curseforge.com/minecraft/mc-mods/ultimate-plane-mod/files/all",
         },
+        {
+          name: "Reusable Rockets",
+          description: "Reusable Rockets.",
+          modid: "reusable_rockets",
+          logo: require("~/assets/minecraft/reusable_rockets/logo_reusable_rockets.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/reusable-rockets/files/all",
+        },
       ],
     };
   },

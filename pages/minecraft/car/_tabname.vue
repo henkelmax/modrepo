@@ -26,7 +26,7 @@
         options to design your own streets and be creative!
       </p>
       <h2>
-        <a href="/minecraft/car/wiki">Quick start guide</a>
+        <a @click="push('/minecraft/car/wiki')">Quick start guide</a>
       </h2>
       <h4>
         <a
