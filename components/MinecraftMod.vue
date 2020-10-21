@@ -57,6 +57,8 @@ import Mod from "~/components/Mod.vue";
 import UpdateHistory from "~/components/UpdateHistory.vue";
 import Empty from "~/components/Empty.vue";
 
+import compareVersions from "compare-versions";
+
 export default {
   props: [
     "title",
@@ -85,9 +87,7 @@ export default {
     this.$axios
       .get(`https://update.maxhenkel.de/latest/${this.id}`)
       .then((result) => {
-        this.versions = result.data.sort((a, b) =>
-          b.gameVersion.localeCompare(a.gameVersion)
-        );
+        this.versions = result.data.sort((a, b) => compareVersions(b.gameVersion, a.gameVersion));
       })
       .catch((err) => {});
 
