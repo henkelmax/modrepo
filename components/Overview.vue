@@ -172,6 +172,14 @@ export default {
           downloadLink:
             "https://www.curseforge.com/minecraft/mc-mods/reusable-rockets/files/all",
         },
+        {
+          name: "Simple Voice Chat",
+          description: "A working voice chat in Minecraft!",
+          modid: "voicechat",
+          logo: require("~/assets/minecraft/voicechat/logo_voicechat.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all",
+        },
       ],
     };
   },

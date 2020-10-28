@@ -8,6 +8,7 @@
     sourcelink="https://github.com/henkelmax/sleeping-bags"
     issueslink="https://github.com/henkelmax/sleeping-bags/issues"
     :images="images"
+    :credits="credits"
   >
     <v-container slot="overview">
       <p>A sleeping bag that does not set your spawnpoint.</p>
