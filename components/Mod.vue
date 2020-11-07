@@ -61,20 +61,20 @@
           <v-tab v-if="!!$slots.credits || !!credits" href="#credits"
             >Credits</v-tab
           >
-          <v-tab v-if="sourcelink" href="#source">
+          <v-tab v-if="sourcelink" :href="sourcelink">
             <div
               class="pa-1 pt-3"
-              @click.prevent.stop="open(sourcelink)"
               style="width: 100%; height: 100%"
+              @click.prevent.stop="open(sourcelink)"
             >
               <v-icon class="mr-2">mdi-open-in-new</v-icon>Source
             </div>
           </v-tab>
-          <v-tab v-if="issueslink" href="#issues">
+          <v-tab v-if="issueslink" :href="issueslink">
             <div
               class="pa-1 pt-3"
-              @click.prevent.stop="open(issueslink)"
               style="width: 100%; height: 100%"
+              @click.prevent.stop="open(issueslink)"
             >
               <v-icon class="mr-2">mdi-open-in-new</v-icon>Issues
             </div>
@@ -145,8 +145,6 @@
               <Empty v-else />
             </slot>
           </v-tab-item>
-          <v-tab-item v-if="sourcelink" value="source"></v-tab-item>
-          <v-tab-item v-if="issueslink" value="issues"></v-tab-item>
         </v-tabs-items>
       </v-col>
     </v-row>
@@ -205,7 +203,10 @@ export default {
     Credits,
   },
   mounted() {
-    this.tab = this.$route.params.tabname;
+    if (this.$route.params.tabname) {
+      this.tab = this.$route.params.tabname;
+    }
+    this.fixRoute();
   },
   methods: {
     open(link) {
@@ -214,7 +215,13 @@ export default {
   },
   watch: {
     tab(tab) {
-      history.pushState({}, "", tab);
+      this.fixRoute();
+    },
+  },
+  methods: {
+    fixRoute() {
+      const { href } = this.$router.resolve({ params: { tabname: this.tab } });
+      window.history.replaceState({}, null, href);
     },
   },
   head() {

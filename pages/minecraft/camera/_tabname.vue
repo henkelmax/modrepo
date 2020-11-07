@@ -178,6 +178,13 @@ export default {
             link: "https://github.com/Yupoman",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "NeverMall",
+            link: "https://github.com/NeverMall",
+          },
+        },
       ],
     };
   },
