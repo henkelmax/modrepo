@@ -210,7 +210,7 @@ export default {
         },
         {
           question: "Is version 1.12.2 or lower still supported?",
-          answer: `No. I moved on to newer Minecraft versions. This version won't get any bug fix or feature updates.`,
+          answer: `No. I moved on to newer Minecraft versions. These versions won't get any bug fix or feature updates.`,
         },
       ],
     };

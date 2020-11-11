@@ -208,11 +208,6 @@ export default {
     }
     this.fixRoute();
   },
-  methods: {
-    open(link) {
-      window.open(link);
-    },
-  },
   watch: {
     tab(tab) {
       this.fixRoute();
@@ -222,6 +217,9 @@ export default {
     fixRoute() {
       const { href } = this.$router.resolve({ params: { tabname: this.tab } });
       window.history.replaceState({}, null, href);
+    },
+    open(link) {
+      window.open(link);
     },
   },
   head() {
