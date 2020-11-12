@@ -141,6 +141,14 @@ export default {
             "https://www.curseforge.com/minecraft/mc-mods/easy-villagers/files/all",
         },
         {
+          name: "Easy Piglins",
+          description: "Never get annoyed by bartering again!",
+          modid: "easy_piglins",
+          logo: require("~/assets/minecraft/easy_piglins/logo_easy_piglins.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/easy-piglins/files/all",
+        },
+        {
           name: "Persistent Players",
           description: "Players stay in the world when they log out.",
           modid: "persistent_players",
