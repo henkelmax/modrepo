@@ -7,6 +7,7 @@
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/easy-piglins/files/all"
     sourcelink="https://github.com/henkelmax/easy-piglins"
     issueslink="https://github.com/henkelmax/easy-piglins/issues"
+    :credits="credits"
   >
     <v-container slot="overview">
       <p>
@@ -17,8 +18,8 @@
       <h2>The Piglin Item</h2>
       <p>
         The piglin item can be obtained by sneaking and right-clicking an adult
-        piglin.
-        Note that you can only pick up piglins if they are not busy or aggressive.
+        piglin. Note that you can only pick up piglins if they are not busy or
+        aggressive.
       </p>
       <video style="width: 100%" autoplay loop muted>
         <source
@@ -75,7 +76,15 @@ import Mod from "~/components/MinecraftMod.vue";
 export default {
   data() {
     return {
-      //
+      credits: [
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "Mikeliro",
+            link: "https://github.com/Mikeliro",
+          },
+        },
+      ],
     };
   },
   components: {
