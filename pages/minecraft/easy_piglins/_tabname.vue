@@ -18,6 +18,7 @@
       <p>
         The piglin item can be obtained by sneaking and right-clicking an adult
         piglin.
+        Note that you can only pick up piglins if they are not busy or aggressive.
       </p>
       <video style="width: 100%" autoplay loop muted>
         <source
