@@ -133,7 +133,7 @@ export default {
           element: { name: "Brazilian Portuguese translation" },
           name: {
             name: "Mikeliro",
-            link: "https://www.curseforge.com/members/mikeliro",
+            link: "https://github.com/Mikeliro",
           },
         },
         {
