@@ -184,8 +184,8 @@ export default {
         {
           element: { name: "Polish translation" },
           name: {
-            name: "Grreg21",
-            link: "https://www.curseforge.com/members/grreg21",
+            name: "Greg-21",
+            link: "https://github.com/Greg-21",
           },
         },
         {
