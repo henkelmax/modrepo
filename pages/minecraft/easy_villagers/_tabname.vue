@@ -16,7 +16,7 @@
       </p>
       <br />
       <h2>The Villager Item</h2>
-      <p>The villager item can be obtained by sneaking and right-clicking a villager.</p>
+      <p>The villager item can be obtained by sneaking and right-clicking a villager or pressing the <b>V</b> key.</p>
       <video style="width: 100%;" autoplay loop muted>
         <source
           :src="require('~/assets/minecraft/easy_villagers/video_easy_villagers_1.mp4')"
