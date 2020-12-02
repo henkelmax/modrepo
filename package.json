@@ -10,9 +10,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/axios": "^5.12.3",
     "compare-versions": "^3.6.0",
-    "nuxt": "^2.14.6",
+    "nuxt": "^2.14.9",
     "vue-observe-visibility": "^0.4.6"
   },
   "devDependencies": {
