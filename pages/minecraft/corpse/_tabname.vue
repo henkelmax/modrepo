@@ -175,6 +175,13 @@ export default {
             link: "https://github.com/DrHesperusModoVestnic",
           },
         },
+        {
+          element: { name: "Polish translation" },
+          name: {
+            name: "Greg-21",
+            link: "https://github.com/Greg-21",
+          },
+        },
       ],
       faq: [
         {

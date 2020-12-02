@@ -23,7 +23,7 @@
         <li>Custom images can be uploaded</li>
         <li>Image Frames can be resized up to 8 x 8 blocks</li>
         <li>Date and photographer name are stored with the image item</li>
-        <li>The Camera consumes a piece of paper for every taken image</li>
+        <li>The Camera consumes a piece of paper for every taken image (Configurable)</li>
         <li>The Camera has multiple filters that can be applied</li>
         <li>Multiplayer compatible</li>
         <li>Images are saved in the world folder</li>
@@ -31,7 +31,7 @@
       <h2>Taking an Image</h2>
       <p>
         Images can be taken by right-clicking a camera.
-        This brings you in the viewfinder of the camera.
+        This brings you to the viewfinder of the camera.
         Right-clicking again takes an image of the perspective you are currently seeing.
         Images are saved with the same ratio as your Minecraft window.
       </p>
