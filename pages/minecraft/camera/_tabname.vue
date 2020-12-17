@@ -19,6 +19,8 @@
       <ul>
         <li>Images can be displayed by right-clicking the image</li>
         <li>Images can be put into image frames</li>
+        <li>Images can be put into albums</li>
+        <li>Images can be put into lecterns</li>
         <li>Images can be copied</li>
         <li>Custom images can be uploaded</li>
         <li>Image Frames can be resized up to 8 x 8 blocks</li>

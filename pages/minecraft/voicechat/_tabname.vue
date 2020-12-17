@@ -8,6 +8,7 @@
     sourcelink="https://github.com/henkelmax/simple-voice-chat"
     issueslink="https://github.com/henkelmax/simple-voice-chat/issues"
     :images="images"
+    :faq="faq"
   >
     <v-container slot="overview">
       <p>
@@ -94,6 +95,13 @@ export default {
         require("~/assets/minecraft/voicechat/image_voicechat_2.png"),
         require("~/assets/minecraft/voicechat/image_voicechat_3.png"),
         require("~/assets/minecraft/voicechat/image_voicechat_4.png"),
+      ],
+      faq: [
+        {
+          question: "I can't use the voice chat/There is a message 'Voice chat unavailable'",
+          answer:
+            "You may have not opened the voice chat port on your server.",
+        },
       ],
     };
   },
