@@ -10,16 +10,33 @@
     :images="images"
   >
     <v-container slot="overview">
-      <p>This mod adds a mechanic that lets you respawn near your death location.</p>
-      <p>The minimum and maximum distance from your death location is configurable.</p>
-      <p>You will still respawn at your bed if you return from the end or if you die in another dimension.</p>
       <p>
-        You will also respawn at your bed if you are within a certain distance of it.
-        This distance is also configurable.
+        This mod adds a mechanic that lets you respawn near your death location.
       </p>
+
+      <ul>
+        <li>
+          The minimum and maximum distance from your death location is
+          configurable.
+        </li>
+        <li>
+          You will still respawn at your bed if you return from the end or if
+          you die in another dimension.
+        </li>
+        <li>
+          You will also respawn at your bed/respawn anchor if you are within a
+          certain distance of it (Configurable).
+        </li>
+        <li>A configurable respawn cooldown (Off by default).</li>
+      </ul>
+      <br />
       <h2>Functionality</h2>
       <br />
-      <v-img :src="require('~/assets/minecraft/better_respawn/image_better_respawn_1.png')"></v-img>
+      <v-img
+        :src="
+          require('~/assets/minecraft/better_respawn/image_better_respawn_1.png')
+        "
+      ></v-img>
       <br />
     </v-container>
   </Mod>
