@@ -106,6 +106,14 @@
       </video>
       <br />
       <br />
+
+      <h2>The Incubator Block</h2>
+      <p>
+        The incubator block increases the growth rate of baby villagers.
+        The speed can be changed in the config.
+      </p>
+      <br />
+      <br />
       <p>
         You can take stuff out of these blocks, by sneaking and right-clicking the block with an empty hand.
         <br />Baby villagers are able to grow up inside of blocks, but the functionality of the blocks will not work until they are grown.
