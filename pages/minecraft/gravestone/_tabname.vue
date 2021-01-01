@@ -202,6 +202,13 @@ export default {
             link: "https://github.com/Regnander",
           },
         },
+        {
+          element: { name: "Korean translation" },
+          name: {
+            name: "othuntgithub",
+            link: "https://github.com/othuntgithub",
+          },
+        },
       ],
       faq: [
         {
