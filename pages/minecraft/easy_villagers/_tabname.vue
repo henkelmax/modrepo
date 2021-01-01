@@ -37,12 +37,29 @@
 
       <h2>The Trader Block</h2>
       <p>
-        The trader block allows to trade with the villager without having to deal with securing the villager.
-        This block also allows the villager to restock in non working hours.
+        The trader block allows trading with the villager without having to deal with securing the villager.
+        This block also allows the villager to restock in non-working hours.
+        The restocking time of the villager is not dependent on any external sources like day/night time or dimension.
+        You can customize the trading interval in the config.
       </p>
       <video style="width: 100%;" autoplay loop muted>
         <source
           :src="require('~/assets/minecraft/easy_villagers/video_easy_villagers_3.mp4')"
+          type="video/mp4"
+        />
+      </video>
+      <br />
+      <br />
+
+      <h2>The Auto Trader Block</h2>
+      <p>
+        The auto trader works exactly line the trader block, except it automatically trades items for you.
+        You can also automatically put items in and take items out with a hopper.
+        The cooldown between trades is fully configurable.
+      </p>
+      <video style="width: 100%;" autoplay loop muted>
+        <source
+          :src="require('~/assets/minecraft/easy_villagers/video_easy_villagers_8.mp4')"
           type="video/mp4"
         />
       </video>
