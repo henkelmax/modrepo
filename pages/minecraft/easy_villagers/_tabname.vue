@@ -130,6 +130,23 @@
         The speed can be changed in the config.
       </p>
       <br />
+
+      <h2>Trade Cycling</h2>
+      <p>
+        When looking for a good trade, you always have to remove the villagers workstation, in order to reset their trades.
+        The trade cycle button solves this problem. If a villager hasn't been traded before, you can just press it and the trades reset automatically.
+        <br/>
+        This also works for normal villagers.
+      </p>
+      <video style="width: 100%;" autoplay loop muted>
+        <source
+          :src="require('~/assets/minecraft/easy_villagers/video_easy_villagers_9.mp4')"
+          type="video/mp4"
+        />
+      </video>
+
+      <br />
+      <br />
       <br />
       <p>
         You can take stuff out of these blocks, by sneaking and right-clicking the block with an empty hand.
