@@ -9,6 +9,7 @@
     issueslink="https://github.com/henkelmax/simple-voice-chat/issues"
     :images="images"
     :faq="faq"
+    :credits="credits"
   >
     <v-container slot="overview">
       <p>
@@ -104,6 +105,15 @@ export default {
             "I can't use the voice chat/There is a message 'Voice chat unavailable'",
           answer:
             "You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster.",
+        },
+      ],
+      credits: [
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "Allomere",
+            link: "https://github.com/Allomere",
+          },
         },
       ],
     };
