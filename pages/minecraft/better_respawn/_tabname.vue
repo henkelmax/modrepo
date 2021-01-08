@@ -8,6 +8,7 @@
     sourcelink="https://github.com/henkelmax/better-respawn"
     issueslink="https://github.com/henkelmax/better-respawn/issues"
     :images="images"
+    :credits="credits"
   >
     <v-container slot="overview">
       <p>
@@ -50,6 +51,15 @@ export default {
     return {
       images: [
         require("~/assets/minecraft/better_respawn/image_better_respawn_1.png"),
+      ],
+      credits: [
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "Blueberryy",
+            link: "https://github.com/Blueberryy",
+          },
+        },
       ],
     };
   },
