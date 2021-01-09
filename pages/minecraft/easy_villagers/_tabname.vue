@@ -135,6 +135,7 @@
       <p>
         When looking for a good trade, you always have to remove the villagers workstation, in order to reset their trades.
         The trade cycle button solves this problem. If a villager hasn't been traded before, you can just press it and the trades reset automatically.
+        Alternatively you can use the <b>C</b> key to cycle trades.
         <br/>
         This also works for normal villagers.
       </p>
