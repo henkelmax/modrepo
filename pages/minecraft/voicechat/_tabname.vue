@@ -106,6 +106,16 @@ export default {
           answer:
             "You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster.",
         },
+        {
+          question: "I forwarded the port and it still does not work.",
+          answer:
+            "You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod.",
+        },
+        {
+          question: "How do I open the voice chat port?",
+          answer:
+            "If you are hosting a server you should know that. I am not tech support. Ask your server hoster or use the internet to search for a solution.",
+        },
       ],
       credits: [
         {
