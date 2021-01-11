@@ -84,11 +84,20 @@
       </p>
       <p>The voice chat is NOT encrypted. Use at your own risk!</p>
     </v-container>
+    <template slot="wiki">
+      <Wiki :tabs="tabs">
+        <template slot="setup">
+          <Setup class="pa-6" />
+        </template>
+      </Wiki>
+    </template>
   </Mod>
 </template>
 
 <script>
 import Mod from "~/components/MinecraftMod.vue";
+import Wiki from "~/components/Wiki.vue";
+import Setup from "~/pages/minecraft/voicechat/Settings.vue";
 
 export default {
   data() {
@@ -104,12 +113,12 @@ export default {
           question:
             "I can't use the voice chat/There is a message 'Voice chat unavailable'",
           answer:
-            "You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster.",
+            "You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the wiki for more information.",
         },
         {
           question: "I forwarded the port and it still does not work.",
           answer:
-            "You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod.",
+            "You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod. Read the wiki for more information.",
         },
         {
           question: "How do I open the voice chat port?",
@@ -126,10 +135,13 @@ export default {
           },
         },
       ],
+      tabs: [{ id: "setup", title: "Voice Chat Setup" }],
     };
   },
   components: {
     Mod,
+    Wiki,
+    Setup,
   },
 };
 </script>
