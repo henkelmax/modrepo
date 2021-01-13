@@ -28,6 +28,14 @@
       </li>
     </ul>
     <br />
+    <h3>Testing the voice chat connection</h3>
+    <p>
+      You can test the voice chat connection of a specific player by typing the
+      command <code>/voicechat test &lt;PLAYERNAME&gt;</code>.<br />
+      If you are submitting a bug report, please include the logs of the server
+      and the client that you tested.
+    </p>
+    <br />
     <h2>Troubleshooting problems</h2>
     <h3>Voice chat unavailable</h3>
     <p>

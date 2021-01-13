@@ -47,7 +47,7 @@ export default {
   build: {},
   generate: {
     routes: modIDs
-      .flatMap(modid => [`/minecraft/${modid}/overview`, `/minecraft/${modid}/images`, `/minecraft/${modid}/update_history`, `/minecraft/${modid}/update_history`, `/minecraft/${modid}/credits`]),
+      .flatMap(modid => [`/minecraft/${modid}/overview`, `/minecraft/${modid}/images`, `/minecraft/${modid}/update_history`, `/minecraft/${modid}/wiki`, `/minecraft/${modid}/faq`, `/minecraft/${modid}/credits`]),
     exclude: [/\/.*[A-Z].*/],
     fallback: '404.html'
   }
