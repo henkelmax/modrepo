@@ -97,7 +97,7 @@
 <script>
 import Mod from "~/components/MinecraftMod.vue";
 import Wiki from "~/components/Wiki.vue";
-import Setup from "~/pages/minecraft/voicechat/Settings.vue";
+import Setup from "~/pages/minecraft/voicechat/Setup.vue";
 
 export default {
   data() {
