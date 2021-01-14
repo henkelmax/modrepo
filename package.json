@@ -10,10 +10,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.4",
+    "@nuxtjs/axios": "^5.12.5",
     "compare-versions": "^3.6.0",
     "nuxt": "^2.14.12",
-    "vue-observe-visibility": "^0.4.6"
+    "vue-observe-visibility": "^1.0.0"
   },
   "devDependencies": {
     "@nuxtjs/moment": "^1.6.1",
