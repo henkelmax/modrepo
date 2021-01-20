@@ -1280,13 +1280,13 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/axios@^5.12.4":
-  version "5.12.4"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.12.4.tgz#596ed88441aaedc5e74349f34fff2a462b02d01c"
-  integrity sha512-NKDIkrhtteOwC163Qlglw7YyjWHfLecpC/wXax4Z2tVVDlYnvSBa1KGoH9AnDY30lfvi0gjBKWCcTnUY8PaWDA==
+"@nuxtjs/axios@^5.12.5":
+  version "5.12.5"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.12.5.tgz#d4a1003052d21e54d93d97a895ca84f58e4bc8d9"
+  integrity sha512-KCZMLRZFYOKcGt9mKxJMH6UJMB6H6g+BF/YxXEYz3Urrf2U2XiNkj6rmBqgw0XLRY5XD9Wm8knTGp6955512fQ==
   dependencies:
     "@nuxtjs/proxy" "^2.1.0"
-    axios "^0.21.0"
+    axios "^0.21.1"
     axios-retry "^3.1.9"
     consola "^2.15.0"
     defu "^3.2.2"
@@ -1933,10 +1933,10 @@ axios-retry@^3.1.9:
   dependencies:
     is-retry-allowed "^1.1.0"
 
-axios@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.0.tgz#26df088803a2350dff2c27f96fef99fe49442aca"
-  integrity sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
     follow-redirects "^1.10.0"
 
@@ -7851,10 +7851,10 @@ vue-no-ssr@^1.1.1:
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
-vue-observe-visibility@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/vue-observe-visibility/-/vue-observe-visibility-0.4.6.tgz#878cb8ebcf3078e40807af29774e97105ebd519e"
-  integrity sha512-xo0CEVdkjSjhJoDdLSvoZoQrw/H2BlzB5jrCBKGZNXN2zdZgMuZ9BKrxXDjNP2AxlcCoKc8OahI3F3r3JGLv2Q==
+vue-observe-visibility@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vue-observe-visibility/-/vue-observe-visibility-1.0.0.tgz#17cf1b2caf74022f0f3c95371468ddf2b9573152"
+  integrity sha512-s5TFh3s3h3Mhd3jaz3zGzkVHKHnc/0C/gNr30olO99+yw2hl3WBhK3ng3/f9OF+qkW4+l7GkmwfAzDAcY3lCFg==
 
 vue-router@^3.4.9:
   version "3.4.9"
