@@ -8,7 +8,7 @@
           </v-card-title>
           <v-card-text class="title mt-4">This page doesn't exist.</v-card-text>
           <v-card-actions>
-            <v-btn text class="red darken-3 white--text" @click="push('/')">Zurück</v-btn>
+            <v-btn text class="red darken-3 white--text" @click="push('/')">Back</v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>
