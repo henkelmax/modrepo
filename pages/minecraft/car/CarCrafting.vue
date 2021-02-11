@@ -70,6 +70,7 @@
     </p>
     <p>With the license plate holder, you are able to mount a license plate with custom text to your car.</p>
     <p>A license plate can be written on by right-clicking it.</p>
+    <p>You can apply a license plate to a car by sneaking and right-clicking the plate on the car. Note that this requires a license plate holder on the car.</p>
     <p>The bumper can be added to all wooden cars, but is only cosmetical.</p>
     <p>Transporters are able to have either a container that extends your cars inventory or a tank container, that hold up to 64,000 mb of fluid.</p>
     <p>&nbsp;</p>

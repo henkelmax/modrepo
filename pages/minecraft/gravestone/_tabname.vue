@@ -209,6 +209,13 @@ export default {
             link: "https://github.com/othuntgithub",
           },
         },
+        {
+          element: { name: "Chinese Simplified (China) translation" },
+          name: {
+            name: "EnterFor",
+            link: "https://github.com/EnterFor",
+          },
+        },
       ],
       faq: [
         {

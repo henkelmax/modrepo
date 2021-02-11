@@ -67,6 +67,14 @@ export default {
             "https://www.curseforge.com/minecraft/mc-mods/corpse/files/all",
         },
         {
+          name: "Pipez",
+          description: "Lag friendly pipes.",
+          modid: "pipez",
+          logo: require("~/assets/minecraft/pipez/logo_pipez.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/pipez/files/all",
+        },
+        {
           name: "Advanced Mining Dimension",
           description: "Adds a dimension consisting just of caves.",
           modid: "mining_dimension",
