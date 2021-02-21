@@ -196,6 +196,14 @@ export default {
           downloadLink:
             "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all",
         },
+        {
+          name: "Anti Mob Griefing",
+          description: "Fully customizable mob griefing rules.",
+          modid: "antimobgriefing",
+          logo: require("~/assets/minecraft/antimobgriefing/logo_antimobgriefing.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/anti-mob-griefing/files/all",
+        },
       ],
     };
   },
