@@ -83,14 +83,14 @@
           >Pipes don't transfer anything if they are not set to
           extract.</strong
         >
-        You can click onto the end of a connected pipe with a wrench to set it
+        You can sneak-click onto the end of a connected pipe with a wrench to set it
         to extract.
       </p>
       <p>
         Click the extracting part of the pipe to change modes, add filters or
         add upgrades.
       </p>
-      <p>Pipes can be disconnected/reconnected by clicking with a wrench.</p>
+      <p>Pipes can be disconnected/reconnected by sneak-clicking with a wrench.</p>
       <p>
         By default pipes are relatively slow. The speed can only be increased by
         adding an upgrade. Higher tiers of upgrades mean a higher transfer rate.

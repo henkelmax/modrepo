@@ -191,6 +191,13 @@ export default {
           },
           name: { name: "XiiiSamples" },
         },
+        {
+          element: { name: "Chinese Simplified (China) translation" },
+          name: {
+            name: "Aemande123",
+            link: "https://github.com/Aemande123",
+          },
+        },
       ],
       tabs: [
         { id: "fuel_production", title: "Fuel Production" },
