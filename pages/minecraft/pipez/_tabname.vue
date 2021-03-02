@@ -29,6 +29,7 @@
             >Mekanism</a
           >)
         </li>
+        <li>Universal Pipes (All 4 Pipes in one!)</li>
       </ul>
       <h2>Features</h2>
       <ul>
@@ -190,6 +191,13 @@
       </p>
       <v-img
         :src="require('~/assets/minecraft/pipez/image_pipez_5.png')"
+      ></v-img>
+      <br/>
+      <p>
+        The <b>Universal Pipe</b> has every feature of all other pipes combined. You can choose which pipe type you want to configure with the tabs on the left of the GUI.
+      </p>
+      <v-img
+        :src="require('~/assets/minecraft/pipez/image_pipez_8.png')"
       ></v-img>
       <br/>
       <h2>Performance Comparison</h2>
