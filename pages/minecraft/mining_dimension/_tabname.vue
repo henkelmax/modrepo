@@ -150,6 +150,13 @@ export default {
             link: "https://github.com/EnterFor",
           },
         },
+        {
+          element: { name: "Japanese translation" },
+          name: {
+            name: "kegare",
+            link: "https://github.com/kegare",
+          },
+        },
       ],
     };
   },
