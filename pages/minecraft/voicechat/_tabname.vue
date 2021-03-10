@@ -134,6 +134,13 @@ export default {
             link: "https://github.com/Allomere",
           },
         },
+        {
+          element: { name: "Italian translation" },
+          name: {
+            name: "UknownGino",
+            link: "https://github.com/UknownGino",
+          },
+        },
       ],
       tabs: [{ id: "setup", title: "Voice Chat Setup" }],
     };
