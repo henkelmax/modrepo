@@ -273,6 +273,13 @@ export default {
             link: "https://github.com/UknownGino",
           },
         },
+        {
+          element: { name: "Dutch translation" },
+          name: {
+            name: "emielderckx",
+            link: "https://github.com/emielderckx",
+          },
+        },
       ],
       tabs: [{ id: "setup", title: "Voice Chat Setup" }],
     };
