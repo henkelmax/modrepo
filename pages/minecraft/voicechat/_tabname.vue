@@ -25,6 +25,7 @@
       <h2>Features</h2>
       <ul>
         <li><span>Proximity voice chat</span></li>
+        <li><span><a href="https://opus-codec.org/">Opus Codec</a></span></li>
         <li><span>Push to talk</span></li>
         <li><span>Voice activation</span></li>
         <li><span>Configurable PTT key</span></li>
@@ -259,6 +260,16 @@ export default {
         },
       ],
       credits: [
+        {
+          element: {
+            name: "Opus Codec",
+            link: "https://opus-codec.org/",
+          },
+          license: {
+            name: "3-Clause BSD License",
+            link: "https://opus-codec.org/license/",
+          },
+        },
         {
           element: { name: "Brazilian Portuguese translation" },
           name: {
