@@ -9,20 +9,22 @@
         by default)
         <ul>
           <li>
-            You can change the port in the server config
-            (<code>voice_chat.port</code>)
+            You can change the port in the server config (<code>port</code>)
           </li>
         </ul>
       </li>
       <li>
-        Some Minecraft server hosters require you to bind the voice chat to a
-        specific address
+        Some Minecraft server hosters or servers with multiple network adapters require you to bind the voice chat to a
+        specific IP address
         <ul>
           <li>
             You can set this address in the server config
-            (<code>voice_chat.bind_address</code>)
+            (<code>bind_address</code>)
           </li>
-          <li>Leave this empty to not bind to a specific address</li>
+          <li>
+            Use <code>0.0.0.0</code> to not bind to a specific address (This is
+            the default value)
+          </li>
           <li>Don't use this option if you don't know what you are doing</li>
         </ul>
       </li>
@@ -33,15 +35,15 @@
       You can test the voice chat connection of a specific player by typing the
       command <code>/voicechat test &lt;PLAYERNAME&gt;</code>.<br />
       If you are submitting a bug report, please include the logs of the server
-      and the client that you tested.
+      and the client that you tested. But please don't submit a bug report just
+      because your voice chat is not connected.
     </p>
     <br />
     <h2>Troubleshooting problems</h2>
     <h3>Voice chat unavailable</h3>
     <p>
-      If you see a message <code>Voice Chat Unavailable</code> when trying to
-      use the voice chat, please do the following steps before reporting this to
-      the issue tracker:
+      If you see a message <code>Voice Chat Unavailable</code> or a striked through plug icon when trying to
+      use the voice chat, try the following steps:
     </p>
     <ul>
       <li>
@@ -73,18 +75,7 @@
       </li>
       <li>
         If this does not work, you have not opened your voice chat port
-        correctly
-      </li>
-      <li>
-        If it does work, this might be a bug. Please look for
-        <a href="https://github.com/henkelmax/simple-voice-chat/issues"
-          >similar issues</a
-        >
-        before you create a new
-        <a
-          href="https://github.com/henkelmax/simple-voice-chat/issues/new/choose"
-          >bug report</a
-        >
+        correctly or you have not bound the voice chat to the correct IP address
       </li>
     </ul>
     <p>
@@ -111,6 +102,11 @@
       <code>Select Microphone</code> button and choosing the correct device.<br />
       You can test if it works by clicking the
       <code>Enable microphone testing</code> button.
+    </p>
+    <br />
+    <h3>The voice chat is constantly reconnecting</h3>
+    <p>
+      This is mostly caused by not binding to the correct IP address.
     </p>
   </div>
 </template>
