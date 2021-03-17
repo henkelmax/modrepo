@@ -121,7 +121,7 @@ export default {
     });
     this.generalFaq.push({
       question: "Can you port this mod to Fabric?",
-      answer: "No.",
+      answer: "It it is not already ported, no.",
     });
     this.generalFaq.push({
       question: "Can you port this mod to an older Minecraft version?",
