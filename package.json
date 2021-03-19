@@ -12,7 +12,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
     "compare-versions": "^3.6.0",
-    "nuxt": "^2.15.2",
+    "nuxt": "^2.15.3",
     "vue-observe-visibility": "^1.0.0"
   },
   "devDependencies": {
