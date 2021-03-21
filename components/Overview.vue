@@ -33,15 +33,6 @@ export default {
     return {
       mods: [
         {
-          name: "Ultimate Car Mod",
-          description:
-            "This mod brings cars, road construction and biodiesel production into your Minecraft world.",
-          modid: "car",
-          logo: require("~/assets/minecraft/car/logo_car.png"),
-          downloadLink:
-            "https://www.curseforge.com/minecraft/mc-mods/ultimate-car-mod/files/all",
-        },
-        {
           name: "GraveStone Mod",
           description:
             "Places a gravestone with your inventory items inside when you die.",
@@ -59,14 +50,6 @@ export default {
             "https://www.curseforge.com/minecraft/mc-mods/camera-mod/files/all",
         },
         {
-          name: "Simple Voice Chat",
-          description: "A working voice chat in Minecraft!",
-          modid: "voicechat",
-          logo: require("~/assets/minecraft/voicechat/logo_voicechat.png"),
-          downloadLink:
-            "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all",
-        },
-        {
           name: "Corpse",
           description: "Never lose your items again!",
           modid: "corpse",
@@ -75,12 +58,29 @@ export default {
             "https://www.curseforge.com/minecraft/mc-mods/corpse/files/all",
         },
         {
+          name: "Simple Voice Chat",
+          description: "A working voice chat in Minecraft!",
+          modid: "voicechat",
+          logo: require("~/assets/minecraft/voicechat/logo_voicechat.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all",
+        },
+        {
           name: "Pipez",
           description: "Lag friendly pipes.",
           modid: "pipez",
           logo: require("~/assets/minecraft/pipez/logo_pipez.png"),
           downloadLink:
             "https://www.curseforge.com/minecraft/mc-mods/pipez/files/all",
+        },
+        {
+          name: "Ultimate Car Mod",
+          description:
+            "This mod brings cars, road construction and biodiesel production into your Minecraft world.",
+          modid: "car",
+          logo: require("~/assets/minecraft/car/logo_car.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/ultimate-car-mod/files/all",
         },
         {
           name: "Advanced Mining Dimension",
