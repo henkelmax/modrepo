@@ -187,6 +187,13 @@ export default {
             link: "https://github.com/NeverMall",
           },
         },
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "flagar0",
+            link: "https://github.com/flagar0",
+          },
+        },
       ],
     };
   },
