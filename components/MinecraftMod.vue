@@ -124,8 +124,12 @@ export default {
       answer: "It it is not already ported, no.",
     });
     this.generalFaq.push({
-      question: "Can you port this mod to an older Minecraft version?",
-      answer: "No.",
+      question: "Can you port this mod to Minecraft version XYZ?",
+      answer: "Please first look into the files section on CurseForge, click on 'View All' and then choose your Minecraft version from the dropdown menu. If the version your searched for is not available, I most likely won't port it to that version (If it is not the latest version).",
+    });
+    this.generalFaq.push({
+      question: "Do I need to install this mod on the client or the server?",
+      answer: "All mods need to be installed on the client and the server. Always make sure, you are using the same version on both sides!",
     });
     // this.generalFaq.push({ question: "General1", answer: "AnswerGeneral" });
   },
