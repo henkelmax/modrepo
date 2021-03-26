@@ -193,6 +193,13 @@ export default {
             link: "https://www.sounddogs.com/",
           },
         },
+        {
+          element: { name: "Chinese Simplified (China) translation" },
+          name: {
+            name: "MikhailTapio",
+            link: "https://gist.github.com/MikhailTapio",
+          },
+        },
       ],
     };
   },

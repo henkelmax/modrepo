@@ -216,6 +216,13 @@ export default {
             link: "https://github.com/EnterFor",
           },
         },
+        {
+          element: { name: "Ukrainian translation" },
+          name: {
+            name: "Yuraplonka",
+            link: "https://github.com/Yuraplonka",
+          },
+        },
       ],
       faq: [
         {
