@@ -96,13 +96,18 @@ export default {
       answer: "Yes. But please make sure to give credit.",
     });
     this.generalFaq.push({
-      question: "Where is the config file located?",
+      question: "Where is the config file located? (Forge)",
       answer: `There are two types of configs.
       The config for the server side is located in your world folder in a subfolder called 'serverconfig'.
       The client side config is located in your '.minecraft' folder inside a subfolder called 'config'.
       Note that the client side and the server side config isn't the same. You can't put stuff from the server config into the client config. If you can't find the option you are looking for in the client config, try looking into the server config.
       There is always a server config, even if you are playing singleplayer, as it also uses an internal server.
       `,
+    });
+    this.generalFaq.push({
+      question: "Where is the config file located? (Fabric)",
+      answer: `The configs for a fabric mod are located in your '.minecraft' folder in a subfolder called 'config'.
+      In there you can see a folder that is named like the mods ID. This folder contains the configs for the server and client.`,
     });
     this.generalFaq.push({
       question: "I found a bug, how do I report it?",
