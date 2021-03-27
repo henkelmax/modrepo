@@ -268,6 +268,11 @@ export default {
           answer:
             "For the Fabric version, yes. But the Forge version needs the mod to be installed on the client and the server.",
         },
+        {
+          question: "I can't find the voice chat port in the 'server.properties'.",
+          answer:
+            "This option is NOT located in the 'server.properties'. It is located in the mods server config. For more information read the FAQ entry on how to find the mod configs.",
+        },
       ],
       credits: [
         {
