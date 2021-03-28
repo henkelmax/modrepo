@@ -200,6 +200,13 @@ export default {
             link: "https://gist.github.com/MikhailTapio",
           },
         },
+        {
+          element: { name: "Chinese Simplified (China) translation" },
+          name: {
+            name: "DLumina",
+            link: "https://github.com/DLumina",
+          },
+        },
       ],
     };
   },
