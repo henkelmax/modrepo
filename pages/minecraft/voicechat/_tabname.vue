@@ -306,6 +306,13 @@ export default {
             link: "https://github.com/emielderckx",
           },
         },
+        {
+          element: { name: "Chinese Simplified (China) translation" },
+          name: {
+            name: "MikhailTapio",
+            link: "https://github.com/MikhailTapio",
+          },
+        },
       ],
       tabs: [{ id: "setup", title: "Voice Chat Setup" }],
     };
