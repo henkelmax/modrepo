@@ -313,6 +313,13 @@ export default {
             link: "https://github.com/MikhailTapio",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "Strongleong",
+            link: "https://github.com/Strongleong",
+          },
+        },
       ],
       tabs: [{ id: "setup", title: "Voice Chat Setup" }],
     };
