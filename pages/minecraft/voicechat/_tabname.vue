@@ -320,6 +320,13 @@ export default {
             link: "https://github.com/Strongleong",
           },
         },
+        {
+          element: { name: "Catalan translation" },
+          name: {
+            name: "JoanVC100",
+            link: "https://github.com/JoanVC100",
+          },
+        },
       ],
       tabs: [{ id: "setup", title: "Voice Chat Setup" }],
     };
