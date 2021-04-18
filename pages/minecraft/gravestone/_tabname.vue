@@ -223,6 +223,13 @@ export default {
             link: "https://github.com/Yuraplonka",
           },
         },
+        {
+          element: { name: "Japanese translation" },
+          name: {
+            name: "Kagaribi172",
+            link: "https://github.com/Kagaribi172",
+          },
+        },
       ],
       faq: [
         {
