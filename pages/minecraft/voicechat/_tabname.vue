@@ -273,6 +273,11 @@ export default {
           answer:
             "This option is NOT located in the 'server.properties'. It is located in the mods server config. For more information read the FAQ entry on how to find the mod configs.",
         },
+        {
+          question: "Can I use the Fabric client on a Forge server?/Can I use the Forge client on a Fabric server?",
+          answer:
+            "No. This doesn't work.",
+        },
       ],
       credits: [
         {
