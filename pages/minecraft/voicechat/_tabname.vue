@@ -278,6 +278,11 @@ export default {
           answer:
             "No. This doesn't work.",
         },
+        {
+          question: "Does this work with LAN worlds?",
+          answer:
+            "No. It only works with dedicated servers.",
+        },
       ],
       credits: [
         {
