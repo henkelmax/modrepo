@@ -337,6 +337,13 @@ export default {
             link: "https://github.com/JoanVC100",
           },
         },
+        {
+          element: { name: "Polish translation" },
+          name: {
+            name: "RDKRACZ",
+            link: "https://github.com/RDKRACZ",
+          },
+        },
       ],
       tabs: [{ id: "setup", title: "Voice Chat Setup" }],
     };
