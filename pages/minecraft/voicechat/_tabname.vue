@@ -25,7 +25,10 @@
       <h2>Features</h2>
       <ul>
         <li><span>Proximity voice chat</span></li>
-        <li><span><a href="https://opus-codec.org/">Opus Codec</a></span></li>
+        <li><span>Group chats</span></li>
+        <li>
+          <span><a href="https://opus-codec.org/">Opus Codec</a></span>
+        </li>
         <li><span>Push to talk</span></li>
         <li><span>Voice activation</span></li>
         <li><span>Configurable PTT key</span></li>
@@ -43,7 +46,8 @@
         </li>
         <li><span>Microphone amplification</span></li>
         <li><span>Semi 3D sound</span></li>
-        <li><span>Configurable sample rate</span></li>
+        <li><span>AES encryption</span></li>
+        <li><span>Configurable voice quality</span></li>
         <li>
           <span>Configurable network port</span>
         </li>
@@ -122,9 +126,19 @@
         </thead>
         <tbody>
           <tr>
-            <td>Voice Chat Settings</td>
+            <td>Voice Chat GUI</td>
             <td><code>V</code></td>
-            <td>This key opens the voice chat settings menu.</td>
+            <td>Opens the voice chat GUI.</td>
+          </tr>
+          <tr>
+            <td>Voice Chat Settings</td>
+            <td><i>Not bound by default</i></td>
+            <td>Opens the voice chat settings.</td>
+          </tr>
+          <tr>
+            <td>Group Chats</td>
+            <td><code>G</code></td>
+            <td>Opens the group chat GUI.</td>
           </tr>
           <tr>
             <td>Push To Talk</td>
@@ -161,11 +175,69 @@
         </tbody>
       </table>
       <br />
+      <h2>The GUI</h2>
+      <p>
+        <span>
+          You can open the voice chat GUI by pressing the <code>V</code> key.
+          This allows you to open the settings, group chats, mute yourself,
+          disable the voice chat and hide all icons.
+        </span>
+      </p>
+      <v-img
+        :src="require('~/assets/minecraft/voicechat/image_voicechat_9.png')"
+      ></v-img>
+      <br />
+      <h2>Group Chats</h2>
+      <p>
+        <span>
+          Group chats allow you to talk to players that are not in your
+          vicinity. To open the group chat interface, either press the group
+          button in the voice chat GUI or just press the <code>G</code> key.
+        </span>
+      </p>
+      <p>
+        <span>
+          To create a new group, just type a name in the text field and press
+          the button next to it.
+        </span>
+      </p>
+      <v-img
+        :src="require('~/assets/minecraft/voicechat/image_voicechat_10.png')"
+      ></v-img>
+      <p>
+        <span>
+          To join an already existing group, click the group in the list below
+          the text field.
+        </span>
+      </p>
+      <v-img
+        :src="require('~/assets/minecraft/voicechat/image_voicechat_11.png')"
+      ></v-img>
+      <p>
+        <span>
+          Creating or joining a group will bring you into the group chat
+          interface. You will also see the heads of the group members in the top
+          left corner of your screen. Talking players will be outlined. You can
+          disable these icons by pressing the third button from the left.
+        </span>
+      </p>
+      <v-img
+        :src="require('~/assets/minecraft/voicechat/image_voicechat_12.png')"
+      ></v-img>
+      <p>
+        <span>
+          Players that are not in a group will see a group icon next to your
+          head, indicating that they can't talk to you. You can invite players
+          to your group chat by entering the command
+          <code>/voicechat invite &lt;playername&gt;</code>.
+        </span>
+      </p>
+      <br />
       <h2>Settings</h2>
       <p>
         <span>
-          You can access the voice chat settings by pressing the
-          <code>V</code> key.
+          You can access the voice chat GUI by pressing the <code>V</code> key
+          and pressing the settings button.
         </span>
       </p>
       <p>
@@ -206,11 +278,21 @@
       <p>
         <span>
           This mod does only work when connected to a dedicated server. You need
-          to have this mod installed on the server and the client.
+          to have this mod installed on the server and the client for it to
+          work.
         </span>
       </p>
       <p>
-        <span> The voice chat is NOT encrypted. Use at your own risk! </span>
+        <span>
+          The Fabric version of this mod allows you to join with vanilla
+          clients, but you won't be able to use the voice chat features.</span
+        >
+      </p>
+      <p>
+        <span>
+          The voice chat is encrypted, but I don't guarantee the security of it.
+          Use at your own risk!
+        </span>
       </p>
     </v-container>
     <template slot="wiki">
@@ -264,24 +346,25 @@ export default {
             "No. But there are plenty of projects that allow you to install Forge or Fabric mods alongside with Bukkit/Spigot/Paper plugins.",
         },
         {
-          question: "Can vanilla clients still join when the voice chat mod is installed on the server?",
+          question:
+            "Can vanilla clients still join when the voice chat mod is installed on the server?",
           answer:
             "For the Fabric version, yes. But the Forge version needs the mod to be installed on the client and the server.",
         },
         {
-          question: "I can't find the voice chat port in the 'server.properties'.",
+          question:
+            "I can't find the voice chat port in the 'server.properties'.",
           answer:
             "This option is NOT located in the 'server.properties'. It is located in the mods server config. For more information read the FAQ entry on how to find the mod configs.",
         },
         {
-          question: "Can I use the Fabric client on a Forge server?/Can I use the Forge client on a Fabric server?",
-          answer:
-            "No. This doesn't work.",
+          question:
+            "Can I use the Fabric client on a Forge server?/Can I use the Forge client on a Fabric server?",
+          answer: "No. This doesn't work.",
         },
         {
           question: "Does this work with LAN worlds?",
-          answer:
-            "No. It only works with dedicated servers.",
+          answer: "No. It only works with dedicated servers.",
         },
       ],
       credits: [
