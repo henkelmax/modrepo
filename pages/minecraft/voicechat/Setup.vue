@@ -4,12 +4,16 @@
     <ul>
       <li>
         Make sure you opened the voice chat port on your server (<code
-          >24454/udp</code
-        >
+          >24454</code> <code>UDP</code>
         by default)
         <ul>
           <li>
-            You can change the port in the server config (<code>port</code>)
+            You can change the port in the server config of the mod (Not in the <code>server.properties</code>)
+          </li>
+          <li>
+            Opening ports is different for every setup.
+            It depends on your OS, your router, your ISP, your hoster and many other things.
+            Please don't ask me how to do it.
           </li>
         </ul>
       </li>
@@ -18,7 +22,7 @@
         specific IP address
         <ul>
           <li>
-            You can set this address in the server config
+            You can set this address in the server config of the mod
             (<code>bind_address</code>)
           </li>
           <li>
@@ -107,6 +111,17 @@
     <h3>The voice chat is constantly reconnecting</h3>
     <p>
       This is mostly caused by not binding to the correct IP address.
+    </p>
+    <br />
+    <h3>The Server Crashes on Startup (Failed to bind to address)</h3>
+    <p>
+      This is mostly caused by not binding to the correct IP address. Please try the default setting of <code>0.0.0.0</code> before using a specific address.
+    </p>
+    <br />
+    <h3>The Server Crashes on Startup (Address already in use)</h3>
+    <p>
+      Another program is already using the voice chat port.
+      Make sure you don't already have your Minecraft server running and change the voice chat port in the mods server config.
     </p>
   </div>
 </template>
