@@ -45,6 +45,13 @@ export default {
             link: "https://github.com/Imbarainbow",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "cyber01",
+            link: "https://github.com/cyber01",
+          },
+        },
       ],
     };
   },
