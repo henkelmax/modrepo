@@ -194,6 +194,13 @@ export default {
             link: "https://github.com/flagar0",
           },
         },
+        {
+          element: { name: "Ukrainian translation" },
+          name: {
+            name: "prosplash1",
+            link: "https://www.curseforge.com/members/prosplash1",
+          },
+        },
       ],
     };
   },
