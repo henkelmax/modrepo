@@ -193,6 +193,13 @@ export default {
             link: "https://www.curseforge.com/members/kazmurenko",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "cyber01",
+            link: "https://github.com/cyber01",
+          },
+        },
       ],
     };
   },
