@@ -369,6 +369,13 @@ export default {
       ],
       credits: [
         {
+          element: { name: "Icons" },
+          name: {
+            name: "Stridey",
+            link: "https://www.planetminecraft.com/member/stridey/",
+          },
+        },
+        {
           element: {
             name: "Opus Codec",
             link: "https://opus-codec.org/",
