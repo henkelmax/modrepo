@@ -182,6 +182,13 @@ export default {
             link: "https://github.com/Greg-21",
           },
         },
+        {
+          element: { name: "Ukrainian translation" },
+          name: {
+            name: "prosplash1",
+            link: "https://www.curseforge.com/members/prosplash1/",
+          },
+        },
       ],
       faq: [
         {
