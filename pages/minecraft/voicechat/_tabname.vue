@@ -338,7 +338,7 @@ export default {
         {
           question: "How do I open the voice chat port?",
           answer:
-            "If you are hosting a server you should know that. I am not tech support. Ask your server hoster or use the internet to search for a solution.",
+            "If you are hosting a server you should already know that. Ask your server hoster or use the internet to search for a solution.",
         },
         {
           question: "Does this work on Bukkit/Spigot/Paper?",
