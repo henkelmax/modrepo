@@ -300,6 +300,9 @@
         <template slot="setup">
           <Setup class="pa-6" />
         </template>
+        <template slot="help">
+          <Help class="pa-6" />
+        </template>
       </Wiki>
     </template>
   </Mod>
@@ -309,6 +312,7 @@
 import Mod from "~/components/MinecraftMod.vue";
 import Wiki from "~/components/Wiki.vue";
 import Setup from "~/pages/minecraft/voicechat/Setup.vue";
+import Help from "~/pages/minecraft/voicechat/Help.vue";
 
 export default {
   data() {
@@ -365,6 +369,10 @@ export default {
         {
           question: "Does this work with LAN worlds?",
           answer: "No. It only works with dedicated servers.",
+        },
+        {
+          question: "Can you make a tutorial video on how to set up the voice chat?",
+          answer: "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki.",
         },
       ],
       credits: [
@@ -435,13 +443,14 @@ export default {
           },
         },
       ],
-      tabs: [{ id: "setup", title: "Voice Chat Setup" }],
+      tabs: [{ id: "setup", title: "Voice Chat Setup" },{ id: "help", title: "Help Setting Up Voicechat" }],
     };
   },
   components: {
     Mod,
     Wiki,
     Setup,
+    Help,
   },
 };
 </script>
