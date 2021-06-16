@@ -79,6 +79,15 @@
               <v-icon class="mr-2">mdi-open-in-new</v-icon>Issues
             </div>
           </v-tab>
+          <v-tab v-if="discordlink" :href="discordlink">
+            <div
+              class="pa-1 pt-3"
+              style="width: 100%; height: 100%"
+              @click.prevent.stop="open(discordlink)"
+            >
+              <v-icon class="mr-2">mdi-open-in-new</v-icon>Discord
+            </div>
+          </v-tab>
         </v-tabs>
 
         <v-tabs-items
@@ -167,6 +176,7 @@ export default {
     "downloadlink",
     "sourcelink",
     "issueslink",
+    "discordlink",
     "images",
     "faq",
     "generalFaq",

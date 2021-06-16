@@ -7,6 +7,7 @@
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all"
     sourcelink="https://github.com/henkelmax/simple-voice-chat"
     issueslink="https://github.com/henkelmax/simple-voice-chat/issues"
+    discordlink="https://discord.gg/4dH2zwTmyX"
     :images="images"
     :faq="faq"
     :credits="credits"
