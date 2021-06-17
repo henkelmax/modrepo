@@ -7,6 +7,7 @@
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all"
     sourcelink="https://github.com/henkelmax/simple-voice-chat"
     issueslink="https://github.com/henkelmax/simple-voice-chat/issues"
+    discordlink="https://discord.gg/4dH2zwTmyX"
     :images="images"
     :faq="faq"
     :credits="credits"
@@ -300,6 +301,9 @@
         <template slot="setup">
           <Setup class="pa-6" />
         </template>
+        <template slot="help">
+          <Help class="pa-6" />
+        </template>
       </Wiki>
     </template>
   </Mod>
@@ -309,6 +313,7 @@
 import Mod from "~/components/MinecraftMod.vue";
 import Wiki from "~/components/Wiki.vue";
 import Setup from "~/pages/minecraft/voicechat/Setup.vue";
+import Help from "~/pages/minecraft/voicechat/Help.vue";
 
 export default {
   data() {
@@ -338,7 +343,7 @@ export default {
         {
           question: "How do I open the voice chat port?",
           answer:
-            "If you are hosting a server you should know that. I am not tech support. Ask your server hoster or use the internet to search for a solution.",
+            "If you are hosting a server you should already know that. Ask your server hoster or use the internet to search for a solution.",
         },
         {
           question: "Does this work on Bukkit/Spigot/Paper?",
@@ -365,6 +370,10 @@ export default {
         {
           question: "Does this work with LAN worlds?",
           answer: "No. It only works with dedicated servers.",
+        },
+        {
+          question: "Can you make a tutorial video on how to set up the voice chat?",
+          answer: "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki.",
         },
       ],
       credits: [
@@ -435,13 +444,14 @@ export default {
           },
         },
       ],
-      tabs: [{ id: "setup", title: "Voice Chat Setup" }],
+      tabs: [{ id: "setup", title: "Voice Chat Setup" },{ id: "help", title: "Help Setting Up Voicechat" }],
     };
   },
   components: {
     Mod,
     Wiki,
     Setup,
+    Help,
   },
 };
 </script>

@@ -7,6 +7,7 @@
     :downloadlink="downloadlink"
     :issueslink="issueslink"
     :sourcelink="sourcelink"
+    :discordlink="discordlink"
     :images="images"
     :generalFaq="generalFaq"
     :faq="faq"
@@ -68,6 +69,7 @@ export default {
     "downloadlink",
     "sourcelink",
     "issueslink",
+    "discordlink",
     "images",
     "faq",
     "credits",
