@@ -3,9 +3,8 @@
     <h1>Help Setting Up Voicechat</h1>
 
     <p>
-      If you don't know how to set up the voice chat, please don't ask me for help.
-      If you are thinking you encountered a bug, please report it to the issue tracker.
-      But please don't open a new issue, just to ask why it says "Voice Chat Unavailable".
+      If you are thinking you encountered a bug, please report it to the issue tracker,
+      but please don't open a new issue, just to ask why it says "Voice Chat Unavailable".
     </p>
 
     <p>
