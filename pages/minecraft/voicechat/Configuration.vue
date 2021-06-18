@@ -168,6 +168,11 @@
         <td><code>true</code></td>
       </tr>
       <tr>
+        <td><code>group_hud_icon_scale</code></td>
+        <td>The scale of the group HUD</td>
+        <td><code>2</code></td>
+      </tr>
+      <tr>
         <td><code>hud_icon_location</code></td>
         <td>
           The location of the HUD icons <br />
