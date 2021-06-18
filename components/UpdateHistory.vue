@@ -7,6 +7,12 @@
             <v-list-item-title>[{{ version.gameVersion }}] {{ version.version }}</v-list-item-title>
             <v-list-item-subtitle class="text--primary">
               <v-chip
+              v-if="version.modLoader"
+                x-small
+                class="mr-1 white--text"
+                color="blue"
+              >{{ translateModLoader(version.modLoader) }}</v-chip>
+              <v-chip
                 v-for="(tag, i) in version.tags"
                 :key="'tag' + i"
                 x-small

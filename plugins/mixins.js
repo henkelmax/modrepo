@@ -87,6 +87,16 @@ Vue.mixin({
         default:
           return tag;
       }
+    },
+    translateModLoader(loader) {
+      switch (loader) {
+        case "forge":
+          return "Forge";
+        case "fabric":
+          return "Fabric";
+        default:
+          return loader;
+      }
     }
   }
 });
