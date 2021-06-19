@@ -385,6 +385,12 @@ export default {
           answer:
             "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki.",
         },
+        {
+          question:
+            "Does the mod also need to be installed on the server?",
+          answer:
+            "Yes.",
+        },
       ],
       credits: [
         {
