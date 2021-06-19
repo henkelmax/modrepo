@@ -307,6 +307,9 @@
         <template slot="help">
           <Help class="pa-6" />
         </template>
+        <template slot="icons">
+          <Icons class="pa-6" />
+        </template>
       </Wiki>
     </template>
   </Mod>
@@ -318,6 +321,7 @@ import Wiki from "~/components/Wiki.vue";
 import Setup from "~/pages/minecraft/voicechat/Setup.vue";
 import Help from "~/pages/minecraft/voicechat/Help.vue";
 import Configuration from "~/pages/minecraft/voicechat/Configuration.vue";
+import Icons from "~/pages/minecraft/voicechat/Icons.vue";
 
 export default {
   data() {
@@ -454,6 +458,7 @@ export default {
         { id: "setup", title: "Voice Chat Setup" },
         { id: "configuration", title: "Configuration" },
         { id: "help", title: "Help Setting Up Voicechat" },
+        { id: "icons", title: "Icons" },
       ],
     };
   },
@@ -463,6 +468,7 @@ export default {
     Setup,
     Help,
     Configuration,
+    Icons,
   },
 };
 </script>
