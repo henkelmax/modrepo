@@ -48,5 +48,16 @@
       already have your Minecraft server running and change the voice chat port
       in the mods server config.
     </p>
+    <h2>
+      Mod 'Simple Voice Chat' (voicechat) requires version XXX or later of mod
+      fabric, which is missing!
+    </h2>
+    <p>
+      You need to install the latest version of the
+      <a
+        href="https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all"
+        >Fabric API</a
+      >.
+    </p>
   </div>
 </template>
