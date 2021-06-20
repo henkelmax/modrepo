@@ -301,6 +301,9 @@
         <template slot="setup">
           <Setup class="pa-6" />
         </template>
+        <template slot="troubleshooting">
+          <Troubleshooting class="pa-6" />
+        </template>
         <template slot="configuration">
           <Configuration class="pa-6" />
         </template>
@@ -319,6 +322,7 @@
 import Mod from "~/components/MinecraftMod.vue";
 import Wiki from "~/components/Wiki.vue";
 import Setup from "~/pages/minecraft/voicechat/Setup.vue";
+import Troubleshooting from "~/pages/minecraft/voicechat/Troubleshooting.vue";
 import Help from "~/pages/minecraft/voicechat/Help.vue";
 import Configuration from "~/pages/minecraft/voicechat/Configuration.vue";
 import Icons from "~/pages/minecraft/voicechat/Icons.vue";
@@ -462,6 +466,7 @@ export default {
       ],
       tabs: [
         { id: "setup", title: "Voice Chat Setup" },
+        { id: "troubleshooting", title: "Troubleshooting Problems" },
         { id: "configuration", title: "Configuration" },
         { id: "help", title: "Help Setting Up Voicechat" },
         { id: "icons", title: "Icons" },
@@ -475,6 +480,7 @@ export default {
     Help,
     Configuration,
     Icons,
+    Troubleshooting,
   },
 };
 </script>
