@@ -4,23 +4,63 @@
     <ul>
       <li>
         Make sure you opened the voice chat port on your server (<code
-          >24454</code> <code>UDP</code>
+          >24454</code
+        >
+        <code>UDP</code>
         by default)
         <ul>
           <li>
-            You can change the port in the server config of the mod (Not in the <code>server.properties</code>)
+            Opening the port for the voice chat works the same as opening the
+            normal minecraft port (<code>25565</code>). You just have to use UDP
+            instead of TCP for the protocol.
+          </li>
+          <li>You can change the port in the server config of the mod.</li>
+          <ul>
+            <li>
+              On Fabric the server config file is located in
+              <code>config/voicechat/voicechat-server.properties</code>
+            </li>
+            <li>
+              On Forge the server config file is located in
+              <code
+                >&lt;Your world
+                folder&gt;/serverconfig/voicechat-server.toml</code
+              >
+            </li>
+          </ul>
+          <li>
+            If you use a Minecraft hosting service, they may have the default
+            port open and in other cases you may have a port range available for
+            you.
+          </li>
+          <ul>
+            <li>
+              Unless there is a reference to how this works for your hosting
+              provider in the
+              <a href="https://discord.gg/4dH2zwTmyX">Discord</a>
+              (#server-hosting), you will need to ask your provider for support
+              on how to do this.
+            </li>
+          </ul>
+          <li>
+            If you are hosting the server on your own computer, you have to make
+            sure that the port is open in your firewall, as well as in your
+            router. In most cases you also need to select your computer/IP
+            address as the destination of this port, so the packets arrive on
+            your machine.
           </li>
           <li>
-            Opening ports is different for every setup.
-            It depends on your OS, your router, your ISP, your hoster and many other things.
-            Please don't ask me how to do it.
+            Opening ports is different for every setup. It depends on your OS,
+            your router, your ISP, your hoster and many other things. Please
+            don't ask me how to do it.
           </li>
         </ul>
       </li>
       <li>
-        Some Minecraft server hosters or servers with multiple network adapters require you to bind the voice chat to a
-        specific IP address
+        Some Minecraft server hosters or servers with multiple network adapters
+        require you to bind the voice chat to a specific IP address
         <ul>
+          <li>Only do this if your voice chat is not already working.</li>
           <li>
             You can set this address in the server config of the mod
             (<code>bind_address</code>)
@@ -29,7 +69,19 @@
             Use <code>0.0.0.0</code> to not bind to a specific address (This is
             the default value)
           </li>
-          <li>Don't use this option if you don't know what you are doing</li>
+          <li>
+            If you are setting this value, make sure to add your IP address
+            without a port. (Like this <code>1.2.3.4</code>, not like this
+            <code>1.2.3.4:24454</code>)
+          </li>
+          <li>
+            If your server crashes after setting this value, you might use the
+            wrong IP or you don't even need to change this option.
+          </li>
+          <li>
+            If you don't know what to do, please ask the support of your
+            minecraft hoster.
+          </li>
         </ul>
       </li>
     </ul>
@@ -41,87 +93,6 @@
       If you are submitting a bug report, please include the logs of the server
       and the client that you tested. But please don't submit a bug report just
       because your voice chat is not connected.
-    </p>
-    <br />
-    <h2>Troubleshooting problems</h2>
-    <h3>Voice chat unavailable</h3>
-    <p>
-      If you see a message <code>Voice Chat Unavailable</code> or a striked through plug icon when trying to
-      use the voice chat, try the following steps:
-    </p>
-    <ul>
-      <li>
-        Install Netcat on your server and your client
-        <ul>
-          <li>On Linux and MacOS, Netcat should be pre installed</li>
-          <li>
-            On Windows download Netcat
-            <a href="https://joncraton.org/blog/46/netcat-for-windows/">here</a>
-            or from any other site
-          </li>
-        </ul>
-      </li>
-      <li>
-        On your server run <code>nc -lup &lt;YOUR VOICECHAT PORT&gt;</code>
-      </li>
-      <li>
-        On your client run
-        <code
-          >nc -u &lt;YOUR SERVER ADDRESS&gt; &lt;YOUR VOICECHAT PORT&gt;</code
-        >
-      </li>
-      <li>
-        Now type any text into the command line of your client and press enter
-      </li>
-      <li>The text should now appear on the command line of your server</li>
-      <li>
-        Do the same thing on the server and look for the output on the client
-      </li>
-      <li>
-        If this does not work, you have not opened your voice chat port
-        correctly or you have not bound the voice chat to the correct IP address
-      </li>
-    </ul>
-    <p>
-      Obviously if you are using a Minecraft server hoster, you are not able to
-      do these steps. In this case please ask your Minecraft server provider or
-      look for information to that topic on their website.
-    </p>
-    <br />
-    <h3>Other people can't be heard</h3>
-    <p>
-      If you can't hear other people talking, you might haven't selected the
-      correct sound output device.<br />
-      You can select your sound device in the voice chat menu by clicking on the
-      <code>Select Speaker</code> button and choosing the correct device.<br />
-      You can test if it works by clicking the
-      <code>Enable microphone testing</code> button.
-    </p>
-    <br />
-    <h3>Other people can't hear me</h3>
-    <p>
-      If other people can't hear you, you might haven't selected the correct
-      microphone.<br />
-      You can select your microphone in the voice chat menu by clicking on the
-      <code>Select Microphone</code> button and choosing the correct device.<br />
-      You can test if it works by clicking the
-      <code>Enable microphone testing</code> button.
-    </p>
-    <br />
-    <h3>The voice chat is constantly reconnecting</h3>
-    <p>
-      This is mostly caused by not binding to the correct IP address.
-    </p>
-    <br />
-    <h3>The Server Crashes on Startup (Failed to bind to address)</h3>
-    <p>
-      This is mostly caused by not binding to the correct IP address. Please try the default setting of <code>0.0.0.0</code> before using a specific address.
-    </p>
-    <br />
-    <h3>The Server Crashes on Startup (Address already in use)</h3>
-    <p>
-      Another program is already using the voice chat port.
-      Make sure you don't already have your Minecraft server running and change the voice chat port in the mods server config.
     </p>
   </div>
 </template>

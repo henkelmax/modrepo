@@ -301,11 +301,17 @@
         <template slot="setup">
           <Setup class="pa-6" />
         </template>
+        <template slot="troubleshooting">
+          <Troubleshooting class="pa-6" />
+        </template>
         <template slot="configuration">
           <Configuration class="pa-6" />
         </template>
         <template slot="help">
           <Help class="pa-6" />
+        </template>
+        <template slot="icons">
+          <Icons class="pa-6" />
         </template>
       </Wiki>
     </template>
@@ -316,8 +322,10 @@
 import Mod from "~/components/MinecraftMod.vue";
 import Wiki from "~/components/Wiki.vue";
 import Setup from "~/pages/minecraft/voicechat/Setup.vue";
+import Troubleshooting from "~/pages/minecraft/voicechat/Troubleshooting.vue";
 import Help from "~/pages/minecraft/voicechat/Help.vue";
 import Configuration from "~/pages/minecraft/voicechat/Configuration.vue";
+import Icons from "~/pages/minecraft/voicechat/Icons.vue";
 
 export default {
   data() {
@@ -380,6 +388,12 @@ export default {
             "Can you make a tutorial video on how to set up the voice chat?",
           answer:
             "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki.",
+        },
+        {
+          question:
+            "Does the mod also need to be installed on the server?",
+          answer:
+            "Yes.",
         },
       ],
       credits: [
@@ -452,8 +466,10 @@ export default {
       ],
       tabs: [
         { id: "setup", title: "Voice Chat Setup" },
+        { id: "troubleshooting", title: "Troubleshooting Problems" },
         { id: "configuration", title: "Configuration" },
         { id: "help", title: "Help Setting Up Voicechat" },
+        { id: "icons", title: "Icons" },
       ],
     };
   },
@@ -463,6 +479,8 @@ export default {
     Setup,
     Help,
     Configuration,
+    Icons,
+    Troubleshooting,
   },
 };
 </script>
