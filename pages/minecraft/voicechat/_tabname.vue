@@ -397,7 +397,7 @@ export default {
         },
         {
           question:
-            "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server.",
+            "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server?",
           answer:
             "No. The server and the client need the same mod version and the same mod loader.",
         },
