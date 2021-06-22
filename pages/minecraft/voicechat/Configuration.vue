@@ -68,6 +68,15 @@
         <td>If players in group chats can be heard locally</td>
         <td><code>false</code></td>
       </tr>
+      <tr>
+        <td><code>voice_host</code></td>
+        <td>
+          The host name that clients should use to connect to the voice chat
+          <br />
+          Don't change this value if you don't know what you are doing
+        </td>
+        <td></td>
+      </tr>
     </table>
 
     <br />
@@ -113,6 +122,17 @@
           Increase this value if you have an unstable internet connection
         </td>
         <td><code>6</code></td>
+      </tr>
+      <tr>
+        <td><code>clear_full_audio_buffer</code></td>
+        <td>
+          If full audio buffers should get cleared
+          <br />
+          This potentially reduces audio latency on laggy servers
+          <br />
+          This does currently not work on Linux
+        </td>
+        <td><code>false</code></td>
       </tr>
       <tr>
         <td><code>voice_deactivation_delay</code></td>
