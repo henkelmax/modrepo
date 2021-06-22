@@ -469,6 +469,13 @@ export default {
             link: "https://github.com/RDKRACZ",
           },
         },
+        {
+          element: { name: "Spanish translation" },
+          name: {
+            name: "zeedif",
+            link: "https://github.com/zeedif",
+          },
+        },
       ],
       tabs: [
         { id: "setup", title: "Voice Chat Setup" },
