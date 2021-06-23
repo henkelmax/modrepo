@@ -401,6 +401,24 @@ export default {
           answer:
             "No. The server and the client need the same mod version and the same mod loader.",
         },
+        {
+          question:
+            "Does this work on Realms?",
+          answer:
+            "No. Realms can't be modded.",
+        },
+        {
+          question:
+            "Does this work on Bedrock edition?",
+          answer:
+            "No. Only on Java edition.",
+        },
+        {
+          question:
+            "Does this mod require something like Discord or Mumble installed?",
+          answer:
+            "No. It works completely standalone.",
+        },
       ],
       credits: [
         {
