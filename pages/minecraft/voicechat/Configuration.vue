@@ -188,6 +188,11 @@
         <td><code>true</code></td>
       </tr>
       <tr>
+        <td><code>show_own_group_icon</code></td>
+        <td>If the own icon should be shown when in a group</td>
+        <td><code>true</code></td>
+      </tr>
+      <tr>
         <td><code>group_hud_icon_scale</code></td>
         <td>The scale of the group HUD</td>
         <td><code>2</code></td>
