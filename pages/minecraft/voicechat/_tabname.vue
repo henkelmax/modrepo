@@ -393,7 +393,13 @@ export default {
           question:
             "Does the mod also need to be installed on the server?",
           answer:
-            "Yes.",
+            "Yes!",
+        },
+        {
+          question:
+            "Does the mod also need to be installed on the client?",
+          answer:
+            "Yes!",
         },
         {
           question:
@@ -418,6 +424,12 @@ export default {
             "Does this mod require something like Discord or Mumble installed?",
           answer:
             "No. It works completely standalone.",
+        },
+        {
+          question:
+            "Are different mod versions compatible with each other?",
+          answer:
+            "Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server.",
         },
       ],
       credits: [
