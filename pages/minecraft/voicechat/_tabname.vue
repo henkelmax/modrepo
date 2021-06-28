@@ -52,6 +52,7 @@
         <li>
           <span>Configurable network port</span>
         </li>
+        <li><span>Audio recording</span></li>
       </ul>
       <br />
       <h2>Icons</h2>
@@ -171,6 +172,13 @@
             <td>
               This button hides all icons related to the voice chat. This does
               not affect any other functionalities.
+            </td>
+          </tr>
+          <tr>
+            <td>Toggle Recording</td>
+            <td><i>Not bound by default</i></td>
+            <td>
+              Toggles voice chat audio recording.
             </td>
           </tr>
         </tbody>
