@@ -27,6 +27,10 @@
                 folder&gt;/serverconfig/voicechat-server.toml</code
               >
             </li>
+            <li>
+              On Bukkit/Spigot/Paper config file is located in
+              <code>plugins/voicechat/voicechat-server.properties</code>
+            </li>
           </ul>
           <li>
             If you use a Minecraft hosting service, they may have the default
