@@ -514,6 +514,13 @@ export default {
             link: "https://github.com/zeedif",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "DrHesperus",
+            link: "https://github.com/DrHesperus",
+          },
+        },
       ],
       tabs: [
         { id: "setup", title: "Voice Chat Setup" },
