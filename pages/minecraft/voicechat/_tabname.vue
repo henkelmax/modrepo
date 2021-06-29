@@ -366,15 +366,10 @@ export default {
             "If you are hosting a server you should already know that. Ask your server hoster or use the internet to search for a solution.",
         },
         {
-          question: "Does this work on Bukkit/Spigot/Paper?",
-          answer:
-            "No. But there are plenty of projects that allow you to install Forge or Fabric mods alongside with Bukkit/Spigot/Paper plugins.",
-        },
-        {
           question:
             "Can vanilla clients still join when the voice chat mod is installed on the server?",
           answer:
-            "For the Fabric version, yes. But the Forge version needs the mod to be installed on the client and the server.",
+            "For the Fabric/Bukkit version, yes. But the Forge version needs the mod to be installed on the client and the server.",
         },
         {
           question:
@@ -395,17 +390,17 @@ export default {
           question:
             "Can you make a tutorial video on how to set up the voice chat?",
           answer:
-            "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki.",
+            "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki or visiting the Discord server.",
         },
         {
           question:
-            "Does the mod also need to be installed on the server?",
+            "Does the mod also need to be installed on the server for it to work?",
           answer:
             "Yes!",
         },
         {
           question:
-            "Does the mod also need to be installed on the client?",
+            "Does the mod also need to be installed on the client for it to work?",
           answer:
             "Yes!",
         },
