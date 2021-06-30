@@ -52,6 +52,7 @@
         <li>
           <span>Configurable network port</span>
         </li>
+        <li><span>Audio recording</span></li>
       </ul>
       <br />
       <h2>Icons</h2>
@@ -171,6 +172,13 @@
             <td>
               This button hides all icons related to the voice chat. This does
               not affect any other functionalities.
+            </td>
+          </tr>
+          <tr>
+            <td>Toggle Recording</td>
+            <td><i>Not bound by default</i></td>
+            <td>
+              Toggles voice chat audio recording.
             </td>
           </tr>
         </tbody>
@@ -358,15 +366,10 @@ export default {
             "If you are hosting a server you should already know that. Ask your server hoster or use the internet to search for a solution.",
         },
         {
-          question: "Does this work on Bukkit/Spigot/Paper?",
-          answer:
-            "No. But there are plenty of projects that allow you to install Forge or Fabric mods alongside with Bukkit/Spigot/Paper plugins.",
-        },
-        {
           question:
             "Can vanilla clients still join when the voice chat mod is installed on the server?",
           answer:
-            "For the Fabric version, yes. But the Forge version needs the mod to be installed on the client and the server.",
+            "For the Fabric/Bukkit version, yes. But the Forge version needs the mod to be installed on the client and the server.",
         },
         {
           question:
@@ -387,19 +390,49 @@ export default {
           question:
             "Can you make a tutorial video on how to set up the voice chat?",
           answer:
-            "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki.",
+            "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki or visiting the Discord server.",
         },
         {
           question:
-            "Does the mod also need to be installed on the server?",
+            "Does the mod also need to be installed on the server for it to work?",
           answer:
-            "Yes.",
+            "Yes!",
+        },
+        {
+          question:
+            "Does the mod also need to be installed on the client for it to work?",
+          answer:
+            "Yes!",
         },
         {
           question:
             "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server?",
           answer:
             "No. The server and the client need the same mod version and the same mod loader.",
+        },
+        {
+          question:
+            "Does this work on Realms?",
+          answer:
+            "No. Realms can't be modded.",
+        },
+        {
+          question:
+            "Does this work on Bedrock edition?",
+          answer:
+            "No. Only on Java edition.",
+        },
+        {
+          question:
+            "Does this mod require something like Discord or Mumble installed?",
+          answer:
+            "No. It works completely standalone.",
+        },
+        {
+          question:
+            "Are different mod versions compatible with each other?",
+          answer:
+            "Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server.",
         },
       ],
       credits: [
@@ -467,6 +500,20 @@ export default {
           name: {
             name: "RDKRACZ",
             link: "https://github.com/RDKRACZ",
+          },
+        },
+        {
+          element: { name: "Spanish translation" },
+          name: {
+            name: "zeedif",
+            link: "https://github.com/zeedif",
+          },
+        },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "DrHesperus",
+            link: "https://github.com/DrHesperus",
           },
         },
       ],
