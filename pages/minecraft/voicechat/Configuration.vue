@@ -215,6 +215,15 @@
         </td>
         <td><code>VERTICAL</code></td>
       </tr>
+      <tr>
+        <td><code>recording_destination</code></td>
+        <td>
+          The location where recordings should be saved
+          <br />
+          Leave empty for default location
+        </td>
+        <td></td>
+      </tr>
     </table>
   </div>
 </template>
