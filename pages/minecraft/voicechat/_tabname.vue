@@ -516,6 +516,13 @@ export default {
             link: "https://github.com/DrHesperus",
           },
         },
+        {
+          element: { name: "Swedish translation" },
+          name: {
+            name: "TechnicProblem",
+            link: "https://github.com/TechnicProblem",
+          },
+        },
       ],
       tabs: [
         { id: "setup", title: "Voice Chat Setup" },
