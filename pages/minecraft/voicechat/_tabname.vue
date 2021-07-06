@@ -177,9 +177,7 @@
           <tr>
             <td>Toggle Recording</td>
             <td><i>Not bound by default</i></td>
-            <td>
-              Toggles voice chat audio recording.
-            </td>
+            <td>Toggles voice chat audio recording.</td>
           </tr>
         </tbody>
       </table>
@@ -306,6 +304,9 @@
     </v-container>
     <template slot="wiki">
       <Wiki :tabs="tabs">
+        <template slot="installation">
+          <Installation class="pa-6" />
+        </template>
         <template slot="setup">
           <Setup class="pa-6" />
         </template>
@@ -329,6 +330,7 @@
 <script>
 import Mod from "~/components/MinecraftMod.vue";
 import Wiki from "~/components/Wiki.vue";
+import Installation from "~/pages/minecraft/voicechat/Installation.vue";
 import Setup from "~/pages/minecraft/voicechat/Setup.vue";
 import Troubleshooting from "~/pages/minecraft/voicechat/Troubleshooting.vue";
 import Help from "~/pages/minecraft/voicechat/Help.vue";
@@ -395,14 +397,12 @@ export default {
         {
           question:
             "Does the mod also need to be installed on the server for it to work?",
-          answer:
-            "Yes!",
+          answer: "Yes!",
         },
         {
           question:
             "Does the mod also need to be installed on the client for it to work?",
-          answer:
-            "Yes!",
+          answer: "Yes!",
         },
         {
           question:
@@ -411,26 +411,20 @@ export default {
             "No. The server and the client need the same mod version and the same mod loader.",
         },
         {
-          question:
-            "Does this work on Realms?",
-          answer:
-            "No. Realms can't be modded.",
+          question: "Does this work on Realms?",
+          answer: "No. Realms can't be modded.",
         },
         {
-          question:
-            "Does this work on Bedrock edition?",
-          answer:
-            "No. Only on Java edition.",
+          question: "Does this work on Bedrock edition?",
+          answer: "No. Only on Java edition.",
         },
         {
           question:
             "Does this mod require something like Discord or Mumble installed?",
-          answer:
-            "No. It works completely standalone.",
+          answer: "No. It works completely standalone.",
         },
         {
-          question:
-            "Are different mod versions compatible with each other?",
+          question: "Are different mod versions compatible with each other?",
           answer:
             "Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server.",
         },
@@ -525,6 +519,7 @@ export default {
         },
       ],
       tabs: [
+        { id: "installation", title: "Installation" },
         { id: "setup", title: "Voice Chat Setup" },
         { id: "troubleshooting", title: "Troubleshooting Problems" },
         { id: "configuration", title: "Configuration" },
@@ -536,6 +531,7 @@ export default {
   components: {
     Mod,
     Wiki,
+    Installation,
     Setup,
     Help,
     Configuration,
