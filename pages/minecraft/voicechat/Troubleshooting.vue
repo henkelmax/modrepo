@@ -59,5 +59,14 @@
         >Fabric API</a
       >.
     </p>
+    <h2>
+      Could not find required mod: voicechat requires {fabricloader ...}
+    </h2>
+    <p>
+      You need to install the latest version of the <a
+        href="https://fabricmc.net/use/"
+        >Fabric Loader</a
+      >.
+    </p>
   </div>
 </template>

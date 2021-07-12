@@ -6,7 +6,7 @@
     <p>
       For the Fabric version of the mod, you need to have the
       <a href="https://fabricmc.net/use/">Fabric Loader</a> installed on your
-      game/server. Additionally you need to have the
+      client and server. Additionally you need to have the
       <a
         href="https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all"
         >Fabric API</a
