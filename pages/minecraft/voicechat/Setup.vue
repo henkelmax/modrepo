@@ -14,7 +14,7 @@
             normal minecraft port (<code>25565</code>). You just have to use UDP
             instead of TCP for the protocol.
           </li>
-          <li>You can change the port in the server config of the mod.</li>
+          <li>You can change the port in the server config of the mod (<code>port</code>).</li>
           <ul>
             <li>
               On Fabric the server config file is located in
