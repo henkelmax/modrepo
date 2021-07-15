@@ -428,6 +428,10 @@ export default {
           answer:
             "Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server.",
         },
+        {
+          question: "Does every player need to open the voice chat port?",
+          answer: "No. Only the server needs to have the port open.",
+        },
       ],
       credits: [
         {
