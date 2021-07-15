@@ -8,6 +8,11 @@
       binding to the correct IP address. See <a href="?t=setup">Setup</a> for
       more information.
     </p>
+    <p>
+      If you are running your server behind a proxy like BungeeCord or Velocity,
+      you might need to set <code>voice_host</code> to the public IP of the
+      server the voice chat is running on.
+    </p>
     <br />
     <h2>Other people can't be heard</h2>
     <p>
@@ -59,14 +64,10 @@
         >Fabric API</a
       >.
     </p>
-    <h2>
-      Could not find required mod: voicechat requires {fabricloader ...}
-    </h2>
+    <h2>Could not find required mod: voicechat requires {fabricloader ...}</h2>
     <p>
-      You need to install the latest version of the <a
-        href="https://fabricmc.net/use/"
-        >Fabric Loader</a
-      >.
+      You need to install the latest version of the
+      <a href="https://fabricmc.net/use/">Fabric Loader</a>.
     </p>
   </div>
 </template>
