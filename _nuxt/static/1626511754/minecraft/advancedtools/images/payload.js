@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/advancedtools/images", {data:[{}],fetch:{},mutations:void 0});

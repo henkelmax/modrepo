@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/easy_villagers/credits", {data:[{}],fetch:{},mutations:void 0});

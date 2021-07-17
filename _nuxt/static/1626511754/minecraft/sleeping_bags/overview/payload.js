@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/sleeping_bags/overview", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/storage_overhaul/wiki", {data:[{}],fetch:{},mutations:void 0});

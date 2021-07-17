@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/antimobgriefing/images", {data:[{}],fetch:{},mutations:void 0});

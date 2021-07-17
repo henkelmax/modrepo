@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/voicechat/credits", {data:[{}],fetch:{},mutations:void 0});

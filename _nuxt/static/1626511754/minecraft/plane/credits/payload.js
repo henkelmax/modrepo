@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/plane/credits", {data:[{}],fetch:{},mutations:void 0});

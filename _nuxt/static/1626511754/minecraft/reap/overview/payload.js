@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/reap/overview", {data:[{}],fetch:{},mutations:void 0});

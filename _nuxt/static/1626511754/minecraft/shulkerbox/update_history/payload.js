@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/shulkerbox/update_history", {data:[{}],fetch:{},mutations:void 0});

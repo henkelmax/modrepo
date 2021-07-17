@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/modenforcer/credits", {data:[{}],fetch:{},mutations:void 0});

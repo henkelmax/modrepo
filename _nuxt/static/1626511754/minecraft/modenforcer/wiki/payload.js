@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/modenforcer/wiki", {data:[{}],fetch:{},mutations:void 0});

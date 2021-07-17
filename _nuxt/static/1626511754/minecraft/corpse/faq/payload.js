@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/corpse/faq", {data:[{}],fetch:{},mutations:void 0});

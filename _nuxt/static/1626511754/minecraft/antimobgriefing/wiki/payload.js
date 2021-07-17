@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/antimobgriefing/wiki", {data:[{}],fetch:{},mutations:void 0});

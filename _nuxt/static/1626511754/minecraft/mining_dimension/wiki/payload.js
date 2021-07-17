@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/mining_dimension/wiki", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/shulkerbox/faq", {data:[{}],fetch:{},mutations:void 0});

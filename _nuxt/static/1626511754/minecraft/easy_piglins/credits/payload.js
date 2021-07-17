@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/minecraft/easy_piglins/credits", {data:[{}],fetch:{},mutations:void 0});
