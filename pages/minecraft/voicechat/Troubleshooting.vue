@@ -33,6 +33,14 @@
       You can test if it works by clicking the
       <code>Enable microphone testing</code> button.
     </p>
+    <p>
+      If you are using MacOS, you need to do a
+      <a
+        href="https://github.com/henkelmax/simple-voice-chat/issues/24#issuecomment-869015205"
+        >workaround</a
+      >
+      in order for the game to recognize your microphone.
+    </p>
     <br />
     <h2>The voice chat is constantly reconnecting</h2>
     <p>
