@@ -452,6 +452,13 @@ export default {
           },
         },
         {
+          element: { name: "Opus natives for ARM based macs" },
+          name: {
+            name: "jason-green-io",
+            link: "https://github.com/jason-green-io",
+          },
+        },
+        {
           element: { name: "Brazilian Portuguese translation" },
           name: {
             name: "Allomere",
