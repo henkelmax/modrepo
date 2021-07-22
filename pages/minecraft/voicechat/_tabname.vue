@@ -528,6 +528,13 @@ export default {
             link: "https://github.com/TechnicProblem",
           },
         },
+        {
+          element: { name: "Ukrainian translation" },
+          name: {
+            name: "ProSplash1",
+            link: "https://www.curseforge.com/members/prosplash1",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
