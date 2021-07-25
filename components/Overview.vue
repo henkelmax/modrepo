@@ -107,6 +107,14 @@ export default {
             "https://www.curseforge.com/minecraft/mc-mods/reap-mod/files/all",
         },
         {
+          name: "Dynamic Render Distance",
+          description: "Dynamically adjusts the render distance based on the servers performance.",
+          modid: "renderdistance",
+          logo: require("~/assets/minecraft/renderdistance/logo_renderdistance.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/dynamic-render-distance/files/all",
+        },
+        {
           name: "Advanced Tools",
           description: "The last set of tools you will EVER need.",
           modid: "advancedtools",
