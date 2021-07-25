@@ -128,7 +128,7 @@ export default {
     });
     this.generalFaq.push({
       question: "Can you port this mod to Fabric?",
-      answer: "If it is not already ported, no.",
+      answer: "If it is not already on Fabric, no.",
     });
     this.generalFaq.push({
       question: "Can you port this mod to Minecraft version XYZ?",
@@ -136,7 +136,7 @@ export default {
     });
     this.generalFaq.push({
       question: "Do I need to install this mod on the client or the server?",
-      answer: "All mods need to be installed on the client and the server. Always make sure, you are using the same version on both sides!",
+      answer: "All mods need to be installed on the client and the server unless stated otherwise. Always make sure, you are using the same version on both sides!",
     });
     // this.generalFaq.push({ question: "General1", answer: "AnswerGeneral" });
   },

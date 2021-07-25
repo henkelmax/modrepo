@@ -80,6 +80,11 @@
           </td>
           <td></td>
         </tr>
+        <tr>
+          <td><code>allow_recording</code></td>
+          <td>If players are allowed to record the voice chat</td>
+          <td><code>true</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
 

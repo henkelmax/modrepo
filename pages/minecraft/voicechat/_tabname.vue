@@ -452,6 +452,13 @@ export default {
           },
         },
         {
+          element: { name: "Opus natives for ARM based macs" },
+          name: {
+            name: "jason-green-io",
+            link: "https://github.com/jason-green-io",
+          },
+        },
+        {
           element: { name: "Brazilian Portuguese translation" },
           name: {
             name: "Allomere",
@@ -519,6 +526,13 @@ export default {
           name: {
             name: "TechnicProblem",
             link: "https://github.com/TechnicProblem",
+          },
+        },
+        {
+          element: { name: "Ukrainian translation" },
+          name: {
+            name: "ProSplash1",
+            link: "https://www.curseforge.com/members/prosplash1",
           },
         },
       ],
