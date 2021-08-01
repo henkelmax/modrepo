@@ -107,6 +107,14 @@ export default {
             "https://www.curseforge.com/minecraft/mc-mods/reap-mod/files/all",
         },
         {
+          name: "Camera Utils",
+          description: "Helpful camera utilities.",
+          modid: "camerautils",
+          logo: require("~/assets/minecraft/camerautils/logo_camerautils.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/camera-utils/files/all",
+        },
+        {
           name: "Dynamic Render Distance",
           description: "Dynamically adjusts the render distance based on the servers performance.",
           modid: "renderdistance",
