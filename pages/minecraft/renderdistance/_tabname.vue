@@ -84,6 +84,12 @@
         <code>/renderdistance set auto</code> lets the mod dynamically change
         the render distance again
       </p>
+      <p>
+        <code>/renderdistance mspt</code> shows the average MSPT over the last interval
+      </p>
+      <p>
+        <code>/renderdistance tps</code> shows the average TPS over the last interval
+      </p>
     </v-container>
   </Mod>
 </template>
