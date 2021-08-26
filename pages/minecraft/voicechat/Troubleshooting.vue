@@ -13,6 +13,11 @@
       you might need to set <code>voice_host</code> to the public IP of the
       server the voice chat is running on.
     </p>
+    <p>
+      Some servers have a DDoS protection that prevents the voice chat from
+      working. If this is the case, please ask your hoster to either disable it
+      or to create an exception for the voice chat.
+    </p>
     <br />
     <h2>Other people can't be heard</h2>
     <p>
