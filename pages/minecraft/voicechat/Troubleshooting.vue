@@ -44,7 +44,10 @@
         href="https://github.com/henkelmax/simple-voice-chat/issues/24#issuecomment-869015205"
         >workaround</a
       >
-      in order for the game to recognize your microphone.
+      in order for the game to gain microphone access. Please note that this
+      workaround only works for the vanilla minecraft launcher. Alternatively to
+      that you can use <a href="https://multimc.org/"> MultiMC </a>, which asks
+      for microphone access by default.
     </p>
     <br />
     <h2>The voice chat is constantly reconnecting</h2>
