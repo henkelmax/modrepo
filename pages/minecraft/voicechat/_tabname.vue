@@ -355,7 +355,7 @@ export default {
           question:
             "I can't use the voice chat/There is a message 'Voice chat unavailable'",
           answer:
-            "You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the wiki for more information.",
+            "You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the <a href=\"/minecraft/voicechat/wiki?t=setup\">wiki</a> for more information.",
         },
         {
           question: "I forwarded the port and it still does not work.",
