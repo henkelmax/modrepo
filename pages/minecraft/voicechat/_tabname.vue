@@ -360,7 +360,7 @@ export default {
         {
           question: "I forwarded the port and it still does not work.",
           answer:
-            "You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod. Read the wiki for more information.",
+            "You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod. Read the <a href=\"/minecraft/voicechat/wiki?t=setup\">wiki</a> for more information.",
         },
         {
           question: "How do I open the voice chat port?",
