@@ -355,17 +355,21 @@ export default {
           question:
             "I can't use the voice chat/There is a message 'Voice chat unavailable'",
           answer:
-            "You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the <a href=\"/minecraft/voicechat/wiki?t=setup\">wiki</a> for more information.",
+            'You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the <a href="/minecraft/voicechat/wiki?t=setup">wiki</a> for more information.',
         },
         {
           question: "I forwarded the port and it still does not work.",
           answer:
-            "You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod. Read the <a href=\"/minecraft/voicechat/wiki?t=setup\">wiki</a> for more information.",
+            'You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod. Read the <a href="/minecraft/voicechat/wiki?t=setup">wiki</a> for more information.',
         },
         {
           question: "How do I open the voice chat port?",
-          answer:
-            "If you are hosting a server you should already know that. Ask your server hoster or use the internet to search for a solution.",
+          answer: `
+If you are hosting your server with a Minecraft hosting provider, please take look at the <a href=\"https://discord.gg/4dH2zwTmyX\">Simple Voice Chat Discord Server</a> in the text channel <code>#SERVER-HOSTING</code>.
+If your hoster is not listed here, please ask the support of your hoster for help.
+<br/>
+If you are hosting the server on your local machine take a look at <a href="https://www.wikihow.com/Open-Ports">this guide</a>.
+`,
         },
         {
           question:
