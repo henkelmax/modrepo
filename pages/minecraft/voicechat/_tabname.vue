@@ -375,7 +375,7 @@ If you are hosting the server on your local machine take a look at <a href="http
           question:
             "Can vanilla clients still join when the voice chat mod is installed on the server?",
           answer:
-            "For the Fabric/Bukkit version, yes. But the Forge version needs the mod to be installed on the client and the server.",
+            "For the Fabric and Bukkit/Spigot/Paper version, yes. But the Forge version needs the mod to be installed on the client and the server.",
         },
         {
           question:
