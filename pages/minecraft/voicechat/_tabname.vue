@@ -394,9 +394,9 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           question:
-            "Can you make a tutorial video on how to set up the voice chat?",
+            "Is there a tutorial video on how to set up the voice chat?",
           answer:
-            "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki or visiting the Discord server.",
+            'There are some videos, but the setup is different for every hoster, so you need to look for videos that apply to your setup. You can find the videos in the <a href="https://discord.gg/4dH2zwTmyX">Simple Voice Chat Discord Server</a> in the text channels <code>#SERVER-HOSTING</code> and <code>#VIDEOS</code>.',
         },
         {
           question:
