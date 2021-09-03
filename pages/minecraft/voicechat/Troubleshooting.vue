@@ -13,6 +13,11 @@
       you might need to set <code>voice_host</code> to the public IP of the
       server the voice chat is running on.
     </p>
+    <p>
+      Some servers have a DDoS protection that prevents the voice chat from
+      working. If this is the case, please ask your hoster to either disable it
+      or to create an exception for the voice chat.
+    </p>
     <br />
     <h2>Other people can't be heard</h2>
     <p>
@@ -39,7 +44,10 @@
         href="https://github.com/henkelmax/simple-voice-chat/issues/24#issuecomment-869015205"
         >workaround</a
       >
-      in order for the game to recognize your microphone.
+      in order for the game to gain microphone access. Please note that this
+      workaround only works for the vanilla minecraft launcher. Alternatively to
+      that you can use <a href="https://multimc.org/"> MultiMC </a>, which asks
+      for microphone access by default.
     </p>
     <br />
     <h2>The voice chat is constantly reconnecting</h2>
@@ -61,6 +69,11 @@
       already have your Minecraft server running and change the voice chat port
       in the mods server config.
     </p>
+    <p>
+      If you are running multiple servers with voice chat on the same machine,
+      you need to select a different voice chat port for every server.
+    </p>
+    <br />
     <h2>
       Mod 'Simple Voice Chat' (voicechat) requires version XXX or later of mod
       fabric, which is missing!
@@ -72,10 +85,21 @@
         >Fabric API</a
       >.
     </p>
+    <br />
     <h2>Could not find required mod: voicechat requires {fabricloader ...}</h2>
     <p>
       You need to install the latest version of the
       <a href="https://fabricmc.net/use/">Fabric Loader</a>.
+    </p>
+    <br />
+    <h2>
+      Jar at /mods/voicechat-fabric-X.X.X-X.X.X.jar is corrupted, please
+      redownload it
+    </h2>
+    <p>
+      Please make sure you actually download the mod from CurseForge. If you
+      already did that, please double check that the file has not been modified
+      in any way.
     </p>
   </div>
 </template>

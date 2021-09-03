@@ -355,23 +355,27 @@ export default {
           question:
             "I can't use the voice chat/There is a message 'Voice chat unavailable'",
           answer:
-            "You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the wiki for more information.",
+            'You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the <a href="/minecraft/voicechat/wiki?t=setup">wiki</a> for more information.',
         },
         {
           question: "I forwarded the port and it still does not work.",
           answer:
-            "You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod. Read the wiki for more information.",
+            'You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod. Read the <a href="/minecraft/voicechat/wiki?t=setup">wiki</a> for more information.',
         },
         {
           question: "How do I open the voice chat port?",
-          answer:
-            "If you are hosting a server you should already know that. Ask your server hoster or use the internet to search for a solution.",
+          answer: `
+If you are hosting your server with a Minecraft hosting provider, please take look at the <a href=\"https://discord.gg/4dH2zwTmyX\">Simple Voice Chat Discord Server</a> in the text channel <code>#SERVER-HOSTING</code>.
+If your hoster is not listed here, please ask the support of your hoster for help.
+<br/>
+If you are hosting the server on your local machine take a look at <a href="https://www.wikihow.com/Open-Ports">this guide</a>.
+`,
         },
         {
           question:
             "Can vanilla clients still join when the voice chat mod is installed on the server?",
           answer:
-            "For the Fabric/Bukkit version, yes. But the Forge version needs the mod to be installed on the client and the server.",
+            "For the Fabric and Bukkit/Spigot/Paper version, yes. But the Forge version needs the mod to be installed on the client and the server.",
         },
         {
           question:
@@ -390,9 +394,9 @@ export default {
         },
         {
           question:
-            "Can you make a tutorial video on how to set up the voice chat?",
+            "Is there a tutorial video on how to set up the voice chat?",
           answer:
-            "No. What you need to do is different for every setup/server hoster. The best way to get it to work is to read the wiki or visiting the Discord server.",
+            'There are some videos, but the setup is different for every hoster, so you need to look for videos that apply to your setup. You can find the videos in the <a href="https://discord.gg/4dH2zwTmyX">Simple Voice Chat Discord Server</a> in the text channels <code>#SERVER-HOSTING</code> and <code>#VIDEOS</code>.',
         },
         {
           question:
