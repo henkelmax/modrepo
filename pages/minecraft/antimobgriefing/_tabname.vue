@@ -58,7 +58,7 @@
           <tr>
             <td>creeper.firework.enabled</td>
             <td><code>false</code></td>
-            <td>Disable crop trampling</td>
+            <td>If a creeper should spawn firework when exploding</td>
           </tr>
           <tr>
             <td>creeper.firework.colors</td>
