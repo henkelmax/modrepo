@@ -52,6 +52,13 @@ export default {
             link: "https://github.com/cyber01",
           },
         },
+        {
+          element: { name: "Polish translation" },
+          name: {
+            name: "avehh",
+            link: "https://github.com/avehh",
+          },
+        },
       ],
     };
   },
