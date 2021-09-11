@@ -17,9 +17,9 @@
         <span>
           This mod adds a proximity voice chat to your Minecraft server. You can
           choose between push to talk (PTT) or voice activation. The default PTT
-          key is <code>CAPS LOCK</code>, but it can be changed in the controls.
+          key is <kbd>CAPS LOCK</kbd>, but it can be changed in the controls.
           You can access the voice chat settings by pressing the
-          <code>V</code> key.
+          <kbd>V</kbd> key.
         </span>
       </p>
       <br />
@@ -29,6 +29,12 @@
         <li><span>Group chats</span></li>
         <li>
           <span><a href="https://opus-codec.org/">Opus Codec</a></span>
+        </li>
+        <li>
+          <span
+            ><a href="https://jmvalin.ca/demo/rnnoise/">RNNoise</a> recurrent
+            neural network noise suppression</span
+          >
         </li>
         <li><span>Push to talk</span></li>
         <li><span>Voice activation</span></li>
@@ -129,7 +135,7 @@
         <tbody>
           <tr>
             <td>Voice Chat GUI</td>
-            <td><code>V</code></td>
+            <td><kbd>V</kbd></td>
             <td>Opens the voice chat GUI.</td>
           </tr>
           <tr>
@@ -139,28 +145,28 @@
           </tr>
           <tr>
             <td>Group Chats</td>
-            <td><code>G</code></td>
+            <td><kbd>G</kbd></td>
             <td>Opens the group chat GUI.</td>
           </tr>
           <tr>
             <td>Push To Talk</td>
-            <td><code>CAPS LOCK</code></td>
+            <td><kbd>CAPS LOCK</kbd></td>
             <td>
               The push to talk key (Only when using activation
-              type&nbsp;<code>PTT</code>).
+              type&nbsp;<kbd>PTT</kbd>).
             </td>
           </tr>
           <tr>
             <td>Mute Microphone</td>
-            <td><code>M</code></td>
+            <td><kbd>M</kbd></td>
             <td>
               The mute button (Only when using voice activation
-              type&nbsp;<code>Voice</code>).
+              type&nbsp;<kbd>Voice</kbd>).
             </td>
           </tr>
           <tr>
             <td>Disable Voice Chat</td>
-            <td><code>N</code></td>
+            <td><kbd>N</kbd></td>
             <td>
               This button disables the voice chat. Other people can't hear you
               and you can't hear them.
@@ -168,7 +174,7 @@
           </tr>
           <tr>
             <td>Hide Voice Chat Icons</td>
-            <td><code>H</code></td>
+            <td><kbd>H</kbd></td>
             <td>
               This button hides all icons related to the voice chat. This does
               not affect any other functionalities.
@@ -185,9 +191,9 @@
       <h2>The GUI</h2>
       <p>
         <span>
-          You can open the voice chat GUI by pressing the <code>V</code> key.
-          This allows you to open the settings, group chats, mute yourself,
-          disable the voice chat and hide all icons.
+          You can open the voice chat GUI by pressing the <kbd>V</kbd> key. This
+          allows you to open the settings, group chats, mute yourself, disable
+          the voice chat and hide all icons.
         </span>
       </p>
       <v-img
@@ -199,7 +205,7 @@
         <span>
           Group chats allow you to talk to players that are not in your
           vicinity. To open the group chat interface, either press the group
-          button in the voice chat GUI or just press the <code>G</code> key.
+          button in the voice chat GUI or just press the <kbd>G</kbd> key.
         </span>
       </p>
       <p>
@@ -243,8 +249,8 @@
       <h2>Settings</h2>
       <p>
         <span>
-          You can access the voice chat GUI by pressing the <code>V</code> key
-          and pressing the settings button.
+          You can access the voice chat GUI by pressing the <kbd>V</kbd> key and
+          pressing the settings button.
         </span>
       </p>
       <p>
@@ -463,6 +469,26 @@ If you are hosting the server on your local machine take a look at <a href="http
           },
         },
         {
+          element: {
+            name: "RNNoise",
+            link: "https://jmvalin.ca/demo/rnnoise/",
+          },
+          license: {
+            name: 'BSD 3-Clause "New" or "Revised" License',
+            link: "https://gitlab.xiph.org/xiph/rnnoise/-/blob/master/COPYING",
+          },
+        },
+        {
+          element: {
+            name: "RNNoise natives",
+            link: "https://github.com/mjwells2002/rnnoise-bin",
+          },
+          name: {
+            name: "mjwells2002",
+            link: "https://github.com/mjwells2002",
+          },
+        },
+        {
           element: { name: "Brazilian Portuguese translation" },
           name: {
             name: "Allomere",
@@ -537,6 +563,13 @@ If you are hosting the server on your local machine take a look at <a href="http
           name: {
             name: "ProSplash1",
             link: "https://www.curseforge.com/members/prosplash1",
+          },
+        },
+        {
+          element: { name: "Japanese translation" },
+          name: {
+            name: "shonkei",
+            link: "https://github.com/shonkei",
           },
         },
       ],
