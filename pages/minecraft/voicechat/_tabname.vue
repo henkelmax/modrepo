@@ -565,6 +565,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://www.curseforge.com/members/prosplash1",
           },
         },
+        {
+          element: { name: "Japanese translation" },
+          name: {
+            name: "shonkei",
+            link: "https://github.com/shonkei",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
