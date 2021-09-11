@@ -30,6 +30,9 @@
         <li>
           <span><a href="https://opus-codec.org/">Opus Codec</a></span>
         </li>
+        <li>
+          <span><a href="https://jmvalin.ca/demo/rnnoise/">RNNoise</a> recurrent neural network noise suppression</span>
+        </li>
         <li><span>Push to talk</span></li>
         <li><span>Voice activation</span></li>
         <li><span>Configurable PTT key</span></li>
@@ -460,6 +463,16 @@ If you are hosting the server on your local machine take a look at <a href="http
           name: {
             name: "jason-green-io",
             link: "https://github.com/jason-green-io",
+          },
+        },
+        {
+          element: {
+            name: "RNNoise",
+            link: "https://jmvalin.ca/demo/rnnoise/",
+          },
+          license: {
+            name: "BSD 3-Clause \"New\" or \"Revised\" License",
+            link: "https://gitlab.xiph.org/xiph/rnnoise/-/blob/master/COPYING",
           },
         },
         {
