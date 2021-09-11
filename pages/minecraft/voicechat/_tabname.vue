@@ -31,7 +31,10 @@
           <span><a href="https://opus-codec.org/">Opus Codec</a></span>
         </li>
         <li>
-          <span><a href="https://jmvalin.ca/demo/rnnoise/">RNNoise</a> recurrent neural network noise suppression</span>
+          <span
+            ><a href="https://jmvalin.ca/demo/rnnoise/">RNNoise</a> recurrent
+            neural network noise suppression</span
+          >
         </li>
         <li><span>Push to talk</span></li>
         <li><span>Voice activation</span></li>
@@ -188,9 +191,9 @@
       <h2>The GUI</h2>
       <p>
         <span>
-          You can open the voice chat GUI by pressing the <kbd>V</kbd> key.
-          This allows you to open the settings, group chats, mute yourself,
-          disable the voice chat and hide all icons.
+          You can open the voice chat GUI by pressing the <kbd>V</kbd> key. This
+          allows you to open the settings, group chats, mute yourself, disable
+          the voice chat and hide all icons.
         </span>
       </p>
       <v-img
@@ -246,8 +249,8 @@
       <h2>Settings</h2>
       <p>
         <span>
-          You can access the voice chat GUI by pressing the <kbd>V</kbd> key
-          and pressing the settings button.
+          You can access the voice chat GUI by pressing the <kbd>V</kbd> key and
+          pressing the settings button.
         </span>
       </p>
       <p>
@@ -471,8 +474,18 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://jmvalin.ca/demo/rnnoise/",
           },
           license: {
-            name: "BSD 3-Clause \"New\" or \"Revised\" License",
+            name: 'BSD 3-Clause "New" or "Revised" License',
             link: "https://gitlab.xiph.org/xiph/rnnoise/-/blob/master/COPYING",
+          },
+        },
+        {
+          element: {
+            name: "RNNoise natives",
+            link: "https://github.com/mjwells2002/rnnoise-bin",
+          },
+          name: {
+            name: "mjwells2002",
+            link: "https://github.com/mjwells2002",
           },
         },
         {
