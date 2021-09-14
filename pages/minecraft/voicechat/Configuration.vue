@@ -250,6 +250,13 @@
           </td>
           <td></td>
         </tr>
+        <tr>
+          <td><code>denoiser</code></td>
+          <td>
+            If noise cancellation should be enabled
+          </td>
+          <td><code>false</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
   </div>
