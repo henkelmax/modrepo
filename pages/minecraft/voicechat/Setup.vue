@@ -3,9 +3,15 @@
     <h1>Setup</h1>
     <ul>
       <li>
-        Make sure you opened the voice chat port on your server (<code
-          >24454</code
-        >
+        If you are hosting your server with a Minecraft hosting provider, please
+        look if there is a guide for your specific hoster in the text channel
+        <b>#server-hosting</b> on the
+        <a href="https://discord.gg/4dH2zwTmyX">Discord</a> server. If no guide
+        for your hoster exists, ask the support of the hoster for help.
+      </li>
+      <li>
+        Make sure you opened the voice chat port on your server (
+        <code>24454</code>
         <code>UDP</code>
         by default)
         <ul>
@@ -14,7 +20,10 @@
             normal minecraft port (<code>25565</code>). You just have to use UDP
             instead of TCP for the protocol.
           </li>
-          <li>You can change the port in the server config of the mod (<code>port</code>).</li>
+          <li>
+            You can change the port in the server config of the mod
+            (<code>port</code>).
+          </li>
           <ul>
             <li>
               On Fabric the server config file is located in
@@ -34,18 +43,9 @@
           </ul>
           <li>
             If you use a Minecraft hosting service, they may have the default
-            port open and in other cases you may have a port range available for
-            you.
+            UDP port open and in other cases you may have a port range available
+            for you. If this isn't the case contact their support.
           </li>
-          <ul>
-            <li>
-              Unless there is a reference to how this works for your hosting
-              provider in the
-              <a href="https://discord.gg/4dH2zwTmyX">Discord</a>
-              (#server-hosting), you will need to ask your provider for support
-              on how to do this.
-            </li>
-          </ul>
           <li>
             If you are hosting the server on your own computer, you have to make
             sure that the port is open in your firewall, as well as in your
@@ -56,7 +56,7 @@
           <li>
             Opening ports is different for every setup. It depends on your OS,
             your router, your ISP, your hoster and many other things. Please
-            don't ask me how to do it.
+            don't ask us how to do it.
           </li>
         </ul>
       </li>
