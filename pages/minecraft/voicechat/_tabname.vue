@@ -442,6 +442,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           question: "Does every player need to open the voice chat port?",
           answer: "No. Only the server needs to have the port open.",
         },
+        {
+          question: "Does this work with ngrok?",
+          answer: "No. Ngrok does not support UDP.",
+        },
       ],
       credits: [
         {
