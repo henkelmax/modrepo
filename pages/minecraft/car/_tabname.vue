@@ -198,6 +198,13 @@ export default {
             link: "https://github.com/Aemande123",
           },
         },
+        {
+          element: { name: "Italian translation" },
+          name: {
+            name: "DarkMysteryGG",
+            link: "https://github.com/DarkMysteryGG",
+          },
+        },
       ],
       tabs: [
         { id: "fuel_production", title: "Fuel Production" },
