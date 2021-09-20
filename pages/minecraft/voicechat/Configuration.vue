@@ -85,6 +85,11 @@
           <td>If players are allowed to record the voice chat</td>
           <td><code>true</code></td>
         </tr>
+        <tr>
+          <td><code>spectator_interaction</code></td>
+          <td>If spectators are allowed to talk to other players</td>
+          <td><code>false</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
 
@@ -249,6 +254,13 @@
             Leave empty for default location
           </td>
           <td></td>
+        </tr>
+        <tr>
+          <td><code>denoiser</code></td>
+          <td>
+            If noise cancellation should be enabled
+          </td>
+          <td><code>false</code></td>
         </tr>
       </tbody>
     </v-simple-table>
