@@ -101,5 +101,10 @@
       already did that, please double check that the file has not been modified
       in any way.
     </p>
+    <h2>The mods config file does not exist</h2>
+    <p>
+      Make sure the mod is actually installed and you started the game/server at
+      least once with the mod added to it.
+    </p>
   </div>
 </template>
