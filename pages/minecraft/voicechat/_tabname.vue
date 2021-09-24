@@ -322,6 +322,9 @@
         <template slot="configuration">
           <Configuration class="pa-6" />
         </template>
+        <template slot="compatibility">
+          <Compatibility class="pa-6" />
+        </template>
         <template slot="help">
           <Help class="pa-6" />
         </template>
@@ -339,6 +342,7 @@ import Wiki from "~/components/Wiki.vue";
 import Installation from "~/pages/minecraft/voicechat/Installation.vue";
 import Setup from "~/pages/minecraft/voicechat/Setup.vue";
 import Troubleshooting from "~/pages/minecraft/voicechat/Troubleshooting.vue";
+import Compatibility from "~/pages/minecraft/voicechat/Compatibility.vue";
 import Help from "~/pages/minecraft/voicechat/Help.vue";
 import Configuration from "~/pages/minecraft/voicechat/Configuration.vue";
 import Icons from "~/pages/minecraft/voicechat/Icons.vue";
@@ -582,6 +586,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         { id: "setup", title: "Voice Chat Setup" },
         { id: "troubleshooting", title: "Troubleshooting Problems" },
         { id: "configuration", title: "Configuration" },
+        { id: "compatibility", title: "Compatibility" },
         { id: "help", title: "Help Setting Up Voicechat" },
         { id: "icons", title: "Icons" },
       ],
@@ -592,6 +597,7 @@ If you are hosting the server on your local machine take a look at <a href="http
     Wiki,
     Installation,
     Setup,
+    Compatibility,
     Help,
     Configuration,
     Icons,
