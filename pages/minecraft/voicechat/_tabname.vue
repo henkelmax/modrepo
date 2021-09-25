@@ -440,7 +440,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         {
           question: "Are different mod versions compatible with each other?",
           answer:
-            "Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server.",
+            'Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server. For more information read <a href="/minecraft/voicechat/wiki?t=compatibility">this</a>.',
         },
         {
           question: "Does every player need to open the voice chat port?",
