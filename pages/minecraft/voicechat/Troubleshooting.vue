@@ -106,5 +106,10 @@
       Make sure the mod is actually installed and you started the game/server at
       least once with the mod added to it.
     </p>
+    <h2>The changed config values are not affecting the game</h2>
+    <p>
+      Make sure you actually restarted the game/server after changing anything
+      in the config, for it to take effect.
+    </p>
   </div>
 </template>
