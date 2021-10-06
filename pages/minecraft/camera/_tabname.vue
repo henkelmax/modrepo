@@ -201,6 +201,13 @@ export default {
             link: "https://www.curseforge.com/members/prosplash1",
           },
         },
+        {
+          element: { name: "French translation" },
+          name: {
+            name: "BlackJamesYT",
+            link: "https://github.com/BlackJamesYT",
+          },
+        },
       ],
     };
   },
