@@ -157,6 +157,13 @@ export default {
             link: "https://github.com/kegare",
           },
         },
+        {
+          element: { name: "French translation" },
+          name: {
+            name: "BlackJamesYT",
+            link: "https://github.com/BlackJamesYT",
+          },
+        },
       ],
     };
   },
