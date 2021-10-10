@@ -64,7 +64,7 @@
         Some Minecraft server hosters or servers with multiple network adapters
         require you to bind the voice chat to a specific IP address
         <ul>
-          <li>Only do this if your voice chat is not already working.</li>
+          <li>This is only required for some hosters. Please only do this if explicitly stated.</li>
           <li>
             You can set this address in the server config of the mod
             (<code>bind_address</code>)
@@ -74,7 +74,7 @@
             the default value)
           </li>
           <li>
-            If you are setting this value, make sure to add your IP address
+            If you are setting this value, make sure to enter your servers IP address
             without a port. (Like this <code>1.2.3.4</code>, not like this
             <code>1.2.3.4:24454</code>)
           </li>
