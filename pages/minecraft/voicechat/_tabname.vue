@@ -26,7 +26,7 @@
       <h2>Features</h2>
       <ul>
         <li><span>Proximity voice chat</span></li>
-        <li><span>Group chats</span></li>
+        <li><span>Password protected group chats</span></li>
         <li>
           <span><a href="https://opus-codec.org/">Opus Codec</a></span>
         </li>
@@ -35,6 +35,42 @@
             ><a href="https://jmvalin.ca/demo/rnnoise/">RNNoise</a> recurrent
             neural network noise suppression</span
           >
+        </li>
+        <li><span>OpenAL Audio</span></li>
+        <li>
+          <span>
+            Compatibility with
+            <a
+              href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"
+            >
+              Sound Physics Remastered
+            </a>
+          </span>
+        </li>
+        <li>
+          <span>
+            Compatibility with
+            <a
+              href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-fabric"
+            >
+              Sound Physics Fabric
+            </a>
+            (Not recommended)
+          </span>
+        </li>
+        <li>
+          <span>
+            Compatibility with
+            <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">
+              ModMenu</a
+            >
+
+            (Use
+            <a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">
+              ClothConfig</a
+            >
+            for a better configuration UI)
+          </span>
         </li>
         <li><span>Push to talk</span></li>
         <li><span>Voice activation</span></li>
@@ -46,15 +82,15 @@
         <li>
           <span>Indicator next to players names when they are talking</span>
         </li>
-        <li><span>Configurable distance</span></li>
+        <li><span>Configurable voice distance</span></li>
+        <li><span>Whispering</span></li>
         <li><span>Mute other players</span></li>
         <li>
           <span>Adjust the volume of other players</span>
         </li>
         <li><span>Microphone amplification</span></li>
-        <li><span>Semi 3D sound</span></li>
+        <li><span>3D sound</span></li>
         <li><span>AES encryption</span></li>
-        <li><span>Configurable voice quality</span></li>
         <li>
           <span>Configurable network port</span>
         </li>
@@ -185,6 +221,11 @@
             <td><i>Not bound by default</i></td>
             <td>Toggles voice chat audio recording.</td>
           </tr>
+          <tr>
+            <td>Whisper</td>
+            <td><i>Not bound by default</i></td>
+            <td>Hold down to whisper.</td>
+          </tr>
         </tbody>
       </table>
       <br />
@@ -283,9 +324,9 @@
       <p>
         <span>
           You need to open a port on the server. This is port
-          <code>24454/udp</code> by default. Without opening this port, the
-          voice chat will not work. This port can be changed in the server
-          config.
+          <code>24454</code> <code>UDP</code> by default. Without opening this
+          port, the voice chat will not work. This port can be changed in the
+          server config.
         </span>
       </p>
       <p>

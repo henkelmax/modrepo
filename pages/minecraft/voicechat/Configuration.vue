@@ -28,12 +28,20 @@
         </tr>
         <tr>
           <td><code>distance</code></td>
-          <td>The distance to where the voice can be heard</td>
+          <td>
+            The distance to where the voice can be heard
+            <br />
+            <b>Removed in 2.0.0</b>
+          </td>
           <td><code>32</code></td>
         </tr>
         <tr>
           <td><code>fade_distance</code></td>
-          <td>The distance to where the voice starts fading</td>
+          <td>
+            The distance to where the voice starts fading
+            <br />
+            <b>Removed in 2.0.0</b>
+          </td>
           <td><code>16</code></td>
         </tr>
         <tr>
@@ -89,6 +97,30 @@
           <td><code>spectator_interaction</code></td>
           <td>If spectators are allowed to talk to other players</td>
           <td><code>false</code></td>
+        </tr>
+        <tr>
+          <td><code>min_distance</code></td>
+          <td>The distance to where the voice starts fading</td>
+          <td><code>4.0</code></td>
+        </tr>
+        <tr>
+          <td><code>max_distance</code></td>
+          <td>The distance to where the voice can be heard</td>
+          <td><code>48</code></td>
+        </tr>
+        <tr>
+          <td><code>crouch_distance_multiplier</code></td>
+          <td>
+            The multiplier the voice distance will be reduced by when sneaking
+          </td>
+          <td><code>1.0</code></td>
+        </tr>
+        <tr>
+          <td><code>whisper_distance_multiplier</code></td>
+          <td>
+            The multiplier the voice distance will be reduced by when whispering
+          </td>
+          <td><code>0.5</code></td>
         </tr>
       </tbody>
     </v-simple-table>
@@ -160,7 +192,7 @@
             <br />
             This potentially reduces audio latency on laggy servers
             <br />
-            This does currently not work on Linux
+            <b>Removed in 2.0.0</b>
           </td>
           <td><code>false</code></td>
         </tr>
@@ -225,7 +257,7 @@
         <tr>
           <td><code>group_hud_icon_scale</code></td>
           <td>The scale of the group HUD</td>
-          <td><code>2</code></td>
+          <td><code>2.0</code></td>
         </tr>
         <tr>
           <td><code>hud_icon_location</code></td>
@@ -233,6 +265,8 @@
             The location of the HUD icons <br />
             Possible values are <code>LEFT</code>, <code>RIGHT</code> and
             <code>CENTER</code>
+            <br />
+            <b>Removed in 2.0.0</b>
           </td>
           <td><code>LEFT</code></td>
         </tr>
@@ -257,10 +291,54 @@
         </tr>
         <tr>
           <td><code>denoiser</code></td>
-          <td>
-            If noise cancellation should be enabled
-          </td>
+          <td>If noise cancellation should be enabled</td>
           <td><code>false</code></td>
+        </tr>
+        <tr>
+          <td><code>group_player_icon_pos_x</code></td>
+          <td>
+            The X position of the player icons in the group HUD
+            <br />
+            Negative values mean anchoring to the bottom
+          </td>
+          <td><code>4</code></td>
+        </tr>
+        <tr>
+          <td><code>group_player_icon_pos_y</code></td>
+          <td>
+            The Y position of the player icons in the group HUD
+            <br />
+            Negative values mean anchoring to the bottom
+          </td>
+          <td><code>4</code></td>
+        </tr>
+        <tr>
+          <td><code>hud_icon_pos_x</code></td>
+          <td>
+            The X position of the HUD icons
+            <br />
+            Negative values mean anchoring to the right
+          </td>
+          <td><code>16</code></td>
+        </tr>
+        <tr>
+          <td><code>hud_icon_pos_y</code></td>
+          <td>
+            The Y position of the HUD icons
+            <br />
+            Negative values mean anchoring to the right
+          </td>
+          <td><code>-16</code></td>
+        </tr>
+        <tr>
+          <td><code>hud_icon_scale</code></td>
+          <td>The scale of the HUD icons</td>
+          <td><code>1.0</code></td>
+        </tr>
+        <tr>
+          <td><code>soundphysics</code></td>
+          <td>If sound physics integration should be enabled</td>
+          <td><code>true</code></td>
         </tr>
       </tbody>
     </v-simple-table>
