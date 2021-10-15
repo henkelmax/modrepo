@@ -440,7 +440,7 @@ If you are hosting the server on your local machine take a look at <a href="http
           answer: "No. This doesn't work.",
         },
         {
-          question: "Does this work with LAN worlds?",
+          question: "Does this work with LAN worlds/singleplayer?",
           answer: "No. It only works with dedicated servers.",
         },
         {
