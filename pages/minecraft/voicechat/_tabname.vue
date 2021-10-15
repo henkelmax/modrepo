@@ -404,7 +404,7 @@ export default {
       faq: [
         {
           question:
-            "I can't use the voice chat/There is a message 'Voice chat unavailable'",
+            "I can't use the voice chat/There is a message 'Voice chat unavailable'/'Voice chat not connected'",
           answer:
             'You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the <a href="/minecraft/voicechat/wiki?t=setup">wiki</a> for more information.',
         },
