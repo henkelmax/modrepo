@@ -26,8 +26,8 @@
       <code>/mods</code>.
     </p>
     <p>
-      Note that the Forge version of the mod is not compatible with any other
-      version of the voice chat!
+      Note that in versions older than <code>2.1.0</code> the Forge version of
+      the mod is not compatible with the Fabric or Bukkit version!
     </p>
     <br />
 
@@ -40,9 +40,12 @@
       <code>/plugins</code> folder of your server.
     </p>
     <p>
-      Note that you need the Fabric version of the mod installed on your client
+      Note that you need the Fabric or Forge version of the mod installed on your client
       when using the Bukkit/Spigot/Paper version of Simple Voice Chat on the
       server!
+    </p>
+    <p>
+      Note that in versions older than <code>2.1.0</code> you can only join servers with the Fabric version of the mod!
     </p>
   </div>
 </template>
