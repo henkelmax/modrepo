@@ -205,6 +205,13 @@ export default {
             link: "https://github.com/DarkMysteryGG",
           },
         },
+        {
+          element: { name: "Spanish translation" },
+          name: {
+            name: "DarkWolf260",
+            link: "https://github.com/DarkWolf260",
+          },
+        },
       ],
       tabs: [
         { id: "fuel_production", title: "Fuel Production" },
