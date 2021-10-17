@@ -442,7 +442,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           question: "Does this work with LAN worlds/singleplayer?",
-          answer: "No. It only works with dedicated servers.",
+          answer: "Yes, starting from version 2.1.1, you can use the voice chat in singleplayer and in LAN worlds.",
         },
         {
           question:

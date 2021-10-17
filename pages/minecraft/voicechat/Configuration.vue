@@ -340,6 +340,11 @@
           <td>If sound physics integration should be enabled</td>
           <td><code>true</code></td>
         </tr>
+        <tr>
+          <td><code>run_local_server</code></td>
+          <td>If voice chat should work in singleplayer/LAN worlds</td>
+          <td><code>true</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
   </div>
