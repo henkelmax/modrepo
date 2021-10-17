@@ -345,6 +345,11 @@
           <td>If voice chat should work in singleplayer/LAN worlds</td>
           <td><code>true</code></td>
         </tr>
+        <tr>
+          <td><code>java_microphone_implementation</code></td>
+          <td>Whether to use the Java implementation of microphone capturing instead of OpenAL</td>
+          <td><code>true</code> for MacOS, <code>false</code> for every other OS</td>
+        </tr>
       </tbody>
     </v-simple-table>
   </div>
