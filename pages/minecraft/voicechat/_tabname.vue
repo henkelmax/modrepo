@@ -37,6 +37,7 @@
           >
         </li>
         <li><span>OpenAL Audio</span></li>
+        <li><span>Cross compatibility between Fabric, Forge, Bukkit, Spigot and Paper</span></li>
         <li>
           <span>
             Compatibility with
@@ -404,7 +405,7 @@ export default {
       faq: [
         {
           question:
-            "I can't use the voice chat/There is a message 'Voice chat unavailable'",
+            "I can't use the voice chat/There is a message 'Voice chat unavailable'/'Voice chat not connected'",
           answer:
             'You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the <a href="/minecraft/voicechat/wiki?t=setup">wiki</a> for more information.',
         },
@@ -426,7 +427,7 @@ If you are hosting the server on your local machine take a look at <a href="http
           question:
             "Can vanilla clients still join when the voice chat mod is installed on the server?",
           answer:
-            "For the Fabric and Bukkit/Spigot/Paper version, yes. But the Forge version needs the mod to be installed on the client and the server.",
+            "Yes, But in versions older than 2.1.0, the Forge version only works with the mod installed on the client and the server.",
         },
         {
           question:
@@ -437,11 +438,11 @@ If you are hosting the server on your local machine take a look at <a href="http
         {
           question:
             "Can I use the Fabric client on a Forge server?/Can I use the Forge client on a Fabric server?",
-          answer: "No. This doesn't work.",
+          answer: "Yes, this works in versions 2.1.0 and newer.",
         },
         {
-          question: "Does this work with LAN worlds?",
-          answer: "No. It only works with dedicated servers.",
+          question: "Does this work with LAN worlds/singleplayer?",
+          answer: "Yes, starting from version 2.1.1, you can use the voice chat in singleplayer and in LAN worlds.",
         },
         {
           question:
@@ -463,7 +464,7 @@ If you are hosting the server on your local machine take a look at <a href="http
           question:
             "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server?",
           answer:
-            "No. The server and the client need the same mod version and the same mod loader.",
+            "Yes, but in versions older than 2.1.0, the server and the client need the same mod loader.",
         },
         {
           question: "Does this work on Realms?",

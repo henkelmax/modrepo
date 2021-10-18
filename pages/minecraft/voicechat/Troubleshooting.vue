@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Troubleshooting problems</h1>
-    <h2>Voice chat unavailable</h2>
+    <h2>Voice chat unavailable/Voice chat not connected/Plug icon</h2>
     <p>
       The most likely cause of this is that you didn't forward your port
       correctly. Please double check your setup. Another cause of this is not

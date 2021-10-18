@@ -4,7 +4,7 @@
 
     <p>
       If you are thinking you encountered a bug, please report it to the issue tracker,
-      but please don't open a new issue, just because your voice chat is unavailable.
+      but please don't open a new issue, just because your voice chat is unavailable/not connected.
       This is in most cases just an incorrect setup.
     </p>
 
