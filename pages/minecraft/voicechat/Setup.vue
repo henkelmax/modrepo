@@ -1,14 +1,18 @@
 <template>
   <div>
     <h1>Setup</h1>
+    <p>
+      If you are hosting your server with a Minecraft hosting provider, please
+      look if there is a guide for your specific hoster in the text channel
+      <b>#server-hosting</b> on the
+      <a href="https://discord.gg/4dH2zwTmyX">Discord</a> server. If no guide
+      for your hoster exists, ask the support of the hoster for help.
+    </p>
+    <p>
+      If you are hosting your Minecraft server on your PC or on a VPS/root
+      server, follow these steps:
+    </p>
     <ul>
-      <li>
-        If you are hosting your server with a Minecraft hosting provider, please
-        look if there is a guide for your specific hoster in the text channel
-        <b>#server-hosting</b> on the
-        <a href="https://discord.gg/4dH2zwTmyX">Discord</a> server. If no guide
-        for your hoster exists, ask the support of the hoster for help.
-      </li>
       <li>
         Make sure you opened the voice chat port on your server (
         <code>24454</code>
@@ -41,11 +45,11 @@
               <code>plugins/voicechat/voicechat-server.properties</code>
             </li>
           </ul>
-          <li>
+          <!-- <li>
             If you use a Minecraft hosting service, they may have the default
             UDP port open and in other cases you may have a port range available
             for you. If this isn't the case contact their support.
-          </li>
+          </li> -->
           <li>
             If you are hosting the server on your own computer, you have to make
             sure that the port is open in your firewall, as well as in your
@@ -60,11 +64,14 @@
           </li>
         </ul>
       </li>
-      <li>
+      <!-- <li>
         Some Minecraft server hosters or servers with multiple network adapters
         require you to bind the voice chat to a specific IP address
         <ul>
-          <li>This is only required for some hosters. Please only do this if explicitly stated.</li>
+          <li>
+            This is only required for some hosters. Please only do this if
+            explicitly stated.
+          </li>
           <li>
             You can set this address in the server config of the mod
             (<code>bind_address</code>)
@@ -74,9 +81,9 @@
             the default value)
           </li>
           <li>
-            If you are setting this value, make sure to enter your servers IP address
-            without a port. (Like this <code>1.2.3.4</code>, not like this
-            <code>1.2.3.4:24454</code>)
+            If you are setting this value, make sure to enter your servers IP
+            address without a port. (Like this <code>1.2.3.4</code>, not like
+            this <code>1.2.3.4:24454</code>)
           </li>
           <li>
             If your server crashes after setting this value, you might use the
@@ -87,7 +94,7 @@
             minecraft hoster.
           </li>
         </ul>
-      </li>
+      </li> -->
     </ul>
     <br />
     <h3>Testing the voice chat connection</h3>
