@@ -347,8 +347,18 @@
         </tr>
         <tr>
           <td><code>java_microphone_implementation</code></td>
-          <td>Whether to use the Java implementation of microphone capturing instead of OpenAL</td>
-          <td><code>true</code> for MacOS, <code>false</code> for every other OS</td>
+          <td>
+            Whether to use the Java implementation of microphone capturing
+            instead of OpenAL
+          </td>
+          <td>
+            <code>true</code> for MacOS, <code>false</code> for every other OS
+          </td>
+        </tr>
+        <tr>
+          <td><code>macos_microphone_workaround</code></td>
+          <td>If the microphone workaround hack should be used (MacOS only)</td>
+          <td><code>true</code></td>
         </tr>
       </tbody>
     </v-simple-table>
