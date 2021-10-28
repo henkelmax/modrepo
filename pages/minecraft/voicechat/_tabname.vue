@@ -751,11 +751,7 @@ If you are hosting the server on your local machine take a look at <a href="http
     },
     hasReadWiki() {
       let tabs = this.getVisitedTabs();
-      return (
-        tabs.includes("installation") &&
-        tabs.includes("setup") &&
-        tabs.includes("troubleshooting")
-      );
+      return tabs.includes("setup") && tabs.includes("troubleshooting");
     },
     generateSupportKey() {
       let numbers = [];
