@@ -50,6 +50,7 @@
           </template>
         </v-list-item-group>
       </v-list>
+      <slot name="sidebar"></slot>
     </template>
   </SplitPanel>
 </template>
@@ -95,6 +96,7 @@ export default {
         path: window.location.pathname,
         query: { ...this.$route.query, t: this.wikitab },
       });
+      this.$emit('tab', this.wikitab)
     },
     getNextPage() {
       let index = 0;
