@@ -426,6 +426,31 @@
         </v-card-text>
       </v-card>
     </v-dialog>
+    <v-dialog v-model="confirmDialog" max-width="800">
+      <v-card color="secondary">
+        <v-card-title class="text-h5"> Did you read the wiki? </v-card-title>
+        <v-card-text>
+          By clicking 'Accept', you confirm that you really read the wiki and
+          your problem is not listed here.
+        </v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn color="red darken-1" text @click="confirmDialog = false">
+            Cancel
+          </v-btn>
+          <v-btn
+            color="green darken-1"
+            text
+            @click="
+              confirm();
+              confirmDialog = false;
+            "
+          >
+            Accept
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
   </v-container>
 </template>
 
@@ -444,6 +469,7 @@ export default {
   data() {
     return {
       notReadDialog: false,
+      confirmDialog: false,
       supportKeyDialog: false,
       supportKey: null,
       images: [
@@ -706,6 +732,9 @@ If you are hosting the server on your local machine take a look at <a href="http
         this.notReadDialog = true;
         return;
       }
+      this.confirmDialog = true;
+    },
+    confirm() {
       this.supportKey = this.generateSupportKey();
       this.supportKeyDialog = true;
     },
