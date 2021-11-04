@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
-    "compare-versions": "^3.6.0",
+    "compare-versions": "^4.0.1",
     "nuxt": "^2.15.8",
     "vue-observe-visibility": "^1.0.0"
   },
