@@ -4,9 +4,7 @@
     <h2>Voice chat unavailable/Voice chat not connected/Plug icon</h2>
     <p>
       The most likely cause of this is that you didn't forward your port
-      correctly. Please double check your setup. Another cause of this is not
-      binding to the correct IP address. See <a href="?t=setup">Setup</a> for
-      more information.
+      correctly. Please double check your setup.
     </p>
     <p>
       If you are running your server behind a proxy like BungeeCord or Velocity,
