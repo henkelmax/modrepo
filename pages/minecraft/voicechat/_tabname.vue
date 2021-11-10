@@ -620,6 +620,26 @@ If you are hosting the server on your local machine take a look at <a href="http
           },
         },
         {
+          element: {
+            name: "adventure",
+            link: "https://github.com/KyoriPowered/adventure",
+          },
+          license: {
+            name: "MIT",
+            link: "https://github.com/KyoriPowered/adventure/blob/master/license.txt",
+          },
+        },
+        {
+          element: {
+            name: "dd-plist",
+            link: "https://github.com/3breadt/dd-plist",
+          },
+          license: {
+            name: "Custom",
+            link: "https://github.com/3breadt/dd-plist/blob/master/LICENSE.txt",
+          },
+        },
+        {
           element: { name: "Brazilian Portuguese translation" },
           name: {
             name: "Allomere",
