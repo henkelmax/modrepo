@@ -342,19 +342,6 @@
         </p>
         <p>
           <span>
-            This mod does only work when connected to a dedicated server. You
-            need to have this mod installed on the server and the client for it
-            to work.
-          </span>
-        </p>
-        <p>
-          <span>
-            The Fabric version of this mod allows you to join with vanilla
-            clients, but you won't be able to use the voice chat features.</span
-          >
-        </p>
-        <p>
-          <span>
             The voice chat is encrypted, but I don't guarantee the security of
             it. Use at your own risk!
           </span>
