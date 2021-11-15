@@ -214,6 +214,13 @@ export default {
             link: "https://github.com/offron",
           },
         },
+        {
+          element: { name: "Finnish translation" },
+          name: {
+            name: "offron",
+            link: "https://github.com/offron",
+          },
+        },
       ],
     };
   },
