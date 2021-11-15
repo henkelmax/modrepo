@@ -196,6 +196,13 @@ export default {
             link: "https://github.com/BlackJamesYT",
           },
         },
+        {
+          element: { name: "Korean translation" },
+          name: {
+            name: "qkrehf2",
+            link: "https://github.com/qkrehf2",
+          },
+        },
       ],
       faq: [
         {
