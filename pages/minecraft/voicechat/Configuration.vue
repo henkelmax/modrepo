@@ -122,6 +122,11 @@
           </td>
           <td><code>0.5</code></td>
         </tr>
+        <tr>
+          <td><code>spectator_player_possession</code></td>
+          <td>If spectators can talk to players they are spectating</td>
+          <td><code>false</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
 

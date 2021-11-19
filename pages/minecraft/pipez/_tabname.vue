@@ -238,6 +238,13 @@ export default {
             link: "https://bommel24.de",
           },
         },
+        {
+          element: { name: "German translation" },
+          name: {
+            name: "offron",
+            link: "https://github.com/offron",
+          },
+        },
       ],
     };
   },
