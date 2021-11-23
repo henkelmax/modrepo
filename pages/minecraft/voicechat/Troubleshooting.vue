@@ -109,5 +109,11 @@
       Make sure you actually restarted the game/server after changing anything
       in the config, for it to take effect.
     </p>
+    <h2>Microphone unavailable</h2>
+    <p>
+      Try starting your launcher as an administrator. If this doesn't work,
+      restart your computer and don't start any other programs other than
+      Minecraft, that can use your microphone.
+    </p>
   </div>
 </template>
