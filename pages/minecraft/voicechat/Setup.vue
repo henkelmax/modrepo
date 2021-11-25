@@ -20,8 +20,8 @@
         by default)
         <ul>
           <li>
-            Opening the port for the voice chat works the same as opening the
-            normal minecraft port (<code>25565</code>). You just have to use UDP
+            Opening the port for the voice chat is the same process as opening the
+            normal minecraft port. You just have to use UDP
             instead of TCP for the protocol.
           </li>
           <li>
