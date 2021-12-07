@@ -5,8 +5,8 @@
     :logo="require('~/assets/minecraft/reap/logo_reap.png')"
     id="reap"
     downloadlink="https://www.curseforge.com/minecraft/mc-mods/reap-mod/files/all"
-    sourcelink="https://github.com/henkelmax/advanced-mining-dimension"
-    issueslink="https://github.com/henkelmax/advanced-mining-dimension/issues"
+    sourcelink="https://github.com/henkelmax/reap"
+    issueslink="https://github.com/henkelmax/reap/issues"
     :faq="faq"
   >
     <v-container slot="overview">
