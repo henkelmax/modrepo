@@ -245,6 +245,13 @@ export default {
             link: "https://github.com/offron",
           },
         },
+        {
+          element: { name: "Swedish translation" },
+          name: {
+            name: "Regnander",
+            link: "https://github.com/Regnander",
+          },
+        },
       ],
     };
   },

@@ -710,6 +710,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://github.com/shonkei",
           },
         },
+        {
+          element: { name: "Chinese Simplified (China) translation" },
+          name: {
+            name: "XmLinkia",
+            link: "https://github.com/XmLinkia",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
