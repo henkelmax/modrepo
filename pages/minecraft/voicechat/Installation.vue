@@ -2,11 +2,17 @@
   <div>
     <h1>Installation</h1>
 
+    <p>
+      You always have to install Simple Voice Chat on your game and your server.
+      If you don't have it installed on your client, you will still be able to
+      join, but you won't be able to use any feature of the mod.
+    </p>
+
     <h2>Fabric</h2>
     <p>
       For the Fabric version of the mod, you need to have the
       <a href="https://fabricmc.net/use/">Fabric Loader</a> installed on your
-      client and server.
+      game/server.
     </p>
     <p>
       In versions lower than <code>2.1.25</code>, you additionally need to have
