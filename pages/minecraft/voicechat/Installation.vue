@@ -6,15 +6,21 @@
     <p>
       For the Fabric version of the mod, you need to have the
       <a href="https://fabricmc.net/use/">Fabric Loader</a> installed on your
-      client and server. Additionally you need to have the
+      client and server.
+    </p>
+    <p>
+      In versions lower than <code>2.1.25</code>, you additionally need to have
+      the
       <a
         href="https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all"
         >Fabric API</a
       >
       jar added to your mods folder. Make sure you have the latest version of
-      the API that is available for your Minecraft version. Also don't forget to
-      add the actual Simple Voice Chat mod jar to the mods folder. The mods
-      folder is located in <code>/mods</code>.
+      the API that is available for your Minecraft version.
+    </p>
+    <p>
+      Also don't forget to add the actual Simple Voice Chat mod jar to the mods
+      folder. The mods folder is located in <code>/mods</code>.
     </p>
     <br />
 
@@ -40,12 +46,13 @@
       <code>/plugins</code> folder of your server.
     </p>
     <p>
-      Note that you need the Fabric or Forge version of the mod installed on your client
-      when using the Bukkit/Spigot/Paper version of Simple Voice Chat on the
-      server!
+      Note that you need the Fabric or Forge version of the mod installed on
+      your client when using the Bukkit/Spigot/Paper version of Simple Voice
+      Chat on the server!
     </p>
     <p>
-      Note that in versions older than <code>2.1.0</code> you can only join servers with the Fabric version of the mod!
+      Note that in versions older than <code>2.1.0</code> you can only join
+      servers with the Fabric version of the mod!
     </p>
   </div>
 </template>
