@@ -45,16 +45,20 @@
 
     <h2>Bukkit/Spigot/Paper</h2>
     <p>
-      For the bukkit based versions of the voice chat you need to have
-      <a href="https://ci.dmulloy2.net/job/ProtocolLib/">ProtocolLib</a>
-      installed. Make sure you put ProtocolLib and the voice chat plugin into
-      the
+      Make sure you put the voice chat plugin into the
       <code>/plugins</code> folder of your server.
     </p>
     <p>
-      Note that you need the Fabric or Forge version of the mod installed on
-      your client when using the Bukkit/Spigot/Paper version of Simple Voice
-      Chat on the server!
+      For bukkit based versions older than <code>2.1.27</code> you need to have
+      <a href="https://ci.dmulloy2.net/job/ProtocolLib/">ProtocolLib</a>
+      installed.
+    </p>
+    <p>
+      <b>
+        Note that you need the Fabric or Forge version of the mod installed on
+        your client when using the Bukkit/Spigot/Paper version of Simple Voice
+        Chat on the server!
+      </b>
     </p>
     <p>
       Note that in versions older than <code>2.1.0</code> you can only join
