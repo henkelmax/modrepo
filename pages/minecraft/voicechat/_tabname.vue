@@ -742,6 +742,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://github.com/gyular",
           },
         },
+        {
+          element: { name: "Polish translation" },
+          name: {
+            name: "joker876",
+            link: "https://github.com/joker876",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
