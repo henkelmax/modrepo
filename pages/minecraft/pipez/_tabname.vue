@@ -252,6 +252,13 @@ export default {
             link: "https://github.com/Regnander",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "AlgorithmLX",
+            link: "https://github.com/AlgorithmLX",
+          },
+        },
       ],
     };
   },

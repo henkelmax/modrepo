@@ -627,6 +627,24 @@ If you are hosting the server on your local machine take a look at <a href="http
           },
         },
         {
+          element: {
+            name: "MacOS microphone workaround",
+          },
+          name: {
+            name: "mjwells2002",
+            link: "https://github.com/mjwells2002",
+          },
+        },
+        {
+          element: {
+            name: "MacOS microphone workaround",
+          },
+          name: {
+            name: "cbyrneee",
+            link: "https://github.com/cbyrneee",
+          },
+        },
+        {
           element: { name: "Brazilian Portuguese translation" },
           name: {
             name: "Allomere",
@@ -722,6 +740,13 @@ If you are hosting the server on your local machine take a look at <a href="http
           name: {
             name: "gyular",
             link: "https://github.com/gyular",
+          },
+        },
+        {
+          element: { name: "Polish translation" },
+          name: {
+            name: "joker876",
+            link: "https://github.com/joker876",
           },
         },
       ],

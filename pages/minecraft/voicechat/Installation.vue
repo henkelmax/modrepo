@@ -2,19 +2,31 @@
   <div>
     <h1>Installation</h1>
 
+    <p>
+      You always have to install Simple Voice Chat on your game and your server.
+      If you don't have it installed on your client, you will still be able to
+      join, but you won't be able to use any feature of the mod.
+    </p>
+
     <h2>Fabric</h2>
     <p>
       For the Fabric version of the mod, you need to have the
       <a href="https://fabricmc.net/use/">Fabric Loader</a> installed on your
-      client and server. Additionally you need to have the
+      game/server.
+    </p>
+    <p>
+      In versions lower than <code>2.1.25</code>, you additionally need to have
+      the
       <a
         href="https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all"
         >Fabric API</a
       >
       jar added to your mods folder. Make sure you have the latest version of
-      the API that is available for your Minecraft version. Also don't forget to
-      add the actual Simple Voice Chat mod jar to the mods folder. The mods
-      folder is located in <code>/mods</code>.
+      the API that is available for your Minecraft version.
+    </p>
+    <p>
+      Also don't forget to add the actual Simple Voice Chat mod jar to the mods
+      folder. The mods folder is located in <code>/mods</code>.
     </p>
     <br />
 
@@ -33,19 +45,24 @@
 
     <h2>Bukkit/Spigot/Paper</h2>
     <p>
-      For the bukkit based versions of the voice chat you need to have
-      <a href="https://ci.dmulloy2.net/job/ProtocolLib/">ProtocolLib</a>
-      installed. Make sure you put ProtocolLib and the voice chat plugin into
-      the
+      Make sure you put the voice chat plugin into the
       <code>/plugins</code> folder of your server.
     </p>
     <p>
-      Note that you need the Fabric or Forge version of the mod installed on your client
-      when using the Bukkit/Spigot/Paper version of Simple Voice Chat on the
-      server!
+      For bukkit based versions older than <code>2.1.27</code> you need to have
+      <a href="https://ci.dmulloy2.net/job/ProtocolLib/">ProtocolLib</a>
+      installed.
     </p>
     <p>
-      Note that in versions older than <code>2.1.0</code> you can only join servers with the Fabric version of the mod!
+      <b>
+        Note that you need the Fabric or Forge version of the mod installed on
+        your client when using the Bukkit/Spigot/Paper version of Simple Voice
+        Chat on the server!
+      </b>
+    </p>
+    <p>
+      Note that in versions older than <code>2.1.0</code> you can only join
+      servers with the Fabric version of the mod!
     </p>
   </div>
 </template>
