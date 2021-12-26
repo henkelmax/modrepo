@@ -628,6 +628,16 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           element: {
+            name: "commodore",
+            link: "https://github.com/lucko/commodore",
+          },
+          license: {
+            name: "MIT",
+            link: "https://github.com/lucko/commodore/blob/master/LICENSE.txt",
+          },
+        },
+        {
+          element: {
             name: "MacOS microphone workaround",
           },
           name: {
