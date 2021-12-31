@@ -364,6 +364,9 @@
           <template slot="compatibility">
             <Compatibility class="pa-6" />
           </template>
+          <template slot="supported_versions">
+            <SupportedVersions class="pa-6" />
+          </template>
           <template slot="icons">
             <Icons class="pa-6" />
           </template>
@@ -446,6 +449,7 @@ import Setup from "~/pages/minecraft/voicechat/Setup.vue";
 import Troubleshooting from "~/pages/minecraft/voicechat/Troubleshooting.vue";
 import Compatibility from "~/pages/minecraft/voicechat/Compatibility.vue";
 import Configuration from "~/pages/minecraft/voicechat/Configuration.vue";
+import SupportedVersions from "~/pages/minecraft/voicechat/SupportedVersions.vue";
 import Icons from "~/pages/minecraft/voicechat/Icons.vue";
 
 export default {
@@ -762,6 +766,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         { id: "troubleshooting", title: "Troubleshooting Problems" },
         { id: "configuration", title: "Configuration" },
         { id: "compatibility", title: "Compatibility" },
+        { id: "supported_versions", title: "Supported Versions" },
         { id: "icons", title: "Icons" },
       ],
     };
@@ -771,10 +776,11 @@ If you are hosting the server on your local machine take a look at <a href="http
     Wiki,
     Installation,
     Setup,
+    Troubleshooting,
     Compatibility,
     Configuration,
+    SupportedVersions,
     Icons,
-    Troubleshooting,
   },
   methods: {
     showSupportKey() {
