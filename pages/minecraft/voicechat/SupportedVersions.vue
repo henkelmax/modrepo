@@ -16,55 +16,70 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td><code>1.15.2</code></td>
+        <tr v-for="version in versions" :key="version.version">
           <td>
-            <v-chip color="red">No support</v-chip>
+            <code>{{ version.version }}</code>
           </td>
-        </tr>
-        <tr>
-          <td><code>1.16.3</code></td>
           <td>
-            <v-chip color="red">No support</v-chip>
-          </td>
-        </tr>
-        <tr>
-          <td><code>1.16.4</code></td>
-          <td>
-            <v-chip color="red">No support</v-chip>
-          </td>
-        </tr>
-        <tr>
-          <td><code>1.16.5</code></td>
-          <td>
-            <v-chip color="orange">Only critical bugs</v-chip>
-          </td>
-        </tr>
-        <tr>
-          <td><code>1.17</code></td>
-          <td>
-            <v-chip color="red">No support</v-chip>
-          </td>
-        </tr>
-        <tr>
-          <td><code>1.17.1</code></td>
-          <td>
-            <v-chip color="green">Under active development</v-chip>
-          </td>
-        </tr>
-        <tr>
-          <td><code>1.18</code></td>
-          <td>
-            <v-chip color="red">No support</v-chip>
-          </td>
-        </tr>
-        <tr>
-          <td><code>1.18.1</code></td>
-          <td>
-            <v-chip color="green">Under active development</v-chip>
+            <v-chip v-if="version.support === 'no_support'" color="red">
+              No support
+            </v-chip>
+            <v-chip v-if="version.support === 'critical_bugs'" color="orange">
+              Only critical bugs
+            </v-chip>
+            <v-chip
+              v-if="version.support === 'active_development'"
+              color="green"
+            >
+              Under active development
+            </v-chip>
           </td>
         </tr>
       </tbody>
     </v-simple-table>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      versions: [
+        {
+          version: "1.15.2",
+          support: "no_support",
+        },
+        {
+          version: "1.16.3",
+          support: "no_support",
+        },
+        {
+          version: "1.16.4",
+          support: "no_support",
+        },
+        {
+          version: "1.16.5",
+          support: "critical_bugs",
+        },
+        {
+          version: "1.17",
+          support: "no_support",
+        },
+        {
+          version: "1.17.1",
+          support: "active_development",
+        },
+        {
+          version: "1.18",
+          support: "no_support",
+        },
+        {
+          version: "1.18.1",
+          support: "active_development",
+        },
+      ],
+    };
+  },
+};
+</script>
+
