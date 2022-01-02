@@ -8,6 +8,12 @@
       maintains.
     </p>
 
+    <p>
+      We usually only support the latest patch of each major Minecraft version.
+      Snapshots are generally not supported after a newer snapshot version is
+      released or the full release of that version is out.
+    </p>
+
     <v-simple-table>
       <thead>
         <tr>
