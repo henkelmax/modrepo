@@ -364,8 +364,8 @@
           <template slot="compatibility">
             <Compatibility class="pa-6" />
           </template>
-          <template slot="help">
-            <Help class="pa-6" />
+          <template slot="supported_versions">
+            <SupportedVersions class="pa-6" />
           </template>
           <template slot="icons">
             <Icons class="pa-6" />
@@ -448,8 +448,8 @@ import Installation from "~/pages/minecraft/voicechat/Installation.vue";
 import Setup from "~/pages/minecraft/voicechat/Setup.vue";
 import Troubleshooting from "~/pages/minecraft/voicechat/Troubleshooting.vue";
 import Compatibility from "~/pages/minecraft/voicechat/Compatibility.vue";
-import Help from "~/pages/minecraft/voicechat/Help.vue";
 import Configuration from "~/pages/minecraft/voicechat/Configuration.vue";
+import SupportedVersions from "~/pages/minecraft/voicechat/SupportedVersions.vue";
 import Icons from "~/pages/minecraft/voicechat/Icons.vue";
 
 export default {
@@ -628,6 +628,16 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           element: {
+            name: "commodore",
+            link: "https://github.com/lucko/commodore",
+          },
+          license: {
+            name: "MIT",
+            link: "https://github.com/lucko/commodore/blob/master/LICENSE.txt",
+          },
+        },
+        {
+          element: {
             name: "MacOS microphone workaround",
           },
           name: {
@@ -756,7 +766,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         { id: "troubleshooting", title: "Troubleshooting Problems" },
         { id: "configuration", title: "Configuration" },
         { id: "compatibility", title: "Compatibility" },
-        { id: "help", title: "Help Setting Up Voicechat" },
+        { id: "supported_versions", title: "Supported Versions" },
         { id: "icons", title: "Icons" },
       ],
     };
@@ -766,11 +776,11 @@ If you are hosting the server on your local machine take a look at <a href="http
     Wiki,
     Installation,
     Setup,
-    Compatibility,
-    Help,
-    Configuration,
-    Icons,
     Troubleshooting,
+    Compatibility,
+    Configuration,
+    SupportedVersions,
+    Icons,
   },
   methods: {
     showSupportKey() {
