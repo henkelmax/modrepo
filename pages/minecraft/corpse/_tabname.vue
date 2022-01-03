@@ -203,6 +203,13 @@ export default {
             link: "https://github.com/qkrehf2",
           },
         },
+        {
+          element: { name: "Swedish translation" },
+          name: {
+            name: "Regnander",
+            link: "https://github.com/Regnander",
+          },
+        },
       ],
       faq: [
         {
