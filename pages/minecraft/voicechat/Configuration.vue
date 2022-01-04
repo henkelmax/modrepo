@@ -22,9 +22,9 @@
           <td><code>bind_address</code></td>
           <td>
             The IP address to bind the voice chat server on <br />
-            Use '0.0.0.0' to bind to an IP address chosen by the kernel
+            Leave empty to bind to an IP address chosen by the kernel
           </td>
-          <td><code>0.0.0.0</code></td>
+          <td></td>
         </tr>
         <tr>
           <td><code>distance</code></td>
