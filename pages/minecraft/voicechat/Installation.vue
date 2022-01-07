@@ -25,8 +25,12 @@
       the API that is available for your Minecraft version.
     </p>
     <p>
-      Also don't forget to add the actual Simple Voice Chat mod jar to the mods
-      folder. The mods folder is located in <code>/mods</code>.
+      Also don't forget to add the actual
+      <a
+        href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A7499"
+        >Simple Voice Chat mod jar</a
+      >
+      to the mods folder. The mods folder is located in <code>/mods</code>.
     </p>
     <br />
 
@@ -34,8 +38,12 @@
     <p>
       For the Forge version of the mod, you need to have
       <a href="https://files.minecraftforge.net/">Forge</a> installed on your
-      game/server. Then you only need to add the mod jar file to
-      <code>/mods</code>.
+      game/server. Then you only need to add the
+      <a
+        href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A7498"
+        >mod jar file</a
+      >
+      to <code>/mods</code>.
     </p>
     <p>
       Note that in versions older than <code>2.1.0</code> the Forge version of
@@ -45,8 +53,12 @@
 
     <h2>Bukkit/Spigot/Paper</h2>
     <p>
-      Make sure you put the voice chat plugin into the
-      <code>/plugins</code> folder of your server.
+      Make sure you put the
+      <a
+        href="https://www.curseforge.com/minecraft/bukkit-plugins/simple-voice-chat/files/all"
+        >voice chat plugin</a
+      >
+      into the <code>/plugins</code> folder of your server.
     </p>
     <p>
       For bukkit based versions older than <code>2.1.27</code> you need to have

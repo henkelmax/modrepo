@@ -37,7 +37,18 @@
       <code>Enable microphone testing</code> button.
     </p>
     <p>
-      If you are using MacOS, you need to do a
+      If you are using MacOS, you need to
+      <a
+        href="https://github.com/henkelmax/simple-voice-chat/tree/1.18.1/macos"
+      >
+        patch your launcher
+      </a>
+      in order for the game to gain microphone access. The patcher will open
+      automatically when the mod detects missing microphone permissions.
+    </p>
+    <p>
+      If you are using version 1.x.x of the voice chat on MacOS, you need to do
+      a
       <a
         href="https://github.com/henkelmax/simple-voice-chat/issues/24#issuecomment-869015205"
         >workaround</a
