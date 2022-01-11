@@ -210,6 +210,13 @@ export default {
             link: "https://github.com/Regnander",
           },
         },
+        {
+          element: { name: "Czech translation" },
+          name: {
+            name: "HonzaVinCZ",
+            link: "https://github.com/HonzaVinCZ",
+          },
+        },
       ],
       faq: [
         {
