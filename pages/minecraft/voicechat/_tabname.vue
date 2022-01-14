@@ -763,6 +763,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://github.com/joker876",
           },
         },
+        {
+          element: { name: "Czech translation" },
+          name: {
+            name: "HonzaVinCZ",
+            link: "https://github.com/HonzaVinCZ",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },

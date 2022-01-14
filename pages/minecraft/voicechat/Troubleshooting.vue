@@ -8,7 +8,7 @@
     </p>
     <p>
       If you are running your server behind a proxy like BungeeCord or Velocity,
-      you might need to set <code>voice_host</code> to the public IP of the
+      you may also need to set <code>voice_host</code> to the public IP of the
       server the voice chat is running on.
     </p>
     <p>

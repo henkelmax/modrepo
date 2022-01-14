@@ -1,8 +1,18 @@
 <template>
   <div>
     <h1>Configuration</h1>
-
     <h2>Server</h2>
+    <br />
+    <b>Fabric</b>
+    <code>config/voicechat/voicechat-server.properties</code>
+    <br />
+    <b>Forge</b>
+    <code>&lt;Your world folder&gt;/serverconfig/voicechat-server.toml</code>
+    <br />
+    <b>Bukkit/Spigot/Paper</b>
+    <code>plugins/voicechat/voicechat-server.properties</code>
+    <br />
+    <br />
 
     <v-simple-table>
       <thead>
@@ -133,6 +143,14 @@
     <br />
     <br />
     <h2>Client</h2>
+    <br />
+    <b>Fabric</b>
+    <code>config/voicechat/voicechat-client.properties</code>
+    <br />
+    <b>Forge</b>
+    <code>config/voicechat-client.toml</code>
+    <br />
+    <br />
 
     <v-simple-table>
       <thead>
