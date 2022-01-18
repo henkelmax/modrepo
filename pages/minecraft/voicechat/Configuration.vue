@@ -109,12 +109,12 @@
           <td><code>false</code></td>
         </tr>
         <tr>
-          <td><code>min_distance</code></td>
+          <td><code>min_voice_distance</code></td>
           <td>The distance to where the voice starts fading</td>
           <td><code>4.0</code></td>
         </tr>
         <tr>
-          <td><code>max_distance</code></td>
+          <td><code>max_voice_distance</code></td>
           <td>The distance to where the voice can be heard</td>
           <td><code>48</code></td>
         </tr>
