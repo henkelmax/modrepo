@@ -116,7 +116,8 @@ export default {
         },
         {
           name: "Dynamic Render Distance",
-          description: "Dynamically adjusts the render distance based on the servers performance.",
+          description:
+            "Dynamically adjusts the render distance based on the servers performance.",
           modid: "renderdistance",
           logo: require("~/assets/minecraft/renderdistance/logo_renderdistance.png"),
           downloadLink:
@@ -171,6 +172,14 @@ export default {
           logo: require("~/assets/minecraft/easy_villagers/logo_easy_villagers.png"),
           downloadLink:
             "https://www.curseforge.com/minecraft/mc-mods/easy-villagers/files/all",
+        },
+        {
+          name: "Trade Cycling",
+          description: "The trade cycling functionality of Easy Villagers",
+          modid: "trade_cycling",
+          logo: require("~/assets/minecraft/trade_cycling/logo_trade_cycling.png"),
+          downloadLink:
+            "https://www.curseforge.com/minecraft/mc-mods/trade-cycling/files/all",
         },
         {
           name: "Easy Piglins",
