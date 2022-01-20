@@ -564,6 +564,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           question: "Does this work with ngrok?",
           answer: "No. Ngrok does not support UDP.",
         },
+        {
+          question: "Does this work with MohistMC?",
+          answer: `No. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
+        },
       ],
       credits: [
         {
