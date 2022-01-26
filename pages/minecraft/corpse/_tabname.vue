@@ -217,6 +217,13 @@ export default {
             link: "https://github.com/HonzaVinCZ",
           },
         },
+        {
+          element: { name: "Norwegian translation" },
+          name: {
+            name: "Bloodaxe95",
+            link: "https://github.com/Bloodaxe95",
+          },
+        },
       ],
       faq: [
         {
