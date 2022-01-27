@@ -224,6 +224,13 @@ export default {
             link: "https://github.com/Bloodaxe95",
           },
         },
+        {
+          element: { name: "Italian translation" },
+          name: {
+            name: "SimGitHub5",
+            link: "https://github.com/SimGitHub5",
+          },
+        },
       ],
       faq: [
         {
