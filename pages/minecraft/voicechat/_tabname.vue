@@ -15,336 +15,301 @@
     >
       <v-container slot="overview">
         <p>
-          <span>
-            This mod adds a proximity voice chat to your Minecraft server. You
-            can choose between push to talk (PTT) or voice activation. The
-            default PTT key is <kbd>CAPS LOCK</kbd>, but it can be changed in
-            the controls. You can access the voice chat settings by pressing the
-            <kbd>V</kbd> key.
-          </span>
+          This mod adds a proximity voice chat to your Minecraft server. You can
+          choose between push to talk (PTT) or voice activation. The default PTT
+          key is <kbd>CAPS LOCK</kbd>, but it can be changed in the key bind
+          settings. You can access the voice chat settings by pressing the
+          <kbd>V</kbd> key.
         </p>
-        <br />
-        <h2>Features</h2>
-        <ul>
-          <li><span>Proximity voice chat</span></li>
-          <li><span>Password protected group chats</span></li>
-          <li>
-            <span><a href="https://opus-codec.org/">Opus Codec</a></span>
-          </li>
-          <li>
-            <span
-              ><a href="https://jmvalin.ca/demo/rnnoise/">RNNoise</a> recurrent
-              neural network noise suppression</span
-            >
-          </li>
-          <li><span>OpenAL Audio</span></li>
-          <li>
-            <span
-              >Cross compatibility between Fabric, Forge, Bukkit, Spigot and
-              Paper</span
-            >
-          </li>
-          <li>
-            <span>
-              Compatibility with
-              <a
-                href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"
-              >
-                Sound Physics Remastered
-              </a>
-            </span>
-          </li>
-          <li>
-            <span>
-              Compatibility with
-              <a
-                href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-fabric"
-              >
-                Sound Physics Fabric
-              </a>
-              (Not recommended)
-            </span>
-          </li>
-          <li>
-            <span>
-              Compatibility with
-              <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">
-                ModMenu</a
-              >
+        <p>
+          ⚠️ <strong>NOTE</strong> This mod requires special setup on the server
+          in order to work. Please read the
+          <a href="/minecraft/voicechat/wiki?t=setup">wiki</a>
+          for more information.
+        </p>
 
-              (Use
-              <a
-                href="https://www.curseforge.com/minecraft/mc-mods/cloth-config"
-              >
-                ClothConfig</a
-              >
-              for a better configuration UI)
-            </span>
-          </li>
-          <li><span>Push to talk</span></li>
-          <li><span>Voice activation</span></li>
-          <li><span>Configurable PTT key</span></li>
-          <li><span>Test microphone playback</span></li>
+        <h2 id="features">Features</h2>
+        <ul>
+          <li>Proximity voice chat</li>
+          <li>Password protected group chats</li>
+          <li><a href="https://opus-codec.org/">Opus codec</a></li>
           <li>
-            <span>Indicator on the screen when you are talking</span>
+            <a href="https://jmvalin.ca/demo/rnnoise/">RNNoise</a> recurrent
+            neural network noise suppression
+          </li>
+          <li>OpenAL audio</li>
+          <li>
+            Cross compatibility between Fabric, Forge, Bukkit, Spigot and Paper
           </li>
           <li>
-            <span>Indicator next to players names when they are talking</span>
+            Compatibility with
+            <a
+              href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"
+              >Sound Physics Remastered</a
+            >
           </li>
-          <li><span>Configurable voice distance</span></li>
-          <li><span>Whispering</span></li>
-          <li><span>Mute other players</span></li>
           <li>
-            <span>Adjust the volume of other players</span>
+            Compatibility with
+            <a
+              href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-fabric"
+              >Sound Physics Fabric</a
+            >
           </li>
-          <li><span>Microphone amplification</span></li>
-          <li><span>3D sound</span></li>
-          <li><span>AES encryption</span></li>
           <li>
-            <span>Configurable network port</span>
+            Compatibility with
+            <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu"
+              >ModMenu</a
+            >
+            (Use
+            <a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config"
+              >ClothConfig</a
+            >
+            for a better configuration UI)
           </li>
-          <li><span>Audio recording</span></li>
+          <li>Push to talk</li>
+          <li>Voice activation</li>
+          <li>Configurable push to talk key</li>
+          <li>Microphone test playback</li>
+          <li>Configurable voice distance</li>
+          <li>Whispering</li>
+          <li>Individual player volume adjustment</li>
+          <li>Microphone amplification</li>
+          <li>3D sound</li>
+          <li>AES encryption</li>
+          <li>Audio recording with separate audio tracks</li>
+          <li><a href="api/readme.md">Plugin API</a></li>
         </ul>
-        <br />
-        <h2>Icons</h2>
-        <p>
-          <span>
-            When other players talk in the voice chat, you see a little speaker
-            icon next to their name.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_1.png')"
-        ></v-img>
-        <br />
-        <p>
-          <span>
-            When you are talking (Either PTT or voice activation), you see a
-            little microphone icon in the bottom left corner of your screen.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_2.png')"
-        ></v-img>
-        <br />
-        <p>
-          <span>
-            If a player deactivated their voice chat, you see a striked out icon
-            next to their name.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_3.png')"
-        ></v-img>
-        <br />
-        <p>
-          <span>
-            You are seeing the same icon in the bottom left corner of your
-            screen if you deactivate the voice chat yourself.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_4.png')"
-        ></v-img>
-        <br />
-        <p>
-          <span>
-            If you mute your microphone (Voice activation only), you will also
-            see an indicator icon on your screen.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_5.png')"
-        ></v-img>
-        <br />
-        <p>
-          <span
-            >If you or another player loses the connection to the voice chat
-            they will have an icon indicating that. You will also see this icon
-            if a player does not have this mod installed.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_6.png')"
-        ></v-img>
-        <br />
-        <h2>Key Bindings</h2>
+        <h2 id="icons">Icons</h2>
         <table>
           <thead>
             <tr>
+              <th style="text-align: center">Icon</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="text-align: center">
+                <v-img
+                  :src="
+                    require('~/assets/minecraft/voicechat/image_voicechat_1.png')
+                  "
+                ></v-img>
+              </td>
+              <td>You are talking</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">
+                <v-img
+                  :src="
+                    require('~/assets/minecraft/voicechat/image_voicechat_2.png')
+                  "
+                ></v-img>
+              </td>
+              <td>You are whispering</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">
+                <v-img
+                  :src="
+                    require('~/assets/minecraft/voicechat/image_voicechat_3.png')
+                  "
+                ></v-img>
+              </td>
+              <td>Player is talking</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">
+                <v-img
+                  :src="
+                    require('~/assets/minecraft/voicechat/image_voicechat_4.png')
+                  "
+                ></v-img>
+              </td>
+              <td>Player is whispering</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">
+                <v-img
+                  :src="
+                    require('~/assets/minecraft/voicechat/image_voicechat_5.png')
+                  "
+                ></v-img>
+              </td>
+              <td>Microphone muted</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">
+                <v-img
+                  :src="
+                    require('~/assets/minecraft/voicechat/image_voicechat_6.png')
+                  "
+                ></v-img>
+              </td>
+              <td>Voice chat disabled</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">
+                <v-img
+                  :src="
+                    require('~/assets/minecraft/voicechat/image_voicechat_7.png')
+                  "
+                ></v-img>
+              </td>
+              <td>Voice chat not connected<br />Voice chat not installed</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="the-gui">The GUI</h2>
+        <p>
+          You can open the voice chat GUI by pressing the <kbd>V</kbd> key. This
+          allows you to open the settings, group chats, mute yourself, disable
+          the voice chat, start/stop a recording and hide all icons.
+        </p>
+        <p>
+          <v-img
+            :src="require('~/assets/minecraft/voicechat/image_voicechat_8.png')"
+          ></v-img>
+        </p>
+        <h3 id="group-chats">Group Chats</h3>
+        <p>
+          Group chats allow you to talk to players that are not in your
+          vicinity. To open the group chat interface, either press the group
+          button in the voice chat GUI or just press the <kbd>G</kbd> key.
+        </p>
+        <p>
+          To create a new group, just type a name in the text field and press
+          the button next to it.
+        </p>
+        <p>
+          <v-img
+            :src="require('~/assets/minecraft/voicechat/image_voicechat_9.png')"
+          ></v-img>
+        </p>
+        <p>
+          Creating or joining a group will bring you into the group chat
+          interface. You will also see the heads of the group members in the top
+          left corner of your screen. Talking players will be outlined. You can
+          disable these icons by pressing the third button from the left.
+        </p>
+        <p>
+          <v-img
+            :src="
+              require('~/assets/minecraft/voicechat/image_voicechat_10.png')
+            "
+          ></v-img>
+        </p>
+        <p>
+          Players that are not in a group will see a group icon next to your
+          head, indicating that they can&#39;t talk to you.
+        </p>
+        <p>
+          You can invite players to your group chat by entering the command
+          <code>/voicechat invite &lt;playername&gt;</code>.
+        </p>
+        <h3 id="settings">Settings</h3>
+        <p>
+          You can access the voice chat GUI by pressing the <kbd>V</kbd> key and
+          pressing the settings button.
+        </p>
+        <p>
+          This menu offers the ability to change the general voice chat volume
+          and your microphone amplification. In addition, there is the
+          possibility to specify the recording and playback device.
+        </p>
+        <p>
+          By clicking the &#39;Enable microphone testing&#39; button, you can
+          hear your own voice and adjust the activation level of the voice
+          activation.
+        </p>
+        <p>
+          <v-img
+            :src="
+              require('~/assets/minecraft/voicechat/image_voicechat_11.png')
+            "
+          ></v-img>
+        </p>
+        <h2 id="key-bindings">Key Bindings</h2>
+        <v-simple-table>
+          <thead>
+            <tr>
               <th>Name</th>
-              <th>Default Key</th>
+              <th style="text-align: center">Default Key</th>
               <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Voice Chat GUI</td>
-              <td><kbd>V</kbd></td>
+              <td style="text-align: center"><kbd>V</kbd></td>
               <td>Opens the voice chat GUI.</td>
             </tr>
             <tr>
               <td>Voice Chat Settings</td>
-              <td><i>Not bound by default</i></td>
+              <td style="text-align: center"><em>Not bound by default</em></td>
               <td>Opens the voice chat settings.</td>
             </tr>
             <tr>
               <td>Group Chats</td>
-              <td><kbd>G</kbd></td>
+              <td style="text-align: center"><kbd>G</kbd></td>
               <td>Opens the group chat GUI.</td>
             </tr>
             <tr>
               <td>Push To Talk</td>
-              <td><kbd>CAPS LOCK</kbd></td>
+              <td style="text-align: center"><kbd>CAPS LOCK</kbd></td>
               <td>
-                The push to talk key (Only when using activation
-                type&nbsp;<kbd>PTT</kbd>).
+                The push to talk key (Only when using activation type
+                <code>PTT</code>).
               </td>
             </tr>
             <tr>
               <td>Mute Microphone</td>
-              <td><kbd>M</kbd></td>
+              <td style="text-align: center"><kbd>M</kbd></td>
               <td>
-                The mute button (Only when using voice activation
-                type&nbsp;<kbd>Voice</kbd>).
+                The mute button (Only when using voice activation type
+                <code>Voice</code>).
               </td>
             </tr>
             <tr>
               <td>Disable Voice Chat</td>
-              <td><kbd>N</kbd></td>
+              <td style="text-align: center"><kbd>N</kbd></td>
               <td>
-                This button disables the voice chat. Other people can't hear you
-                and you can't hear them.
+                This button disables the voice chat. Other people can&#39;t hear
+                you and you can&#39;t hear them.
               </td>
             </tr>
             <tr>
               <td>Hide Voice Chat Icons</td>
-              <td><kbd>H</kbd></td>
-              <td>
-                This button hides all icons related to the voice chat. This does
-                not affect any other functionalities.
-              </td>
+              <td style="text-align: center"><kbd>H</kbd></td>
+              <td>This button hides all icons related to the voice chat.</td>
             </tr>
             <tr>
               <td>Toggle Recording</td>
-              <td><i>Not bound by default</i></td>
+              <td style="text-align: center"><em>Not bound by default</em></td>
               <td>Toggles voice chat audio recording.</td>
             </tr>
             <tr>
               <td>Whisper</td>
-              <td><i>Not bound by default</i></td>
+              <td style="text-align: center"><em>Not bound by default</em></td>
               <td>Hold down to whisper.</td>
             </tr>
           </tbody>
-        </table>
-        <br />
-        <h2>The GUI</h2>
+        </v-simple-table>
         <p>
-          <span>
-            You can open the voice chat GUI by pressing the <kbd>V</kbd> key.
-            This allows you to open the settings, group chats, mute yourself,
-            disable the voice chat and hide all icons.
-          </span>
+          You can change every key binding in the Minecraft key binding
+          settings.
         </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_9.png')"
-        ></v-img>
-        <br />
-        <h2>Group Chats</h2>
+        <h2 id="important-notes">Important Notes</h2>
         <p>
-          <span>
-            Group chats allow you to talk to players that are not in your
-            vicinity. To open the group chat interface, either press the group
-            button in the voice chat GUI or just press the <kbd>G</kbd> key.
-          </span>
+          You need to open a port on the server. This is port
+          <code>24454</code> <code>UDP</code> by default. Without opening this
+          port, the voice chat will not work. This port can be changed in the
+          server config. More information
+          <a href="/minecraft/voicechat/wiki?t=setup">here</a>.
         </p>
         <p>
-          <span>
-            To create a new group, just type a name in the text field and press
-            the button next to it.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_10.png')"
-        ></v-img>
-        <p>
-          <span>
-            To join an already existing group, click the group in the list below
-            the text field.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_11.png')"
-        ></v-img>
-        <p>
-          <span>
-            Creating or joining a group will bring you into the group chat
-            interface. You will also see the heads of the group members in the
-            top left corner of your screen. Talking players will be outlined.
-            You can disable these icons by pressing the third button from the
-            left.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_12.png')"
-        ></v-img>
-        <p>
-          <span>
-            Players that are not in a group will see a group icon next to your
-            head, indicating that they can't talk to you. You can invite players
-            to your group chat by entering the command
-            <code>/voicechat invite &lt;playername&gt;</code>.
-          </span>
-        </p>
-        <br />
-        <h2>Settings</h2>
-        <p>
-          <span>
-            You can access the voice chat GUI by pressing the <kbd>V</kbd> key
-            and pressing the settings button.
-          </span>
-        </p>
-        <p>
-          <span>
-            This menu offers the ability to change the general voice chat volume
-            and your microphone amplification. In addition, there is the
-            possibility to specify the recording and playback device.
-          </span>
-        </p>
-        <p>
-          <span>
-            By clicking the 'Enable microphone testing' button, you can hear
-            your own voice and adjust the activation level of the voice
-            activation.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_7.png')"
-        ></v-img>
-        <p>
-          <span>
-            By pressing the 'Adjust player volumes' in the voice chat settings,
-            you can adjust the individual volumes of each player.
-          </span>
-        </p>
-        <v-img
-          :src="require('~/assets/minecraft/voicechat/image_voicechat_8.png')"
-        ></v-img>
-        <br />
-        <h2>Important Notes</h2>
-        <p>
-          <span>
-            You need to open a port on the server. This is port
-            <code>24454</code> <code>UDP</code> by default. Without opening this
-            port, the voice chat will not work. This port can be changed in the
-            server config.
-          </span>
-        </p>
-        <p>
-          <span>
-            The voice chat is encrypted, but I don't guarantee the security of
-            it. Use at your own risk!
-          </span>
+          The voice chat is encrypted, but we don&#39;t guarantee the security
+          of it. Use at your own risk!
         </p>
       </v-container>
       <template slot="wiki">

@@ -11,7 +11,7 @@
     </p>
 
     <v-img
-      :src="require('~/assets/minecraft/voicechat/image_voicechat_13.png')"
+      :src="require('~/assets/minecraft/voicechat/image_voicechat_12.png')"
     ></v-img>
   </div>
 </template>
