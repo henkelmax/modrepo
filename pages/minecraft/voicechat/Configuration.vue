@@ -398,6 +398,13 @@
           <td>If the microphone workaround hack should be used (MacOS only)</td>
           <td><code>true</code></td>
         </tr>
+        <tr>
+          <td><code>show_fake_players_disconnected</code></td>
+          <td>
+            If fake players should have the disconnected icon above their head
+          </td>
+          <td><code>false</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
   </div>
