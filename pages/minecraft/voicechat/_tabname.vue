@@ -429,14 +429,11 @@ export default {
       supportKeyDialog: false,
       supportKey: null,
       images: [
-        require("~/assets/minecraft/voicechat/image_voicechat_1.png"),
-        require("~/assets/minecraft/voicechat/image_voicechat_2.png"),
-        require("~/assets/minecraft/voicechat/image_voicechat_3.png"),
-        require("~/assets/minecraft/voicechat/image_voicechat_4.png"),
-        require("~/assets/minecraft/voicechat/image_voicechat_5.png"),
-        require("~/assets/minecraft/voicechat/image_voicechat_6.png"),
-        require("~/assets/minecraft/voicechat/image_voicechat_7.png"),
         require("~/assets/minecraft/voicechat/image_voicechat_8.png"),
+        require("~/assets/minecraft/voicechat/image_voicechat_9.png"),
+        require("~/assets/minecraft/voicechat/image_voicechat_10.png"),
+        require("~/assets/minecraft/voicechat/image_voicechat_11.png"),
+        require("~/assets/minecraft/voicechat/image_voicechat_12.png"),
       ],
       faq: [
         {
