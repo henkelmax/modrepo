@@ -217,6 +217,20 @@ export default {
             link: "https://github.com/HonzaVinCZ",
           },
         },
+        {
+          element: { name: "Norwegian translation" },
+          name: {
+            name: "Bloodaxe95",
+            link: "https://github.com/Bloodaxe95",
+          },
+        },
+        {
+          element: { name: "Italian translation" },
+          name: {
+            name: "SimGitHub5",
+            link: "https://github.com/SimGitHub5",
+          },
+        },
       ],
       faq: [
         {

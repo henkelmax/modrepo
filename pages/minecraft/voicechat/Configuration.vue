@@ -137,6 +137,21 @@
           <td>If spectators can talk to players they are spectating</td>
           <td><code>false</code></td>
         </tr>
+        <tr>
+          <td><code>force_voice_chat</code></td>
+          <td>If players without the mod should get kicked from the server</td>
+          <td><code>false</code></td>
+        </tr>
+        <tr>
+          <td><code>login_timeout</code></td>
+          <td>
+            The amount of milliseconds, the server should wait to check if the
+            player has the mod installed
+            <br />
+            Only active when <code>force_voice_chat</code> is set to true
+          </td>
+          <td><code>10 000</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
 
@@ -382,6 +397,13 @@
           <td><code>macos_microphone_workaround</code></td>
           <td>If the microphone workaround hack should be used (MacOS only)</td>
           <td><code>true</code></td>
+        </tr>
+        <tr>
+          <td><code>show_fake_players_disconnected</code></td>
+          <td>
+            If fake players should have the disconnected icon above their head
+          </td>
+          <td><code>false</code></td>
         </tr>
       </tbody>
     </v-simple-table>

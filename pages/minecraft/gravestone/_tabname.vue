@@ -230,6 +230,13 @@ export default {
             link: "https://github.com/Kagaribi172",
           },
         },
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "faelBrunnoS",
+            link: "https://github.com/faelBrunnoS",
+          },
+        },
       ],
       faq: [
         {

@@ -208,6 +208,13 @@ export default {
             link: "https://github.com/BlackJamesYT",
           },
         },
+        {
+          element: { name: "Norwegian translation" },
+          name: {
+            name: "Bloodaxe95",
+            link: "https://github.com/Bloodaxe95",
+          },
+        },
       ],
     };
   },
