@@ -534,6 +534,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           question: "Does this work with Cardboard?",
           answer: `No.`,
         },
+        {
+          question: "Can you use this mod with Lunar Client?",
+          answer: `No.`,
+        },
       ],
       credits: [
         {
