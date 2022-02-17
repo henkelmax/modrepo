@@ -64,8 +64,16 @@ export default {
           support: "no_support",
         },
         {
-          version: "1.16.5",
+          version: "1.16.5 Fabric",
           support: "critical_bugs",
+        },
+        {
+          version: "1.16.5 Forge",
+          support: "active_development",
+        },
+        {
+          version: "1.16.5 Bukkit/Spigot/Paper",
+          support: "active_development",
         },
         {
           version: "1.17",
