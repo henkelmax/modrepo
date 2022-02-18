@@ -18,6 +18,7 @@
       <thead>
         <tr>
           <th class="text-left">Minecraft Version</th>
+          <th class="text-left">Type</th>
           <th class="text-left">Support</th>
         </tr>
       </thead>
@@ -25,6 +26,12 @@
         <tr v-for="version in versions" :key="version.version">
           <td>
             <code>{{ version.version }}</code>
+          </td>
+          <td>
+            <p v-if="version.type === 'fabric'">Fabric</p>
+            <p v-else-if="version.type === 'forge'">Forge</p>
+            <p v-else-if="version.type === 'bukkit'">Bukkit/Spigot/Paper</p>
+            <p v-else>All</p>
           </td>
           <td>
             <v-chip v-if="version.support === 'no_support'" color="red">
@@ -64,15 +71,18 @@ export default {
           support: "no_support",
         },
         {
-          version: "1.16.5 Fabric",
+          version: "1.16.5",
+          type: "fabric",
           support: "critical_bugs",
         },
         {
-          version: "1.16.5 Forge",
+          version: "1.16.5",
+          type: "forge",
           support: "active_development",
         },
         {
-          version: "1.16.5 Bukkit/Spigot/Paper",
+          version: "1.16.5",
+          type: "bukkit",
           support: "active_development",
         },
         {
