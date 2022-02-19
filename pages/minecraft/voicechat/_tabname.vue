@@ -335,6 +335,9 @@
           <template slot="commands">
             <Commands class="pa-6" />
           </template>
+          <template slot="permissions">
+            <Permissions class="pa-6" />
+          </template>
           <template slot="icons">
             <Icons class="pa-6" />
           </template>
@@ -419,6 +422,7 @@ import Compatibility from "~/pages/minecraft/voicechat/Compatibility.vue";
 import Configuration from "~/pages/minecraft/voicechat/Configuration.vue";
 import SupportedVersions from "~/pages/minecraft/voicechat/SupportedVersions.vue";
 import Commands from "~/pages/minecraft/voicechat/Commands.vue";
+import Permissions from "~/pages/minecraft/voicechat/Permissions.vue";
 import Icons from "~/pages/minecraft/voicechat/Icons.vue";
 
 export default {
@@ -760,6 +764,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         { id: "compatibility", title: "Compatibility" },
         { id: "supported_versions", title: "Supported Versions" },
         { id: "commands", title: "Commands" },
+        { id: "permissions", title: "Permissions" },
         { id: "icons", title: "Icons" },
       ],
     };
@@ -774,6 +779,7 @@ If you are hosting the server on your local machine take a look at <a href="http
     Configuration,
     SupportedVersions,
     Commands,
+    Permissions,
     Icons,
   },
   methods: {
