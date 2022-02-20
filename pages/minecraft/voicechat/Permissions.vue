@@ -14,6 +14,10 @@
         Forge permission API </a
       >.
     </p>
+    <p>
+      Note that the permission system for Forge was added in version
+      <code>2.2.21</code> of the mod.
+    </p>
 
     <v-simple-table>
       <thead>
