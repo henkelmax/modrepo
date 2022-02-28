@@ -405,6 +405,11 @@
           </td>
           <td><code>false</code></td>
         </tr>
+        <tr>
+          <td><code>offline_player_volume_adjustment</code></td>
+          <td>If the volume adjustment GUI should also show offline players</td>
+          <td><code>false</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
   </div>
