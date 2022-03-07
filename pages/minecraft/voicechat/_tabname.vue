@@ -50,13 +50,6 @@
           </li>
           <li>
             Compatibility with
-            <a
-              href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-fabric"
-              >Sound Physics Fabric</a
-            >
-          </li>
-          <li>
-            Compatibility with
             <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu"
               >ModMenu</a
             >

@@ -375,7 +375,11 @@
         </tr>
         <tr>
           <td><code>soundphysics</code></td>
-          <td>If sound physics integration should be enabled</td>
+          <td>
+            If sound physics integration should be enabled
+            <br />
+            <b>Removed in 2.2.27</b>
+          </td>
           <td><code>true</code></td>
         </tr>
         <tr>
