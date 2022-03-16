@@ -283,7 +283,11 @@
         </tr>
         <tr>
           <td><code>stereo</code></td>
-          <td>If the voice chat should use semi 3D stereo sound</td>
+          <td>
+            If the voice chat should use semi 3D stereo sound
+            <br />
+            <b>Removed in 2.2.28</b>
+          </td>
           <td><code>true</code></td>
         </tr>
         <tr>
@@ -422,6 +426,16 @@
           <td><code>offline_player_volume_adjustment</code></td>
           <td>If the volume adjustment GUI should also show offline players</td>
           <td><code>false</code></td>
+        </tr>
+        <tr>
+          <td><code>audio_type</code></td>
+          <td>
+            The 3D audio type
+            <br />
+            Possible values are <code>NORMAL</code>, <code>REDUCED</code> and
+            <code>OFF</code>
+          </td>
+          <td><code>NORMAL</code></td>
         </tr>
       </tbody>
     </v-simple-table>
