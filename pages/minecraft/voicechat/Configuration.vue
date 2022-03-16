@@ -152,6 +152,15 @@
           </td>
           <td><code>10 000</code></td>
         </tr>
+        <tr>
+          <td><code>broadcast_range</code></td>
+          <td>
+            The range where the voice chat should broadcast audio to
+            <br />
+            A value &lt;0 means <code>max_voice_distance</code>
+          </td>
+          <td><code>-1.0</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
 
