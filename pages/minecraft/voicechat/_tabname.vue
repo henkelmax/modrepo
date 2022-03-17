@@ -613,6 +613,16 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           element: {
+            name: "Concentus",
+            link: "https://github.com/lostromb/concentus",
+          },
+          license: {
+            name: "Custom",
+            link: "https://github.com/lostromb/concentus/blob/master/LICENSE",
+          },
+        },
+        {
+          element: {
             name: "MacOS microphone workaround",
           },
           name: {
