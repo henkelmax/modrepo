@@ -259,6 +259,13 @@ export default {
             link: "https://github.com/AlgorithmLX",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "Fwengum",
+            link: "https://www.curseforge.com/members/fwengum",
+          },
+        },
       ],
     };
   },

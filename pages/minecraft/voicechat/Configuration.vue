@@ -152,6 +152,15 @@
           </td>
           <td><code>10 000</code></td>
         </tr>
+        <tr>
+          <td><code>broadcast_range</code></td>
+          <td>
+            The range where the voice chat should broadcast audio to
+            <br />
+            A value &lt;0 means <code>max_voice_distance</code>
+          </td>
+          <td><code>-1.0</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
 
@@ -274,7 +283,11 @@
         </tr>
         <tr>
           <td><code>stereo</code></td>
-          <td>If the voice chat should use semi 3D stereo sound</td>
+          <td>
+            If the voice chat should use semi 3D stereo sound
+            <br />
+            <b>Removed in 2.2.28</b>
+          </td>
           <td><code>true</code></td>
         </tr>
         <tr>
@@ -375,7 +388,11 @@
         </tr>
         <tr>
           <td><code>soundphysics</code></td>
-          <td>If sound physics integration should be enabled</td>
+          <td>
+            If sound physics integration should be enabled
+            <br />
+            <b>Removed in 2.2.27</b>
+          </td>
           <td><code>true</code></td>
         </tr>
         <tr>
@@ -404,6 +421,21 @@
             If fake players should have the disconnected icon above their head
           </td>
           <td><code>false</code></td>
+        </tr>
+        <tr>
+          <td><code>offline_player_volume_adjustment</code></td>
+          <td>If the volume adjustment GUI should also show offline players</td>
+          <td><code>false</code></td>
+        </tr>
+        <tr>
+          <td><code>audio_type</code></td>
+          <td>
+            The 3D audio type
+            <br />
+            Possible values are <code>NORMAL</code>, <code>REDUCED</code> and
+            <code>OFF</code>
+          </td>
+          <td><code>NORMAL</code></td>
         </tr>
       </tbody>
     </v-simple-table>

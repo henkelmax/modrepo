@@ -50,13 +50,6 @@
           </li>
           <li>
             Compatibility with
-            <a
-              href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-fabric"
-              >Sound Physics Fabric</a
-            >
-          </li>
-          <li>
-            Compatibility with
             <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu"
               >ModMenu</a
             >
@@ -616,6 +609,16 @@ If you are hosting the server on your local machine take a look at <a href="http
           license: {
             name: "MIT",
             link: "https://github.com/lucko/commodore/blob/master/LICENSE.txt",
+          },
+        },
+        {
+          element: {
+            name: "Concentus",
+            link: "https://github.com/lostromb/concentus",
+          },
+          license: {
+            name: "Custom",
+            link: "https://github.com/lostromb/concentus/blob/master/LICENSE",
           },
         },
         {

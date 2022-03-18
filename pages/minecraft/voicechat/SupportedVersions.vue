@@ -101,6 +101,10 @@ export default {
           version: "1.18.1",
           support: "active_development",
         },
+        {
+          version: "1.18.2",
+          support: "active_development",
+        },
       ],
     };
   },

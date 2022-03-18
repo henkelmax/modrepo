@@ -96,7 +96,7 @@
         <li>The color of the text on the grave</li>
         <li>If the skull on the grave should be rendered</li>
         <li>Whether you want to get the obituary on death</li>
-        <li>The plocks that can get replaced by a grave</li>
+        <li>The blocks that can get replaced by a grave</li>
         <li>
           If the death note should get removed form the players inventory when
           breaking a grave
