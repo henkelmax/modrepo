@@ -200,6 +200,13 @@ export default {
             link: "https://github.com/cyber01",
           },
         },
+        {
+          element: { name: "French translation" },
+          name: {
+            name: "dracnis",
+            link: "https://github.com/dracnis",
+          },
+        },
       ],
     };
   },
