@@ -152,8 +152,9 @@
         you are above the build limit, your items drop as usual.
       </p>
       <p>
-        If you fall into the void, the grave is placed at Y=1. If there is no
-        free space it will get placed at the next free spot above.
+        If you fall into the void, the grave is placed at the lowest point in
+        the world where blocks can be placed. If there is no free space it will
+        get placed at the next free spot above.
       </p>
     </v-container>
   </Mod>
