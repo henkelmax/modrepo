@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>Configuration</h1>
+
+    <p>While editing configuration files, make sure the client/server is stopped.</p>
+
     <h2>Server</h2>
     <br />
     <b>Fabric</b>
