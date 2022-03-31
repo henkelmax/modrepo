@@ -2,7 +2,13 @@
   <div>
     <h1>Configuration</h1>
 
-    <p>While editing configuration files, make sure the client/server is stopped.</p>
+    <p>
+      While editing configuration files, make sure the client/server is stopped.
+    </p>
+    <p>
+      If you can't find these files, make sure the client/server was started at
+      least once, so that the files are generated.
+    </p>
 
     <h2>Server</h2>
     <br />
