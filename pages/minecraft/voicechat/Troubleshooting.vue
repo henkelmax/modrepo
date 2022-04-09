@@ -39,7 +39,7 @@
     <p>
       If you are using MacOS, you need to
       <a
-        href="https://github.com/henkelmax/simple-voice-chat/tree/1.18.1/macos"
+        href="https://github.com/henkelmax/simple-voice-chat/tree/1.18.2/macos"
       >
         patch your launcher
       </a>
