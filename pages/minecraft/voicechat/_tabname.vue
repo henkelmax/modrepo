@@ -583,6 +583,16 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           element: {
+            name: "Opus natives",
+            link: "https://github.com/mjwells2002/libopus-bin",
+          },
+          name: {
+            name: "mjwells2002",
+            link: "https://github.com/mjwells2002",
+          },
+        },
+        {
+          element: {
             name: "adventure",
             link: "https://github.com/KyoriPowered/adventure",
           },
