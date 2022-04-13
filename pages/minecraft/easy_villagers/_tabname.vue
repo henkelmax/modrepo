@@ -207,6 +207,13 @@ export default {
             link: "https://github.com/dracnis",
           },
         },
+        {
+          element: { name: "Korean translation" },
+          name: {
+            name: "hayanggom",
+            link: "https://github.com/hayanggom",
+          },
+        },
       ],
     };
   },

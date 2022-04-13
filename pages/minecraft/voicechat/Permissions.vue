@@ -4,19 +4,22 @@
 
     <p>
       Simple Voice Chat has permissions for the
-      <a href="https://bukkit.fandom.com/wiki/Understanding_Permissions">
-        Bukkit permission system
-      </a>
-      and the
+      <a href="https://bukkit.fandom.com/wiki/Understanding_Permissions"
+        >Bukkit permission system</a
+      >, the
       <a
         href="https://mcforge.readthedocs.io/en/1.12.x/utilities/permissionapi/"
+        >Forge permission API</a
       >
-        Forge permission API </a
+      and the
+      <a href="https://github.com/lucko/fabric-permissions-api"
+        >Fabric Permissions API</a
       >.
     </p>
     <p>
       Note that the permission system for Forge was added in version
-      <code>2.2.21</code> of the mod.
+      <code>2.2.21</code> and the permission system for Fabric was added in
+      version <code>2.2.33</code>.
     </p>
 
     <v-simple-table>
