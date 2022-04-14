@@ -84,6 +84,13 @@ export default {
             link: "https://github.com/Mikeliro",
           },
         },
+        {
+          element: { name: "Korean translation" },
+          name: {
+            name: "hayanggom",
+            link: "https://github.com/hayanggom",
+          },
+        },
       ],
     };
   },
