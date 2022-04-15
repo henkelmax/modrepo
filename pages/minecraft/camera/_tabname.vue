@@ -215,6 +215,13 @@ export default {
             link: "https://github.com/Bloodaxe95",
           },
         },
+        {
+          element: { name: "Korean translation" },
+          name: {
+            name: "gjeodnd12165",
+            link: "https://github.com/gjeodnd12165",
+          },
+        },
       ],
     };
   },
