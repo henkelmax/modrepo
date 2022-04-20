@@ -266,6 +266,13 @@ export default {
             link: "https://www.curseforge.com/members/fwengum",
           },
         },
+        {
+          element: { name: "Korean translation" },
+          name: {
+            name: "gjeodnd12165",
+            link: "https://github.com/gjeodnd12165",
+          },
+        },
       ],
     };
   },
