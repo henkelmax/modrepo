@@ -45,11 +45,6 @@
               <code>plugins/voicechat/voicechat-server.properties</code>
             </li>
           </ul>
-          <!-- <li>
-            If you use a Minecraft hosting service, they may have the default
-            UDP port open and in other cases you may have a port range available
-            for you. If this isn't the case contact their support.
-          </li> -->
           <li>
             If you are hosting the server on your own computer, you have to make
             sure that the port is open in your firewall, as well as in your
