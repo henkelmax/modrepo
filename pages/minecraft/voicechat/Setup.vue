@@ -59,37 +59,6 @@
           </li>
         </ul>
       </li>
-      <!-- <li>
-        Some Minecraft server hosters or servers with multiple network adapters
-        require you to bind the voice chat to a specific IP address
-        <ul>
-          <li>
-            This is only required for some hosters. Please only do this if
-            explicitly stated.
-          </li>
-          <li>
-            You can set this address in the server config of the mod
-            (<code>bind_address</code>)
-          </li>
-          <li>
-            Use <code>0.0.0.0</code> to not bind to a specific address (This is
-            the default value)
-          </li>
-          <li>
-            If you are setting this value, make sure to enter your servers IP
-            address without a port. (Like this <code>1.2.3.4</code>, not like
-            this <code>1.2.3.4:24454</code>)
-          </li>
-          <li>
-            If your server crashes after setting this value, you might use the
-            wrong IP or you don't even need to change this option.
-          </li>
-          <li>
-            If you don't know what to do, please ask the support of your
-            minecraft hoster.
-          </li>
-        </ul>
-      </li> -->
     </ul>
     <br />
     <h3>Testing the voice chat connection</h3>
