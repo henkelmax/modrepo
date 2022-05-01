@@ -20,9 +20,9 @@
         by default)
         <ul>
           <li>
-            Opening the port for the voice chat is the same process as opening the
-            normal minecraft port. You just have to use UDP
-            instead of TCP for the protocol.
+            Opening the port for the voice chat is the same process as opening
+            the normal minecraft port. You just have to use UDP instead of TCP
+            for the protocol.
           </li>
           <li>
             You can change the port in the server config of the mod
@@ -45,11 +45,6 @@
               <code>plugins/voicechat/voicechat-server.properties</code>
             </li>
           </ul>
-          <!-- <li>
-            If you use a Minecraft hosting service, they may have the default
-            UDP port open and in other cases you may have a port range available
-            for you. If this isn't the case contact their support.
-          </li> -->
           <li>
             If you are hosting the server on your own computer, you have to make
             sure that the port is open in your firewall, as well as in your
@@ -64,46 +59,33 @@
           </li>
         </ul>
       </li>
-      <!-- <li>
-        Some Minecraft server hosters or servers with multiple network adapters
-        require you to bind the voice chat to a specific IP address
-        <ul>
-          <li>
-            This is only required for some hosters. Please only do this if
-            explicitly stated.
-          </li>
-          <li>
-            You can set this address in the server config of the mod
-            (<code>bind_address</code>)
-          </li>
-          <li>
-            Use <code>0.0.0.0</code> to not bind to a specific address (This is
-            the default value)
-          </li>
-          <li>
-            If you are setting this value, make sure to enter your servers IP
-            address without a port. (Like this <code>1.2.3.4</code>, not like
-            this <code>1.2.3.4:24454</code>)
-          </li>
-          <li>
-            If your server crashes after setting this value, you might use the
-            wrong IP or you don't even need to change this option.
-          </li>
-          <li>
-            If you don't know what to do, please ask the support of your
-            minecraft hoster.
-          </li>
-        </ul>
-      </li> -->
     </ul>
+    <br />
+    <h3>Setting it up with a proxy</h3>
+    <i> This only applies when using a proxy like Velocity or BungeeCord. </i>
+    <p>
+      <br />
+      First of all, make sure, you have the mod/plugin installed on every
+      Minecraft server that's running behind your proxy.
+    </p>
+    <p>
+      If the proxy and all Minecraft servers are running on the same machine,
+      you have to assign a different port for every instance of voice chat on
+      each Minecraft server. Please also make sure each port is opened in the
+      firewall.
+    </p>
+    <p>
+      If the proxy and the Minecraft servers are running on different machines,
+      you need to set <code>voice_host</code> in the voice chat config of each
+      Minecraft server to the public IP address (Without the port) of the server its running on
+      (Not the IP of the proxy). You also need to make sure each voice port is
+      opened in the firewall of each server.
+    </p>
     <br />
     <h3>Testing the voice chat connection</h3>
     <p>
       You can test the voice chat connection of a specific player by typing the
-      command <code>/voicechat test &lt;PLAYERNAME&gt;</code>.<br />
-      If you are submitting a bug report, please include the logs of the server
-      and the client that you tested. But please don't submit a bug report just
-      because your voice chat is not connected.
+      command <code>/voicechat test &lt;PLAYERNAME&gt;</code>.
     </p>
   </div>
 </template>

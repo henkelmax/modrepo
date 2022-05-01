@@ -768,6 +768,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://github.com/IceBingQI",
           },
         },
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "Sanadriell",
+            link: "https://github.com/Sanadriell",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
