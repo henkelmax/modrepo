@@ -62,17 +62,17 @@
     <h2>The voice chat is constantly reconnecting</h2>
     <p>
       This is mostly caused by not binding to the correct IP address. See
-      <a href="?t=setup">Setup</a>.
+      <a href="?t=configuration">Configuration</a>.
     </p>
     <br />
     <h2>The Server Crashes on Startup (Failed to bind to address)</h2>
     <p>
       This is mostly caused by not binding to the correct IP address. Please try
-      the default setting of <code>0.0.0.0</code> before using a specific
-      address.
+      the default setting of an empty string or <code>0.0.0.0</code> before
+      using a specific address.
       <br />
-      If the bind address is already set to <code>0.0.0.0</code>, please take a
-      look at the issue below this one (Address already in use).
+      If the bind address is already empty or set to <code>0.0.0.0</code>,
+      please take a look at the issue below this one (Address already in use).
     </p>
     <br />
     <h2>The Server Crashes on Startup (Address already in use)</h2>
