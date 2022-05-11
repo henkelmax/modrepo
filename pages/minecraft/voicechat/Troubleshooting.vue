@@ -62,7 +62,7 @@
     <h2>The voice chat is constantly reconnecting</h2>
     <p>
       This is mostly caused by not binding to the correct IP address. See
-      <a href="?t=configuration">Configuration</a>.
+      <code>bind_address</code> in <a href="?t=configuration">Configuration</a>.
     </p>
     <br />
     <h2>The Server Crashes on Startup (Failed to bind to address)</h2>
