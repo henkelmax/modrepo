@@ -775,6 +775,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://github.com/Sanadriell",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "Syorito Hatsuki",
+            link: "https://github.com/syorito-hatsuki",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
