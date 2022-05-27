@@ -4,7 +4,8 @@
 
     <p>
       All voice chat commands can only be executed ingame. You won't be able to
-      run them in the console.
+      run them in the console. You also need to have Simple Voice Chat installed
+      to be able to use these commands.
     </p>
 
     <v-simple-table>
