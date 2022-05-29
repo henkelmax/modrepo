@@ -3,7 +3,8 @@
     <h1>Configuration</h1>
 
     <p>
-      While editing configuration files, make sure the client/server is stopped.
+      <b>NOTE:</b> While editing configuration files, make sure the
+      client/server is stopped.
     </p>
     <p>
       If you can't find these files, make sure the client/server was started at
