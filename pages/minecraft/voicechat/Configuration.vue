@@ -4,7 +4,8 @@
 
     <p>
       <b>NOTE:</b> While editing configuration files, make sure the
-      client/server is stopped.
+      client/server is stopped. If the config values keep resetting, this is
+      most likely the problem.
     </p>
     <p>
       If you can't find these files, make sure the client/server was started at
