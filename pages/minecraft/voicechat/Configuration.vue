@@ -8,7 +8,7 @@
       most likely the problem.
     </p>
     <p>
-      If you can't find these files, make sure the client/server was started at
+      If you can't find the config files, make sure the client/server was started at
       least once, so that the files are generated.
     </p>
 
