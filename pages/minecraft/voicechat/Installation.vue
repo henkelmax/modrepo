@@ -4,8 +4,8 @@
 
     <p>
       You always have to install Simple Voice Chat on your game and your server.
-      If you don't have it installed on your client, you will still be able to
-      join, but you won't be able to use any feature of the mod.
+      If you don't have it installed on your client, you can still join, but you
+      won't be able to use any of the mod's features.
     </p>
 
     <h2>Fabric</h2>
