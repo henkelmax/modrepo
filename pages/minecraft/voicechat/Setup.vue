@@ -7,8 +7,10 @@
         If you are hosting your server with a Minecraft hosting provider, please
         look if there is a guide for your specific hoster in the text channel
         <b>#server-hosting</b> on the
-        <a href="https://discord.gg/4dH2zwTmyX" style="color: white;">Discord</a> server. If no guide
-        for your hoster exists, ask the support of the hoster for help.
+        <a href="https://discord.gg/4dH2zwTmyX" style="color: white">
+          Simple Voice Chat Discord server</a
+        >. If no guide for your hoster exists, ask the support of the hoster for
+        help.
       </v-card-subtitle>
     </v-card>
     <br />
