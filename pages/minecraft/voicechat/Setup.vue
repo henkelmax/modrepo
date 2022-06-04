@@ -11,6 +11,8 @@
           Simple Voice Chat Discord server</a
         >. If no guide for your hoster exists, ask the support of the hoster for
         help.
+        <br />
+        <b>Please don't ask us for help before you contacted your hoster!</b>
       </v-card-subtitle>
     </v-card>
     <br />
