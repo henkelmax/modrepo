@@ -1,13 +1,21 @@
 <template>
   <div>
     <h1>Setup</h1>
-    <p>
-      If you are hosting your server with a Minecraft hosting provider, please
-      look if there is a guide for your specific hoster in the text channel
-      <b>#server-hosting</b> on the
-      <a href="https://discord.gg/4dH2zwTmyX">Discord</a> server. If no guide
-      for your hoster exists, ask the support of the hoster for help.
-    </p>
+
+    <v-card color="red">
+      <v-card-subtitle class="white--text">
+        If you are hosting your server with a Minecraft hosting provider, please
+        look if there is a guide for your specific hoster in the text channel
+        <b>#server-hosting</b> on the
+        <a href="https://discord.gg/4dH2zwTmyX" style="color: white">
+          Simple Voice Chat Discord server</a
+        >. If no guide for your hoster exists, ask the support of the hoster for
+        help.
+        <br />
+        <b>Please don't ask us for help before you contacted your hoster!</b>
+      </v-card-subtitle>
+    </v-card>
+    <br />
     <p>
       If you are hosting your Minecraft server on your PC or on a VPS/root
       server, follow these steps:
@@ -77,9 +85,9 @@
     <p>
       If the proxy and the Minecraft servers are running on different machines,
       you need to set <code>voice_host</code> in the voice chat config of each
-      Minecraft server to the public IP address (Without the port) of the server its running on
-      (Not the IP of the proxy). You also need to make sure each voice port is
-      opened in the firewall of each server.
+      Minecraft server to the public IP address (Without the port) of the server
+      its running on (Not the IP of the proxy). You also need to make sure each
+      voice port is opened in the firewall of each server.
     </p>
     <br />
     <h3>Testing the voice chat connection</h3>

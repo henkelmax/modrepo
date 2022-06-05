@@ -91,6 +91,13 @@ export default {
             link: "https://github.com/hayanggom",
           },
         },
+        {
+          element: { name: "Chinese (Simplified) translation" },
+          name: {
+            name: "Yanang Pearce",
+            link: "https://github.com/yanang007",
+          },
+        },
       ],
     };
   },
