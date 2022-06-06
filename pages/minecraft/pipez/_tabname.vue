@@ -273,6 +273,13 @@ export default {
             link: "https://github.com/gjeodnd12165",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "AlgorithmLX",
+            link: "https://github.com/AlgorithmLX",
+          },
+        },
       ],
     };
   },
