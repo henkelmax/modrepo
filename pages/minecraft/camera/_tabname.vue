@@ -222,6 +222,13 @@ export default {
             link: "https://github.com/gjeodnd12165",
           },
         },
+        {
+          element: { name: "Czech translation" },
+          name: {
+            name: "YanehCheck",
+            link: "https://github.com/YanehCheck",
+          },
+        },
       ],
     };
   },
