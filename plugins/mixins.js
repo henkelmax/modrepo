@@ -94,6 +94,8 @@ Vue.mixin({
           return "Forge";
         case "fabric":
           return "Fabric";
+        case "quilt":
+            return "Quilt";
         default:
           return loader;
       }

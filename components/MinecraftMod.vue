@@ -107,8 +107,8 @@ export default {
       `,
     });
     this.generalFaq.push({
-      question: "Where is the config file located? (Fabric)",
-      answer: `The configs for a fabric mod are located in your '.minecraft' folder in a subfolder called 'config'.
+      question: "Where is the config file located? (Fabric/Quilt)",
+      answer: `The configs for a Fabric/Quilt mod are located in your '.minecraft' folder in a subfolder called 'config'.
       In there you can see a folder that is named like the mods ID. This folder contains the configs for the server and client.`,
     });
     this.generalFaq.push({

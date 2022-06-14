@@ -14,7 +14,7 @@
 
     <h2>Server</h2>
     <br />
-    <b>Fabric</b>
+    <b>Fabric/Quilt</b>
     <code>config/voicechat/voicechat-server.properties</code>
     <br />
     <b>Forge</b>
@@ -179,7 +179,7 @@
     <br />
     <h2>Client</h2>
     <br />
-    <b>Fabric</b>
+    <b>Fabric/Quilt</b>
     <code>config/voicechat/voicechat-client.properties</code>
     <br />
     <b>Forge</b>

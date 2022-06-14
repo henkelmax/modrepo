@@ -76,5 +76,21 @@
       Note that in versions older than <code>2.1.0</code> you can only join
       servers with the Fabric version of the mod!
     </p>
+
+    <h2>Quilt</h2>
+    <p>
+      For the Quilt version of the mod, you need to have the
+      <a href="https://quiltmc.org/install/">Quilt Loader</a> installed on your
+      game/server.
+    </p>
+    <p>
+      Also don't forget to add the actual
+      <a
+        href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A9153"
+        >Simple Voice Chat mod jar</a
+      >
+      to the mods folder. The mods folder is located in <code>/mods</code>.
+    </p>
+    <br />
   </div>
 </template>

@@ -29,6 +29,7 @@
           </td>
           <td>
             <p v-if="version.type === 'fabric'">Fabric</p>
+            <p v-else-if="version.type === 'quilt'">Quilt</p>
             <p v-else-if="version.type === 'forge'">Forge</p>
             <p v-else-if="version.type === 'bukkit'">Bukkit/Spigot/Paper</p>
             <p v-else>All</p>

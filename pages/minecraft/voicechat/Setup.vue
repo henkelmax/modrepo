@@ -38,7 +38,7 @@
           </li>
           <ul>
             <li>
-              On Fabric the server config file is located in
+              On Fabric/Quilt the server config file is located in
               <code>config/voicechat/voicechat-server.properties</code>
             </li>
             <li>
