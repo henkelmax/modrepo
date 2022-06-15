@@ -8,8 +8,8 @@
       most likely the problem.
     </p>
     <p>
-      If you can't find the config files, make sure the client/server was started at
-      least once, so that the files are generated.
+      If you can't find the config files, make sure the client/server was
+      started at least once, so that the files are generated.
     </p>
 
     <h2>Server</h2>
@@ -36,7 +36,12 @@
       <tbody>
         <tr>
           <td><code>port</code></td>
-          <td>The port of the voice chat server</td>
+          <td>
+            The port of the voice chat server
+            <br />
+            Setting this to <code>-1</code> sets the port to the Minecraft
+            servers port
+          </td>
           <td><code>24454</code></td>
         </tr>
         <tr>
