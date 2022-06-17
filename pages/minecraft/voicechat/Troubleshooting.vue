@@ -58,6 +58,12 @@
       that you can use <a href="https://multimc.org/"> MultiMC </a>, which asks
       for microphone access by default.
     </p>
+    <p>
+      If you are on Linux, you can try setting
+      <code>java_microphone_implementation</code> to <code>true</code> in the
+      client config of the mod. Note that this is not guaranteed to work in all
+      cases.
+    </p>
     <br />
     <h2>The voice chat is constantly reconnecting</h2>
     <p>
