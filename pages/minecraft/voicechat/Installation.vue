@@ -67,7 +67,7 @@
     </p>
     <p>
       <b>
-        Note that you need the Fabric or Forge version of the mod installed on
+        Note that you need the Fabric, Forge or Quilt version of the mod installed on
         your client when using the Bukkit/Spigot/Paper version of Simple Voice
         Chat on the server!
       </b>
