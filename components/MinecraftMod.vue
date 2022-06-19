@@ -113,7 +113,7 @@ export default {
     });
     this.generalFaq.push({
       question: "I found a bug, how do I report it?",
-      answer: `Please report any bugs on GitHub. You can find the link in the 'Issues' section on CurseForge.
+      answer: `Please report any bugs on GitHub. You can find it by clicking the 'Issues' tab.
       Please describe your problem in detail and provide screenshots if possible.
       It is very important that you always provide log files, even if your game didn't crash, this helps a lot narrowing down the source of the problem.`,
     });
@@ -137,6 +137,10 @@ export default {
     this.generalFaq.push({
       question: "Do I need to install this mod on the client or the server?",
       answer: "All mods need to be installed on the client and the server unless stated otherwise. Always make sure, you are using the same version on both sides!",
+    });
+    this.generalFaq.push({
+      question: "What does 'client' mean?",
+      answer: "In the context of Minecraft, client means your game.",
     });
     // this.generalFaq.push({ question: "General1", answer: "AnswerGeneral" });
   },

@@ -115,18 +115,18 @@
       redownload it
     </h2>
     <p>
-      Please make sure you actually download the mod from CurseForge. If you
+      Please make sure you actually download the mod from CurseForge or Modrinth. If you
       already did that, please double check that the file has not been modified
       in any way.
     </p>
     <h2>The mods config file does not exist</h2>
     <p>
-      Make sure the mod is actually installed and you started the game/server at
+      Make sure the mod is actually installed and you started the client/server at
       least once with the mod added to it.
     </p>
     <h2>The changed config values are not affecting the game</h2>
     <p>
-      Make sure you actually restarted the game/server after changing anything
+      Make sure you actually restarted the client/server after changing anything
       in the config, for it to take effect.
     </p>
     <h2>Microphone unavailable</h2>

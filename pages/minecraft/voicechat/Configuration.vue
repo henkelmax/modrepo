@@ -53,24 +53,6 @@
           <td></td>
         </tr>
         <tr>
-          <td><code>distance</code></td>
-          <td>
-            The distance to where the voice can be heard
-            <br />
-            <b>Removed in 2.0.0</b>
-          </td>
-          <td><code>32</code></td>
-        </tr>
-        <tr>
-          <td><code>fade_distance</code></td>
-          <td>
-            The distance to where the voice starts fading
-            <br />
-            <b>Removed in 2.0.0</b>
-          </td>
-          <td><code>16</code></td>
-        </tr>
-        <tr>
           <td><code>codec</code></td>
           <td>
             The opus codec <br />
@@ -249,17 +231,6 @@
           <td><code>3</code></td>
         </tr>
         <tr>
-          <td><code>clear_full_audio_buffer</code></td>
-          <td>
-            If full audio buffers should get cleared
-            <br />
-            This potentially reduces audio latency on laggy servers
-            <br />
-            <b>Removed in 2.0.0</b>
-          </td>
-          <td><code>false</code></td>
-        </tr>
-        <tr>
           <td><code>voice_deactivation_delay</code></td>
           <td>
             The time it takes for the microphone to deactivate when using voice
@@ -298,15 +269,6 @@
           <td><code>false</code></td>
         </tr>
         <tr>
-          <td><code>stereo</code></td>
-          <td>
-            If the voice chat should use semi 3D stereo sound
-            <br />
-            <b>Removed in 2.2.28</b>
-          </td>
-          <td><code>true</code></td>
-        </tr>
-        <tr>
           <td><code>hide_icons</code></td>
           <td>If the voice chat icons should be hidden</td>
           <td><code>false</code></td>
@@ -325,17 +287,6 @@
           <td><code>group_hud_icon_scale</code></td>
           <td>The scale of the group HUD</td>
           <td><code>2.0</code></td>
-        </tr>
-        <tr>
-          <td><code>hud_icon_location</code></td>
-          <td>
-            The location of the HUD icons <br />
-            Possible values are <code>LEFT</code>, <code>RIGHT</code> and
-            <code>CENTER</code>
-            <br />
-            <b>Removed in 2.0.0</b>
-          </td>
-          <td><code>LEFT</code></td>
         </tr>
         <tr>
           <td><code>group_player_icon_orientation</code></td>
@@ -401,15 +352,6 @@
           <td><code>hud_icon_scale</code></td>
           <td>The scale of the HUD icons</td>
           <td><code>1.0</code></td>
-        </tr>
-        <tr>
-          <td><code>soundphysics</code></td>
-          <td>
-            If sound physics integration should be enabled
-            <br />
-            <b>Removed in 2.2.27</b>
-          </td>
-          <td><code>true</code></td>
         </tr>
         <tr>
           <td><code>run_local_server</code></td>
