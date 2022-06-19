@@ -38,25 +38,20 @@
     </p>
     <p>
       If you are using MacOS, you need to
-      <a
-        href="https://github.com/henkelmax/simple-voice-chat/tree/1.18.2/macos"
-      >
+      <a href="https://github.com/henkelmax/simple-voice-chat/tree/1.19/macos">
         patch your launcher
       </a>
       in order for the game to gain microphone access. The patcher will open
       automatically when the mod detects missing microphone permissions.
     </p>
     <p>
-      If you are using version 1.x.x of the voice chat on MacOS, you need to do
-      a
+      If you are using version <code>1.x.x</code> of the voice chat or Minecraft
+      version <code>1.16.5</code> or lower on MacOS, you need to use the
       <a
-        href="https://github.com/henkelmax/simple-voice-chat/issues/24#issuecomment-869015205"
-        >workaround</a
+        href="https://github.com/henkelmax/simple-voice-chat/tree/1.19/macos#standalone-version"
+        >standalone version</a
       >
-      in order for the game to gain microphone access. Please note that this
-      workaround only works for the vanilla minecraft launcher. Alternatively to
-      that you can use <a href="https://multimc.org/"> MultiMC </a>, which asks
-      for microphone access by default.
+      of the patcher, since it is not included in these versions.
     </p>
     <p>
       If you are on Linux, you can try setting
@@ -115,14 +110,14 @@
       redownload it
     </h2>
     <p>
-      Please make sure you actually download the mod from CurseForge or Modrinth. If you
-      already did that, please double check that the file has not been modified
-      in any way.
+      Please make sure you actually download the mod from CurseForge or
+      Modrinth. If you already did that, please double check that the file has
+      not been modified in any way.
     </p>
     <h2>The mods config file does not exist</h2>
     <p>
-      Make sure the mod is actually installed and you started the client/server at
-      least once with the mod added to it.
+      Make sure the mod is actually installed and you started the client/server
+      at least once with the mod added to it.
     </p>
     <h2>The changed config values are not affecting the game</h2>
     <p>
