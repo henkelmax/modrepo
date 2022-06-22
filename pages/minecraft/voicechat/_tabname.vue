@@ -535,6 +535,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           question: "Can you use this mod with Lunar Client?",
           answer: `No.`,
         },
+        {
+          question: "Does the voice chat activate Sculk sensors?",
+          answer: `No. This will never be a feature in the main mod, since it is designed to not alter the gameplay in any way.`,
+        },
       ],
       credits: [
         {
