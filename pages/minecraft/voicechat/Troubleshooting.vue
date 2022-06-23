@@ -16,6 +16,11 @@
       working. If this is the case, please ask your hoster to either disable it
       or to create an exception for the voice chat.
     </p>
+    <p>
+      This can also be caused by your permissions system not giving players the
+      <code>voicechat.connect</code> permission. See
+      <a href="?t=permissions">permissions</a> for more information.
+    </p>
     <br />
     <h2>Other people can't be heard</h2>
     <p>
@@ -114,21 +119,30 @@
       Modrinth. If you already did that, please double check that the file has
       not been modified in any way.
     </p>
+    <br />
     <h2>The mods config file does not exist</h2>
     <p>
       Make sure the mod is actually installed and you started the client/server
       at least once with the mod added to it.
     </p>
+    <br />
     <h2>The changed config values are not affecting the game</h2>
     <p>
       Make sure you actually restarted the client/server after changing anything
       in the config, for it to take effect.
     </p>
+    <br />
     <h2>Microphone unavailable</h2>
     <p>
       Try starting your launcher as an administrator. If this doesn't work,
       restart your computer and don't start any other programs other than
       Minecraft, that can use your microphone.
+    </p>
+    <br />
+    <h2>Players can be heard far away/Proximity is not working</h2>
+    <p>
+      You are most likely just in a group. Leave the group and proximity will
+      work fine.
     </p>
   </div>
 </template>
