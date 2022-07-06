@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-row justify="center" class="ma-2">
+    <!-- <v-row justify="center" class="ma-2">
       <v-col lg="8" xl="8" cols="12">
         <v-card outlined>
           <v-card-title class="red darken-3 white--text" primary-title>
@@ -10,7 +10,7 @@
           <v-card-text class="title mt-4">Some parts may be unfinished.</v-card-text>
         </v-card>
       </v-col>
-    </v-row>
+    </v-row> -->
     <h1 class="display-2">Minecraft Mods</h1>
     <Overview />
     <h1 class="display-2">Activity</h1>
