@@ -11,7 +11,7 @@
         </v-card>
       </v-col>
     </v-row> -->
-    <h1 class="display-2">Minecraft Mods</h1>
+    <h1 class="display-2 mt-4">Minecraft Mods</h1>
     <Overview />
     <h1 class="display-2">Activity</h1>
     <Activity />
