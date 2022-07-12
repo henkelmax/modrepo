@@ -395,6 +395,15 @@
           </td>
           <td><code>NORMAL</code></td>
         </tr>
+        <tr>
+          <td><code>use_natives</code></td>
+          <td>
+            If the mod should load native libraries
+            <br />
+            If set to false, the Java Opus implementation will be used and the denoiser won't be available
+          </td>
+          <td><code>true</code></td>
+        </tr>
       </tbody>
     </v-simple-table>
   </div>
