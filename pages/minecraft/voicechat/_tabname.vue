@@ -43,13 +43,6 @@
           </li>
           <li>
             Compatibility with
-            <a
-              href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"
-              >Sound Physics Remastered</a
-            >
-          </li>
-          <li>
-            Compatibility with
             <a href="https://www.curseforge.com/minecraft/mc-mods/modmenu"
               >ModMenu</a
             >
@@ -72,6 +65,97 @@
           <li>Audio recording with separate audio tracks</li>
           <li><a href="api/readme.md">Plugin API</a></li>
         </ul>
+        <br/>
+
+        <h2 id="addons">Addons</h2>
+
+        <v-simple-table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>AudioPlayer</td>
+              <td>Allows putting custom audio files on music discs</td>
+              <td>
+                <a
+                  href="https://www.curseforge.com/minecraft/mc-mods/audioplayer"
+                  >CurseForge</a
+                >, <a href="https://modrinth.com/mod/audioplayer">Modrinth</a>,
+                <a href="https://github.com/Navoei/CustomDiscs"
+                  >Third party Bukkit port</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Voice Chat Interaction</td>
+              <td>Voice chat skulk sensor activation and warden detection</td>
+              <td>
+                <a href="https://modrinth.com/mod/voice-chat-interaction"
+                  >Modrinth</a
+                >,
+                <a href="https://github.com/henkelmax/voicechat-interaction"
+                  >GitHub</a
+                >,
+                <a
+                  href="https://github.com/iGalaxyYT/voicechat-interaction-paper"
+                  >Third party Paper port</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Sound Physics Remastered</td>
+              <td>Sound Physics for Simple Voice Chat</td>
+              <td>
+                <a
+                  href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"
+                  >CurseForge</a
+                >,
+                <a href="https://modrinth.com/mod/sound-physics-remastered"
+                  >Modrinth</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Replay Voice Chat</td>
+              <td>
+                A compatibility mod to record Simple Voice Chat with ReplayMod
+              </td>
+              <td>
+                <a
+                  href="https://www.curseforge.com/minecraft/mc-mods/replay-voice-chat"
+                  >CurseForge</a
+                >,
+                <a href="https://modrinth.com/mod/replay-voice-chat"
+                  >Modrinth</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Voice Chat Broadcast</td>
+              <td>Broadcast your voice to everyone</td>
+              <td>
+                <a
+                  href="https://github.com/henkelmax/voicechat-broadcast-plugin"
+                  >GitHub</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Simple Voice Chat Instant Groups</td>
+              <td>Adds nearby players to a group</td>
+              <td>
+                <a href="https://github.com/henkelmax/instant-group">GitHub</a>
+              </td>
+            </tr>
+          </tbody>
+        </v-simple-table>
+        <br/>
+
         <h2 id="icons">Icons</h2>
         <table>
           <thead>
@@ -153,6 +237,8 @@
             </tr>
           </tbody>
         </table>
+        <br/>
+
         <h2 id="the-gui">The GUI</h2>
         <p>
           You can open the voice chat GUI by pressing the <kbd>V</kbd> key. This
