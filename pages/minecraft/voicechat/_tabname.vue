@@ -446,8 +446,7 @@
         <v-card-text>
           Almost everything you need to know is here.
           <br />
-          Please don't request support if you didn't read the wiki or didn't
-          understand it.
+          Please don't request support if you didn't read the wiki.
         </v-card-text>
       </v-card>
     </v-dialog>
