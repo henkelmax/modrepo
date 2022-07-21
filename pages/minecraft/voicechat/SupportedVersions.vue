@@ -74,7 +74,7 @@ export default {
         {
           version: "1.16.5",
           type: "fabric",
-          support: "critical_bugs",
+          support: "no_support",
         },
         {
           version: "1.16.5",
@@ -100,7 +100,7 @@ export default {
         },
         {
           version: "1.18.1",
-          support: "active_development",
+          support: "no_support",
         },
         {
           version: "1.18.2",
