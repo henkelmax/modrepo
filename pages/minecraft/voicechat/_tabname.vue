@@ -622,7 +622,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           question: "Does the voice chat activate Sculk sensors?",
-          answer: `No. This will never be a feature in the main mod, since it is designed to not alter the gameplay in any way.`,
+          answer: `Not by default. You need to install an <a href="https://modrinth.com/mod/voice-chat-interaction">additional mod</a> to add this feature.`,
         },
       ],
       credits: [
