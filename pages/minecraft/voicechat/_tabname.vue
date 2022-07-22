@@ -871,6 +871,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://github.com/syorito-hatsuki",
           },
         },
+        {
+          element: { name: "Argentinian Spanish translation" },
+          name: {
+            name: "aguzzfw",
+            link: "https://www.curseforge.com/members/aguzzfw",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
