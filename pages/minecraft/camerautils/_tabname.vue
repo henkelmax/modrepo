@@ -8,6 +8,7 @@
     sourcelink="https://github.com/henkelmax/camera-utils"
     issueslink="https://github.com/henkelmax/camera-utils/issues"
     :faq="faq"
+    :credits="credits"
   >
     <v-container slot="overview">
       <p>
@@ -120,6 +121,15 @@ export default {
         {
           question: "Does this mod need to be installed on client and server?",
           answer: "No. This mod only needs to be installed on the client.",
+        },
+      ],
+      credits: [
+        {
+          element: { name: "Korean translation" },
+          name: {
+            name: "gyular",
+            link: "https://github.com/gyular",
+          },
         },
       ],
     };

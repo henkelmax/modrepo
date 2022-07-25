@@ -63,7 +63,7 @@
           <li>3D sound</li>
           <li>AES encryption</li>
           <li>Audio recording with separate audio tracks</li>
-          <li><a href="api/readme.md">Plugin API</a></li>
+          <li>A powerful <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19/api/readme.md">API</a></li>
         </ul>
         <br/>
 
@@ -622,7 +622,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           question: "Does the voice chat activate Sculk sensors?",
-          answer: `No. This will never be a feature in the main mod, since it is designed to not alter the gameplay in any way.`,
+          answer: `Not by default. You need to install an <a href="https://modrinth.com/mod/voice-chat-interaction">additional mod</a> to add this feature.`,
         },
       ],
       credits: [
@@ -869,6 +869,13 @@ If you are hosting the server on your local machine take a look at <a href="http
           name: {
             name: "Syorito Hatsuki",
             link: "https://github.com/syorito-hatsuki",
+          },
+        },
+        {
+          element: { name: "Argentinian Spanish translation" },
+          name: {
+            name: "aguzzfw",
+            link: "https://www.curseforge.com/members/aguzzfw",
           },
         },
       ],
