@@ -108,7 +108,11 @@
         </tr>
         <tr>
           <td><code>min_voice_distance</code></td>
-          <td>The distance to where the voice starts fading</td>
+          <td>
+            The distance to where the voice starts fading
+            <br />
+            <b>Removed in 2.3.0+</b>
+          </td>
           <td><code>4.0</code></td>
         </tr>
         <tr>
@@ -400,7 +404,8 @@
           <td>
             If the mod should load native libraries
             <br />
-            If set to false, the Java Opus implementation will be used and the denoiser won't be available
+            If set to false, the Java Opus implementation will be used and the
+            denoiser won't be available
           </td>
           <td><code>true</code></td>
         </tr>
