@@ -666,7 +666,7 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://lame.sourceforge.io/",
           },
           license: {
-            name: 'GNU LIBRARY GENERAL PUBLIC LICENSE  Version 2',
+            name: 'GNU LIBRARY GENERAL PUBLIC LICENSE Version 2',
             link: "https://sourceforge.net/p/lame/svn/HEAD/tree/tags/RELEASE__3_100/lame/COPYING",
           },
         },
