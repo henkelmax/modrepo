@@ -722,6 +722,16 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           element: {
+            name: "Fabric API",
+            link: "https://github.com/FabricMC/fabric",
+          },
+          license: {
+            name: "Apache License 2.0",
+            link: "https://github.com/FabricMC/fabric/blob/1.19.2/LICENSE",
+          },
+        },
+        {
+          element: {
             name: "MacOS microphone workaround",
           },
           name: {
