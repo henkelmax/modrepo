@@ -662,6 +662,16 @@ If you are hosting the server on your local machine take a look at <a href="http
         },
         {
           element: {
+            name: "LAME",
+            link: "https://lame.sourceforge.io/",
+          },
+          license: {
+            name: 'GNU LIBRARY GENERAL PUBLIC LICENSE  Version 2',
+            link: "https://sourceforge.net/p/lame/svn/HEAD/tree/tags/RELEASE__3_100/lame/COPYING",
+          },
+        },
+        {
+          element: {
             name: "RNNoise natives",
             link: "https://github.com/mjwells2002/rnnoise-bin",
           },
