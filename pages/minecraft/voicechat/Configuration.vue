@@ -312,6 +312,15 @@
           <td></td>
         </tr>
         <tr>
+          <td><code>recording_quality</code></td>
+          <td>
+            The quality of the recorded audio
+            <br />
+            0 = highest quality, 9 = lowest quality
+          </td>
+          <td><code>2</code></td>
+        </tr>
+        <tr>
           <td><code>denoiser</code></td>
           <td>If noise cancellation should be enabled</td>
           <td><code>false</code></td>

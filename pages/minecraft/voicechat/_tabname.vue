@@ -644,13 +644,6 @@ If you are hosting the server on your local machine take a look at <a href="http
           },
         },
         {
-          element: { name: "Opus natives for ARM based macs" },
-          name: {
-            name: "jason-green-io",
-            link: "https://github.com/jason-green-io",
-          },
-        },
-        {
           element: {
             name: "RNNoise",
             link: "https://jmvalin.ca/demo/rnnoise/",
@@ -658,6 +651,16 @@ If you are hosting the server on your local machine take a look at <a href="http
           license: {
             name: 'BSD 3-Clause "New" or "Revised" License',
             link: "https://gitlab.xiph.org/xiph/rnnoise/-/blob/master/COPYING",
+          },
+        },
+        {
+          element: {
+            name: "LAME",
+            link: "https://lame.sourceforge.io/",
+          },
+          license: {
+            name: 'GNU LIBRARY GENERAL PUBLIC LICENSE Version 2',
+            link: "https://sourceforge.net/p/lame/svn/HEAD/tree/tags/RELEASE__3_100/lame/COPYING",
           },
         },
         {
@@ -678,6 +681,13 @@ If you are hosting the server on your local machine take a look at <a href="http
           name: {
             name: "mjwells2002",
             link: "https://github.com/mjwells2002",
+          },
+        },
+        {
+          element: { name: "Opus natives for ARM based macs" },
+          name: {
+            name: "jason-green-io",
+            link: "https://github.com/jason-green-io",
           },
         },
         {
@@ -718,6 +728,16 @@ If you are hosting the server on your local machine take a look at <a href="http
           license: {
             name: "Custom",
             link: "https://github.com/lostromb/concentus/blob/master/LICENSE",
+          },
+        },
+        {
+          element: {
+            name: "Fabric API",
+            link: "https://github.com/FabricMC/fabric",
+          },
+          license: {
+            name: "Apache License 2.0",
+            link: "https://github.com/FabricMC/fabric/blob/1.19.2/LICENSE",
           },
         },
         {
