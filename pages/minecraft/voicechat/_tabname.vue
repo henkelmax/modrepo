@@ -644,13 +644,6 @@ If you are hosting the server on your local machine take a look at <a href="http
           },
         },
         {
-          element: { name: "Opus natives for ARM based macs" },
-          name: {
-            name: "jason-green-io",
-            link: "https://github.com/jason-green-io",
-          },
-        },
-        {
           element: {
             name: "RNNoise",
             link: "https://jmvalin.ca/demo/rnnoise/",
@@ -688,6 +681,13 @@ If you are hosting the server on your local machine take a look at <a href="http
           name: {
             name: "mjwells2002",
             link: "https://github.com/mjwells2002",
+          },
+        },
+        {
+          element: { name: "Opus natives for ARM based macs" },
+          name: {
+            name: "jason-green-io",
+            link: "https://github.com/jason-green-io",
           },
         },
         {
