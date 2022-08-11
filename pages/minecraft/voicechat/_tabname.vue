@@ -63,7 +63,7 @@
           <li>3D sound</li>
           <li>AES encryption</li>
           <li>Audio recording with separate audio tracks</li>
-          <li>A powerful <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19/api/readme.md">API</a></li>
+          <li>A powerful <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md">API</a></li>
         </ul>
         <br/>
 
