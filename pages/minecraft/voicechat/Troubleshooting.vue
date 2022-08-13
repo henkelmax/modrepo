@@ -43,7 +43,7 @@
     </p>
     <p>
       If you are using MacOS, you need to
-      <a href="https://github.com/henkelmax/simple-voice-chat/tree/1.19/macos">
+      <a href="https://github.com/henkelmax/simple-voice-chat/tree/1.19.2/macos">
         patch your launcher
       </a>
       in order for the game to gain microphone access. The patcher will open
@@ -53,7 +53,7 @@
       If you are using version <code>1.x.x</code> of the voice chat or Minecraft
       version <code>1.16.5</code> or lower on MacOS, you need to use the
       <a
-        href="https://github.com/henkelmax/simple-voice-chat/tree/1.19/macos#standalone-version"
+        href="https://github.com/henkelmax/simple-voice-chat/tree/1.19.2/macos#standalone-version"
         >standalone version</a
       >
       of the patcher, since it is not included in these versions.
