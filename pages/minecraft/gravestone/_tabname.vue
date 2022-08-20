@@ -238,6 +238,13 @@ export default {
             link: "https://github.com/faelBrunnoS",
           },
         },
+        {
+          element: { name: "Russian translation" },
+          name: {
+            name: "BlackAures1",
+            link: "https://github.com/BlackAures1",
+          },
+        },
       ],
       faq: [
         {
