@@ -87,7 +87,7 @@
                   >CurseForge</a
                 >, <a href="https://modrinth.com/mod/audioplayer">Modrinth</a>,
                 <a href="https://github.com/Navoei/CustomDiscs"
-                  >Third party Bukkit port</a
+                  >Third party Paper port</a
                 >
               </td>
             </tr>
