@@ -109,7 +109,7 @@
         <tr>
           <td><code>min_voice_distance</code></td>
           <td>
-            The distance to where the voice starts fading
+            The distance in blocks to where the voice starts fading
             <br />
             <b>Removed in 2.3.0+</b>
           </td>
@@ -117,7 +117,7 @@
         </tr>
         <tr>
           <td><code>max_voice_distance</code></td>
-          <td>The distance to where the voice can be heard</td>
+          <td>The distance in blocks to where the voice can be heard</td>
           <td><code>48</code></td>
         </tr>
         <tr>
