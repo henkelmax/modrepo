@@ -43,7 +43,9 @@
     </p>
     <p>
       If you are using MacOS, you need to
-      <a href="https://github.com/henkelmax/simple-voice-chat/tree/1.19.2/macos">
+      <a
+        href="https://github.com/henkelmax/simple-voice-chat/tree/1.19.2/macos"
+      >
         patch your launcher
       </a>
       in order for the game to gain microphone access. The patcher will open
@@ -90,6 +92,10 @@
     <p>
       If you are running multiple servers with voice chat on the same machine,
       you need to select a different voice chat port for every server.
+    </p>
+    <p>
+      Please also make sure you are not running mods or plugins that require a
+      UDP port (Like Geyser) on the voice chat port.
     </p>
     <br />
     <h2>
