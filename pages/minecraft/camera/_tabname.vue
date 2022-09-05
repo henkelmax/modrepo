@@ -229,6 +229,13 @@ export default {
             link: "https://github.com/YanehCheck",
           },
         },
+        {
+          element: { name: "Spanish translation" },
+          name: {
+            name: "zeedif",
+            link: "https://github.com/zeedif",
+          },
+        },
       ],
     };
   },
