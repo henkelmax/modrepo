@@ -898,6 +898,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://www.curseforge.com/members/aguzzfw",
           },
         },
+        {
+          element: { name: "Mexican Spanish translation" },
+          name: {
+            name: "NetongasNG",
+            link: "https://github.com/NetongasNG",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
