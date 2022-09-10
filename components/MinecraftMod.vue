@@ -58,7 +58,7 @@ import Mod from "~/components/Mod.vue";
 import UpdateHistory from "~/components/UpdateHistory.vue";
 import Empty from "~/components/Empty.vue";
 
-import compareVersions from "compare-versions";
+import { compareVersions } from "compare-versions";
 
 export default {
   props: [
