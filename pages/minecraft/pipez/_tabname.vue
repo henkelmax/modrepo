@@ -81,30 +81,29 @@
       <h2>Configuring Pipes</h2>
       <p>
         <strong
-          >Pipes don't transfer anything if they are not set to
-          extract.</strong
+          >Pipes don't transfer anything if they are not set to extract.</strong
         >
-        You can sneak-click onto the end of a connected pipe with a wrench to set it
-        to extract.
+        You can sneak-click onto the end of a connected pipe with a wrench to
+        set it to extract.
       </p>
       <p>
         Click the extracting part of the pipe to change modes, add filters or
         add upgrades.
       </p>
-      <p>Pipes can be disconnected/reconnected by sneak-clicking with a wrench.</p>
+      <p>
+        Pipes can be disconnected/reconnected by sneak-clicking with a wrench.
+      </p>
       <p>
         By default pipes are relatively slow. The speed can only be increased by
         adding an upgrade. Higher tiers of upgrades mean a higher transfer rate.
       </p>
       <video style="width: 100%" autoplay loop muted>
         <source
-          :src="
-            require('~/assets/minecraft/pipez/video_pipez_1.mp4')
-          "
+          :src="require('~/assets/minecraft/pipez/video_pipez_1.mp4')"
           type="video/mp4"
         />
       </video>
-      <br/>
+      <br />
       <p>
         Certain features of pipes can only be used by adding a high enough
         upgrade:
@@ -140,15 +139,15 @@
       <v-img
         :src="require('~/assets/minecraft/pipez/image_pipez_2.png')"
       ></v-img>
-      <br/>
+      <br />
       <v-img
         :src="require('~/assets/minecraft/pipez/image_pipez_3.png')"
       ></v-img>
-      <br/>
+      <br />
       <v-img
         :src="require('~/assets/minecraft/pipez/image_pipez_4.png')"
       ></v-img>
-      <br/>
+      <br />
       <p>
         To add a specific item, just click it on the slot in the filter GUI.
         Alternatively you can type the item ID in the text field next to it.
@@ -172,18 +171,16 @@
         You can also set the filter to only apply for a certain destination. For
         this you need a filter destination tool. Just click the block your pipe
         inserts into with it so store the location and face of the block. Note
-        that this doesn't work if you clicked a side of the block that the
-        cable isn't connected to.
+        that this doesn't work if you clicked a side of the block that the cable
+        isn't connected to.
       </p>
       <video style="width: 100%" autoplay loop muted>
         <source
-          :src="
-            require('~/assets/minecraft/pipez/video_pipez_2.mp4')
-          "
+          :src="require('~/assets/minecraft/pipez/video_pipez_2.mp4')"
           type="video/mp4"
         />
       </video>
-      <br/>
+      <br />
       <p>
         To set the location to a filter, put it into the destination slot of the
         filter GUI. This will also display the destination block in the filter
@@ -192,14 +189,16 @@
       <v-img
         :src="require('~/assets/minecraft/pipez/image_pipez_5.png')"
       ></v-img>
-      <br/>
+      <br />
       <p>
-        The <b>Universal Pipe</b> has every feature of all other pipes combined. You can choose which pipe type you want to configure with the tabs on the left of the GUI.
+        The <b>Universal Pipe</b> has every feature of all other pipes combined.
+        You can choose which pipe type you want to configure with the tabs on
+        the left of the GUI.
       </p>
       <v-img
         :src="require('~/assets/minecraft/pipez/image_pipez_8.png')"
       ></v-img>
-      <br/>
+      <br />
       <h2>Performance Comparison</h2>
       <p>
         Comparison between Pipez' item pipes and Mekanism&#39;s logistical
@@ -208,18 +207,20 @@
       <v-img
         :src="require('~/assets/minecraft/pipez/image_pipez_6.png')"
       ></v-img>
-      <br/>
+      <i>Minecraft 1.16.5, Mekanism 10.0.19.446</i>
+      <br />
+      <br />
       <p>
         Comparison between Pipez&#39; item pipes and Mekanism&#39;s logistical
-        transporters with about 7200 pipes. Since Mekanism calculates its pipe
-        connections with a recoursive algorithm it just crashes, due to a stack
-        overflow.
+        transporters with about 12500 pipes. With this amount of pipes
+        <b>Mekanism completely stops working</b> and doesn't transport any items
+        anymore!
       </p>
       <v-img
         :src="require('~/assets/minecraft/pipez/image_pipez_7.png')"
       ></v-img>
-      <br/>
-
+      <i>Minecraft 1.19.2, Mekanism 10.3.4.471</i>
+      <br />
     </v-container>
   </Mod>
 </template>
