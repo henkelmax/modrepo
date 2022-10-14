@@ -22,7 +22,11 @@
         </tr>
         <tr>
           <td><code>/voicechat test &lt;PLAYERNAME&gt;</code></td>
-          <td>Tests the voice chat connection of a specific player</td>
+          <td>
+            Tests the voice chat connection of a specific player
+            <br/>
+            <i>Requires the permission <code>voicechat.admin</code></i>
+          </td>
         </tr>
         <tr>
           <td><code>/voicechat invite &lt;PLAYERNAME&gt;</code></td>
