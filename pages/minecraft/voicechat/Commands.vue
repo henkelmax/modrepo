@@ -24,7 +24,7 @@
           <td><code>/voicechat test &lt;PLAYERNAME&gt;</code></td>
           <td>
             Tests the voice chat connection of a specific player
-            <br/>
+            <br />
             <i>Requires the permission <code>voicechat.admin</code></i>
           </td>
         </tr>
@@ -34,7 +34,14 @@
         </tr>
         <tr>
           <td><code>/voicechat join &lt;GROUP-ID&gt;</code></td>
-          <td>Connects you to the group with that ID</td>
+          <td>
+            Connects you to the group with that ID
+            <br />
+            <i
+              >This should not be used directly. This command is automatically
+              executed when accepting an invite.</i
+            >
+          </td>
         </tr>
         <tr>
           <td><code>/voicechat leave</code></td>
