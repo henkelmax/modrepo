@@ -28,8 +28,8 @@
       or
       <a href="https://www.spigotmc.org/resources/viabackwards.27448/"
         >ViaBackwards</a
-      >. But you generally need to respect the compatibility between mod
-      versions as described above.
+      >. But you still have to consider the compatibility between the mod
+      versions, as described above.
     </p>
   </div>
 </template>
