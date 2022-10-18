@@ -34,24 +34,24 @@
         <tr>
           <td><code>voicechat.connect</code></td>
           <td>Granted for everyone</td>
-          <td>If players should be able to connect to the voice chat</td>
+          <td>If players should be able to connect to the voice chat.</td>
         </tr>
         <tr>
           <td><code>voicechat.speak</code></td>
           <td>Granted for everyone</td>
-          <td>If players should be able to transmit audio</td>
+          <td>If players should be able to transmit audio.</td>
         </tr>
         <tr>
           <td><code>voicechat.groups</code></td>
           <td>Granted for everyone</td>
-          <td>If players should be able to join groups</td>
+          <td>If players should be able to join groups.</td>
         </tr>
         <tr>
           <td><code>voicechat.admin</code></td>
           <td>Only granted for server operators</td>
           <td>
             For administrative purposes like the
-            <code>/voicechat test</code> command
+            <code>/voicechat test</code> command.
           </td>
         </tr>
       </tbody>
