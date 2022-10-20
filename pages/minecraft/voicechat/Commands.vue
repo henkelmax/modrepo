@@ -26,6 +26,10 @@
             Tests the voice chat connection of a specific player.
             <br />
             <i>Requires the permission <code>voicechat.admin</code>.</i>
+            <i
+              >See <a href="?t=permissions">permissions</a> for more
+              information.</i
+            >
           </td>
         </tr>
         <tr>
