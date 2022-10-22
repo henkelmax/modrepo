@@ -4,8 +4,8 @@
 
     <p>
       This is a list containing every Minecraft version, Simple Voice Chat has
-      been released to. It shows which Minecraft versions the mod still
-      maintains.
+      been released to. It shows for which Minecraft versions the mod is still
+      maintained.
     </p>
 
     <p>
