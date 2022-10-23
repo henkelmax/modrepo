@@ -156,10 +156,10 @@
               </td>
             </tr>
             <tr>
-              <td>Simple Voice Chat Instant Groups</td>
-              <td>Adds nearby players to a group</td>
+              <td>Simple Voice Chat Enhanced Groups</td>
+              <td>Various improvements to voice chat groups</td>
               <td>
-                <a href="https://github.com/henkelmax/instant-group">GitHub</a>
+                <a href="https://github.com/henkelmax/enhanced-groups">GitHub</a>
               </td>
             </tr>
           </tbody>
