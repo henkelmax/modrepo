@@ -63,9 +63,15 @@
           <li>3D sound</li>
           <li>AES encryption</li>
           <li>Audio recording with separate audio tracks</li>
-          <li>A powerful <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md">API</a></li>
+          <li>
+            A powerful
+            <a
+              href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md"
+              >API</a
+            >
+          </li>
         </ul>
-        <br/>
+        <br />
 
         <h2 id="addons">Addons</h2>
 
@@ -95,6 +101,10 @@
               <td>Voice Chat Interaction</td>
               <td>Voice chat skulk sensor activation and warden detection</td>
               <td>
+                <a
+                  href="https://www.curseforge.com/minecraft/mc-mods/voice-chat-interaction"
+                  >CurseForge</a
+                >,
                 <a href="https://modrinth.com/mod/voice-chat-interaction"
                   >Modrinth</a
                 >,
@@ -154,7 +164,7 @@
             </tr>
           </tbody>
         </v-simple-table>
-        <br/>
+        <br />
 
         <h2 id="icons">Icons</h2>
         <table>
@@ -237,7 +247,7 @@
             </tr>
           </tbody>
         </table>
-        <br/>
+        <br />
 
         <h2 id="the-gui">The GUI</h2>
         <p>
@@ -667,7 +677,7 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://lame.sourceforge.io/",
           },
           license: {
-            name: 'GNU LIBRARY GENERAL PUBLIC LICENSE Version 2',
+            name: "GNU LIBRARY GENERAL PUBLIC LICENSE Version 2",
             link: "https://sourceforge.net/p/lame/svn/HEAD/tree/tags/RELEASE__3_100/lame/COPYING",
           },
         },
