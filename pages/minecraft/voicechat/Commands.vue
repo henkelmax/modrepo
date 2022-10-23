@@ -18,23 +18,38 @@
       <tbody>
         <tr>
           <td><code>/voicechat help</code></td>
-          <td>Shows all possible commands</td>
+          <td>Shows all possible commands.</td>
         </tr>
         <tr>
           <td><code>/voicechat test &lt;PLAYERNAME&gt;</code></td>
-          <td>Tests the voice chat connection of a specific player</td>
+          <td>
+            Tests the voice chat connection of a specific player.
+            <br />
+            <i>Requires the permission <code>voicechat.admin</code>.</i>
+            <i
+              >See <a href="?t=permissions">permissions</a> for more
+              information.</i
+            >
+          </td>
         </tr>
         <tr>
           <td><code>/voicechat invite &lt;PLAYERNAME&gt;</code></td>
-          <td>Invites the player to the group you are in</td>
+          <td>Invites the player to the group you are in.</td>
         </tr>
         <tr>
           <td><code>/voicechat join &lt;GROUP-ID&gt;</code></td>
-          <td>Connects you to the group with that ID</td>
+          <td>
+            Connects you to the group with that ID.
+            <br />
+            <i
+              >This should not be used directly. This command is automatically
+              executed when accepting an invite.</i
+            >
+          </td>
         </tr>
         <tr>
           <td><code>/voicechat leave</code></td>
-          <td>Disconnects you from your current group</td>
+          <td>Disconnects you from your current group.</td>
         </tr>
       </tbody>
     </v-simple-table>

@@ -11,14 +11,15 @@
 
     <ul>
       <li>
-        <b>Black Icons</b> - All icons have black outlines instead of white ones
+        <b>Black Icons</b> - All icons have black outlines instead of white
+        ones.
       </li>
       <li>
-        <b>White Icons</b> - All icons have white outlines, including buttons
+        <b>White Icons</b> - All icons have white outlines, including buttons.
       </li>
       <li>
         <b>Classic Icons</b> - Restores the old classic icons from older
-        versions
+        versions.
       </li>
     </ul>
 

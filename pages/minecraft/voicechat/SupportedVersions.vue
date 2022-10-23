@@ -4,14 +4,14 @@
 
     <p>
       This is a list containing every Minecraft version, Simple Voice Chat has
-      been released to. It shows which Minecraft versions the mod still
-      maintains.
+      been released to. It shows for which Minecraft versions the mod is still
+      maintained.
     </p>
 
     <p>
       We usually only support the latest patch of each major Minecraft version.
-      Snapshots are generally not supported after a newer snapshot version is
-      released or the full release of that version is out.
+      Snapshots are generally no longer supported after a newer snapshot version
+      is released or the full release of that version is out.
     </p>
 
     <v-simple-table>

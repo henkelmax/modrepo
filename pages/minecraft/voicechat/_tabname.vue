@@ -628,6 +628,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           question: "Does the voice chat activate Sculk sensors?",
           answer: `Not by default. You need to install an <a href="https://modrinth.com/mod/voice-chat-interaction">additional mod</a> to add this feature.`,
         },
+        {
+          question: "Can I request new features?",
+          answer: `If you consider this feature to be essential enough to be included in the base mod, you can suggest it on GitHub or on the Discord server. In all other cases you can use the <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md">API</a> to add this feature.`,
+        },
       ],
       credits: [
         {
