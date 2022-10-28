@@ -118,6 +118,10 @@ export default {
           version: "1.19.2",
           support: "active_development",
         },
+        {
+          version: "1.19.3",
+          support: "active_development",
+        },
       ],
     };
   },
