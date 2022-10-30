@@ -627,6 +627,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           answer: `No. We generally don't support any hybrid servers.`,
         },
         {
+          question: "Does this work with hybrid servers?",
+          answer: `No. We generally don't support any hybrid servers.`,
+        },
+        {
           question: "Does this work with Cardboard?",
           answer: `No.`,
         },
