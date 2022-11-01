@@ -646,6 +646,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           question: "Can I request new features?",
           answer: `If you consider this feature to be essential enough to be included in the base mod, you can suggest it on GitHub or on the Discord server. In all other cases you can use the <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md">API</a> to add this feature.`,
         },
+        {
+          question: "Can you add compatibility with mod XY?",
+          answer: `The base mod will not add any integration with other mods. With the <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md">API</a>, everyone can create an addon mod.`,
+        },
       ],
       credits: [
         {
