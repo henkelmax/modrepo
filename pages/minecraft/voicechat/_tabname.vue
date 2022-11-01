@@ -63,9 +63,15 @@
           <li>3D sound</li>
           <li>AES encryption</li>
           <li>Audio recording with separate audio tracks</li>
-          <li>A powerful <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md">API</a></li>
+          <li>
+            A powerful
+            <a
+              href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md"
+              >API</a
+            >
+          </li>
         </ul>
-        <br/>
+        <br />
 
         <h2 id="addons">Addons</h2>
 
@@ -95,6 +101,10 @@
               <td>Voice Chat Interaction</td>
               <td>Voice chat skulk sensor activation and warden detection</td>
               <td>
+                <a
+                  href="https://www.curseforge.com/minecraft/mc-mods/voice-chat-interaction"
+                  >CurseForge</a
+                >,
                 <a href="https://modrinth.com/mod/voice-chat-interaction"
                   >Modrinth</a
                 >,
@@ -146,15 +156,17 @@
               </td>
             </tr>
             <tr>
-              <td>Simple Voice Chat Instant Groups</td>
-              <td>Adds nearby players to a group</td>
+              <td>Simple Voice Chat Enhanced Groups</td>
+              <td>Various improvements to voice chat groups</td>
               <td>
-                <a href="https://github.com/henkelmax/instant-group">GitHub</a>
+                <a href="https://github.com/henkelmax/enhanced-groups"
+                  >GitHub</a
+                >
               </td>
             </tr>
           </tbody>
         </v-simple-table>
-        <br/>
+        <br />
 
         <h2 id="icons">Icons</h2>
         <table>
@@ -237,7 +249,7 @@
             </tr>
           </tbody>
         </table>
-        <br/>
+        <br />
 
         <h2 id="the-gui">The GUI</h2>
         <p>
@@ -621,6 +633,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           answer: `No.`,
         },
         {
+          question: "Does this work with hybrid servers?",
+          answer: `No. We generally don't support any hybrid servers.`,
+        },
+        {
           question: "Can you use this mod with Lunar Client?",
           answer: `No.`,
         },
@@ -631,6 +647,10 @@ If you are hosting the server on your local machine take a look at <a href="http
         {
           question: "Can I request new features?",
           answer: `If you consider this feature to be essential enough to be included in the base mod, you can suggest it on GitHub or on the Discord server. In all other cases you can use the <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md">API</a> to add this feature.`,
+        },
+        {
+          question: "Can you add compatibility with mod XY?",
+          answer: `The base mod will not add any integration with other mods. With the <a href="https://github.com/henkelmax/simple-voice-chat/blob/1.19.2/api/readme.md">API</a>, everyone can create an addon mod.`,
         },
       ],
       credits: [
@@ -667,7 +687,7 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://lame.sourceforge.io/",
           },
           license: {
-            name: 'GNU LIBRARY GENERAL PUBLIC LICENSE Version 2',
+            name: "GNU LIBRARY GENERAL PUBLIC LICENSE Version 2",
             link: "https://sourceforge.net/p/lame/svn/HEAD/tree/tags/RELEASE__3_100/lame/COPYING",
           },
         },

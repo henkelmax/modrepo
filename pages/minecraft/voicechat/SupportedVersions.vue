@@ -47,6 +47,12 @@
             >
               Under active development
             </v-chip>
+            <v-chip
+              v-if="version.support === 'active_development_snapshot'"
+              color="blue"
+            >
+              Limited snapshot support
+            </v-chip>
           </td>
         </tr>
       </tbody>
@@ -117,6 +123,11 @@ export default {
         {
           version: "1.19.2",
           support: "active_development",
+        },
+        {
+          version: "1.19.3",
+          type: "fabric",
+          support: "active_development_snapshot",
         },
       ],
     };
