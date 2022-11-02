@@ -159,7 +159,9 @@
               <td>Simple Voice Chat Enhanced Groups</td>
               <td>Various improvements to voice chat groups</td>
               <td>
-                <a href="https://github.com/henkelmax/enhanced-groups">GitHub</a>
+                <a href="https://github.com/henkelmax/enhanced-groups"
+                  >GitHub</a
+                >
               </td>
             </tr>
           </tbody>
