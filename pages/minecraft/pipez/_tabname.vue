@@ -281,6 +281,13 @@ export default {
             link: "https://github.com/AlgorithmLX",
           },
         },
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "FITFC",
+            link: "https://github.com/FITFC",
+          },
+        },
       ],
     };
   },
