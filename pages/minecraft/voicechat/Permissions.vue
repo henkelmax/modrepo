@@ -32,9 +32,13 @@
       </thead>
       <tbody>
         <tr>
-          <td><code>voicechat.connect</code></td>
+          <td><code>voicechat.listen</code></td>
           <td>Granted for everyone</td>
-          <td>If players should be able to connect to the voice chat.</td>
+          <td>
+            If players should be able to hear audio from the voice chat.
+            <br />
+            <strong>Added in version <code>2.3.13</code>.</strong>
+          </td>
         </tr>
         <tr>
           <td><code>voicechat.speak</code></td>
@@ -52,6 +56,20 @@
           <td>
             For administrative purposes like the
             <code>/voicechat test</code> command.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <s><code>voicechat.connect</code></s>
+          </td>
+          <td>Granted for everyone</td>
+          <td>
+            If players should be able to connect to the voice chat.
+            <br />
+            <strong
+              >Removed in version <code>2.3.13</code> in favor of
+              <code>voicechat.listen</code>.</strong
+            >
           </td>
         </tr>
       </tbody>
