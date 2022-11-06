@@ -16,11 +16,6 @@
       working. If this is the case, please ask your hoster to either disable it
       or to create an exception for the voice chat.
     </p>
-    <p>
-      This can also be caused by your permissions system not giving players the
-      <code>voicechat.connect</code> permission. See
-      <a href="?t=permissions">permissions</a> for more information.
-    </p>
     <br />
     <h2>Other people can't be heard</h2>
     <p>
