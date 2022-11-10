@@ -288,6 +288,13 @@ export default {
             link: "https://github.com/FITFC",
           },
         },
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "AndreAugustoAAQ",
+            link: "https://github.com/AndreAugustoAAQ",
+          },
+        },
       ],
     };
   },
