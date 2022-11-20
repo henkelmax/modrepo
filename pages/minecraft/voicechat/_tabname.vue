@@ -641,6 +641,10 @@ If you are hosting the server on your local machine take a look at <a href="http
           answer: `No.`,
         },
         {
+          question: "Does this mod work with TCPShield?",
+          answer: `No. TCPShield only supports TCP.`,
+        },
+        {
           question: "Does the voice chat activate Sculk sensors?",
           answer: `Not by default. You need to install an <a href="https://modrinth.com/mod/voice-chat-interaction">additional mod</a> to add this feature.`,
         },
