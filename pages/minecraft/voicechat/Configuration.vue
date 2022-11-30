@@ -383,7 +383,20 @@
         </tr>
         <tr>
           <td><code>macos_microphone_workaround</code></td>
-          <td>If the microphone workaround hack should be used (MacOS only)</td>
+          <td>
+            If the microphone workaround hack should be used (MacOS only)
+            <br />
+            <b>Removed in 2.3.17+</b>
+          </td>
+          <td><code>true</code></td>
+        </tr>
+        <tr>
+          <td><code>macos_check_microphone_permission</code></td>
+          <td>
+            If the mod should check for microphone permissions (MacOS only)
+            <br />
+            <b>Added in 2.3.17</b>
+          </td>
           <td><code>true</code></td>
         </tr>
         <tr>

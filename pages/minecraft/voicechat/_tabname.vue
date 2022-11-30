@@ -429,6 +429,9 @@
           <template slot="permissions">
             <Permissions class="pa-6" />
           </template>
+          <template slot="macos_microphone_permission">
+            <MacOS class="pa-6" />
+          </template>
           <template slot="icons">
             <Icons class="pa-6" />
           </template>
@@ -513,6 +516,7 @@ import Configuration from "~/pages/minecraft/voicechat/Configuration.vue";
 import SupportedVersions from "~/pages/minecraft/voicechat/SupportedVersions.vue";
 import Commands from "~/pages/minecraft/voicechat/Commands.vue";
 import Permissions from "~/pages/minecraft/voicechat/Permissions.vue";
+import MacOS from "~/pages/minecraft/voicechat/MacOS.vue";
 import Icons from "~/pages/minecraft/voicechat/Icons.vue";
 
 export default {
@@ -639,6 +643,10 @@ If you are hosting the server on your local machine take a look at <a href="http
         {
           question: "Can you use this mod with Lunar Client?",
           answer: `No.`,
+        },
+        {
+          question: "Does this mod work with TCPShield?",
+          answer: `No. TCPShield only supports TCP.`,
         },
         {
           question: "Does the voice chat activate Sculk sensors?",
@@ -943,6 +951,7 @@ If you are hosting the server on your local machine take a look at <a href="http
         { id: "supported_versions", title: "Supported Versions" },
         { id: "commands", title: "Commands" },
         { id: "permissions", title: "Permissions" },
+        { id: "macos_microphone_permission", title: "MacOS Microphone Permission" },
         { id: "icons", title: "Icons" },
       ],
     };
@@ -958,6 +967,7 @@ If you are hosting the server on your local machine take a look at <a href="http
     SupportedVersions,
     Commands,
     Permissions,
+    MacOS,
     Icons,
   },
   methods: {
