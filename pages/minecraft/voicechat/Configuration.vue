@@ -426,8 +426,8 @@
           <td>
             If the mod should load native libraries
             <br />
-            If set to false, the Java Opus implementation will be used and the
-            denoiser won't be available
+            If set to false, the Java Opus implementation will be used, the
+            denoiser won't be available and you won't be able to record audio.
           </td>
           <td><code>true</code></td>
         </tr>
