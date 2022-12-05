@@ -941,6 +941,13 @@ If you are hosting the server on your local machine take a look at <a href="http
             link: "https://github.com/NetongasNG",
           },
         },
+        {
+          element: { name: "Brazilian Portuguese translation" },
+          name: {
+            name: "FITFC",
+            link: "https://github.com/FITFC",
+          },
+        },
       ],
       tabs: [
         { id: "installation", title: "Installation" },
