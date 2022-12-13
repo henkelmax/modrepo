@@ -295,6 +295,13 @@ export default {
             link: "https://github.com/AndreAugustoAAQ",
           },
         },
+        {
+          element: { name: "Italian translation" },
+          name: {
+            name: "BlackShadow77",
+            link: "https://github.com/BlackShadow77",
+          },
+        },
       ],
     };
   },
