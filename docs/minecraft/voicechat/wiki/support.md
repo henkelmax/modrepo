@@ -82,6 +82,7 @@ The support key itself is to confirm that the wiki was actually read.
     display: flex;
     justify-content: center;
     transition: all 0.2s ease-in-out;
+    color: #fff;
 }
 
 .button:hover {
