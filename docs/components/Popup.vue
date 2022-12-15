@@ -1,11 +1,13 @@
 <template>
   <div class="overlay" v-if="showPopup" @click="close"></div>
   <div class="modal-parent" v-if="showPopup">
-    <div class="modal">
+    <div class="modal" :class="isDark ? 'modal-dark' : 'modal-light'">
       <p class="title">{{ title }}</p>
       <p><slot></slot></p>
       <div class="buttons">
-        <button v-if="acceptButton" class="accept" @click="accept">Accept</button>
+        <button v-if="acceptButton" class="accept" @click="accept">
+          Accept
+        </button>
         <button v-if="closeButton" @click="close">Close</button>
       </div>
     </div>
@@ -13,6 +15,10 @@
 </template>
 
 <script setup>
+import { useData } from "vitepress";
+
+const { isDark } = useData();
+
 const props = defineProps({
   showPopup: {
     type: Boolean,
@@ -34,14 +40,14 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(['accept', 'close']);
+const emit = defineEmits(["accept", "close"]);
 
-function accept(){
-  emit('accept')
+function accept() {
+  emit("accept");
 }
 
-function close(){
-  emit('close')
+function close() {
+  emit("close");
 }
 </script>
 
@@ -70,11 +76,16 @@ function close(){
   border-radius: 8px;
   z-index: 9999;
   padding: 20px 30px;
-  background-color: #333;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   pointer-events: auto;
+}
+.modal-dark {
+  background-color: #333;
+}
+.modal-light {
+  background-color: #fff;
 }
 .title {
   font-size: 20px;
@@ -93,7 +104,7 @@ function close(){
 button {
   font-weight: bold;
 }
-@media (max-width : 750px) {
+@media (max-width: 750px) {
   .modal {
     width: 90%;
   }
