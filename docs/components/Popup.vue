@@ -93,4 +93,9 @@ function close(){
 button {
   font-weight: bold;
 }
+@media (max-width : 750px) {
+  .modal {
+    width: 90%;
+  }
+}
 </style>
