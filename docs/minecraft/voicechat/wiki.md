@@ -1,3 +1,5 @@
 <script setup>
-window.open('wiki/installation', "_self");
+if (!import.meta.env.SSR) {
+    window.open('wiki/installation', "_self");
+}
 </script>

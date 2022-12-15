@@ -1,3 +1,5 @@
 <script setup>
-window.open('overview', "_self");
+if (!import.meta.env.SSR) {
+    window.open('overview', "_self");
+}
 </script>

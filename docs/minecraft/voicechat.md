@@ -1,3 +1,5 @@
 <script setup>
-window.open('voicechat/overview', "_self");
+if (!import.meta.env.SSR) {
+    window.open('voicechat/overview', "_self");
+}
 </script>

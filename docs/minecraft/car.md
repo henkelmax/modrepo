@@ -1,3 +1,5 @@
 <script setup>
-window.open('car/overview', "_self");
+if (!import.meta.env.SSR) {
+    window.open('car/overview', "_self");
+}
 </script>

@@ -1,3 +1,5 @@
 <script setup>
-window.open('installation', "_self");
+if (!import.meta.env.SSR) {
+    window.open('installation', "_self");
+}
 </script>
