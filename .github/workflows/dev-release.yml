@@ -18,14 +18,11 @@ jobs:
         run: |
           yarn install --non-interactive
           yarn build --fail-on-error
-      - name: Install SSH client
-        uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           repository-name: henkelmax/modrepo-dev
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
           branch: master
           folder: docs/.vitepress/dist
           clean: true
