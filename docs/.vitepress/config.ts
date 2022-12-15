@@ -25,6 +25,7 @@ export default {
             { text: 'Overview', link: '/minecraft/voicechat/overview.md' },
             { text: 'FAQ', link: '/minecraft/voicechat/faq.md' },
             { text: 'Credits', link: '/minecraft/voicechat/credits.md' },
+            { text: 'Downloads', link: '/minecraft/voicechat/downloads.md' },
             { text: 'Discord', link: 'https://discord.gg/4dH2zwTmyX' },
             { text: 'GitHub', link: 'https://github.com/henkelmax/simple-voice-chat' },
             { text: 'API', link: 'https://github.com/henkelmax/simple-voice-chat/tree/1.19.3/api' },
