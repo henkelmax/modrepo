@@ -1,5 +1,6 @@
 export default {
   title: 'ModRepo',
+  description: 'ModRepo',
   cleanUrls: 'without-subfolders',
   themeConfig: {
     socialLinks: [
