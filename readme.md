@@ -8,14 +8,9 @@ The source code of the [ModRepo](https://modrepo.de) page.
 # Install dependencies
 yarn install
 
-# Serve with hot reload at localhost:3000
+# Serve with hot reload
 yarn dev
 
 # Build for production
 yarn build
-# Launch server
-yarn start
-
-# Generate static project
-yarn generate
 ```

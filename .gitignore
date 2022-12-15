@@ -72,7 +72,10 @@ typings/
 dist
 
 # vuepress build output
-.vuepress/dist
+docs/.vuepress/dist
+
+# vitepress build output
+docs/.vitepress/dist
 
 # Serverless directories
 .serverless
@@ -90,3 +93,5 @@ sw.*
 *.swp
 
 report.*.json
+
+.vscode

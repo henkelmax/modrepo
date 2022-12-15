@@ -1,22 +1,15 @@
 {
-  "name": "modrepo",
+  "name": "vitepress-test",
   "version": "1.0.0",
-  "author": "Max Henkel",
-  "private": true,
+  "main": "index.js",
+  "license": "UNLICENSED",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "@nuxtjs/axios": "^5.13.6",
-    "compare-versions": "^5.0.1",
-    "nuxt": "^2.15.8",
-    "vue-observe-visibility": "^1.0.0"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@nuxtjs/moment": "^1.6.1",
-    "@nuxtjs/vuetify": "^1.12.3"
+    "vitepress": "^1.0.0-alpha.31",
+    "vue": "^3.2.45"
   }
 }
