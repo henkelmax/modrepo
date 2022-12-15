@@ -87,16 +87,4 @@ The support key itself is to confirm that the wiki was actually read.
 .button:hover {
     background-color: #3da170;
 }
-
-/* .support-key {
-    border-radius: 8px;
-    background-color: #42b883;
-    padding: 0.4rem;
-    justify-content: center;
-    transition: all 0.2s ease-in-out;
-}
-
-.support-key:hover {
-    background-color: #3da170;
-} */
 </style>
