@@ -2,8 +2,6 @@
 titleTemplate: Simple Voice Chat
 ---
 
-<WikiTracker name="troubleshooting"/>
-
 # Troubleshooting problems
 
 ## Voice chat unavailable / Voice chat not connected / Plug icon
@@ -104,3 +102,8 @@ that can use your microphone.
 ## Players can be heard far away/Proximity is not working
 
 You are most likely just in a group. Leave the group and proximity will work fine.
+
+
+<ClientOnly>
+    <WikiTracker name="troubleshooting"/>
+</ClientOnly>

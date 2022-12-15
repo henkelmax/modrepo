@@ -2,8 +2,6 @@
 titleTemplate: Simple Voice Chat
 ---
 
-<WikiTracker name="installation"/>
-
 # Installation
 
 You always have to install Simple Voice Chat on your client and your server.
@@ -36,3 +34,7 @@ Note that you need the Fabric, Forge or Quilt version of the mod installed on yo
 For the Quilt version of the mod, you need to have the [Quilt Loader](https://quiltmc.org/install/) installed on your client/server.
 
 Also don't forget to add the actual [Simple Voice Chat mod jar](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-status=1&filter-game-version=2020709689%3A9153) to the mods folder. The mods folder is located in `/mods`.
+
+<ClientOnly>
+    <WikiTracker name="installation"/>
+</ClientOnly>

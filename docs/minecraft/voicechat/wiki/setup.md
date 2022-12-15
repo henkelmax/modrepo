@@ -2,8 +2,6 @@
 titleTemplate: Simple Voice Chat
 ---
 
-<WikiTracker name="setup"/>
-
 # Setup
 
 ::: danger NOTE
@@ -53,3 +51,8 @@ You also need to make sure each voice port is opened in the firewall of each ser
 ## Testing the voice chat connection
 
 You can test the voice chat connection of a specific player by typing the command `/voicechat test <PLAYERNAME>`.
+
+
+<ClientOnly>
+    <WikiTracker name="setup"/>
+</ClientOnly>
