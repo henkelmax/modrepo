@@ -1,3 +1,7 @@
+---
+aside: false
+---
+
 # General Mod FAQ
 
 <br/>
