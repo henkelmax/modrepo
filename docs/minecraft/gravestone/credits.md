@@ -1,5 +1,6 @@
 ---
 titleTemplate: Gravestone Mod
+aside: false
 ---
 
 # Credits

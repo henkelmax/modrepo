@@ -1,5 +1,6 @@
 ---
 titleTemplate: Ultimate Car Mod
+aside: false
 ---
 
 # Credits

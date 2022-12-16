@@ -1,5 +1,6 @@
 ---
 titleTemplate: Ultimate Plane Mod
+aside: false
 ---
 
 # Credits

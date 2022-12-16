@@ -1,3 +1,7 @@
+---
+aside: false
+---
+
 # Ultimate Car Mod
 
 - [FAQ](faq.md)

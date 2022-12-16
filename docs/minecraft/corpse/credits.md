@@ -1,5 +1,6 @@
 ---
 titleTemplate: Corpse
+aside: false
 ---
 
 # Credits

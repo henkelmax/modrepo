@@ -1,5 +1,6 @@
 ---
 titleTemplate: Better Respawn
+aside: false
 ---
 
 # Credits

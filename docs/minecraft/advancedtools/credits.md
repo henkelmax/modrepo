@@ -1,5 +1,6 @@
 ---
 titleTemplate: Advanced Tools
+aside: false
 ---
 
 # Credits
