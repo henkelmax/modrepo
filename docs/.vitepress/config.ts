@@ -53,6 +53,17 @@ export default {
             { text: 'Get a Support Key', link: '/minecraft/voicechat/wiki/support.md' }
           ]
         },
+        {
+          text: 'API',
+          items: [
+            { text: 'Overview', link: '/minecraft/voicechat/api/overview.md' },
+            { text: 'Getting Started', link: '/minecraft/voicechat/api/getting_started.md' },
+            { text: 'Your Plugin', link: '/minecraft/voicechat/api/your_plugin.md' },
+            { text: 'Registering Events', link: '/minecraft/voicechat/api/registering_events.md' },
+            { text: 'Examples', link: '/minecraft/voicechat/api/examples.md' },
+            { text: 'Javadocs', link: 'https://voicechat.modrepo.de/' },
+          ]
+        },
       ],
       '/minecraft/car/': [
         {
