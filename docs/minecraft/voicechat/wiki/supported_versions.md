@@ -1,5 +1,6 @@
 ---
 titleTemplate: Simple Voice Chat
+aside: false
 ---
 
 # Supported Versions
