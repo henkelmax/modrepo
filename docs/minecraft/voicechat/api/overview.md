@@ -13,7 +13,7 @@ Experience with Java and Minecraft mod/plugin development is highly recommended 
 ## Table of Contents
 
 - [Getting Started](getting_started.md)
-- [Your Plugin](entrypoint.md)
+- [Your Plugin](your_plugin.md)
 - [Registering Events](registering_events.md)
 - [Examples](examples.md)
 - [Javadocs](https://voicechat.modrepo.de/)
