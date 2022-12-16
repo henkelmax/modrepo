@@ -7,7 +7,7 @@ aside: false
 This site contains all resources you need to use and set up Simple Voice Chat.
 
 If you have general questions about the mod, take a look at the [FAQ](faq.md).
-For installation, setup or configuration, visit the [wiki](wiki/installation.md).
+For installation, setup or configuration visit the [wiki](wiki/installation.md).
 
 Looking for a specific mod or plugin version? Take a look at the [downloads](downloads.md).
 
