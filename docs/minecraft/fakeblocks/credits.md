@@ -1,5 +1,6 @@
 ---
 titleTemplate: Fake Blocks
+aside: false
 ---
 
 # Credits

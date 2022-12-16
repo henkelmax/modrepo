@@ -1,5 +1,6 @@
 ---
 titleTemplate: Storage Overhaul
+aside: false
 ---
 
 # Credits

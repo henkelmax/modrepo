@@ -1,5 +1,6 @@
 ---
 titleTemplate: Easy Piglins
+aside: false
 ---
 
 # Credits

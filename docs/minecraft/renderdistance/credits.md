@@ -1,5 +1,6 @@
 ---
 titleTemplate: Dynamic Render Distance
+aside: false
 ---
 
 # Credits

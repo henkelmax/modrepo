@@ -1,5 +1,6 @@
 ---
 titleTemplate: Pipez
+aside: false
 ---
 
 # Credits

@@ -1,5 +1,6 @@
 ---
 titleTemplate: Camera Mod
+aside: false
 ---
 
 # Credits

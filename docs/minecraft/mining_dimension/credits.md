@@ -1,5 +1,6 @@
 ---
 titleTemplate: Advanced Mining Dimension
+aside: false
 ---
 
 # Credits

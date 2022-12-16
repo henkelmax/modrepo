@@ -1,5 +1,6 @@
 ---
 titleTemplate: Easy Villagers
+aside: false
 ---
 
 # Credits

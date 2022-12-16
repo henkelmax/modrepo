@@ -1,5 +1,6 @@
 ---
 titleTemplate: Sleeping Bags
+aside: false
 ---
 
 # Credits

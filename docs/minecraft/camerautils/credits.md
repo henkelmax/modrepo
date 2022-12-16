@@ -1,5 +1,6 @@
 ---
 titleTemplate: Camera Utils
+aside: false
 ---
 
 # Credits

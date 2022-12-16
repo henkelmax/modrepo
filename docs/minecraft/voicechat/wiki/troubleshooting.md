@@ -104,6 +104,10 @@ that can use your microphone.
 
 You are most likely just in a group. Leave the group and proximity will work fine.
 
+## I can't find the voice chat port in the 'server.properties' file
+
+This option is **not** located in the `server.properties` file. It is located in the mods server config. For more information read [this](configuration.md).
+
 
 <ClientOnly>
     <WikiTracker name="troubleshooting"/>

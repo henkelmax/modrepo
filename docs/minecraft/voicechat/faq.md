@@ -14,14 +14,14 @@ aside: false
 const faq = [
   {
     question:
-      "Voice chat not connected",
+      "Why am I getting 'Voice chat not connected'?",
     answer:
-      'You may have not opened the voice chat port on your server. You sometimes also need to bind the voice chat server to a specific IP, but that depends on your server hoster. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
+      'You may have not opened the voice chat port on your server. If you are renting a Minecraft server you may need some special configuration. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
   },
   {
-    question: "I forwarded the port and it still does not work.",
+    question: "I forwarded the port why is it still not working?",
     answer:
-      'You sometimes also need to bind the voice chat server to a specific IP. In this case you have to ask your server hoster. You can set the IP to bind to in the server config of the mod. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
+      'Most hosters require a special setup besides port forwarding. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
   },
   {
     question: "How do I open the voice chat port?",
@@ -37,11 +37,6 @@ If you are hosting the server on your local machine take a look at <a href="http
       "Can vanilla clients still join when the voice chat mod is installed on the server?",
     answer:
       "Yes, But in versions older than 2.1.0, the Forge version only works with the mod installed on the client and the server.",
-  },
-  {
-    question: "I can't find the voice chat port in the 'server.properties'.",
-    answer:
-      "This option is NOT located in the 'server.properties'. It is located in the mods server config. For more information read the FAQ entry on how to find the mod configs.",
   },
   {
     question:
