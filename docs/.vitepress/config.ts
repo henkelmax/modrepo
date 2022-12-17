@@ -7,7 +7,6 @@ export default {
       { icon: 'github', link: 'https://github.com/henkelmax/modrepo' },
     ],
     nav: [
-      { text: 'Overview', link: '/overview.md' },
       { text: 'FAQ', link: '/minecraft/faq.md' },
       {
         text: 'Mods',
