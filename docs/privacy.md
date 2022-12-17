@@ -89,7 +89,7 @@ Natürlich können Sie unsere Website grundsätzlich auch ohne Cookies oder loca
 
 ### Speicherdauer und eingesetzte Cookies:
 
-Soweit Sie uns durch Ihre Zustimmung die Verwendung von Cookies und dem LocalStorage erlauben, können folgende dinge gespeichert werden:
+Folgende Dinge werden im LocalStorage gespeichert:
 
 - Die Einstellung des DarkModes
 - Die besuchten Wiki Seiten
