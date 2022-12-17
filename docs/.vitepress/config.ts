@@ -15,7 +15,8 @@ export default {
           { text: 'Simple Voice Chat', link: '/minecraft/voicechat/overview.md' },
           { text: 'Ultimate Car Mod', link: '/minecraft/car/overview.md' },
         ]
-      }
+      },
+      { text: 'Privacy', link: '/privacy.md' },
     ],
     sidebar: {
       '/minecraft/voicechat/': [
