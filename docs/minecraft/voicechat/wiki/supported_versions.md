@@ -14,6 +14,8 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 
 | Minecraft Version | Type                | Support                                              |
 | ----------------- | ------------------- | ---------------------------------------------------- |
+| `1.12.2`          | Forge               | <Badge type="tip" text="Under active development" /> |
+| `1.12.2`          | Bukkit/Spigot/Paper | <Badge type="tip" text="Under active development" /> |
 | `1.15.2`          | All                 | <Badge type="danger" text="No support" />            |
 | `1.16.3`          | All                 | <Badge type="danger" text="No support" />            |
 | `1.16.4`          | All                 | <Badge type="danger" text="No support" />            |
