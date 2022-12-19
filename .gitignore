@@ -77,6 +77,8 @@ docs/.vuepress/dist
 # vitepress build output
 docs/.vitepress/dist
 
+docs/.vitepress/cache
+
 # Serverless directories
 .serverless
 
