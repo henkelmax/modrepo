@@ -13,16 +13,16 @@ Click the button below to get your support key for the [Discord](https://discord
 
 Our support team is very small and we want to avoid as much interaction as possible,
 so we require everyone wanting help to at least try to figure out their issue themselves.
-The support key itself is to confirm that the wiki was actually read.
+The support key itself is to confirm that the [wiki](installation.md) and the [FAQ](../faq.md) was actually read.
 
-<Popup title="Please read the wiki before requesting a support key!" :showPopup="showNotReadPopup" @close="showNotReadPopup = false">
+<Popup title="Please read the wiki and FAQ before requesting a support key!" :showPopup="showNotReadPopup" @close="showNotReadPopup = false">
     Almost everything you need to know is here.
     <br />
-    Please don't request support if you didn't read the wiki.
+    Please don't request support if you didn't read the wiki and the FAQ.
 </Popup>
 
-<Popup title="Did you read the wiki?" :acceptButton="true" :showPopup="showReadWikiPopup" @accept="showReadWikiPopup = false; showSupportKeyPopup = true" @close="showReadWikiPopup = false">
-    By clicking <b>Accept</b>, you confirm that you really read the wiki and your problem is not listed here.
+<Popup title="Did you read the wiki and FAQ?" :acceptButton="true" :showPopup="showReadWikiPopup" @accept="showReadWikiPopup = false; showSupportKeyPopup = true" @close="showReadWikiPopup = false">
+    By clicking <b>Accept</b>, you confirm that you really read the wiki and the FAQ and your problem is not listed here.
 </Popup>
 
 <Popup title="Your Support Key!" :showPopup="showSupportKeyPopup" @close="showSupportKeyPopup = false">
@@ -50,7 +50,7 @@ The support key itself is to confirm that the wiki was actually read.
 
     function hasReadWiki() {
         const visitedTabs = JSON.parse(localStorage.visitedTabs || '[]');
-        return visitedTabs.includes("setup") && visitedTabs.includes("troubleshooting");
+        return visitedTabs.includes("setup") && visitedTabs.includes("troubleshooting") && visitedTabs.includes("faq");
     }
 
     function generateSupportKey() {
