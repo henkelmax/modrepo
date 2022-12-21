@@ -10,6 +10,10 @@ aside: false
 
 <FAQ :faq="faq"/>
 
+<ClientOnly>
+    <WikiTracker name="faq"/>
+</ClientOnly>
+
 <script setup>
 const faq = [
   {
@@ -100,8 +104,12 @@ If you are hosting the server on your local machine take a look at <a href="http
     answer: `No. We generally don't support any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
   },
   {
+    question: "Does this work with Arclight?",
+    answer: `No. Hybrid servers are generally not supported.`,
+  },
+  {
     question: "Does this work with Magma?",
-    answer: `No. We generally don't support any hybrid servers.`,
+    answer: `No. Hybrid servers are generally not supported.`,
   },
   {
     question: "Does this work with Cardboard?",
@@ -109,11 +117,11 @@ If you are hosting the server on your local machine take a look at <a href="http
   },
   {
     question: "Does this work with hybrid servers?",
-    answer: `No. We generally don't support any hybrid servers.`,
+    answer: `No. Hybrid servers are generally not supported.`,
   },
   {
     question: "Can I use this mod with Lunar Client?",
-    answer: `No.`,
+    answer: `No. Hybrid servers are generally not supported.`,
   },
   {
     question: "Does this mod work with TCPShield?",
