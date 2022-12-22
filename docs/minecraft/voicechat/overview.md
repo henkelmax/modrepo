@@ -15,4 +15,4 @@ Need help? Visit our [Discord](https://discord.gg/4dH2zwTmyX).
 
 Found a bug? Report it on the [issue tracker](https://github.com/henkelmax/simple-voice-chat/issues).
 
-Want to create your own voice chat addon? Read the [API documentation](https://github.com/henkelmax/simple-voice-chat/tree/1.19.3/api).
+Want to create your own voice chat addon? Read the [API documentation](api/overview.md).
