@@ -8,7 +8,7 @@ aside: false
 You can only register events in the `registerEvents` method in your `VoicechatPlugin` class.
 Trying to call `EventRegistration.registerEvent` after this method call will not work.
 
-```java
+```java{3}
 @Override
 public void registerEvents(EventRegistration registration) {
     registration.registerEvent(VoicechatServerStartedEvent.class, this::onServerStarted);
@@ -24,7 +24,7 @@ If you want to give your event a higher or lower priority, you can do this by pa
 Higher numbers mean a higher priority and thus an earlier invocation than registered events without a priority.
 `0` is the default priority.
 
-```java
+```java{3}
 @Override
 public void registerEvents(EventRegistration registration) {
     registration.registerEvent(VoicechatServerStartedEvent.class, this::onServerStarted, 100);
