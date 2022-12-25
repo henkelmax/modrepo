@@ -9,7 +9,7 @@ This is a list containing every Minecraft version, Simple Voice Chat has been re
 It shows for which Minecraft versions the mod is still maintained.
 
 
-We usually only support the latest patch of each major Minecraft version.
+Usually only the latest patch of each major Minecraft version is supported.
 Snapshots are generally no longer supported after a newer snapshot version is released or the full release of that version is out.
 
 | Minecraft Version | Type                | Support                                              |
