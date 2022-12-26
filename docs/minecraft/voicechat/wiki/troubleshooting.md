@@ -5,7 +5,7 @@ aside: false
 
 # Troubleshooting problems
 
-## Voice chat unavailable / Voice chat not connected / Plug icon
+## Voice chat not connected / Plug icon
 
 The most likely cause of this is that you didn't forward your port correctly.
 Please double check your setup.
@@ -17,6 +17,9 @@ you may also need to set `voice_host` to the public IP of the server the voice c
 
 Some servers have a DDoS protection that prevents the voice chat from working.
 If this is the case, please ask your hoster to either disable it or to create an exception for the voice chat.
+
+If you are using Docker, make sure you specified `24454:24454/udp` for the port.
+Just doing `24454:24454` will not work as it is only TCP.
 
 ## Other people can't be heard
 
