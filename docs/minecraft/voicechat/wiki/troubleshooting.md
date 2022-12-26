@@ -50,6 +50,8 @@ Note that this is not guaranteed to work in all cases.
 This is mostly caused by not binding to the correct IP address.
 See `bind_address` in [Configuration](configuration.md).
 
+If you are hosting the server in your own network, you should always connect to the Minecraft server via the internal IP, not your public IP.
+
 ## The Server Crashes on Startup (Failed to bind to address)
 
 This is mostly caused by not binding to the correct IP address.
