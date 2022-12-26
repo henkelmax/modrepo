@@ -17,8 +17,9 @@ The support key itself is to confirm that the [wiki](installation.md) and the [F
 
 <Popup title="Please read the wiki and FAQ before requesting a support key!" :showPopup="showNotReadPopup" @close="showNotReadPopup = false">
     Almost everything you need to know is here.
-    <br />
-    Please don't request support if you didn't read the wiki and the FAQ.
+    Please don't request support if you didn't read the wiki and the FAQ!
+    <br/>
+    <b>You won't receive a support key if you haven't visited the required pages.</b>
 </Popup>
 
 <Popup title="Did you read the wiki and FAQ?" :acceptButton="true" :showPopup="showReadWikiPopup" @accept="showReadWikiPopup = false; showSupportKeyPopup = true" @close="showReadWikiPopup = false">
