@@ -295,5 +295,12 @@ const credits = [
       link: "https://github.com/FITFC",
     },
   },
+  {
+    element: { name: "Japanese translation" },
+    name: {
+      name: "Omokage R",
+      link: "https://github.com/Omokage-R",
+    },
+  },
 ];
 </script>
