@@ -18,9 +18,13 @@ If you can't find the config files, make sure the client/server was started at l
 
 `config/voicechat/voicechat-server.properties`
 
-**Forge**
+**Forge 1.15+**
 
 `<Your world folder>/serverconfig/voicechat-server.toml`
+
+**Forge 1.12.2**
+
+`config/voicechat/voicechat-server.properties`
 
 **Bukkit/Spigot/Paper**
 
@@ -54,9 +58,13 @@ If you can't find the config files, make sure the client/server was started at l
 
 `config/voicechat/voicechat-client.properties`
 
-**Forge**
+**Forge 1.15+**
 
 `config/voicechat-client.toml`
+
+**Forge 1.12.2**
+
+`config/voicechat/voicechat-client.properties`
 
 
 | Config key                          | Description                                                                                                                                                                                                      | Default value                                           |
