@@ -50,8 +50,13 @@ Note that this is not guaranteed to work in all cases.
 
 ## The voice chat is constantly reconnecting
 
+The core reason of this issue is that the voice chat UDP traffic is only able to go through from the client to the server,
+but not from the server to the client.
+Most of the time this is a sign of a faulty network setup on the server side.
+
 This is mostly caused by not binding to the correct IP address.
 See `bind_address` in [Configuration](configuration.md).
+If you get an error after setting `bind_address`, you do not need to set this field.
 
 If you are hosting the server in your own network, you should always connect to the Minecraft server via the internal IP, not your public IP.
 
