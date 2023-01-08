@@ -56,6 +56,7 @@ Most of the time this is a sign of a faulty network setup on the server side.
 
 This is mostly caused by not binding to the correct IP address.
 See `bind_address` in [Configuration](configuration.md).
+If you get an error after setting `bind_address`, you do not need to set this field.
 
 If you are hosting the server in your own network, you should always connect to the Minecraft server via the internal IP, not your public IP.
 
