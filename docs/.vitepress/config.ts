@@ -1,7 +1,7 @@
 export default {
   title: 'ModRepo',
   description: 'ModRepo',
-  cleanUrls: 'without-subfolders',
+  cleanUrls: 'with-subfolders',
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/henkelmax/modrepo' },
