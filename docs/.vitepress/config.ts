@@ -4,7 +4,7 @@ export default {
   cleanUrls: 'with-subfolders',
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/henkelmax/modrepo' },
+      { icon: 'github', link: 'https://github.com/henkelmax' },
     ],
     nav: [
       {
