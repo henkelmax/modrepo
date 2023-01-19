@@ -20,11 +20,11 @@ The support key itself is to confirm that the [wiki](installation.md) and the [F
     <br/>
     To generate a support key, you must have visited at least the following pages:
     <ul>
-        <li><a href="../faq">FAQ</a></li>
-        <li><a href="installation">Installation</a></li>
-        <li><a href="setup">Setup</a></li>
-        <li><a href="troubleshooting">Troubleshooting Problems</a></li>
-        <li><a href="configuration">Configuration</a></li>
+        <li><a href="/minecraft/voicechat/faq">FAQ</a></li>
+        <li><a href="/minecraft/voicechat/wiki/installation">Installation</a></li>
+        <li><a href="/minecraft/voicechat/wiki/setup">Setup</a></li>
+        <li><a href="/minecraft/voicechat/wiki/troubleshooting">Troubleshooting Problems</a></li>
+        <li><a href="/minecraft/voicechat/wiki/configuration">Configuration</a></li>
     </ul>
 </Popup>
 
