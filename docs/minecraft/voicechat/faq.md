@@ -18,6 +18,12 @@ aside: false
 const faq = [
   {
     question:
+      "How do I get my logs?",
+    answer:
+      'Read <a href="/minecraft/how_to_get_logs">this</a>.',
+  },
+  {
+    question:
       "Why am I getting 'Voice chat not connected'?",
     answer:
       'You may have not opened the voice chat port on your server. If you are renting a Minecraft server you may need some special configuration. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',

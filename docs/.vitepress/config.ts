@@ -1,13 +1,19 @@
 export default {
   title: 'ModRepo',
   description: 'ModRepo',
-  cleanUrls: 'without-subfolders',
+  cleanUrls: 'with-subfolders',
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/henkelmax/modrepo' },
+      { icon: 'github', link: 'https://github.com/henkelmax' },
     ],
     nav: [
-      { text: 'FAQ', link: '/minecraft/faq.md' },
+      {
+        text: 'Information',
+        items: [
+          { text: 'FAQ', link: '/minecraft/faq.md' },
+          { text: 'How to get logs', link: '/minecraft/how_to_get_logs.md' },
+        ]
+      },
       {
         text: 'Mods',
         items: [
