@@ -29,7 +29,7 @@ const faq = [
       'You may have not opened the voice chat port on your server. If you are renting a Minecraft server you may need some special configuration. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
   },
   {
-    question: "I forwarded the port why is it still not working?",
+    question: "I opened the port. Why is it still not working?",
     answer:
       'Most hosters require a special setup besides port forwarding. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
   },

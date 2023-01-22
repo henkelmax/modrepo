@@ -107,5 +107,12 @@ const credits = [
       link: "https://github.com/SimGitHub5",
     },
   },
+  {
+    element: { name: "Chinese translation" },
+    name: {
+      name: "ArchiDreamZ",
+      link: "https://github.com/ArchiDreamZ",
+    },
+  },
 ];
 </script>
