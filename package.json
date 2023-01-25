@@ -1,7 +1,6 @@
 {
   "name": "modrepo",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "UNLICENSED",
   "scripts": {
     "dev": "vitepress dev docs",
