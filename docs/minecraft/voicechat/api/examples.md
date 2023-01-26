@@ -11,5 +11,5 @@ titleTemplate: Simple Voice Chat
 ## Fabric
 
 - [Audio Player](https://github.com/henkelmax/audio-player)
-- [Instant Groups](https://github.com/henkelmax/instant-group)
+- [Enhanced Groups](https://github.com/henkelmax/enhanced-groups)
 - [Voice Chat Interaction](https://github.com/henkelmax/voicechat-interaction)
