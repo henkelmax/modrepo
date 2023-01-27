@@ -1,7 +1,6 @@
 {
-  "name": "vitepress-test",
+  "name": "modrepo",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "UNLICENSED",
   "scripts": {
     "dev": "vitepress dev docs",
@@ -9,7 +8,7 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.38",
+    "vitepress": "^1.0.0-alpha.40",
     "vue": "^3.2.45"
   }
 }
