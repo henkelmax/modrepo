@@ -130,6 +130,10 @@ If you are hosting the server on your local machine take a look at <a href="http
     answer: `No. Custom clients are not supported.`,
   },
   {
+    question: "Are custom clients supported?",
+    answer: `No. Custom clients are not supported.`,
+  },
+  {
     question: "Does this mod work with TCPShield?",
     answer: `No. TCPShield only supports TCP.`,
   },
