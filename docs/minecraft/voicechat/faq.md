@@ -127,7 +127,11 @@ If you are hosting the server on your local machine take a look at <a href="http
   },
   {
     question: "Can I use this mod with Lunar Client?",
-    answer: `No. Hybrid servers are generally not supported.`,
+    answer: `No. Custom clients are not supported.`,
+  },
+  {
+    question: "Are custom clients supported?",
+    answer: `No. Custom clients are not supported.`,
   },
   {
     question: "Does this mod work with TCPShield?",
