@@ -13,7 +13,7 @@ Click the button below to get your support key for the [Discord](https://discord
 
 Our support team is very small and we want to avoid as much interaction as possible,
 so we require everyone wanting help to at least try to figure out their issue themselves.
-The support key itself is to confirm that the [wiki](installation.md) and the [FAQ](../faq.md) was actually read.
+The support key itself is to confirm that the [wiki](installation) and the [FAQ](../faq) was actually read.
 
 <Popup title="Please read the wiki and FAQ before requesting a support key!" :showPopup="showNotReadPopup" @close="showNotReadPopup = false">
     Please don't request support if you didn't read the wiki and the FAQ!

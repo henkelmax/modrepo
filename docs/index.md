@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: overview.md
+      link: overview
     - theme: alt
       text: View on GitHub
       link: https://github.com/henkelmax/modrepo

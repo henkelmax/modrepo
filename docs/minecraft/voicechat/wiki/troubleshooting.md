@@ -42,10 +42,10 @@ You can select your microphone in the voice chat menu by clicking on the `Select
 You can test if it works by clicking the `Enable microphone testing` button.
 
 
-If you are using MacOS, read [this](macos.md)!
+If you are using MacOS, read [this](macos)!
 
 
-If you are on Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration.md) of the mod.
+If you are on Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration) of the mod.
 Note that this is not guaranteed to work in all cases.
 
 ## The voice chat is constantly reconnecting
@@ -55,7 +55,7 @@ but not from the server to the client.
 Most of the time this is a sign of a faulty network setup on the server side.
 
 This is mostly caused by not binding to the correct IP address.
-See `bind_address` in [Configuration](configuration.md).
+See `bind_address` in [Configuration](configuration).
 If you get an error after setting `bind_address`, you do not need to set this field.
 
 If you are hosting the server in your own network, you should always connect to the Minecraft server via the internal IP, not your public IP.
@@ -98,7 +98,7 @@ If you already did that, please double check that the file has not been modified
 
 Make sure the mod is actually installed and you started the client/server at least once with the mod added to it.
 
-If you don't know where the config files are located, read [this](configuration.md).
+If you don't know where the config files are located, read [this](configuration).
 
 ## The changed config values are not affecting the game
 
@@ -116,7 +116,7 @@ You are most likely just in a group. Leave the group and proximity will work fin
 
 ## I can't find the voice chat port in the 'server.properties' file
 
-This option is **not** located in the `server.properties` file. It is located in the mods server config. For more information read [this](configuration.md).
+This option is **not** located in the `server.properties` file. It is located in the mods server config. For more information read [this](configuration).
 
 
 <ClientOnly>
