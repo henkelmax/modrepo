@@ -4,7 +4,7 @@ titleTemplate: Simple Voice Chat
 
 # Compatibility
 
-## Compatibility between mod versions
+## Compatibility between mod/plugin versions
 
 Generally it is always recommended, that you use the exact same version on server and client.
 
