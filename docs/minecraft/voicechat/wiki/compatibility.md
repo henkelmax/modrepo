@@ -19,6 +19,13 @@ So for example you can join a server with version `1.2.3`, your client can also 
 Since version `2.1.0` of Simple Voice Chat, the mod is compatible between Minecraft versions with the help of tools like [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) or [ViaBackwards](https://www.spigotmc.org/resources/viabackwards.27448/).
 But you still have to consider the compatibility between the mod versions, as described above.
 
+## Compatibility between mod/plugin loaders
+
+Simple Voice Chat is available for Fabric, Forge, Quilt and Bukkit/Spigot/Paper.
+All these versions are cross compatible with each other.
+
+**NOTE**: We don't support hybrid servers! So please either use only plugins or only mods on your server.
+
 ## Operating system compatibility
 
 ### Windows
