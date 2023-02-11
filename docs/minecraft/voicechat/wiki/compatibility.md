@@ -22,7 +22,7 @@ But you still have to consider the compatibility between the mod versions, as de
 ## Compatibility between mod/plugin loaders
 
 Simple Voice Chat is available for Fabric, Forge, Quilt and Bukkit/Spigot/Paper.
-All these versions are cross compatible with each other.
+All these versions are cross compatible with each other, considering the above limitations.
 
 **NOTE**: We don't support hybrid servers! So please either use only plugins or only mods on your server.
 
