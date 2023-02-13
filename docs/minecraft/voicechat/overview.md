@@ -4,7 +4,7 @@ aside: false
 
 # Simple Voice Chat
 
-This site contains all resources you need to use and set up Simple Voice Chat.
+This site contains all resources needed to use and set up Simple Voice Chat.
 
 If you have general questions about the mod, take a look at the [FAQ](faq).
 For installation, setup or configuration visit the [wiki](wiki/installation).
