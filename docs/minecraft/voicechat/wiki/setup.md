@@ -17,7 +17,7 @@ If no guide for your hoster exists, ask the support of the hoster for help.
 If you are hosting your Minecraft server on your PC or on a VPS/root server, follow these steps:
 
 - Make sure you opened the voice chat port on your server (`24454` `UDP` by default)
-    - Opening the port for the voice chat is the same process as opening the normal minecraft port. You just have to use UDP instead of TCP for the protocol.
+    - Opening the port for the voice chat is the same process as opening the normal Minecraft port. You just have to use UDP instead of TCP for the protocol.
     - You can change the port in the server config of the mod (`port`).
         - On Fabric/Quilt the server config file is located in `config/voicechat/voicechat-server.properties`
         - On Forge the server config file is located in `<Your world folder>/serverconfig/voicechat-server.toml`

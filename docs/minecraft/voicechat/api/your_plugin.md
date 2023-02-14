@@ -7,11 +7,11 @@ aside: false
 
 <br/>
 
-> Make sure you set up your workspace as shown in [Getting Started](getting_started.md)!
+> Make sure you set up your workspace as shown in [Getting Started](getting_started)!
 
 <br/>
 
-As already shown in [Getting Started](getting_started.md),
+As already shown in [Getting Started](getting_started),
 the main entrypoint for all mod loaders and plugin loaders (Fabric/Forge/Bukkit/Spigot/Paper) is the `VoicechatPlugin` interface.
 
 ```java
