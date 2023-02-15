@@ -1,3 +1,5 @@
+import { gitDescribeSync } from 'git-describe';
+
 export default {
   title: 'ModRepo',
   description: 'ModRepo',
@@ -93,7 +95,7 @@ export default {
       ]
     },
     footer: {
-      message: 'ModRepo',
+      message: `ModRepo Release ${gitDescribeSync().hash}`,
       copyright: '© Max Henkel'
     }
   }
