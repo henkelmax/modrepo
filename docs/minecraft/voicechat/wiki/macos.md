@@ -11,7 +11,7 @@ However some launchers add the ability to ask for microphone permission.
 
 In order to use the voice chat on MacOS, you need to use [Prism Launcher](https://prismlauncher.org/).
 
-## For Advanced Users (WIP)
+<!-- ## For Advanced Users (WIP)
 
 If you are experienced with MacOS, you can do the following steps to get other launchers to request microphone permissions.
 
@@ -19,4 +19,4 @@ If you are experienced with MacOS, you can do the following steps to get other l
 We do not provide support for issues with your microphone permissions if you are not using a recommended launcher.
 :::
 
-*Coming soon™*
+*Coming soon™* -->
