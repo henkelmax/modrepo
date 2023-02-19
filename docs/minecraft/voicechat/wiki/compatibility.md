@@ -6,7 +6,7 @@ titleTemplate: Simple Voice Chat
 
 ## Compatibility between mod/plugin versions
 
-Generally it is always recommended, that you use the exact same version on server and client.
+Generally it is always recommended, that you use the exact same version on the server and client for the best possible experience.
 
 
 This mod follows [Semantic Versioning](https://semver.org/).
@@ -24,7 +24,9 @@ But you still have to consider the compatibility between the mod versions, as de
 Simple Voice Chat is available for Fabric, Forge, Quilt and Bukkit/Spigot/Paper.
 All these versions are cross compatible with each other, considering the above limitations.
 
-**NOTE**: We don't support hybrid servers! Please either use only plugins or only mods on your server.
+::: danger NOTE
+We don't support hybrid servers! Please either use only plugins or only mods on your server.
+:::
 
 ## Operating system compatibility
 

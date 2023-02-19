@@ -12,7 +12,7 @@ It shows for which Minecraft versions the mod is still maintained.
 Usually only the latest patch of each major Minecraft version is supported.
 Snapshots are generally no longer supported after a newer snapshot version is released or the full release of that version is out.
 
-| Minecraft Version | Type                | Support                                              |
+| Minecraft Version | Loader              | Support                                              |
 | ----------------- | ------------------- | ---------------------------------------------------- |
 | `1.12.2`          | Forge               | <Badge type="tip" text="Under active development" /> |
 | `1.12.2`          | Bukkit/Spigot/Paper | <Badge type="tip" text="Under active development" /> |
