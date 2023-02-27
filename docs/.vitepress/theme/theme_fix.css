@@ -1,8 +1,0 @@
-.VPLink.link {
-  display: flex;
-  flex-grow: unset;
-}
-
-.VPLink.link svg {
-  align-self: center;
-}

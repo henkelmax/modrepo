@@ -5,8 +5,6 @@ import Credits from '../../components/Credits.vue'
 import WikiTracker from '../../components/WikiTracker.vue'
 import Popup from '../../components/Popup.vue'
 
-import './theme_fix.css'
-
 export default {
   ...DefaultTheme,
   enhanceApp(ctx) {
