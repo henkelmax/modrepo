@@ -1,5 +1,7 @@
 ---
 titleTemplate: Simple Voice Chat
+prev: false
+next: false
 ---
 
 # Get a Support Key

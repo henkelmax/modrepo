@@ -1,5 +1,6 @@
 ---
 aside: false
+prev: false
 ---
 
 # Simple Voice Chat API

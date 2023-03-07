@@ -27,7 +27,7 @@ const credits = [
     element: { name: "Brazilian Portuguese translation" },
     name: {
       name: "Mikeliro",
-      link: "hhttps://github.com/Mikeliro",
+      link: "https://github.com/Mikeliro",
     },
   },
   {
@@ -119,6 +119,13 @@ const credits = [
     name: {
       name: "Alessy",
       link: "https://github.com/Bksp",
+    },
+  },
+  {
+    element: { name: "Brazilian Portuguese translation" },
+    name: {
+      name: "FITFC",
+      link: "https://github.com/FITFC",
     },
   },
 ];

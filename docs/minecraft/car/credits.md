@@ -72,5 +72,12 @@ const credits = [
       link: "https://github.com/DarkWolf260",
     },
   },
+  {
+    element: { name: "Chinese Simplified (China) translation" },
+    name: {
+      name: "mc-kaishixiaxue",
+      link: "https://github.com/mc-kaishixiaxue",
+    },
+  },
 ];
 </script>
