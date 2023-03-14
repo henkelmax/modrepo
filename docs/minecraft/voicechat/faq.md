@@ -107,23 +107,23 @@ If you are hosting the server on your local machine take a look at <a href="http
   },
   {
     question: "Does this work with Mohist?",
-    answer: `No. We generally don't support any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
+    answer: `We generally don't provide support any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
   },
   {
     question: "Does this work with Arclight?",
-    answer: `No. Hybrid servers are generally not supported.`,
+    answer: `We generally don't provide support for any hybrid servers.`,
   },
   {
     question: "Does this work with Magma?",
-    answer: `No. Hybrid servers are generally not supported.`,
+    answer: `We generally don't provide support for any hybrid servers.`,
   },
   {
     question: "Does this work with Cardboard?",
-    answer: `No.`,
+    answer: `We generally don't provide support for any hybrid servers.`,
   },
   {
     question: "Does this work with hybrid servers?",
-    answer: `No. Hybrid servers are generally not supported.`,
+    answer: `We generally don't provide support for any hybrid servers.`,
   },
   {
     question: "Can I use this mod with Lunar Client?",
