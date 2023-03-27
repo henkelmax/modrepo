@@ -30,5 +30,12 @@ const credits = [
       link: "https://github.com/avehh",
     },
   },
+  {
+    element: { name: "Ukrainian translation" },
+    name: {
+      name: "unroman",
+      link: "https://github.com/unroman",
+    },
+  },
 ];
 </script>
