@@ -7,12 +7,12 @@ aside: false
 
 ## Voice chat not connected / Plug icon
 
+If you are hosting your server with a Minecraft hosting provider, please make sure you followed [this guide](server_setup_mc_hosting).
+If you are self-hosting your Minecraft server, make sure you followed [these steps](server_setup_self_hosted).
+
 The most likely cause of this is that you didn't forward your port correctly.
-Please double check your setup.
 
-
-If you are running your server behind a proxy like BungeeCord or Velocity,
-you may also need to set `voice_host` to the public IP of the server the voice chat is running on.
+If you are running your server behind a proxy like BungeeCord or Velocity make sure you followed [these instructions](server_setup#setting-it-up-with-a-proxy).
 
 
 Some servers have a DDoS protection that prevents the voice chat from working.
@@ -29,7 +29,7 @@ If you can't hear other people talking, you might haven't selected the correct s
 You can select your sound device in the voice chat menu by clicking on the `Select Speaker` button and choosing the correct device.
 
 
-You can test if it works by clicking the `Enable microphone testing<` button.
+You can test if it works by clicking the `Enable microphone testing` button.
 
 ## Other people can't hear me
 
@@ -45,7 +45,7 @@ You can test if it works by clicking the `Enable microphone testing` button.
 If you are using MacOS, read [this](macos)!
 
 
-If you are on Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration) of the mod.
+If you are on Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration#client) of the mod.
 Note that this is not guaranteed to work in all cases.
 
 ## The voice chat is constantly reconnecting
@@ -55,7 +55,7 @@ but not from the server to the client.
 Most of the time this is a sign of a faulty network setup on the server side.
 
 This is mostly caused by not binding to the correct IP address.
-See `bind_address` in [Configuration](configuration).
+See `bind_address` in [Configuration](configuration#server).
 If you get an error after setting `bind_address`, you do not need to set this field.
 
 If you are hosting the server in your own network, you should always connect to the Minecraft server via the internal IP, not your public IP.
@@ -63,10 +63,10 @@ If you are hosting the server in your own network, you should always connect to 
 ## The Server Crashes on Startup (Failed to bind to address)
 
 This is mostly caused by not binding to the correct IP address.
-Please try the default setting of an empty string or `0.0.0.0` before using a specific address.
+Please leave `bind_address` empty if you don't explicitly get told to set it.
 
 
-If the bind address is already empty or set to `0.0.0.0`, please take a look at [this](#the-server-crashes-on-startup-address-already-in-use)).
+If the bind address is already empty, please take a look at [this](#the-server-crashes-on-startup-address-already-in-use).
 
 ## The Server Crashes on Startup (Address already in use)
 
@@ -85,7 +85,7 @@ You need to install the latest version of the [Fabric API](https://www.curseforg
 
 Technically the mod has all required Fabric API modules installed, but if you have an outdated version installed, it won't work.
 
-## Could not find required mod: voicechat requires {fabricloader ...}
+## Could not find required mod: voicechat requires \{fabricloader ...\}
 
 You need to install the latest version of the [Fabric Loader](https://fabricmc.net/use/).
 
@@ -109,6 +109,8 @@ Make sure you actually restarted the client/server after changing anything in th
 Try starting your launcher as an administrator. If this doesn't work,
 restart your computer and don't start any other programs other than Minecraft,
 that can use your microphone.
+
+Sometimes updating your audio drivers helps.
 
 ## Players can be heard far away/Proximity is not working
 
