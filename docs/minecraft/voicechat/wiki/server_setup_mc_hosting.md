@@ -1,5 +1,11 @@
 ---
 titleTemplate: Simple Voice Chat
+prev:
+  text: 'Server Setup'
+  link: './server_setup'
+next:
+  text: 'Troubleshooting problems'
+  link: './troubleshooting'
 ---
 
 # Setting Up The Server - Minecraft Hosting Provider
