@@ -4,7 +4,7 @@ aside: false
 ---
 
 
-# Configuration For Older Versions Of The Game
+# Configuration for Older Versions of the Game
 
 These are the config locations for versions older than `2.4.0` of the mod/plugin.
 
