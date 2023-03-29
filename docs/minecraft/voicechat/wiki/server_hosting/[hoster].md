@@ -1,5 +1,6 @@
 ---
 titleTemplate: Setup Guide
+aside: false
 prev: false
 next: false
 ---
