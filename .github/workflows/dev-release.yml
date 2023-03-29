@@ -1,4 +1,4 @@
-name: Build
+name: Dev Build
 on:
   push:
     branches:
@@ -9,17 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2.6.0
+        uses: actions/checkout@v2.7.0
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3.6.0
         with:
-          node-version: '16'
+          node-version: '18'
       - name: Build website
         run: |
           yarn install --non-interactive
           yarn build --fail-on-error
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           repository-name: henkelmax/modrepo-dev
           ssh-key: ${{ secrets.DEPLOY_KEY }}
