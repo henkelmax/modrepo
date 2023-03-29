@@ -13,9 +13,9 @@ next:
 If you are hosting your server with a Minecraft hosting provider, please look if a guide for your hoster exists in the list below.
 
 ::: danger NOTE
-**If no guide exists, please ask the support of your hoster for help.**
+If no guide exists, please ask the support of your hoster for help.
 
-**Please don't ask us for help before you contacted your hoster!**
+Please don't ask us for help before you contacted your hoster!
 :::
 
 ## Guides for Minecraft Hosting Providers
