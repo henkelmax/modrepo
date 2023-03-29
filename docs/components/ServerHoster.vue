@@ -40,7 +40,7 @@
       <br />
       <br />
       <a
-        :href="guideUrl"
+        :href="officialGuideUrl"
         target="_blank"
         rel="noopener noreferrer"
         class="link"
@@ -127,6 +127,8 @@ const credits = ref(props.hoster.credits);
   width: 80%;
   font-size: 24px;
   text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 .link:hover {
   background-color: #333;
