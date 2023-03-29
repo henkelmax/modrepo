@@ -18,7 +18,7 @@ It is absolutely crucial for the voice chat to work, so please follow the steps 
 [Setting Up The Server - Self Hosted](server_setup_self_hosted)
 
 
-## Setting it up with a proxy
+## Setting it up with a Minecraft proxy
 
 *This only applies when using a proxy like Velocity or BungeeCord.*
 
@@ -32,9 +32,14 @@ Please also make sure each port is opened in the firewall.
 
 
 If the proxy and the Minecraft servers are running on different machines,
-you need to set `voice_host` in the voice chat config
+you need to set `voice_host` in the [voice chat server config](configuration#server)
 of each Minecraft server to the public IP address (Without the port) of the server its running on (Not the IP of the proxy).
 You also need to make sure each voice port is opened in the firewall of each server.
+
+## Setting it up with a UDP proxy
+
+You need to set `voice_host` to the proxy address in the [voice chat server config](configuration#server).
+
 
 ## Changing the Voice Chat Port
 
