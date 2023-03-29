@@ -1,5 +1,6 @@
 ---
 titleTemplate: Simple Voice Chat
+aside: false
 prev:
   text: 'Server Setup'
   link: './server_setup'

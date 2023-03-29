@@ -1,6 +1,12 @@
 ---
 titleTemplate: Simple Voice Chat
 aside: false
+prev:
+  text: 'Configuration'
+  link: './configuration'
+next:
+  text: 'Compatibility'
+  link: './compatibility'
 ---
 
 
