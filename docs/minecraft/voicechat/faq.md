@@ -36,10 +36,10 @@ const faq = [
   {
     question: "How do I open the voice chat port?",
     answer: `
-If you are hosting your server with a Minecraft hosting provider, please take look at the <a href="https://discord.gg/4dH2zwTmyX">Simple Voice Chat Discord Server</a> in the text channel <code>#SERVER-HOSTING</code>.
+If you are hosting your server with a Minecraft hosting provider, please take look at <a href="/minecraft/voicechat/wiki/server_setup_mc_hosting">this</a>.
 If your hoster is not listed here, please ask the support of your hoster for help.
 <br/>
-If you are hosting the server on your local machine take a look at <a href="https://www.wikihow.com/Open-Ports">this guide</a>.
+If you are hosting the server on your local machine take a look at <a href="/minecraft/voicechat/wiki/server_setup_self_hosted">this</a>.
 `,
   },
   {
@@ -57,11 +57,6 @@ If you are hosting the server on your local machine take a look at <a href="http
     question: "Does this work with LAN worlds/singleplayer?",
     answer:
       "Yes, starting from version 2.1.1, you can use the voice chat in singleplayer and in LAN worlds.",
-  },
-  {
-    question: "Is there a tutorial video on how to set up the voice chat?",
-    answer:
-      'There are some videos, but the setup is different for every hoster, so you need to look for videos that apply to your setup. You can find the videos in the <a href="https://discord.gg/4dH2zwTmyX">Simple Voice Chat Discord Server</a> in the text channels <code>#SERVER-HOSTING</code> and <code>#VIDEOS</code>.',
   },
   {
     question:
