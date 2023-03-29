@@ -21,6 +21,23 @@ If this is the case, please ask your hoster to either disable it or to create an
 If you are using Docker, make sure you specified `24454:24454/udp` for the port.
 Just doing `24454:24454` will not work as it is only TCP.
 
+
+## The config file is empty (This config has been moved to ...)
+
+Starting with version `2.4.0` of the Forge version of the mod, the config location was changed.
+For more information where to find the configs, read [this](configuration).
+
+The mod automatically migrates your settings and deletes all config entries from the old config.
+The following is an example moved config.
+The first line tells you where the new config can be found.
+
+*Example moved config*
+``` toml
+# This config has been moved to config/voicechat/voicechat-client.properties
+moved = true
+```
+
+
 ## Other people can't be heard
 
 If you can't hear other people talking, you might haven't selected the correct sound output device.
