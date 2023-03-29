@@ -1,0 +1,15 @@
+{
+    "name": "ZAP Hosting",
+    "url": "https://zap-hosting.com",
+    "steps": [
+        "Set the <code>port</code> property in the voice chat server config to <code>2346</code>",
+        "If you are already using this port, you can find the usable ports on the bottom of the configuration tab on your dashboard",
+        "Set the <code>bind_adress</code> property in the voice chat server config to the public IP of your server"
+    ],
+    "credits": [
+        {
+            "name": "Robin",
+            "url": "https://discordapp.com/users/137254653061496832"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "WitherHosting",
+    "url": "https://witherhosting.com/",
+    "steps": [
+        "Go to the <b>Network</b> tab and get an open port",
+        "Set the <code>port</code> property in the voice chat server config to the port from the previous step"
+    ],
+    "credits": [
+        {
+            "name": "thebaconwheel",
+            "url": "https://discordapp.com/users/250473968807444490"
+        }
+    ]
+}

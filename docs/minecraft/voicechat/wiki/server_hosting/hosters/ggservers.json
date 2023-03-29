@@ -1,0 +1,13 @@
+{
+    "name": "GGServers",
+    "url": "https://ggservers.com/",
+    "description": [
+        "<a href=\"https://help.ggservers.com/en-us/article/how-to-find-an-open-port-for-your-pluginmod-od9adt/\" target=\"_blank\" rel=\"noopener noreferrer\">How to Find an Open Port for Your Plugin/Mod &#x1F855;</a>"
+    ],
+    "steps": [
+        "Go to <b>Tools &gt; Open Port</b>",
+        "Click on <b>Find Port with Magic</b>",
+        "Copy the port",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ]
+}

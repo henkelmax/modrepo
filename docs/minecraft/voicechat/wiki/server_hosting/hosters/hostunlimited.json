@@ -1,0 +1,13 @@
+{
+    "name": "Host-Unlimited.de",
+    "url": "https://host-unlimited.de/",
+    "steps": [
+        "Set the <code>port</code> property in the voice chat server config to <code>-1</code>"
+    ],
+    "credits": [
+        {
+            "name": "H3roDude",
+            "url": "https://discordapp.com/users/205438755610427394"
+        }
+    ]
+}

@@ -44,7 +44,7 @@ export default {
           text: 'Wiki',
           items: [
             { text: 'Installation', link: '/minecraft/voicechat/wiki/installation' },
-            { text: 'Setup', link: '/minecraft/voicechat/wiki/setup' },
+            { text: 'Server Setup', link: '/minecraft/voicechat/wiki/server_setup' },
             { text: 'Troubleshooting Problems', link: '/minecraft/voicechat/wiki/troubleshooting' },
             { text: 'Configuration', link: '/minecraft/voicechat/wiki/configuration' },
             { text: 'Compatibility', link: '/minecraft/voicechat/wiki/compatibility' },

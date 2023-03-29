@@ -1,0 +1,16 @@
+{
+    "name": "Vultam",
+    "url": "https://vultam.net/",
+    "steps": [
+        "Go to <b>Network</b>",
+        "Create a new allocation",
+        "Copy the port",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "NullOnRise",
+            "url": "https://discordapp.com/users/782279302028853248"
+        }
+    ]
+}

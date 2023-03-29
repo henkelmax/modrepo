@@ -1,0 +1,16 @@
+{
+    "name": "ReviveNode",
+    "url": "https://revivenode.com/",
+    "steps": [
+        "Go to <b>Network</b> in your server panel",
+        "Click on <b>Create Allocation</b>",
+        "Copy the port",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "RyuPlay",
+            "url": "https://discordapp.com/users/289877591932928001"
+        }
+    ]
+}

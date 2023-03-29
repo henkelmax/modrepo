@@ -1,0 +1,14 @@
+{
+    "name": "Sparked Host",
+    "url": "https://sparkedhost.com/",
+    "description": [
+        "Open a port for your server under the <b>Network</b> tab on the panel",
+        "Set the <code>port</code> property in the voice chat server config to the port you chose in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "Harry",
+            "url": "https://discordapp.com/users/428450288668508160"
+        }
+    ]
+}

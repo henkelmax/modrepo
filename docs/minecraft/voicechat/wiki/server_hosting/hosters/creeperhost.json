@@ -1,0 +1,13 @@
+{
+    "name": "Creeperhost",
+    "url": "https://www.creeperhost.net/",
+    "steps": [
+        "According to support, all of the UDP ports are open and no additional setup is needed"
+    ],
+    "credits": [
+        {
+            "name": "Mims",
+            "url": "https://discordapp.com/users/296779609029083137"
+        }
+    ]
+}
