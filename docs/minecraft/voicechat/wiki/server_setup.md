@@ -36,6 +36,13 @@ you need to set `voice_host` in the voice chat config
 of each Minecraft server to the public IP address (Without the port) of the server its running on (Not the IP of the proxy).
 You also need to make sure each voice port is opened in the firewall of each server.
 
+## Changing the Voice Chat Port
+
+You can change the port that the voice chat is running on in the server config of the mod.
+More information on how to find the config file [here](configuration).
+
+Just set the property `port` to the port you want.
+For example `port=1234` to use port `1234`.
 
 ## Testing the voice chat connection
 

@@ -43,14 +43,6 @@ Opening ports is different for every setup. It depends on your OS, your router, 
 - Press `Submit`
 
 
-## Changing the Voice Chat Port
-
-You can change the port that the voice chat is running on in the server config of the mod.
-More information on how to find the config file [here](configuration).
-
-Just set the property `port` to the port you want.
-For example `port=1234` to use port `1234`.
-
 <ClientOnly>
     <WikiTracker name="setup"/>
 </ClientOnly>
