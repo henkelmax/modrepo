@@ -31,3 +31,4 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 | `1.19.1`          | All                 | <Badge type="tip" text="Under active development" /> |
 | `1.19.2`          | All                 | <Badge type="tip" text="Under active development" /> |
 | `1.19.3`          | All                 | <Badge type="tip" text="Under active development" /> |
+| `1.19.4`          | All                 | <Badge type="tip" text="Under active development" /> |
