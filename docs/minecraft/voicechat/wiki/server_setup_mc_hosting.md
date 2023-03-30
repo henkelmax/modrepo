@@ -4,9 +4,7 @@ aside: false
 prev:
   text: 'Server Setup'
   link: './server_setup'
-next:
-  text: 'Troubleshooting problems'
-  link: './troubleshooting'
+next: false
 ---
 
 # Setting Up The Server - Minecraft Hosting Provider
@@ -22,6 +20,10 @@ Please don't ask us for help before you contacted your hoster!
 ## Guides for Minecraft Hosting Providers
 
 <ServerHosting :index="index"></ServerHosting>
+
+---
+
+*[Want to submit a guide?](submit_hoster)*
 
 <script setup>
 import { ref } from 'vue'

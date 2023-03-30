@@ -44,6 +44,12 @@ If you are hosting the server on your local machine take a look at <a href="/min
   },
   {
     question:
+      "How can I submit a setup guide for a specific server hoster?",
+    answer:
+      'Read <a href="/minecraft/voicechat/wiki/submit_hoster">this</a>.',
+  },
+  {
+    question:
       "Can vanilla clients still join when the voice chat mod is installed on the server?",
     answer:
       "Yes, But in versions older than 2.1.0, the Forge version only works with the mod installed on the client and the server.",
