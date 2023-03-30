@@ -78,6 +78,7 @@
         We do not take responsibility for the accuracy of the provided
         information.
       </span>
+      <span>Simple Voice Chat is not affiliated with this hoster.</span>
     </div>
   </div>
 </template>
