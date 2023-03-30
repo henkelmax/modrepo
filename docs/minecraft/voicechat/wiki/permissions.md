@@ -10,6 +10,11 @@ the [Forge permission API](https://mcforge.readthedocs.io/en/1.12.x/utilities/pe
 
 Note that the permission system for Forge was added in version `2.2.21` and the permission system for Fabric was added in version `2.2.33`.
 
+::: danger NOTE
+We don't support hybrid servers! Please either use only plugins or only mods on your server.
+:::
+
+
 | Permission Node         | Default                           | Description                                                                                                               |
 | ----------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | `voicechat.listen`      | Granted for everyone              | If players should be able to hear audio from the voice chat.<br/>**Added in version `2.3.13`.**                           |
