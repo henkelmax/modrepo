@@ -4,7 +4,7 @@ titleTemplate: Simple Voice Chat
 
 # Examples
 
-For simplicity, all examples are written in for Fabric using [official mappings](https://minecraft.fandom.com/wiki/Obfuscation_map).
+For simplicity, all examples are using [official mappings](https://minecraft.fandom.com/wiki/Obfuscation_map).
 
 ## Groups
 
