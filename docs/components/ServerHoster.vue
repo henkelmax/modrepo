@@ -66,6 +66,7 @@
     <!-- Footer -->
     <hr />
     <div class="disclaimer">
+      <span v-if="lastUpdate"> Last update on {{ lastUpdate }}. </span>
       <span>
         <a v-if="url" :href="url" target="_blank" rel="noopener noreferrer">
           Visit the hoster website &#x1F855;
@@ -102,6 +103,18 @@ const description = ref(
 const officialGuideUrl = ref(props.hoster.officialGuideUrl);
 const guideUrl = ref(props.hoster.guideUrl);
 const credits = ref(props.hoster.credits);
+const lastUpdate = ref(formatDate(props.hoster.lastUpdate));
+
+function formatDate(dateString) {
+  if (!dateString) {
+    return null;
+  }
+  let date = new Date(Date.parse(dateString));
+  let month = String(date.getMonth() + 1).padStart(2, "0");
+  let day = String(date.getDate()).padStart(2, "0");
+  let year = String(date.getFullYear());
+  return [day, month, year].join(".");
+}
 </script>
 
 <style scoped>

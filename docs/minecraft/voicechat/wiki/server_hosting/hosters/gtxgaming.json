@@ -1,5 +1,6 @@
 {
     "name": "GTXGaming",
+    "lastUpdate": "2023-03-29",
     "url": "https://www.gtxgaming.co.uk/",
     "steps": [
         "Contact the support to open UDP port <code>24454</code> on your server.",

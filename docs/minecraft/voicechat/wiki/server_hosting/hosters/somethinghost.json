@@ -1,5 +1,6 @@
 {
     "name": "Something.Host",
+    "lastUpdate": "2023-03-29",
     "url": "https://something.host",
     "steps": [
         "Go to <a href=\"https://my.something.host/\" target=\"_blank\" rel=\"noopener noreferrer\">https://my.something.host/</a>",
