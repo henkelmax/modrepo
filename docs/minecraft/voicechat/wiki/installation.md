@@ -9,6 +9,14 @@ If you don't have it installed on your client, you can still join, but you won't
 
 It doesn't matter which mod/plugin loader you are using. All of them are cross compatible.
 
+**If you have issues with these loaders, visit their respective Discords for help**:
+
+- [Fabric](https://discord.gg/v6v4pMv)
+- [Forge](https://discord.gg/UvedJ9m)
+- [Spigot](https://discord.gg/spigotmc)
+- [Paper](https://discord.gg/papermc)
+- [Quilt](https://discord.gg/M7GpuyTBvy)
+
 
 ## Fabric
 
