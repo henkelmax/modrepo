@@ -62,7 +62,7 @@ You can test if it works by clicking the `Enable microphone testing` button.
 If you are using MacOS, read [this](macos)!
 
 
-If you are on Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration#client) of the mod.
+If you are on Windows or Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration#client) of the mod.
 Note that this is not guaranteed to work in all cases.
 
 ## The voice chat is constantly reconnecting
