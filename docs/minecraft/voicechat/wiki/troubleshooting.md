@@ -10,7 +10,7 @@ aside: false
 If you are hosting your server with a Minecraft hosting provider, please make sure you followed [this guide](server_setup_mc_hosting).
 If you are self-hosting your Minecraft server, make sure you followed [these steps](server_setup_self_hosted).
 
-The most likely cause of this is that you didn't forward your port correctly.
+The most likely cause of this is that you didn't open your port correctly.
 
 If you are running your server behind a proxy like BungeeCord or Velocity make sure you followed [these instructions](server_setup#setting-it-up-with-a-proxy).
 
