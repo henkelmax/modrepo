@@ -1,0 +1,15 @@
+{
+    "name": "Digital Ocean",
+    "lastUpdate": "2023-03-29",
+    "url": "https://www.digitalocean.com/",
+    "steps": [
+        "Make sure to run <code>ufw allow 24454/udp</code> on the default Ubuntu install.",
+        "Do <b>not</b> connect to the floating IP, but to the direct IPv4"
+    ],
+    "credits": [
+        {
+            "name": "Deleted User",
+            "url": "https://discordapp.com/users/456226577798135808"
+        }
+    ]
+}

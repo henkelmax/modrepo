@@ -1,0 +1,18 @@
+{
+    "name": "OMGServ",
+    "lastUpdate": "2023-03-29",
+    "url": "https://www.omgserv.com",
+    "steps": [
+        "Go to <b>Plugins</b>",
+        "Click on <b>Add new port</b>",
+        "Copy the port",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step",
+        "Set the <code>bind_address</code> property in the voice chat server config to the public IP address of your server"
+    ],
+    "credits": [
+        {
+            "name": "Adripok",
+            "url": "https://discordapp.com/users/370600549726552074"
+        }
+    ]
+}

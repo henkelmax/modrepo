@@ -1,0 +1,17 @@
+{
+    "name": "HumbleServers",
+    "lastUpdate": "2023-03-29",
+    "url": "https://humbleservers.com/",
+    "steps": [
+        "Go to <b>Ports</b>",
+        "Click on <b>Create Allocation</b>",
+        "Copy the port",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "_w41k3r",
+            "url": "https://discordapp.com/users/629007971673833512"
+        }
+    ]
+}

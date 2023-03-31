@@ -1,0 +1,19 @@
+{
+    "name": "OVH",
+    "lastUpdate": "2023-03-29",
+    "url": "https://www.ovh.com/",
+    "description": "This might only apply to servers sold as <b>GAME</b>",
+    "steps": [
+        "Add the voice chat port to the <b>GAME Firewall</b>",
+        "In the OVH control panel, click <b>IP</b> on the left menu",
+        "Find the IP that matches your server",
+        "Click the three dot menu on the right, and click <b>Configure the GAME Firewall</b>",
+        "From there, you can add the voice chat UDP port"
+    ],
+    "credits": [
+        {
+            "name": "Double0negative",
+            "url": "https://discordapp.com/users/99619143552077824"
+        }
+    ]
+}

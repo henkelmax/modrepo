@@ -1,4 +1,5 @@
-# All Mods
-
-- [Simple Voice Chat](minecraft/voicechat/overview)
-- [Ultimate Car Mod](minecraft/car/overview)
+<script setup>
+if (!import.meta.env.SSR) {
+    window.open('/', "_self");
+}
+</script>

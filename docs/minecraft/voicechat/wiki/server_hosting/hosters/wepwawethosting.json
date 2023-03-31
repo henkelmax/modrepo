@@ -1,0 +1,16 @@
+{
+    "name": "Wepwawet Hosting",
+    "lastUpdate": "2023-03-29",
+    "url": "https://wepwawet.net/",
+    "steps": [
+        "Go to the network panel",
+        "Create a new port",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "Khao",
+            "url": "https://discordapp.com/users/624819246177845270"
+        }
+    ]
+}

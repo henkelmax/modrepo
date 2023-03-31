@@ -12,7 +12,7 @@ aside: false
 <br/>
 
 As already shown in [Getting Started](getting_started),
-the main entrypoint for all mod loaders and plugin loaders (Fabric/Forge/Bukkit/Spigot/Paper) is the `VoicechatPlugin` interface.
+the main entrypoint for all mod loaders and plugin loaders (Fabric/Forge/Quilt/Bukkit/Spigot/Paper) is the `VoicechatPlugin` interface.
 
 ```java
 package com.example.yourmod;

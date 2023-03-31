@@ -1,0 +1,12 @@
+{
+    "name": "Free MC Server",
+    "lastUpdate": "2023-03-29",
+    "url": "https://freemcserver.net/",
+    "steps": [
+        "Go to your server dashboard",
+        "Click on <b>Ports</b>",
+        "Enter a random number between <b>50000 and 51000</b>",
+        "Select the <b>Port Type</b> <b>UDP</b>",
+        "Set the <code>port</code> property in the voice chat server config to the number you chose in the previous steps"
+    ]
+}

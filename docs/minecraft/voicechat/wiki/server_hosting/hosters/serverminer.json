@@ -1,0 +1,14 @@
+{
+    "name": "ServerMiner",
+    "lastUpdate": "2023-03-29",
+    "url": "https://serverminer.com/",
+    "description": [
+        "<a href=\"https://serverminer.com/article/how-to-locate-your-servers-open-ports/\" target=\"_blank\" rel=\"noopener noreferrer\">Where To Find Your Server's Open Ports &#x1F855;</a>"
+    ],
+    "steps": [
+        "Press the <b>Manage</b> button of your server",
+        "Select the <b>Open Ports</b> tab",
+        "Choose one of the <code>CUSTOM</code> ports",
+        "Set the <code>port</code> property in the voice chat server config to the port you chose in the previous step"
+    ]
+}

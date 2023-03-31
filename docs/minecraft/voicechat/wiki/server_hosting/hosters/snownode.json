@@ -1,0 +1,15 @@
+{
+    "name": "Snownode",
+    "lastUpdate": "2023-03-29",
+    "url": "https://snownode.com/",
+    "steps": [
+        "Set the <code>port</code> property in the voice chat server config to the Minecraft servers port",
+        "Set the <code>bind_adress</code> property in the voice chat server config to the public IP of your server"
+    ],
+    "credits": [
+        {
+            "name": "Radioactive Fish Sticks",
+            "url": "https://discordapp.com/users/215832322593783808"
+        }
+    ]
+}

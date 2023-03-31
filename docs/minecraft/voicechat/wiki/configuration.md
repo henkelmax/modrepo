@@ -7,22 +7,18 @@ aside: false
 # Configuration
 
 ::: danger NOTE
-While editing configuration files, make sure the client/server is stopped. If the config values keep resetting, this is most likely the problem.
+If you are using older versions of the mod (older than 2.4.0), please check out [this](old_configuration).
 :::
+
+## Troubleshooting Config Issues
+
+While editing configuration files, make sure the client/server is stopped. If the config values keep resetting, this is most likely the problem.
 
 If you can't find the config files, make sure the client/server was started at least once, so that the files are generated.
 
 ## Server
 
-**Fabric/Quilt**
-
-`config/voicechat/voicechat-server.properties`
-
-**Forge 1.15+**
-
-`<Your world folder>/serverconfig/voicechat-server.toml`
-
-**Forge 1.12.2**
+**Fabric/Forge/Quilt**
 
 `config/voicechat/voicechat-server.properties`
 
@@ -33,7 +29,7 @@ If you can't find the config files, make sure the client/server was started at l
 
 | Config key                    | Description                                                                                                                                          | Default value |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| `port`                        | The port of the voice chat server<br/>Setting this to `-1` sets the port to the Minecraft servers port                                               | `24454`       |
+| `port`                        | The port of the voice chat server<br/>Setting this to `-1` sets the port to the Minecraft servers port (Not recommended)                             | `24454`       |
 | `bind_address`                | The IP address to bind the voice chat server on<br/>Leave empty to bind to an IP address chosen by the kernel                                        | ` `           |
 | `max_voice_distance`          | The distance to where the voice can be heard                                                                                                         | `48`          |
 | `crouch_distance_multiplier`  | The multiplier of the voice distance when crouching                                                                                                  | `1.0`         |
@@ -42,7 +38,6 @@ If you can't find the config files, make sure the client/server was started at l
 | `mtu_size`                    | The maximum size in bytes that voice packets are allowed to have                                                                                     | `1024`        |
 | `keep_alive`                  | The frequency at which keep alive packets are sent<br/>Setting this to a higher value may result in timeouts                                         | `1000`        |
 | `enable_groups`               | If group chats are allowed                                                                                                                           | `true`        |
-| `open_groups`                 | If players in group chats can be heard locally                                                                                                       | `false`       |
 | `voice_host`                  | The host name that clients should use to connect to the voice chat<br/>Don't change this value if you don't know what you are doing                  | ` `           |
 | `allow_recording`             | If players are allowed to record the voice chat                                                                                                      | `true`        |
 | `spectator_interaction`       | If spectators are allowed to talk to other players                                                                                                   | `false`       |
@@ -54,15 +49,7 @@ If you can't find the config files, make sure the client/server was started at l
 
 ## Client
 
-**Fabric/Quilt**
-
-`config/voicechat/voicechat-client.properties`
-
-**Forge 1.15+**
-
-`config/voicechat-client.toml`
-
-**Forge 1.12.2**
+**Fabric/Forge/Quilt**
 
 `config/voicechat/voicechat-client.properties`
 
@@ -100,3 +87,4 @@ If you can't find the config files, make sure the client/server was started at l
 | `offline_player_volume_adjustment`  | If the volume adjustment GUI should also show offline players                                                                                                                                                    | `false`                                                 |
 | `audio_type`                        | The 3D audio type<br/>Possible values are `NORMAL`, `REDUCED` and `OFF`                                                                                                                                          | `NORMAL`                                                |
 | `use_natives`                       | If the mod should load native libraries<br/>If set to false, the Java Opus implementation will be used, the denoiser won't be available and you won't be able to record audio.                                   | `false` on unsupported MacOS versions, `true` otherwise |
+| `freecam_support`                   | This lets you hear players near you, even though you are further away with your freecam                                                                                                                          | `true`                                                  |

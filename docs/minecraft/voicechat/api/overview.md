@@ -16,5 +16,6 @@ Experience with Java and Minecraft mod/plugin development is highly recommended 
 - [Getting Started](getting_started)
 - [Your Plugin](your_plugin)
 - [Registering Events](registering_events)
+- [Example Projects](example_projects)
 - [Examples](examples)
 - [Javadocs](https://voicechat.modrepo.de/)

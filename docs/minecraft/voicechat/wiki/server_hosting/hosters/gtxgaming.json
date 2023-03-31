@@ -1,0 +1,15 @@
+{
+    "name": "GTXGaming",
+    "lastUpdate": "2023-03-29",
+    "url": "https://www.gtxgaming.co.uk/",
+    "steps": [
+        "Contact the support to open UDP port <code>24454</code> on your server.",
+        "Set the <code>bind_address</code> property in the voice chat server config to the servers public IP"
+    ],
+    "credits": [
+        {
+            "name": "ToxicHashBang",
+            "url": "https://discordapp.com/users/142091375343566848"
+        }
+    ]
+}

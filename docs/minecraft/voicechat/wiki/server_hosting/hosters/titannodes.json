@@ -1,0 +1,15 @@
+{
+    "name": "Titan Nodes",
+    "lastUpdate": "2023-03-29",
+    "url": "https://titannodes.com",
+    "steps": [
+        "Create a new port in the <b>Allocation Settings</b>",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "GoldenMaster89",
+            "url": "https://discordapp.com/users/447158703922085899"
+        }
+    ]
+}

@@ -1,18 +1,11 @@
----
-layout: home
+# ModRepo Overview
 
-hero:
-  name: ModRepo
-  text: Documentation for all mods by henkelmax
-#  tagline: Mod Documentation
-  image:
-    src: /logo.png
-    alt: ModRepo Logo
-  actions:
-    - theme: brand
-      text: Get Started
-      link: overview
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/henkelmax/modrepo
----
+## General Information
+
+- [General Mod FAQ](minecraft/faq)
+- [How to Get Logs](minecraft/how_to_get_logs)
+
+## Wikis
+
+- [Simple Voice Chat](minecraft/voicechat/overview)
+- [Ultimate Car Mod](minecraft/car/overview)

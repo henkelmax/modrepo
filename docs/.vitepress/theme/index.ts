@@ -4,6 +4,8 @@ import GeneralFAQ from '../../components/GeneralFAQ.vue'
 import Credits from '../../components/Credits.vue'
 import WikiTracker from '../../components/WikiTracker.vue'
 import Popup from '../../components/Popup.vue'
+import ServerHosting from '../../components/ServerHosting.vue'
+import ServerHoster from '../../components/ServerHoster.vue'
 
 export default {
   ...DefaultTheme,
@@ -14,5 +16,7 @@ export default {
     ctx.app.component('Credits', Credits)
     ctx.app.component('WikiTracker', WikiTracker)
     ctx.app.component('Popup', Popup)
+    ctx.app.component('ServerHosting', ServerHosting)
+    ctx.app.component('ServerHoster', ServerHoster)
   }
 }

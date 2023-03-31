@@ -1,0 +1,19 @@
+{
+    "name": "Craft-Hosting.ru",
+    "lastUpdate": "2023-03-29",
+    "url": "https://craft-hosting.ru/",
+    "steps": [
+        "Go to the <b>Настройки (Settings)</b> tab in the management panel",
+        "Select <b>Управление IP адресами и портами (Managing IP-Addresses and Ports)</b>",
+        "Add a new port and give it a name",
+        "Copy the created port",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step",
+        "Set the <code>bind_address</code> property in the voice chat server config to your servers public IP"
+    ],
+    "credits": [
+        {
+            "name": "осколок",
+            "url": "https://discordapp.com/users/430741775628500994"
+        }
+    ]
+}

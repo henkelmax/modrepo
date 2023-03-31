@@ -1,0 +1,14 @@
+{
+    "name": "PloudOS",
+    "lastUpdate": "2023-03-29",
+    "url": "https://ploudos.com",
+    "steps": [
+        "Set the <code>port</code> property in the voice chat server config to <code>-1</code>"
+    ],
+    "credits": [
+        {
+            "name": "_w41k3r",
+            "url": "https://discordapp.com/users/629007971673833512"
+        }
+    ]
+}

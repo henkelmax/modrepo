@@ -1,0 +1,24 @@
+{
+    "name": "Something.Host",
+    "lastUpdate": "2023-03-29",
+    "url": "https://something.host",
+    "steps": [
+        "Go to <a href=\"https://my.something.host/\" target=\"_blank\" rel=\"noopener noreferrer\">https://my.something.host/</a>",
+        "Locate your service",
+        "Go to port configuration",
+        "Assign a new port and select <b>Simple Voice Chat</b>",
+        "The panel will attempt to automatically configure Simple Voice Chat (or alternatively you can add it to the config yourself)"
+    ],
+    "credits": [
+        {
+            "name": "eramsorgr",
+            "url": "https://discordapp.com/users/758091299114188821"
+        }
+    ],
+    "comments": [
+        "Using SomethingCP (https://cp.something.host/)",
+        "It is not currently possible to add a port yourself",
+        "Raise a support inquiry via the live chat or via tickets and a port will be assigned to you",
+        "You can then use this port in the config, restart your server and you are good to go"
+    ]
+}
