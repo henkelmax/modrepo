@@ -30,7 +30,7 @@ If you can't find the config files, make sure the client/server was started at l
 | Config key                    | Description                                                                                                                                          | Default value |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | `port`                        | The port of the voice chat server<br/>Setting this to `-1` sets the port to the Minecraft servers port (Not recommended)                             | `24454`       |
-| `bind_address`                | The IP address to bind the voice chat server on<br/>Leave empty to bind to an IP address chosen by the kernel                                        | ` `           |
+| `bind_address`                | The IP address to bind the voice chat server on<br/>Leave empty to use `server-ip` of server.properties<br/>To bind to the wildcard address, use `*` | ` `           |
 | `max_voice_distance`          | The distance to where the voice can be heard                                                                                                         | `48`          |
 | `crouch_distance_multiplier`  | The multiplier of the voice distance when crouching                                                                                                  | `1.0`         |
 | `whisper_distance_multiplier` | The multiplier of the voice distance when whispering                                                                                                 | `0.5`         |
