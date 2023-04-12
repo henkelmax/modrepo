@@ -32,7 +32,7 @@ repositories {
 
 In the `dependencies` section add the following maven dependency. Make sure `voicechat_api_version` is set to the voice
 chat API version you want to target. Available API versions can be
-found [here](https://maven.maxhenkel.de/#artifact/de.maxhenkel.voicechat/voicechat-api).
+found [here](https://maven.maxhenkel.de/#/releases/de/maxhenkel/voicechat/voicechat-api).
 
 *build.gradle*
 
@@ -133,7 +133,7 @@ repositories {
 
 In the `dependencies` section add the following maven dependency. Make sure `voicechat_api_version` is set to the voice
 chat API version you want to target. Available API versions can be
-found [here](https://maven.maxhenkel.de/#artifact/de.maxhenkel.voicechat/voicechat-api).
+found [here](https://maven.maxhenkel.de/#/releases/de/maxhenkel/voicechat/voicechat-api).
 
 *build.gradle*
 
@@ -218,7 +218,7 @@ repositories {
 
 In the `dependencies` section add the following maven dependency. Make sure `voicechat_api_version` is set to the voice
 chat API version you want to target. Available API versions can be
-found [here](https://maven.maxhenkel.de/#artifact/de.maxhenkel.voicechat/voicechat-api).
+found [here](https://maven.maxhenkel.de/#/releases/de/maxhenkel/voicechat/voicechat-api).
 
 *build.gradle*
 
