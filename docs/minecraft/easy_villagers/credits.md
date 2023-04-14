@@ -58,5 +58,12 @@ const credits = [
       link: "https://github.com/hayanggom",
     },
   },
+  {
+    element: { name: "Chinese Simplified (China) translation" },
+    name: {
+      name: "mc-kaishixiaxue",
+      link: "https://github.com/mc-kaishixiaxue",
+    },
+  },
 ];
 </script>
