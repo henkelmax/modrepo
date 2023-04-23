@@ -14,6 +14,7 @@
 
 - [Modrinth](https://modrinth.com/plugin/simple-voice-chat/versions?l=bukkit)
 - [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/simple-voice-chat/files/all)
+- [Hangar](https://hangar.papermc.io/henkelmax/SimpleVoiceChat/versions)
 
 ## Quilt
 
