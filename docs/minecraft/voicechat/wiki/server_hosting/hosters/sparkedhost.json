@@ -2,7 +2,7 @@
     "name": "Sparked Host",
     "lastUpdate": "2023-03-29",
     "url": "https://sparkedhost.com/",
-    "description": [
+    "steps": [
         "Open a port for your server under the <b>Network</b> tab on the panel",
         "Set the <code>port</code> property in the voice chat server config to the port you chose in the previous step"
     ],
