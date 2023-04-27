@@ -1,16 +1,16 @@
 {
-    "name": "FalixNodes",
-    "lastUpdate": "2023-03-29",
-    "url": "https://falixnodes.net/",
+    "name": "MooNodes",
+    "lastUpdate": "2023-04-25",
+    "url": "https://moonodes.net/",
     "steps": [
         "In your server panel click on <b>Network</b>",
-        "Create an extra port",
+        "Click on 'CREATE ALLOCATION'",
         "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
     ],
     "credits": [
         {
-            "name": "jmooroof",
-            "url": "https://discordapp.com/users/458686536523972608"
+            "name": "Smikkelbeer",
+            "url": "https://discordapp.com/users/788820166070501437"
         }
     ]
 }
