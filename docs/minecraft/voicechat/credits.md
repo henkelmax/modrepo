@@ -309,5 +309,12 @@ const credits = [
       link: "https://github.com/Heimdallr-1",
     },
   },
+  {
+    element: { name: "Chinese Traditional translation" },
+    name: {
+      name: "notlin4",
+      link: "https://github.com/notlin4",
+    },
+  },
 ];
 </script>
