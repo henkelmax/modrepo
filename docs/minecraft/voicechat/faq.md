@@ -52,17 +52,12 @@ If you are hosting the server on your local machine take a look at <a href="/min
     question:
       "Can vanilla clients still join when the voice chat mod is installed on the server?",
     answer:
-      "Yes, But in versions older than 2.1.0, the Forge version only works with the mod installed on the client and the server.",
-  },
-  {
-    question:
-      "Can I use the Fabric client on a Forge server? / Can I use the Forge client on a Fabric server?",
-    answer: "Yes, this works in versions 2.1.0 and newer.",
+      "Yes, vanilla clients can join the server, as long as you haven't enabled <code>force_voice_chat</code> in the mods server config.",
   },
   {
     question: "Does this work with LAN worlds/singleplayer?",
     answer:
-      "Yes, starting from version 2.1.1, you can use the voice chat in singleplayer and in LAN worlds.",
+      "Yes, you can use the voice chat in singleplayer and in LAN worlds. But it's recommended to use a dedicated server if you want to play with other people.",
   },
   {
     question:
@@ -78,7 +73,7 @@ If you are hosting the server on your local machine take a look at <a href="/min
     question:
       "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server?",
     answer:
-      "Yes, but in versions older than 2.1.0, the server and the client need the same mod loader.",
+      "Yes, all mod/plugin loaders are cross compatible.",
   },
   {
     question: "Does this work on Realms?",
@@ -94,7 +89,7 @@ If you are hosting the server on your local machine take a look at <a href="/min
     answer: "No. It works completely standalone.",
   },
   {
-    question: "Are different mod versions compatible with each other?",
+    question: "Are different mod/plugin versions compatible with each other?",
     answer:
       'Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server. For more information read <a href="/minecraft/voicechat/wiki/compatibility">this</a>.',
   },
@@ -105,6 +100,10 @@ If you are hosting the server on your local machine take a look at <a href="/min
   {
     question: "Does this work with ngrok?",
     answer: "No. Ngrok does not support UDP.",
+  },
+  {
+    question: "Does this work with hybrid servers?",
+    answer: `We generally don't provide support for any hybrid servers.`,
   },
   {
     question: "Does this work with Mohist?",
@@ -123,15 +122,11 @@ If you are hosting the server on your local machine take a look at <a href="/min
     answer: `We generally don't provide support for any hybrid servers.`,
   },
   {
-    question: "Does this work with hybrid servers?",
-    answer: `We generally don't provide support for any hybrid servers.`,
-  },
-  {
-    question: "Can I use this mod with Lunar Client?",
+    question: "Are custom clients supported?",
     answer: `No. Custom clients are not supported.`,
   },
   {
-    question: "Are custom clients supported?",
+    question: "Can I use this mod with Lunar Client?",
     answer: `No. Custom clients are not supported.`,
   },
   {
