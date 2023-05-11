@@ -14,7 +14,7 @@ Click the button below to get your support key for the [Discord](https://discord
 
 ## Why do I need to do this?
 
-Our support team is very small and we want to avoid as much interaction as possible,
+Our support team is very small, and we want to avoid as much interaction as possible,
 so we require everyone wanting help to at least try to figure out their issue themselves.
 The support key itself is to confirm that the [wiki](installation) and the [FAQ](../faq) was actually read.
 

@@ -46,5 +46,5 @@ We support both Intel and ARM based Macs.
 
 ### Linux
 
-Simple Voice Chat should work with every major Linux distribution, as long as it is up to date.
+Simple Voice Chat should work with every major Linux distribution, as long as it is up-to-date.
 If you encounter any incompatibility on Linux, please let us know.
