@@ -14,5 +14,5 @@ You can submit the guide in the [Simple Voice Chat Discord](https://discord.gg/4
 We also appreciate updates to existing guides.
 
 ::: warning NOTE
-Please make sure that your guide is as detailed as possible and that it is easy to understand.
+Please make sure that your guide is as detailed as possible and easy to understand.
 :::

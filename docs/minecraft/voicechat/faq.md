@@ -17,21 +17,16 @@ aside: false
 <script setup>
 const faq = [
   {
-    question:
-      "How do I get my logs?",
-    answer:
-      'Read <a href="/minecraft/how_to_get_logs">this</a>.',
+    question: "How do I get my logs?",
+    answer: 'Read <a href="/minecraft/how_to_get_logs">this</a>.',
   },
   {
-    question:
-      "Why am I getting 'Voice chat not connected'?",
-    answer:
-      'You may have not opened the voice chat port on your server. If you are renting a Minecraft server you may need some special configuration. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
+    question: "Why am I getting 'Voice chat not connected'?",
+    answer: 'You may have not opened the voice chat port on your server. If you are renting a Minecraft server you may need some special configuration. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
   },
   {
     question: "I opened the port. Why is it still not working?",
-    answer:
-      'Most hosters require a special setup besides port forwarding. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
+    answer: 'Most hosters require a special setup besides port forwarding. Read the <a href="/minecraft/voicechat/wiki/setup">wiki</a> for more information.',
   },
   {
     question: "How do I open the voice chat port?",
@@ -43,37 +38,28 @@ If you are hosting the server on your local machine take a look at <a href="/min
 `,
   },
   {
-    question:
-      "How can I submit a setup guide for a specific server hoster?",
-    answer:
-      'Read <a href="/minecraft/voicechat/wiki/submit_hoster">this</a>.',
+    question: "How can I submit a setup guide for a specific server hoster?",
+    answer: 'Read <a href="/minecraft/voicechat/wiki/submit_hoster">this</a>.',
   },
   {
-    question:
-      "Can vanilla clients still join when the voice chat mod is installed on the server?",
-    answer:
-      "Yes, vanilla clients can join the server, as long as you haven't enabled <code>force_voice_chat</code> in the mods server config.",
+    question: "Can vanilla clients still join when the voice chat mod is installed on the server?",
+    answer: "Yes, vanilla clients can join the server, as long as you haven't enabled <code>force_voice_chat</code> in the mods server config.",
   },
   {
     question: "Does this work with LAN worlds/singleplayer?",
-    answer:
-      "Yes, you can use the voice chat in singleplayer and in LAN worlds. But it's recommended to use a dedicated server if you want to play with other people.",
+    answer: "Yes, you can use the voice chat in singleplayer and in LAN worlds. But it's recommended to use a dedicated server if you want to play with other people.",
   },
   {
-    question:
-      "Does the mod also need to be installed on the server for it to work?",
+    question: "Does the mod also need to be installed on the server for it to work?",
     answer: "Yes!",
   },
   {
-    question:
-      "Does the mod also need to be installed on the client for it to work?",
+    question: "Does the mod also need to be installed on the client for it to work?",
     answer: "Yes!",
   },
   {
-    question:
-      "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server?",
-    answer:
-      "Yes, all mod/plugin loaders are cross compatible.",
+    question: "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server?",
+    answer: "Yes, all mod/plugin loaders are cross compatible.",
   },
   {
     question: "Does this work on Realms?",
@@ -84,14 +70,12 @@ If you are hosting the server on your local machine take a look at <a href="/min
     answer: "No. Only on Java edition.",
   },
   {
-    question:
-      "Does this mod require something like Discord or Mumble installed?",
+    question: "Does this mod require something like Discord or Mumble installed?",
     answer: "No. It works completely standalone.",
   },
   {
     question: "Are different mod/plugin versions compatible with each other?",
-    answer:
-      'Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server. For more information read <a href="/minecraft/voicechat/wiki/compatibility">this</a>.',
+    answer: 'Sometimes yes. But to have the best experience, it is recommended to use the exact same version on all clients and the server. For more information read <a href="/minecraft/voicechat/wiki/compatibility">this</a>.',
   },
   {
     question: "Does every player need to open the voice chat port?",

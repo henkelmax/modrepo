@@ -109,11 +109,11 @@ You need to install the latest version of the [Fabric Loader](https://fabricmc.n
 ## Jar at /mods/voicechat-fabric-X.X.X-X.X.X.jar is corrupted, please redownload it
 
 Please make sure you actually download the mod from CurseForge or Modrinth.
-If you already did that, please double check that the file has not been modified in any way.
+If you already did that, please double-check that the file has not been modified in any way.
 
 ## The mods config file does not exist
 
-Make sure the mod is actually installed and you started the client/server at least once with the mod added to it.
+Make sure the mod is actually installed, and you started the client/server at least once with the mod added to it.
 
 If you don't know where the config files are located, read [this](configuration).
 
