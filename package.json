@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "git-describe": "^4.1.1",
-    "vitepress": "^1.0.0-alpha.75",
-    "vue": "^3.3.3"
+    "vitepress": "^1.0.0-alpha.76",
+    "vue": "^3.3.4"
   }
 }
