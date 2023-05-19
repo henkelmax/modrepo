@@ -15,6 +15,8 @@ const props = defineProps({
 });
 
 setTimeout(() => {
-  window.open(props.path, "_self");
+  if (!import.meta.env.SSR) {
+    window.open(props.path, "_self");
+  }
 }, 1000);
 </script>
