@@ -7,7 +7,7 @@ aside: false
 
 All voice chat commands can only be executed in-game.
 You won't be able to run them in the console.
-You also need to have Simple Voice Chat installed to be able to use these commands.
+You also need to have Simple Voice Chat installed on your client to be able to use these commands.
 
 | Command                          | Description                                                                                                                                                 |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |

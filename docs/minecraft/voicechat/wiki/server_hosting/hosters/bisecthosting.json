@@ -1,9 +1,9 @@
 {
     "name": "Bisect Hosting",
-    "lastUpdate": "2023-03-29",
+    "lastUpdate": "2023-05-17",
     "url": "https://www.bisecthosting.com/",
     "officialGuideUrl": "https://www.bisecthosting.com/clients/index.php?rp=/knowledgebase/198/How-to-setup-voice-chat-on-your-ForgeorFabricorSpigot-Minecraft-server.html",
     "description": [
-        "<b>NOTE:</b> This guide only works if you have a dedicated IP or premium hosting!"
+        "<b>NOTE:</b> This guide only works if you have premium hosting!"
     ]
 }
