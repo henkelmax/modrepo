@@ -205,3 +205,49 @@ if (channel == null) {
 channel.setCategory(MUSIC_DISC_CATEGORY); // The category of the audio channel (registered in the previous code snippet)
 channel.setDistance(100); // The distance in which the audio channel can be heard
 ```
+
+## Audio Senders
+
+Audio senders act as a player that is sending audio to the server.
+This only works for players that don't actually have the mod installed.
+Only one audio sender can be registered per player.
+The registration of the audio sender will fail if the player already has an audio sender registered or the player is using the voice chat mod.
+
+**Registering an audio sender and sending audio**
+
+```java
+VoicechatServerApi api = ...;
+VoicechatConnection connection = ...;
+
+AudioSender sender = api.createAudioSender(connection);
+
+if (!api.registerAudioSender(sender)) {
+    // The audio sender could not be registered
+    return; 
+}
+
+sender.whispering(true); // Acts as the player would be whispering
+
+if (!sender.canSend()) {
+    // The audio sender can not send audio
+    return;
+}
+
+while (...) {
+    byte[] opusEncodedAudioData = ...; // The opus encoded audio samples
+    
+    if (!sender.send(audio)) {
+        break; // The audio sender can not send audio
+    }
+
+    // Wait for the next audio packet to be sent
+    // You need to time the audio packets yourself
+    // If you send audio packets too fast, some packets may be discarded by the client
+}
+
+sender.reset(); // Resets the audio sender, indicating to the client that the end of a continuous audio stream was reached
+
+...
+
+api.unregisterAudioSender(sender); // Unregisters the audio sender. If if its not unregistered, no other plugins can register an audio sender for this player
+```
