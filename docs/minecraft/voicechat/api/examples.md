@@ -202,7 +202,7 @@ LocationalAudioChannel channel = api.createLocationalAudioChannel(channelID, api
 if (channel == null) {
     return;
 }
-channel.setCategory(MUSIC_DISC_CATEGORY); // The category of the audio channel (registered in the previous code snippet)
+channel.setCategory(MUSIC_DISC_CATEGORY); // The category of the audio channel (Registered in the previous code snippet)
 channel.setDistance(100); // The distance in which the audio channel can be heard
 ```
 
@@ -236,7 +236,7 @@ if (!sender.canSend()) {
 while (...) {
     byte[] opusEncodedAudioData = ...; // The opus encoded audio samples
     
-    if (!sender.send(audio)) {
+    if (!sender.send(opusEncodedAudioData)) {
         break; // The audio sender can not send audio
     }
 
