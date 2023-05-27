@@ -230,6 +230,7 @@ sender.whispering(true); // Acts as the player would be whispering
 
 if (!sender.canSend()) {
     // The audio sender can not send audio
+    // This either means the player has the voice chat mod installed or the player already has an audio sender registered
     return;
 }
 
