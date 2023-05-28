@@ -217,7 +217,7 @@ The registration of the audio sender will fail if the player already has an audi
 
 ```java
 VoicechatServerApi api = ...;
-VoicechatConnection connection = ...;
+VoicechatConnection connection = ...; // The connection of the player that should act as the sender of the audio
 
 AudioSender sender = api.createAudioSender(connection);
 
