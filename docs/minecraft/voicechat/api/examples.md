@@ -137,7 +137,7 @@ This thread will automatically send the audio packets and will respect the audio
 ```java
 public class Plugin implements VoicechatPlugin {
 
-    public static String MUSIC_DISC_CATEGORY = "music_discs";
+    public static String MUSIC_DISC_CATEGORY = "music_discs"; // This ID must be unique. If a category with the same ID already exists, the category will be replaced
 
     ...
 
