@@ -33,7 +33,7 @@ Player player = ...;
 
 VoicechatConnection connection = api.getConnectionOf(player.getUUID());
 if (connection == null) {
-    return; // Player is not connected to voice chat
+    return; // Player does not exist
 }
 if (connection.getGroup() != null) {
     return; // Player is already in a group
