@@ -15,7 +15,7 @@ VoicechatServerApi api = ...;
 
 Group group = api.groupBuilder()
         .setPersistent(true) // Doesn't remove the group once all players left
-        .setName(group.getName()) // The name of the group
+        .setName("My Persistent Group") // The name of the group
         .setPassword(group.getPassword()) // The password of the group
         .setType(Group.Type.ISOLATED) // The type of the group (NORMAL, OPEN, ISOLATED)
         .build();
