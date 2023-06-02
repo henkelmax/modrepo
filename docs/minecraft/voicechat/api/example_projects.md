@@ -4,6 +4,8 @@ titleTemplate: Simple Voice Chat
 
 # Example Projects
 
+A good way to see how the API should be used is to look at some example projects.
+
 ## Fabric
 
 - [Audio Player](https://github.com/henkelmax/audio-player)
