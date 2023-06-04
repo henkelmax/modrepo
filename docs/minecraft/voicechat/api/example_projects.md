@@ -15,6 +15,6 @@ It can be used as a reference for your own projects.
 - [Voice Chat Interaction](https://github.com/henkelmax/voicechat-interaction)
 
 
-## Bukkit
+## Bukkit/Spigot/Paper
 
 - [Broadcast Plugin](https://github.com/henkelmax/voicechat-broadcast-plugin)
