@@ -17,4 +17,4 @@ It can be used as a reference for your own projects.
 
 ## Bukkit/Spigot/Paper
 
-- [Broadcast Plugin](https://github.com/henkelmax/voicechat-broadcast-plugin)
+- [Voice Chat Broadcast Plugin](https://github.com/henkelmax/voicechat-broadcast-plugin)
