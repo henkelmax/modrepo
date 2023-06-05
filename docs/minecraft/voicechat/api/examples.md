@@ -15,8 +15,8 @@ VoicechatServerApi api = ...;
 
 Group group = api.groupBuilder()
         .setPersistent(true) // Doesn't remove the group once all players left
-        .setName(group.getName()) // The name of the group
-        .setPassword(group.getPassword()) // The password of the group
+        .setName("My Persistent Group") // The name of the group
+        .setPassword("SuperSecretPassword") // The password of the group
         .setType(Group.Type.ISOLATED) // The type of the group (NORMAL, OPEN, ISOLATED)
         .build();
 ```
@@ -33,7 +33,7 @@ Player player = ...;
 
 VoicechatConnection connection = api.getConnectionOf(player.getUUID());
 if (connection == null) {
-    return; // Player is not connected to voice chat
+    return; // Player does not exist
 }
 if (connection.getGroup() != null) {
     return; // Player is already in a group
@@ -137,7 +137,7 @@ This thread will automatically send the audio packets and will respect the audio
 ```java
 public class Plugin implements VoicechatPlugin {
 
-    public static String MUSIC_DISC_CATEGORY = "music_discs";
+    public static String MUSIC_DISC_CATEGORY = "music_discs"; // This ID must be unique. If a category with the same ID already exists, the category will be replaced
 
     ...
 
@@ -202,7 +202,7 @@ LocationalAudioChannel channel = api.createLocationalAudioChannel(channelID, api
 if (channel == null) {
     return;
 }
-channel.setCategory(MUSIC_DISC_CATEGORY); // The category of the audio channel (registered in the previous code snippet)
+channel.setCategory(MUSIC_DISC_CATEGORY); // The category of the audio channel (Registered in the previous code snippet)
 channel.setDistance(100); // The distance in which the audio channel can be heard
 ```
 
@@ -217,7 +217,7 @@ The registration of the audio sender will fail if the player already has an audi
 
 ```java
 VoicechatServerApi api = ...;
-VoicechatConnection connection = ...;
+VoicechatConnection connection = ...; // The connection of the player that should act as the sender of the audio
 
 AudioSender sender = api.createAudioSender(connection);
 
@@ -230,13 +230,14 @@ sender.whispering(true); // Acts as the player would be whispering
 
 if (!sender.canSend()) {
     // The audio sender can not send audio
+    // This either means the player has the voice chat mod installed or the player already has an audio sender registered
     return;
 }
 
 while (...) {
     byte[] opusEncodedAudioData = ...; // The opus encoded audio samples
     
-    if (!sender.send(audio)) {
+    if (!sender.send(opusEncodedAudioData)) {
         break; // The audio sender can not send audio
     }
 
