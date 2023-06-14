@@ -1,0 +1,15 @@
+{
+    "name": "Folium Hosting",
+    "lastUpdate": "2023-06-09",
+    "url": "https://foliumhosting.net/",
+    "steps": [
+        "Create a port in the <b>Network</b> tab and copy it",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "DralosX",
+            "url": "https://discordapp.com/users/827526141756964884"
+        }
+    ]
+}

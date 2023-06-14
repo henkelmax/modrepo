@@ -27,13 +27,14 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 | `1.19`            |                      | <Badge type="danger" text="No support" />            |
 | `1.19.1`          |                      | <Badge type="danger" text="No support" />            |
 | `1.19.2`          | Fabric, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
-| `1.19.3`          | Fabric, Forge, Quilt | <Badge type="warning" text="Phasing out support" /> |
+| `1.19.3`          | Fabric, Forge, Quilt | <Badge type="warning" text="Phasing out support" />  |
 | `1.19.4`          | Fabric, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
-| `1.20`            | Fabric, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
+| `1.20`            |                      | <Badge type="danger" text="No support" />            |
+| `1.20.1`          | Fabric, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
 
 ## Supported Plugin Versions
 
-Starting with version `2.4.4`, the plugin version of Simple Voice Chat universally supports the following Minecraft versions with the same jar file:
+The latest plugin version of Simple Voice Chat universally supports the following Minecraft versions with the same jar file:
 
 - `1.12`
 - `1.12.1`
@@ -55,3 +56,4 @@ Starting with version `2.4.4`, the plugin version of Simple Voice Chat universal
 - `1.19.3`
 - `1.19.4`
 - `1.20`
+- `1.20.1`
