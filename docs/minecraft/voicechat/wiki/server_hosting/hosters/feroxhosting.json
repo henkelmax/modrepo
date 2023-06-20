@@ -1,0 +1,14 @@
+{
+    "name": "Ferox Hosting",
+    "lastUpdate": "2023-06-15",
+    "url": "https://feroxhosting.nl/",
+    "steps": [
+        "Set the <code>port</code> property in the voice chat server config to <code>-1</code>"
+    ],
+    "credits": [
+        {
+            "name": "SamLeGgamer",
+            "url": "https://discordapp.com/users/969965163841224745"
+        }
+    ]
+}
