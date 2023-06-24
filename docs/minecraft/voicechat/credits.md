@@ -85,7 +85,7 @@ const credits = [
   },
   {
     element: {
-      name: "dd-plist",
+      name: "dd-plist (legacy)",
       link: "https://github.com/3breadt/dd-plist",
     },
     license: {
