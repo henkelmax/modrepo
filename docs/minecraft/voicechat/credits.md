@@ -120,7 +120,7 @@ const credits = [
     },
     license: {
       name: "Apache License 2.0",
-      link: "https://github.com/FabricMC/fabric/blob/1.19.3/LICENSE",
+      link: "https://github.com/FabricMC/fabric/blob/1.20.1/LICENSE",
     },
   },
   {
