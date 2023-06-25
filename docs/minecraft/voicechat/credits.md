@@ -48,7 +48,7 @@ const credits = [
   },
   {
     element: {
-      name: "RNNoise natives",
+      name: "RNNoise natives (legacy)",
       link: "https://github.com/mjwells2002/rnnoise-bin",
     },
     name: {
@@ -58,7 +58,7 @@ const credits = [
   },
   {
     element: {
-      name: "Opus natives",
+      name: "Opus natives (legacy)",
       link: "https://github.com/mjwells2002/libopus-bin",
     },
     name: {
@@ -67,7 +67,7 @@ const credits = [
     },
   },
   {
-    element: { name: "Opus natives for ARM based macs" },
+    element: { name: "Opus natives for ARM based macs (legacy)" },
     name: {
       name: "jason-green-io",
       link: "https://github.com/jason-green-io",
@@ -85,7 +85,7 @@ const credits = [
   },
   {
     element: {
-      name: "dd-plist",
+      name: "dd-plist (legacy)",
       link: "https://github.com/3breadt/dd-plist",
     },
     license: {
@@ -120,7 +120,7 @@ const credits = [
     },
     license: {
       name: "Apache License 2.0",
-      link: "https://github.com/FabricMC/fabric/blob/1.19.3/LICENSE",
+      link: "https://github.com/FabricMC/fabric/blob/1.20.1/LICENSE",
     },
   },
   {
