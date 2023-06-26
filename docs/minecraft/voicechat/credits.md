@@ -5,7 +5,15 @@ aside: false
 
 # Credits
 
+## General
+
 <Credits :credits="credits"/>
+
+## Translations
+
+<Credits :credits="translations" :displayLicense="false"/>
+
+[Credits for older versions](old_credits.md)
 
 <script setup>
 const credits = [
@@ -48,49 +56,12 @@ const credits = [
   },
   {
     element: {
-      name: "RNNoise natives (legacy)",
-      link: "https://github.com/mjwells2002/rnnoise-bin",
-    },
-    name: {
-      name: "mjwells2002",
-      link: "https://github.com/mjwells2002",
-    },
-  },
-  {
-    element: {
-      name: "Opus natives (legacy)",
-      link: "https://github.com/mjwells2002/libopus-bin",
-    },
-    name: {
-      name: "mjwells2002",
-      link: "https://github.com/mjwells2002",
-    },
-  },
-  {
-    element: { name: "Opus natives for ARM based macs (legacy)" },
-    name: {
-      name: "jason-green-io",
-      link: "https://github.com/jason-green-io",
-    },
-  },
-  {
-    element: {
       name: "adventure",
       link: "https://github.com/KyoriPowered/adventure",
     },
     license: {
       name: "MIT",
       link: "https://github.com/KyoriPowered/adventure/blob/master/license.txt",
-    },
-  },
-  {
-    element: {
-      name: "dd-plist (legacy)",
-      link: "https://github.com/3breadt/dd-plist",
-    },
-    license: {
-      name: "Custom",
-      link: "https://github.com/3breadt/dd-plist/blob/master/LICENSE.txt",
     },
   },
   {
@@ -122,25 +93,10 @@ const credits = [
       name: "Apache License 2.0",
       link: "https://github.com/FabricMC/fabric/blob/1.20.1/LICENSE",
     },
-  },
-  {
-    element: {
-      name: "MacOS microphone workaround",
-    },
-    name: {
-      name: "mjwells2002",
-      link: "https://github.com/mjwells2002",
-    },
-  },
-  {
-    element: {
-      name: "MacOS microphone workaround",
-    },
-    name: {
-      name: "cbyrneee",
-      link: "https://github.com/cbyrneee",
-    },
-  },
+  }
+];
+
+const translations = [
   {
     element: { name: "Brazilian Portuguese translation" },
     name: {

@@ -2,7 +2,7 @@
   <table>
     <tr>
       <th class="text-left">Name</th>
-      <th class="text-left">License</th>
+      <th v-if="displayLicense" class="text-left">License</th>
       <th class="text-left">By</th>
     </tr>
     <tr v-for="(item, index) in credits" :key="index">
@@ -16,7 +16,7 @@
           </p>
         </span>
       </td>
-      <td>
+      <td v-if="displayLicense">
         <span v-if="item.license">
           <a v-if="item.license.link" :href="item.license.link" target="_blank">
             {{ item.license.name }}
@@ -45,6 +45,10 @@ defineProps({
   credits: {
     type: Array,
     required: true,
+  },
+  displayLicense: {
+    type: Boolean,
+    default: true,
   },
 });
 </script>
