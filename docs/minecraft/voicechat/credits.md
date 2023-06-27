@@ -93,6 +93,26 @@ const credits = [
       name: "Apache License 2.0",
       link: "https://github.com/FabricMC/fabric/blob/1.20.1/LICENSE",
     },
+  },
+  {
+    element: {
+      name: "Quilt Standard Libraries (QSL)",
+      link: "https://github.com/QuiltMC/quilt-standard-libraries",
+    },
+    license: {
+      name: "Apache License 2.0",
+      link: "https://github.com/QuiltMC/quilt-standard-libraries/blob/1.20/LICENSE",
+    },
+  },
+  {
+    element: {
+      name: "Quilted Fabric API",
+      link: "https://github.com/QuiltMC/quilted-fabric-api",
+    },
+    license: {
+      name: "Apache License 2.0",
+      link: "https://github.com/QuiltMC/quilted-fabric-api/blob/1.20.1/LICENSE",
+    },
   }
 ];
 
