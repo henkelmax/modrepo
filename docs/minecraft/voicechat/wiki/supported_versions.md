@@ -27,7 +27,7 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 | `1.19`            |                      | <Badge type="danger" text="No support" />            |
 | `1.19.1`          |                      | <Badge type="danger" text="No support" />            |
 | `1.19.2`          | Fabric, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
-| `1.19.3`          | Fabric, Forge, Quilt | <Badge type="warning" text="Phasing out support" />  |
+| `1.19.3`          |                      | <Badge type="danger" text="No support" />            |
 | `1.19.4`          | Fabric, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
 | `1.20`            |                      | <Badge type="danger" text="No support" />            |
 | `1.20.1`          | Fabric, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
