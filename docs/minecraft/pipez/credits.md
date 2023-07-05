@@ -79,5 +79,12 @@ const credits = [
       link: "https://github.com/BlackShadow77",
     },
   },
+  {
+    element: { name: "Ukrainian translation" },
+    name: {
+      name: "Moonvvell",
+      link: "https://github.com/Moonvvell",
+    },
+  },
 ];
 </script>
