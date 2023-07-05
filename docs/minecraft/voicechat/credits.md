@@ -8,12 +8,11 @@ aside: false
 ## General
 
 <Credits :credits="credits"/>
+[*Credits for older versions*](old_credits.md)
 
 ## Translations
 
 <Credits :credits="translations" :displayLicense="false"/>
-
-[Credits for older versions](old_credits.md)
 
 <script setup>
 const credits = [
