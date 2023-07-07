@@ -86,5 +86,12 @@ const credits = [
       link: "https://github.com/Moonvvell",
     },
   },
+  {
+    element: { name: "Chinese translation" },
+    name: {
+      name: "mc-kaishixiaxue",
+      link: "https://github.com/mc-kaishixiaxue",
+    },
+  },
 ];
 </script>
