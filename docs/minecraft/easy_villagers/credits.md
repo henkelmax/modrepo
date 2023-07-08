@@ -65,5 +65,12 @@ const credits = [
       link: "https://github.com/mc-kaishixiaxue",
     },
   },
+  {
+    element: { name: "Hungarian translation" },
+    name: {
+      name: "Dávid Czompó",
+      link: "https://github.com/Czompi",
+    },
+  },
 ];
 </script>
