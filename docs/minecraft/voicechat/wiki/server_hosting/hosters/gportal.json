@@ -1,20 +1,15 @@
 {
     "name": "GPortal",
-    "lastUpdate": "2023-03-29",
+    "lastUpdate": "2023-07-10",
     "url": "https://www.g-portal.com",
-    "description": [
-        "You need to contact the support to open a UDP port on your server.",
-        "<br/>",
-        "Alternatively you can use the RCON port of your server as voice chat port."
+    "steps": [
+        "Set the <code>bind_address</code> property in the voice chat server config to the public IP of your server",
+        "Set the <code>port</code> property in the voice chat server config to your server port +1 (ex. 23668 to 23669)"
     ],
     "credits": [
         {
-            "name": "Acenio",
-            "url": "https://discordapp.com/users/300773570555150348"
-        },
-        {
-            "name": "Liso",
-            "url": "https://discordapp.com/users/85394872437075968"
+            "name": "Lays24MC",
+            "url": "https://discordapp.com/users/356440366985117708"
         }
     ]
 }
