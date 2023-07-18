@@ -71,6 +71,7 @@ export default {
             { text: 'Example Projects', link: '/minecraft/voicechat/api/example_projects' },
             { text: 'Examples', link: '/minecraft/voicechat/api/examples' },
             { text: 'Javadocs', link: 'https://voicechat.modrepo.de/' },
+            { text: 'Old Javadocs', link: '/minecraft/voicechat/api/old_javadocs' },
           ]
         },
       ],
