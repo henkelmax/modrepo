@@ -30,11 +30,15 @@ Keys and values are separated by equals (`=`).
 ## Examples
 
 `My Box {i=stone;l=Rocks}`
+or
+`My Box {item=stone;label=Rocks}`
 
 This will display a stone block (ID `stone`) and the text `Rocks` on the lid of the shulker box.
 The name of the shulker box will be `My Box`. This will get shown in the GUI and on the hover tooltip.
 
 `Wooden stuff {i=stick;l=Wood Box}`
+or
+`Wooden stuff {item=stick;label=Wood Box}`
 
 This will display a stick (ID `stick`) and the text `Wood Box` on the lid of the shulker box.
 The name of the shulker box will be `Wooden stuff`. This will get shown in the GUI and on the hover tooltip.
