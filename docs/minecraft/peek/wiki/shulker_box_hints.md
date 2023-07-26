@@ -27,4 +27,4 @@ There are two ways of customizing the shulker box hints:
 - [Data strings](data_strings)
 - [Item Names](item_names)
 
-Despite this, you are able to modify the way shulker boxes and items are rendered in your inventory by using the builtin [resource pack](resource_packs#flat-shulker-icons) or [your own resource pack](resource_packs#custom-resource-packs).
+Despite this, you are able to modify the way shulker boxes and items are rendered in your inventory by using the built-in [resource pack](resource_packs#flat-shulker-icons) or [your own resource pack](resource_packs#custom-resource-packs).

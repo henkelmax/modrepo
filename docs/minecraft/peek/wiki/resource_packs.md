@@ -7,7 +7,7 @@ aside: false
 
 ## Flat Shulker Icons
 
-The built in `Flat Shulker Icons` resource pack shows shulker boxes directly from the top.
+The built-in `Flat Shulker Icons` resource pack shows shulker boxes directly from the top.
 
 ![](images/builtin_resource_pack.png)
 
