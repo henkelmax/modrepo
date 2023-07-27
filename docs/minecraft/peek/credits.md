@@ -16,5 +16,19 @@ const credits = [
       link: "https://github.com/Cccc-owo",
     },
   },
+  {
+    element: { name: "Russian translation" },
+    name: {
+      name: "Disketaa",
+      link: "https://github.com/Disketaa",
+    },
+  },
+  {
+    element: { name: "Ukrainian translation" },
+    name: {
+      name: "Un roman",
+      link: "https://github.com/unroman",
+    },
+  },
 ];
 </script>

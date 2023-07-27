@@ -75,6 +75,27 @@ export default {
           ]
         },
       ],
+      '/minecraft/peek/': [
+        {
+          text: 'Wiki',
+          items: [
+            { text: 'Overview', link: '/minecraft/peek/wiki/overview' },
+            { text: 'Setup', link: '/minecraft/peek/wiki/setup' },
+            { text: 'Configuration', link: '/minecraft/peek/wiki/configuration' },
+            { text: 'Shulker Box Hints', link: '/minecraft/peek/wiki/shulker_box_hints' },
+            { text: 'Data Strings', link: '/minecraft/peek/wiki/data_strings' },
+            { text: 'Item Names', link: '/minecraft/peek/wiki/item_names' },
+            { text: 'Resource Packs', link: '/minecraft/peek/wiki/resource_packs' },
+          ]
+        },
+        {
+          text: 'General',
+          items: [
+            { text: 'FAQ', link: '/minecraft/peek/faq' },
+            { text: 'Credits', link: '/minecraft/peek/credits' },
+          ]
+        }
+      ],
       '/minecraft/car/': [
         {
           text: 'General',

@@ -1,0 +1,1 @@
+<Redirect path="wiki/overview"/>
