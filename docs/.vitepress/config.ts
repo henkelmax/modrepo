@@ -47,6 +47,7 @@ export default {
             { text: 'Installation', link: '/minecraft/voicechat/wiki/installation' },
             { text: 'Server Setup', link: '/minecraft/voicechat/wiki/server_setup' },
             { text: 'Troubleshooting Problems', link: '/minecraft/voicechat/wiki/troubleshooting' },
+            { text: 'Key Bindings', link: '/minecraft/voicechat/wiki/key_bindings' },
             { text: 'Configuration', link: '/minecraft/voicechat/wiki/configuration' },
             { text: 'Compatibility', link: '/minecraft/voicechat/wiki/compatibility' },
             { text: 'Supported Versions', link: '/minecraft/voicechat/wiki/supported_versions' },
