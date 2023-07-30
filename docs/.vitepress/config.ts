@@ -34,6 +34,7 @@ export default {
             { text: 'FAQ', link: '/minecraft/voicechat/faq' },
             { text: 'Credits', link: '/minecraft/voicechat/credits' },
             { text: 'Downloads', link: '/minecraft/voicechat/downloads' },
+            { text: 'Addons', link: '/minecraft/voicechat/addons' },
             { text: 'Discord', link: 'https://discord.gg/4dH2zwTmyX' },
             { text: 'Issues', link: 'https://github.com/henkelmax/simple-voice-chat/issues' },
             { text: 'GitHub', link: 'https://github.com/henkelmax/simple-voice-chat' },
