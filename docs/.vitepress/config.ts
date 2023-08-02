@@ -1,9 +1,10 @@
+import { defineConfig } from 'vitepress';
 import { gitDescribeSync } from 'git-describe';
 
-export default {
+export default defineConfig({
   title: 'ModRepo',
   description: 'ModRepo',
-  cleanUrls: 'without-subfolders',
+  cleanUrls: true,
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/henkelmax' },
@@ -123,5 +124,8 @@ export default {
       message: `ModRepo Release ${gitDescribeSync().hash}`,
       copyright: '© Max Henkel'
     }
+  },
+  sitemap: {
+    hostname: 'https://modrepo.de'
   }
-}
+});
