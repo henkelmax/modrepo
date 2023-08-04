@@ -29,6 +29,13 @@ const credits = [
       name: "Rozbiynk",
       link: "https://github.com/Rozbiynk",
     },
+  },
+  {
+    element: { name: "Japanese translation" },
+    name: {
+      name: "kuragehime",
+      link: "https://github.com/kuragehimekurara1",
+    },
   }
 ];
 </script>
