@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
-import { gitDescribeSync } from 'git-describe';
+import pkg from 'git-describe';
+const { gitDescribeSync } = pkg;
 
 export default defineConfig({
   title: 'ModRepo',
