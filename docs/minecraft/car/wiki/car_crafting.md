@@ -17,7 +17,7 @@ You can choose your car color by using different colors for the car parts.
 For the wooden cars, you can use every wood type you like for the car body part item.
 You can not mix colors.
 For the other vehicles, you can use the 16 different hardened clay colors.
-If this is a bit confusing, simply look at the car crafting recipes via [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei).
+If this is a bit confusing, simply look at the car crafting recipes via [Just Enough Items](https://modrinth.com/mod/jei).
 
 
 With the workshop, you also can repair your car.

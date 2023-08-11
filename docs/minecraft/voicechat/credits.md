@@ -190,7 +190,7 @@ const translations = [
     element: { name: "Ukrainian translation" },
     name: {
       name: "ProSplash1",
-      link: "https://www.curseforge.com/members/prosplash1",
+      link: "https://legacy.curseforge.com/members/prosplash1",
     },
   },
   {
@@ -253,7 +253,7 @@ const translations = [
     element: { name: "Argentinian Spanish translation" },
     name: {
       name: "aguzzfw",
-      link: "https://www.curseforge.com/members/aguzzfw",
+      link: "https://legacy.curseforge.com/members/aguzzfw",
     },
   },
   {

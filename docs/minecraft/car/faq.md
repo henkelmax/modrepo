@@ -22,7 +22,7 @@ const faq = [
   {
     question:
       "I can't find or craft the windshield / axle / control unit",
-    answer: `These items were removed in newer versions (1.14+) of this mod. For recipes use <a href="https://www.curseforge.com/minecraft/mc-mods/jei" target="_blank">JEI</a>.`,
+    answer: `These items were removed in newer versions (1.14+) of this mod. For recipes use <a href="https://legacy.curseforge.com/minecraft/mc-mods/jei" target="_blank">JEI</a>.`,
   },
   {
     question: "How do I fill the tank container?",

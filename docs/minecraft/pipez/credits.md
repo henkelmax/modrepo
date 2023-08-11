@@ -41,7 +41,7 @@ const credits = [
     element: { name: "Russian translation" },
     name: {
       name: "Fwengum",
-      link: "https://www.curseforge.com/members/fwengum",
+      link: "https://legacy.curseforge.com/members/fwengum",
     },
   },
   {

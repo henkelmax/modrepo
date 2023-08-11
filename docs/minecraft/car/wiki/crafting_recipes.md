@@ -4,4 +4,4 @@ titleTemplate: Ultimate Car Mod
 
 # Crafting recipes
 
-The easiest way to view crafting recipes is via [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei).
+The easiest way to view crafting recipes is via [Just Enough Items](https://modrinth.com/mod/jei).

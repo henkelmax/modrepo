@@ -34,14 +34,14 @@ const credits = [
     element: { name: "Polish translation" },
     name: {
       name: "DarkKnightComes",
-      link: "https://www.curseforge.com/members/darkknightcomes",
+      link: "https://legacy.curseforge.com/members/darkknightcomes",
     },
   },
   {
     element: { name: "Chinese translation" },
     name: {
       name: "edmory",
-      link: "https://www.curseforge.com/members/edmory",
+      link: "https://legacy.curseforge.com/members/edmory",
     },
   },
   {
@@ -62,7 +62,7 @@ const credits = [
     element: { name: "Ukrainian translation" },
     name: {
       name: "prosplash1",
-      link: "https://www.curseforge.com/members/prosplash1/",
+      link: "https://legacy.curseforge.com/members/prosplash1/",
     },
   },
   {

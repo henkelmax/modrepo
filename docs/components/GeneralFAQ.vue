@@ -32,7 +32,7 @@ const faq = ref([
   },
   {
     question: "Where can I see crafting recipes?",
-    answer: `For recipes use <a href="https://www.curseforge.com/minecraft/mc-mods/jei" target="_blank">JEI</a>.`,
+    answer: `For recipes use <a href="https://modrinth.com/mod/jei" target="_blank">JEI</a>.`,
   },
   {
     question:

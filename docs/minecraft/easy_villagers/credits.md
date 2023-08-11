@@ -13,7 +13,7 @@ const credits = [
     element: { name: "Chinese Simplified (China) translation" },
     name: {
       name: "meawerful",
-      link: "https://www.curseforge.com/members/meawerful",
+      link: "https://legacy.curseforge.com/members/meawerful",
     },
   },
   {
@@ -34,7 +34,7 @@ const credits = [
     element: { name: "Russian translation" },
     name: {
       name: "kazmurenko",
-      link: "https://www.curseforge.com/members/kazmurenko",
+      link: "https://legacy.curseforge.com/members/kazmurenko",
     },
   },
   {
