@@ -13,7 +13,7 @@ const credits = [
     element: { name: "Turkish translation" },
     name: {
       name: "oynthe",
-      link: "https://www.curseforge.com/members/oynthe",
+      link: "https://legacy.curseforge.com/members/oynthe",
     },
   },
   {
@@ -55,7 +55,7 @@ const credits = [
     element: { name: "Ukrainian translation" },
     name: {
       name: "prosplash1",
-      link: "https://www.curseforge.com/members/prosplash1",
+      link: "https://legacy.curseforge.com/members/prosplash1",
     },
   },
   {

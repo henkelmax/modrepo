@@ -98,7 +98,7 @@ function close() {
   text-align: right;
 }
 .accept {
-  color: #42b883 !important;
+  color: var(--vp-c-brand) !important;
   margin-right: 20px;
 }
 button {

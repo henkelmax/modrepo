@@ -8,4 +8,5 @@
 ## Wikis
 
 - [Simple Voice Chat](minecraft/voicechat/overview)
+- [Peek](minecraft/peek/wiki/overview)
 - [Ultimate Car Mod](minecraft/car/overview)

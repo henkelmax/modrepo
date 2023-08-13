@@ -27,7 +27,7 @@ const credits = [
     element: { name: "Spanish translation" },
     name: {
       name: "renkor92",
-      link: "https://www.curseforge.com/members/renkor92",
+      link: "https://legacy.curseforge.com/members/renkor92",
     },
   },
   {

@@ -1,0 +1,15 @@
+{
+    "name": "Velopixel",
+    "lastUpdate": "2023-08-05",
+    "url": "https://velopixel.net/",
+    "steps": [
+        "Select an open port from the network tab",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "Apricot",
+            "url": "https://discordapp.com/users/790650912984530974"
+        }
+    ]
+}

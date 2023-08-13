@@ -98,7 +98,7 @@ Please also make sure you are not running mods or plugins that require a UDP por
 
 ## Mod 'Simple Voice Chat' (voicechat) requires version XXX or later of mod fabric, which is missing!
 
-You need to install the latest version of the [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all).
+You need to install the latest version of the [Fabric API](https://modrinth.com/mod/fabric-api/versions).
 
 Technically the mod has all required Fabric API modules installed, but if you have an outdated version installed, it won't work.
 

@@ -13,14 +13,14 @@ const credits = [
     element: { name: "Chinese Simplified (China) translation" },
     name: {
       name: "aikinitt",
-      link: "https://www.curseforge.com/members/aikinitt",
+      link: "https://legacy.curseforge.com/members/aikinitt",
     },
   },
   {
     element: { name: "Spanish translation" },
     name: {
       name: "itsTekiO",
-      link: "https://www.curseforge.com/members/itstekio",
+      link: "https://legacy.curseforge.com/members/itstekio",
     },
   },
   {

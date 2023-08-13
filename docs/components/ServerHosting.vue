@@ -49,7 +49,7 @@ const filteredHosters = computed(() => {
 
 <style scoped>
 .searchboxform {
-  border: 2px solid #059669;
+  border: 2px solid var(--vp-c-brand);
   align-items: center;
   background-color: #313136;
   border-radius: 4px;

@@ -87,7 +87,7 @@ The support key itself is to confirm that the [wiki](installation) and the [FAQ]
 <style scoped>
 .button {
     border-radius: 8px;
-    background-color: #42b883;
+    background-color: var(--vp-c-brand);
     padding: 0.5rem;
     display: flex;
     justify-content: center;
