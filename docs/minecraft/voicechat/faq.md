@@ -50,6 +50,10 @@ If you are hosting the server on your local machine take a look at <a href="/min
     answer: "Yes, you can use the voice chat in singleplayer and in LAN worlds. But it's recommended to use a dedicated server if you want to play with other people.",
   },
   {
+    question: "Am I allowed to use this mod in a modpack?",
+    answer: "Yes. But please make sure to give credit.",
+  },
+  {
     question: "Does the mod also need to be installed on the server for it to work?",
     answer: "Yes!",
   },
