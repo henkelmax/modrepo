@@ -291,5 +291,26 @@ const translations = [
       link: "https://github.com/notlin4",
     },
   },
+  {
+    element: { name: "Tatar translation" },
+    name: {
+      name: "Amirhan-Taipovjan-Greatest-I",
+      link: "https://github.com/Amirhan-Taipovjan-Greatest-I",
+    },
+  },
+  {
+    element: { name: "Swedish translation" },
+    name: {
+      name: "Dontknow09",
+      link: "https://github.com/Dontknow09",
+    },
+  },
+  {
+    element: { name: "Chinese Simplified (China) translation" },
+    name: {
+      name: "Fang_Zhijian",
+      link: "https://github.com/klxf",
+    },
+  },
 ];
 </script>
