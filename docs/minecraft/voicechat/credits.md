@@ -312,5 +312,12 @@ const translations = [
       link: "https://github.com/klxf",
     },
   },
+  {
+    element: { name: "Polish translation" },
+    name: {
+      name: "NieBoczek",
+      link: "https://github.com/Bocz3k",
+    },
+  },
 ];
 </script>
