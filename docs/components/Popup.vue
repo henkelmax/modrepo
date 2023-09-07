@@ -8,7 +8,7 @@
         <button v-if="acceptButton" class="accept" @click="accept">
           Accept
         </button>
-        <button v-if="closeButton" @click="close">Close</button>
+        <button v-if="closeButton" class="close" @click="close">Close</button>
       </div>
     </div>
   </div>
@@ -98,8 +98,14 @@ function close() {
   text-align: right;
 }
 .accept {
-  color: var(--vp-c-brand) !important;
+  color: var(--vp-c-brand-1) !important;
   margin-right: 20px;
+}
+.accept:hover {
+  color: var(--vp-c-brand-2) !important;
+}
+.close:hover {
+  color: #97989f !important;
 }
 button {
   font-weight: bold;
