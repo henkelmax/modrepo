@@ -127,7 +127,7 @@ If you are hosting the server on your local machine take a look at <a href="/min
   },
   {
     question: "Can I request new features?",
-    answer: `If you consider this feature to be essential enough to be included in the base mod, you can suggest it on GitHub or on the Discord server. In all other cases you can use the <a href="/minecraft/voicechat/api/overview">API</a> to add this feature yourself.`,
+    answer: `If you consider this feature to be essential enough to be included in the base mod, you can suggest it on the Discord server. In all other cases you can use the <a href="/minecraft/voicechat/api/overview">API</a> to add this feature yourself.`,
   },
   {
     question: "Can you add compatibility with mod XY?",
