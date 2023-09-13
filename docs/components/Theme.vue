@@ -4,6 +4,7 @@
 :root {
   --vp-c-brand: #42b883 !important;
   --vp-c-brand-1: #42b883 !important;
+  --vp-badge-tip-bg: #42b88327 !important;
 }
 
 a:link {
