@@ -7,7 +7,8 @@ import Popup from '../../components/Popup.vue'
 import ServerHosting from '../../components/ServerHosting.vue'
 import ServerHoster from '../../components/ServerHoster.vue'
 import Redirect from '../../components/Redirect.vue'
-import Theme from '../../components/Theme.vue'
+
+import './custom.css'
 
 export default {
   ...DefaultTheme,
@@ -21,6 +22,5 @@ export default {
     ctx.app.component('ServerHosting', ServerHosting)
     ctx.app.component('ServerHoster', ServerHoster)
     ctx.app.component('Redirect', Redirect)
-    ctx.app.component('Theme', Theme)
   }
 }
