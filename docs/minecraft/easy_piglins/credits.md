@@ -30,5 +30,12 @@ const credits = [
       link: "https://github.com/yanang007",
     },
   },
+  {
+    element: { name: "Japanese translation" },
+    name: {
+      name: "ALFEECLARE",
+      link: "https://github.com/ALFEECLARE",
+    },
+  },
 ];
 </script>
