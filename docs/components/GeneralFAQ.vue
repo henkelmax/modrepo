@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
 const faq = ref([
   {
@@ -13,15 +13,15 @@ const faq = ref([
   {
     question: "Where is the config file located? (Forge)",
     answer: `There are two types of configs.
-            The config for the server side is located in your world folder in a subfolder called 'serverconfig'.
-            The client side config is located in your '.minecraft' folder inside a subfolder called 'config'.
+            The config for the server side is located in your world folder in a subfolder called <code>serverconfig</code>.
+            The client side config is located in your <code>.minecraft</code> folder inside a subfolder called <code>config</code>.
             Note that the client side and the server side config isn't the same. You can't put stuff from the server config into the client config. If you can't find the option you are looking for in the client config, try looking into the server config.
             There is always a server config, even if you are playing singleplayer, as it also uses an internal server.
             `,
   },
   {
     question: "Where is the config file located? (Fabric/Quilt)",
-    answer: `The configs for a Fabric/Quilt mod are located in your '.minecraft' folder in a subfolder called 'config'.
+    answer: `The configs for a Fabric/Quilt mod are located in your <code>.minecraft</code> folder in a subfolder called <code>config</code>.
             In there you can see a folder that is named like the mods ID. This folder contains the configs for the server and client.`,
   },
   {
@@ -37,7 +37,7 @@ const faq = ref([
   {
     question:
       "I translated your mod into another language. How do I send it to you?",
-    answer: `Just upload the translation file to something like <a href="https://gist.github.com/" target="_blank">GitHub Gist</a> and open a new issue with the issue template 'Translation'.`,
+    answer: `Just upload the translation file to something like <a href="https://gist.github.com/" target="_blank">GitHub Gist</a> and open a new issue with the issue template <code>Translation</code>.`,
   },
   {
     question: "Do I need to install this mod on the client or the server?",
