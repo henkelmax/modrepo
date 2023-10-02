@@ -72,5 +72,12 @@ const credits = [
       link: "https://github.com/Czompi",
     },
   },
+  {
+    element: { name: "Japanese translation" },
+    name: {
+      name: "ALFEECLARE",
+      link: "https://github.com/ALFEECLARE",
+    },
+  },
 ];
 </script>
