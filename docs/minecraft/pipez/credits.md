@@ -17,6 +17,13 @@ const credits = [
     },
   },
   {
+    element: { name: "Pigment, slurry and infuse support" },
+    name: {
+      name: "Smileycorp",
+      link: "https://github.com/SmileycorpMC",
+    },
+  },
+  {
     element: { name: "German translation" },
     name: {
       name: "offron",
