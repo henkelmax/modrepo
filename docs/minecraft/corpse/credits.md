@@ -128,5 +128,12 @@ const credits = [
       link: "https://github.com/FITFC",
     },
   },
+  {
+    element: { name: "Japanese translation" },
+    name: {
+      name: "taizazanek",
+      link: "https://github.com/taizazanek",
+    },
+  },
 ];
 </script>
