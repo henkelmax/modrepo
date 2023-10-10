@@ -6,7 +6,7 @@ aside: false
 # Placeholders
 
 ::: warning NOTE
-This feature is subject to change in future versions.
+This feature is not officially supported and subject to change in future versions.
 :::
 
 The plugin version of Simple Voice Chat has support for [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) placeholders.
