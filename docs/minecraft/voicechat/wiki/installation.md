@@ -12,7 +12,7 @@ It doesn't matter which mod/plugin loader you are using. All of them are cross c
 **If you have issues with these loaders, visit their respective Discords for help**:
 
 - [Fabric](https://discord.gg/v6v4pMv)
-- [Forge](https://discord.gg/UvedJ9m)
+- [NeoForge](https://discord.gg/UvedJ9m)
 - [Spigot](https://discord.gg/spigotmc)
 - [Paper](https://discord.gg/papermc)
 - [Quilt](https://discord.gg/M7GpuyTBvy)
