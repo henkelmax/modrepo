@@ -100,5 +100,12 @@ const credits = [
       link: "https://github.com/mc-kaishixiaxue",
     },
   },
+  {
+    element: { name: "French translation" },
+    name: {
+      name: "sylvain-lissy",
+      link: "https://github.com/sylvain-lissy",
+    },
+  },
 ];
 </script>

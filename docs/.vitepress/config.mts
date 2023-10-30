@@ -23,6 +23,7 @@ export default defineConfig({
         items: [
           { text: 'Simple Voice Chat', link: '/minecraft/voicechat/overview' },
           { text: 'Ultimate Car Mod', link: '/minecraft/car/overview' },
+          { text: 'Peek', link: '/minecraft/peek/wiki/overview' },
         ]
       },
       { text: 'Privacy', link: '/privacy' },
