@@ -31,7 +31,7 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 | `1.19.4`          | Fabric, Forge, Quilt           | <Badge type="tip" text="Under active development" /> |
 | `1.20`            |                                | <Badge type="danger" text="No support" />            |
 | `1.20.1`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
-| `1.20.2`          | Fabric, Forge                  | <Badge type="tip" text="Under active development" /> |
+| `1.20.2`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
 
 ## Supported Plugin Versions
 
@@ -59,3 +59,4 @@ The latest plugin version of Simple Voice Chat universally supports the followin
 - `1.19.4`
 - `1.20`
 - `1.20.1`
+- `1.20.2`
