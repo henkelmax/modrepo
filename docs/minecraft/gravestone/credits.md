@@ -79,5 +79,12 @@ const credits = [
       link: "https://github.com/BlackAures1",
     },
   },
+  {
+    element: { name: "Czech translation" },
+    name: {
+      name: "Polarni",
+      link: "https://github.com/Polarni",
+    },
+  },
 ];
 </script>

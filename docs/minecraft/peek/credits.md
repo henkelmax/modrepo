@@ -30,5 +30,12 @@ const credits = [
       link: "https://github.com/unroman",
     },
   },
+  {
+    element: { name: "Tatar translation" },
+    name: {
+      name: "Amirhan-Taipovjan-Greatest-I",
+      link: "https://github.com/Amirhan-Taipovjan-Greatest-I",
+    },
+  },
 ];
 </script>
