@@ -118,7 +118,7 @@ dependencies {
 }
 ```
 
-### Forge
+### Neoforge/Forge
 
 To add the API dependency to your Forge mod, add the following maven repository to your project.
 
@@ -199,6 +199,9 @@ repositories {
 }
 dependencies {
     ...
+    // For Neoforge
+    runtimeOnly "maven.modrinth:simple-voice-chat:neoforge-${voicechat_version}"
+    // For Forge
     runtimeOnly fg.deobf("maven.modrinth:simple-voice-chat:forge-${voicechat_version}")
 }
 ```
