@@ -25,6 +25,13 @@ For the Fabric version of the mod, you need to have the [Fabric Loader](https://
 Then copy the [Fabric Simple Voice Chat mod jar](https://modrinth.com/mod/simple-voice-chat/versions?l=fabric) to the mods folder. The mods folder is located in `/mods`.
 
 
+## Neoforge
+
+For the Neoforge version of the mod, you need to have [Neoforge](https://neoforged.net/) installed on your client/server.
+
+Then copy the [Neoforge Simple Voice Chat mod jar](https://modrinth.com/mod/simple-voice-chat/versions?l=neoforge) to the mods folder. The mods folder is located in `/mods`.
+
+
 ## Forge
 
 For the Forge version of the mod, you need to have [Forge](https://files.minecraftforge.net/) installed on your client/server.
@@ -37,7 +44,7 @@ Then copy the [Forge Simple Voice Chat mod jar](https://modrinth.com/mod/simple-
 Make sure you put the [Simple Voice Chat plugin jar](https://modrinth.com/plugin/simple-voice-chat/versions?l=bukkit) into the `/plugins` folder of your server.
 
 ::: danger NOTE
-Note that you need the [Fabric](#fabric), [Forge](#forge) or [Quilt](#quilt) version of the mod installed on your client when using the Bukkit/Spigot/Paper version of Simple Voice Chat on the server!
+Note that you need the [Fabric](#fabric), [Neoforge](#neoforge), [Forge](#forge) or [Quilt](#quilt) version of the mod installed on your client when using the Bukkit/Spigot/Paper version of Simple Voice Chat on the server!
 :::
 
 ## Quilt
