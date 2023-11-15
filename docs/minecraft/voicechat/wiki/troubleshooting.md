@@ -48,6 +48,7 @@ You can select your sound device in the voice chat menu by clicking on the `Sele
 
 You can test if it works by clicking the `Enable microphone testing` button.
 
+
 ## Other people can't hear me
 
 If other people can't hear you, you might haven't selected the correct microphone.
@@ -65,6 +66,7 @@ If you are using MacOS, read [this](macos)!
 If you are on Windows or Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration#client) of the mod.
 Note that this is not guaranteed to work in all cases.
 
+
 ## The voice chat is constantly reconnecting
 
 This might be caused by a bad or unstable internet connection.
@@ -78,6 +80,7 @@ Please leave `bind_address` empty if you don't explicitly get told to set it.
 
 If the bind address is already empty, please take a look at [this](#the-server-crashes-on-startup-address-already-in-use).
 
+
 ## The Server Crashes on Startup (Address already in use)
 
 Another program is already using the voice chat port.
@@ -89,20 +92,24 @@ If you are running multiple servers with voice chat on the same machine, you nee
 
 Please also make sure you are not running mods or plugins that require a UDP port (Like Geyser) on the voice chat port.
 
+
 ## Mod 'Simple Voice Chat' (voicechat) requires version XXX or later of mod fabric, which is missing!
 
 You need to install the latest version of the [Fabric API](https://modrinth.com/mod/fabric-api/versions).
 
 Technically the mod has all required Fabric API modules installed, but if you have an outdated version installed, it won't work.
 
+
 ## Could not find required mod: voicechat requires \{fabricloader ...\}
 
 You need to install the latest version of the [Fabric Loader](https://fabricmc.net/use/).
+
 
 ## Jar at /mods/voicechat-fabric-X.X.X-X.X.X.jar is corrupted, please redownload it
 
 Please make sure you actually download the mod from CurseForge or Modrinth.
 If you already did that, please double-check that the file has not been modified in any way.
+
 
 ## The mods config file does not exist
 
@@ -110,21 +117,23 @@ Make sure the mod is actually installed, and you started the client/server at le
 
 If you don't know where the config files are located, read [this](configuration).
 
+
 ## The changed config values are not affecting the game
 
 Make sure you actually restarted the client/server after changing anything in the config, for it to take effect.
 
+
 ## Microphone unavailable
 
-Try starting your launcher as an administrator. If this doesn't work,
-restart your computer and don't start any other programs other than Minecraft,
-that can use your microphone.
+First of all, make sure your audio drivers are up to date.
 
-Sometimes updating your audio drivers helps.
+If this doesn't help, try restarting your computer and start your launcher as an administrator.
+
 
 ## Players can be heard far away/Proximity is not working
 
 You are most likely just in a group. Leave the group and proximity will work fine.
+
 
 ## I can't find the voice chat port in the 'server.properties' file
 
