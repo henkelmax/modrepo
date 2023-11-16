@@ -9,6 +9,10 @@ next: false
 
 # Freecam Support
 
+::: warning NOTE
+This is subject to change.
+:::
+
 Simple Voice Chat supports freecam mods out of the box.
 
 When having `freecam_support` enabled in the [client config](configuration#client),
