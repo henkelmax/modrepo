@@ -12,27 +12,28 @@ It shows for which Minecraft versions the mod is still maintained.
 Usually only the latest patch of each major Minecraft version is supported.
 Snapshots are generally no longer supported after a newer snapshot version is released or the full release of that version is out.
 
-| Minecraft Version | Loader(s)                      | Support                                                                |
-| ----------------- | ------------------------------ | ---------------------------------------------------------------------- |
-| `1.12.2`          | Forge                          | <Badge type="tip" text="Under active development" />                   |
-| `1.15.2`          |                                | <Badge type="danger" text="No support" />                              |
-| `1.16.3`          |                                | <Badge type="danger" text="No support" />                              |
-| `1.16.4`          |                                | <Badge type="danger" text="No support" />                              |
-| `1.16.5`          | Fabric, Forge                  | <Badge type="tip" text="Under active development" />                   |
-| `1.17`            |                                | <Badge type="danger" text="No support" />                              |
-| `1.17.1`          | Fabric, Forge                  | <Badge type="tip" text="Under active development" />                   |
-| `1.18`            |                                | <Badge type="danger" text="No support" />                              |
-| `1.18.1`          |                                | <Badge type="danger" text="No support" />                              |
-| `1.18.2`          | Fabric, Forge, Quilt           | <Badge type="tip" text="Under active development" />                   |
-| `1.19`            |                                | <Badge type="danger" text="No support" />                              |
-| `1.19.1`          |                                | <Badge type="danger" text="No support" />                              |
-| `1.19.2`          | Fabric, Forge, Quilt           | <Badge type="tip" text="Under active development" />                   |
-| `1.19.3`          |                                | <Badge type="danger" text="No support" />                              |
-| `1.19.4`          | Fabric, Forge, Quilt           | <Badge type="tip" text="Under active development" />                   |
-| `1.20`            |                                | <Badge type="danger" text="No support" />                              |
-| `1.20.1`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Under active development" />                   |
-| `1.20.2`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" />                   |
-| `1.20.3`          | Fabric, NeoForge, Forge        | <Badge type="warning" text="Phasing out support in favor of 1.20.4" /> |
+| Minecraft Version | Loader(s)                      | Support                                              |
+| ----------------- | ------------------------------ | ---------------------------------------------------- |
+| `1.12.2`          | Forge                          | <Badge type="tip" text="Under active development" /> |
+| `1.15.2`          |                                | <Badge type="danger" text="No support" />            |
+| `1.16.3`          |                                | <Badge type="danger" text="No support" />            |
+| `1.16.4`          |                                | <Badge type="danger" text="No support" />            |
+| `1.16.5`          | Fabric, Forge                  | <Badge type="tip" text="Under active development" /> |
+| `1.17`            |                                | <Badge type="danger" text="No support" />            |
+| `1.17.1`          | Fabric, Forge                  | <Badge type="tip" text="Under active development" /> |
+| `1.18`            |                                | <Badge type="danger" text="No support" />            |
+| `1.18.1`          |                                | <Badge type="danger" text="No support" />            |
+| `1.18.2`          | Fabric, Forge, Quilt           | <Badge type="tip" text="Under active development" /> |
+| `1.19`            |                                | <Badge type="danger" text="No support" />            |
+| `1.19.1`          |                                | <Badge type="danger" text="No support" />            |
+| `1.19.2`          | Fabric, Forge, Quilt           | <Badge type="tip" text="Under active development" /> |
+| `1.19.3`          |                                | <Badge type="danger" text="No support" />            |
+| `1.19.4`          | Fabric, Forge, Quilt           | <Badge type="tip" text="Under active development" /> |
+| `1.20`            |                                | <Badge type="danger" text="No support" />            |
+| `1.20.1`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
+| `1.20.2`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
+| `1.20.3`          |                                | <Badge type="danger" text="No support" />            |
+| `1.20.4`          | Fabric, NeoForge               | <Badge type="tip" text="Under active development" /> |
 
 ## Supported Plugin Versions
 
