@@ -37,5 +37,12 @@ const credits = [
       link: "https://github.com/unroman",
     },
   },
+  {
+    element: { name: "Mexican Spanish translation" },
+    name: {
+      name: "CANALETA",
+      link: "https://github.com/CANALETA",
+    },
+  },
 ];
 </script>
