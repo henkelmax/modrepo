@@ -333,5 +333,12 @@ const translations = [
       link: "https://github.com/Supertheobrg",
     },
   },
+  {
+    element: { name: "Norwegian Bokmål translation" },
+    name: {
+      name: "Bloodaxe",
+      link: "https://github.com/Bloodaxe95",
+    },
+  },
 ];
 </script>

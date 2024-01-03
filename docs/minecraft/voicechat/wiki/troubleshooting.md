@@ -84,13 +84,12 @@ If the bind address is already empty, please take a look at [this](#the-server-c
 ## The Server Crashes on Startup (Address already in use)
 
 Another program is already using the voice chat port.
-Make sure you don't already have your Minecraft server running and change the voice chat port in the mods server config.
 
+Please do the following:
 
-If you are running multiple servers with voice chat on the same machine, you need to select a different voice chat port for every server.
-
-
-Please also make sure you are not running mods or plugins that require a UDP port (Like Geyser) on the voice chat port.
+- Check if there are any other instances of the voice chat mod/plugin running that use the same port.
+- If you are using other mods/plugins that need a UDP port like GeyserMC, make sure they are using a different port than the voice chat.
+- Make sure the server query is not running on the same port as the voice chat. You can find the query port in your server.properties (`query.port`).
 
 
 ## Mod 'Simple Voice Chat' (voicechat) requires version XXX or later of mod fabric, which is missing!
