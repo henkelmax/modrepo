@@ -7,12 +7,12 @@ titleTemplate: Simple Voice Chat
 MacOS requires any application that wants to use the microphone to show a permission dialog.
 
 Since Minecraft itself doesn't need the microphone, we are not able to request access for it.
-However, some launchers add the ability to ask for microphone permission.
 
-In order to use the voice chat on MacOS, you need to use [Prism Launcher](https://prismlauncher.org/).
+In order to use the voice chat on MacOS, you must either use [Prism Launcher](https://prismlauncher.org/), or grant the permissions to java manually, which can be done by following these steps:
 
-::: warning NOTE
-If you have issues **installing** or **setting up** the launcher, visit the [Prism Launcher Discord server](https://discord.gg/prismlauncher) for help.
-
-Please don't ask them for help with the voice chat mod itself!
-:::
+1. Open a terminal window and enter the command: `open /usr/`.
+   ::: warning NOTE This is **not** the same as your user/root directory. The `/usr` directory is hidden by default, hence requiring the terminal to open it. :::
+2. Drag the `bin` directory into the favourites section in the sidebar.
+3. Navigate to `System Settings > Privacy & Security > Microphone`.
+4. Use the `+` button and navigate to the bin directory using the sidebar.
+5. Select the `java` binary file (It should have no extension).
