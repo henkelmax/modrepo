@@ -53,6 +53,10 @@ A server side Fabric mod providing useful features to Simple Voice Chat groups.
 
 ## Simple Voice Chat Radio
 
+::: warning INFO
+This mod is now maintained by a third party. Please report issues to the issue tracker linked on the mod page.
+:::
+
 A server-side Simple Voice Chat addon mod for Fabric adding a radio block capable of streaming mp3 radio streams.
 
 - [Modrinth](https://modrinth.com/mod/simple-voice-chat-radio)
@@ -60,6 +64,10 @@ A server-side Simple Voice Chat addon mod for Fabric adding a radio block capabl
 
 
 ## Wiretap
+
+::: warning INFO
+This mod is now maintained by a third party. Please report issues to the issue tracker linked on the mod page.
+:::
 
 A server-side Simple Voice Chat addon mod for Fabric, that adds a microphone and a speaker block.
 
