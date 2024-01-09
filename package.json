@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "git-describe": "^4.1.1",
-    "vitepress": "^1.0.0-rc.35",
-    "vue": "^3.4.5"
+    "vitepress": "^1.0.0-rc.36",
+    "vue": "^3.4.6"
   }
 }
