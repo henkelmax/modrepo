@@ -18,7 +18,7 @@ If you can't find the config files, make sure the client/server was started at l
 
 ## Server
 
-**Fabric/Forge/Quilt**
+**Fabric/NeoForge/Forge/Quilt**
 
 `config/voicechat/voicechat-server.properties`
 
@@ -49,7 +49,7 @@ If you can't find the config files, make sure the client/server was started at l
 
 ## Client
 
-**Fabric/Forge/Quilt**
+**Fabric/NeoForge/Forge/Quilt**
 
 `config/voicechat/voicechat-client.properties`
 
