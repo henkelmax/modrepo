@@ -7,11 +7,7 @@ prev:
 next: false
 ---
 
-# Freecam Support
-
-::: warning NOTE
-This is subject to change.
-:::
+# Freecam Support (Version 2.4.x)
 
 Simple Voice Chat supports freecam mods out of the box.
 
