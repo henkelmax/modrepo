@@ -22,7 +22,17 @@ The built-in `Flat Shulker Icons` resource pack shows shulker boxes directly fro
 ## Custom Resource Packs
 
 You can create your own resource pack to customize the way items are rendered on shulker boxes.
+Just add the override predicate `peek:shulker_item` to `1` in your item model.
 
-The mod adds a [CustomModelData](https://mcmodels.net/how-to-tutorials/resource-pack-tutorials/what-is-custommodeldata-2/) ID to items rendered on shulker box lids.
-
-By default the ID is `1702`, but that can be changed in the [config](configuration).
+Example item model override:
+``` json{7}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_apple"
+  },
+  "overrides": [
+    { "predicate": {  "peek:shulker_item": 1 }, "model": "item/golden_apple/costom_model"}
+  ]
+}
+```
