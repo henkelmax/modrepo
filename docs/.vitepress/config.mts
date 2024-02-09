@@ -48,6 +48,7 @@ export default defineConfig({
           text: 'Wiki',
           items: [
             { text: 'Installation', link: '/minecraft/voicechat/wiki/installation' },
+            { text: 'Client Setup', link: '/minecraft/voicechat/wiki/client_setup' },
             { text: 'Server Setup', link: '/minecraft/voicechat/wiki/server_setup' },
             { text: 'Troubleshooting Problems', link: '/minecraft/voicechat/wiki/troubleshooting' },
             { text: 'Key Bindings', link: '/minecraft/voicechat/wiki/key_bindings' },
