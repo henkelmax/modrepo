@@ -32,7 +32,7 @@ Example item model override:
     "layer0": "minecraft:item/golden_apple"
   },
   "overrides": [
-    { "predicate": {  "peek:shulker_item": 1 }, "model": "item/golden_apple/costom_model"}
+    { "predicate": {  "peek:shulker_item": 1 }, "model": "item/golden_apple/custom_model"}
   ]
 }
 ```
