@@ -41,7 +41,6 @@ export default defineConfig({
             { text: 'Discord', link: 'https://discord.gg/4dH2zwTmyX' },
             { text: 'Issues', link: 'https://github.com/henkelmax/simple-voice-chat/issues' },
             { text: 'GitHub', link: 'https://github.com/henkelmax/simple-voice-chat' },
-            { text: 'API', link: 'https://github.com/henkelmax/simple-voice-chat/tree/1.19.3/api' },
           ]
         },
         {
