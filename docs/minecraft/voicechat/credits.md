@@ -340,5 +340,12 @@ const translations = [
       link: "https://github.com/Bloodaxe95",
     },
   },
+  {
+    element: { name: "Mexican Spanish translation" },
+    name: {
+      name: "CANALETA",
+      link: "https://github.com/CANALETA",
+    },
+  },
 ];
 </script>
