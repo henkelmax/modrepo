@@ -139,6 +139,12 @@ You are most likely just in a group. Leave the group and proximity will work fin
 This option is **not** located in the `server.properties` file. It is located in the mods server config. For more information read [this](configuration).
 
 
+## The voice chat does not connect all of a sudden without anything having been changed
+
+If you are renting a server with a Minecraft hosting provider, it is very likely that they have changed something with their networking.
+Please double check that you really didn't change anything on your server and then contact your hosters support.
+
+
 <ClientOnly>
     <WikiTracker name="troubleshooting"/>
 </ClientOnly>
