@@ -1,16 +1,6 @@
 {
     "name": "WinterNode",
-    "lastUpdate": "2023-08-23",
+    "lastUpdate": "2024-03-09",
     "url": "https://winternode.com/",
-    "steps": [
-        "Create a support ticket through Discord",
-        "Ask for a new UDP port",
-        "Set the <code>port</code> property in the voice chat server config to the port you got from support"
-    ],
-    "credits": [
-        {
-            "name": "Toga",
-            "url": "https://discordapp.com/users/710400098424717364"
-        }
-    ]
+    "officialGuideUrl": "https://help.winternode.com/Games/Minecraft/Plugins/Simple-VoiceChat"
 }
