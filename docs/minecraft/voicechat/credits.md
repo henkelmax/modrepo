@@ -24,6 +24,13 @@ const credits = [
     },
   },
   {
+    element: { name: "Proxy plugins" },
+    name: {
+      name: "Nila",
+      link: "https://github.com/nilathedragon",
+    },
+  },
+  {
     element: {
       name: "Opus Codec",
       link: "https://opus-codec.org/",
