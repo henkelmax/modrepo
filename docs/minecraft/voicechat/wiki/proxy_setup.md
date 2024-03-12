@@ -22,8 +22,6 @@ The plugin will automatically detect the port of each voice chat server and will
 Note that when using voice chat through the proxy, the `voice_host` config option of each voice chat server is ignored - the proxy plugin will automatically detect the address and port of each server.
 Use the `voice_host` config option in the [voice chat proxy config](configuration#proxy) instead, if you want to change where clients are trying to connect to.
 
-Using this plugin all traffic is proxied through this plugin, so you don't need to open any ports to the public on any of the Minecraft servers.
-
 You only need to open a single UDP port for the proxy server.
 By default this is the same port as the Minecraft server port of the proxy.
 So by default for velocity, your voice chat port will be `25577`.
