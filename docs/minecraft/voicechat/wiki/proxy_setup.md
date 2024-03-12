@@ -13,11 +13,11 @@ First of all, make sure, you have the mod/plugin installed on every Minecraft se
 If the proxy and all Minecraft servers are running on the same machine,
 you have to assign a different port for every instance of voice chat on each Minecraft server.
 
-### Velocity
+### Velocity/BungeeCord/Waterfall
 
-Download and install the [Simple Voice Chat Velocity Plugin](/minecraft/voicechat/downloads#velocity).
+Download and install the [Simple Voice Chat Velocity Plugin](/minecraft/voicechat/downloads#velocity) or the [Simple Voice Chat BungeeCord/Waterfall Plugin](/minecraft/voicechat/downloads#bungeecord-waterfall) respectively.
 
-The velocity plugin will automatically detect the port of each voice chat server and will forward everything to the correct destination.
+The plugin will automatically detect the port of each voice chat server and will forward everything to the correct destination.
 
 Note that when using voice chat through the proxy, the `voice_host` config option of each voice chat server is ignored - the proxy plugin will automatically detect the address and port of each server.
 Use the `voice_host` config option in the [voice chat proxy config](configuration#proxy) instead, if you want to change where clients are trying to connect to.

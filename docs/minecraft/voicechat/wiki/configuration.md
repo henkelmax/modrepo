@@ -94,7 +94,7 @@ If you can't find the config files, make sure the client/server was started at l
 | `mute_on_join`                      | If enabled, you will be automatically muted when joining a world                                                                                                                                                                                                                                                                                                                                                                                    | `false`                                      |
 ## Proxy
 
-**Velocity**
+**Velocity/BungeeCord/Waterfall**
 
 `plugins/voicechat/voicechat-proxy.properties`
 

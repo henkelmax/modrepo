@@ -29,3 +29,7 @@
 ## Velocity
 
 - [Modrinth](https://modrinth.com/mod/simple-voice-chat/versions?l=velocity) <Badge type="tip" text="Recommended" />
+
+## BungeeCord/Waterfall
+
+- [Modrinth](https://modrinth.com/mod/simple-voice-chat/versions?l=bungeecord) <Badge type="tip" text="Recommended" />
