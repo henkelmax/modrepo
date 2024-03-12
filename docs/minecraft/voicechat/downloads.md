@@ -25,3 +25,7 @@
 
 - [Modrinth](https://modrinth.com/mod/simple-voice-chat/versions?l=quilt) <Badge type="tip" text="Recommended" />
 - [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?filter-game-version=2020709689%3A9153)
+
+## Velocity
+
+- [Modrinth](https://modrinth.com/mod/simple-voice-chat/versions?l=velocity) <Badge type="tip" text="Recommended" />

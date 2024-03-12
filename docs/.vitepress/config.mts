@@ -49,6 +49,7 @@ export default defineConfig({
             { text: 'Installation', link: '/minecraft/voicechat/wiki/installation' },
             { text: 'Client Setup', link: '/minecraft/voicechat/wiki/client_setup' },
             { text: 'Server Setup', link: '/minecraft/voicechat/wiki/server_setup' },
+            { text: 'Proxy Setup', link: '/minecraft/voicechat/wiki/proxy_setup' },
             { text: 'Troubleshooting Problems', link: '/minecraft/voicechat/wiki/troubleshooting' },
             { text: 'Key Bindings', link: '/minecraft/voicechat/wiki/key_bindings' },
             { text: 'Configuration', link: '/minecraft/voicechat/wiki/configuration' },

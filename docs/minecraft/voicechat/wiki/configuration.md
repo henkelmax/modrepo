@@ -92,3 +92,16 @@ If you can't find the config files, make sure the client/server was started at l
 | `freecam_mode`                      | This setting was added in version 2.5<br/>How listening to other players should work when using freecam mods<br/>Possible values:<br/>`CAMERA` You will hear voice chat audio around your camera. Whether you hear distant audio depends on the voice chat broadcast range of the server<br/>`PLAYER` You will hear voice chat audio around your player no matter where your camera is<br/>See <a href="freecam_mode">this</a> for more information | `CAMERA`                                     |
 | `freecam_support`                   | This setting is replaced with <code>freecam_mode</code> starting with version 2.5<br/>This lets you hear players near you, even though you are further away with your freecam<br/>See <a href="freecam_support">this</a> for more information                                                                                                                                                                                                       | `true`                                       |
 | `mute_on_join`                      | If enabled, you will be automatically muted when joining a world                                                                                                                                                                                                                                                                                                                                                                                    | `false`                                      |
+## Proxy
+
+**Velocity**
+
+`plugins/voicechat/voicechat-proxy.properties`
+
+
+| Config key     | Description                                                                                                                                                                                    | Default value |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| `port`         | The port of the voice chat proxy server<br/>Setting this to `-1` sets the port to the proxies port                                                                                             | `-1`          |
+| `bind_address` | The IP address to bind the voice chat proxy server on<br/>Leave empty to use the proxies bind address<br/>To bind to the wildcard address, use `*`                                             | ` `           |
+| `voice_host`   | The host name that clients should use to connect to the voice chat<br/>This may also include a port, e.g. 'example.com:24454'<br/>Don't change this value if you don't know what you are doing | ` `           |
+| `allow_pings`  | If the voice chat proxy server should reply to pings                                                                                                                                           | `true`        |
