@@ -93,5 +93,12 @@ const credits = [
       link: "https://github.com/CANALETA",
     },
   },
+  {
+    element: { name: "Chilean Spanish translation" },
+    name: {
+      name: "Ganbare-Lucifer",
+      link: "https://github.com/Ganbare-Lucifer",
+    },
+  },
 ];
 </script>
