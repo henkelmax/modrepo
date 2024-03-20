@@ -10,7 +10,7 @@ next:
 ---
 
 
-# Config File Locations for Older Versions of the Game
+# Config File Locations for Older Versions of the Mod/Plugin
 
 These are the config locations for versions older than `2.4.0` of the mod/plugin.
 
