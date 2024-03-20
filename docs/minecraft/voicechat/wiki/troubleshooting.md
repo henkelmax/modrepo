@@ -63,7 +63,7 @@ You can test if it works by clicking the `Enable microphone testing` button.
 If you are using MacOS, read [this](macos)!
 
 
-If you are on Windows or Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration#client) of the mod.
+If you are on Windows or Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](client_config) of the mod.
 Note that this is not guaranteed to work in all cases.
 
 
@@ -136,7 +136,7 @@ You are most likely just in a group. Leave the group and proximity will work fin
 
 ## I can't find the voice chat port in the 'server.properties' file
 
-This option is **not** located in the `server.properties` file. It is located in the mods server config. For more information read [this](configuration).
+This option is **not** located in the `server.properties` file. It is located in the mods server config. For more information read [this](server_config).
 
 
 ## The voice chat does not connect all of a sudden without anything having been changed

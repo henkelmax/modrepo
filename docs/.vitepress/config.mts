@@ -55,9 +55,17 @@ export default defineConfig({
                 { text: 'Proxy Setup', link: '/minecraft/voicechat/wiki/proxy_setup' },
               ]
             },
+            {
+              text: 'Configuration',
+              link: '/minecraft/voicechat/wiki/configuration',
+              items: [
+                { text: 'Client Config File', link: '/minecraft/voicechat/wiki/client_config' },
+                { text: 'Server Config File', link: '/minecraft/voicechat/wiki/server_config' },
+                { text: 'Proxy Config File', link: '/minecraft/voicechat/wiki/proxy_config' },
+              ]
+            },
             { text: 'Troubleshooting Problems', link: '/minecraft/voicechat/wiki/troubleshooting' },
             { text: 'Key Bindings', link: '/minecraft/voicechat/wiki/key_bindings' },
-            { text: 'Configuration', link: '/minecraft/voicechat/wiki/configuration' },
             { text: 'Compatibility', link: '/minecraft/voicechat/wiki/compatibility' },
             { text: 'Supported Versions', link: '/minecraft/voicechat/wiki/supported_versions' },
             { text: 'Commands', link: '/minecraft/voicechat/wiki/commands' },
