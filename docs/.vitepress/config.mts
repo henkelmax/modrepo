@@ -51,7 +51,14 @@ export default defineConfig({
               text: 'Setup',
               items: [
                 { text: 'Client Setup', link: '/minecraft/voicechat/wiki/client_setup' },
-                { text: 'Server Setup', link: '/minecraft/voicechat/wiki/server_setup' },
+                {
+                  text: 'Server Setup',
+                  link: '/minecraft/voicechat/wiki/server_setup',
+                  items: [
+                    { text: 'Minecraft Hosting Provider', link: '/minecraft/voicechat/wiki/server_setup_mc_hosting' },
+                    { text: 'Self Hosted', link: '/minecraft/voicechat/wiki/server_setup_self_hosted' },
+                  ]
+                },
                 { text: 'Proxy Setup', link: '/minecraft/voicechat/wiki/proxy_setup' },
               ]
             },
