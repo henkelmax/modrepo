@@ -29,7 +29,12 @@ For example `port=1234` to use port `1234`.
 
 ## Testing the Voice Chat Connection
 
-You can test the voice chat connection of a specific player by typing the command `/voicechat test <PLAYERNAME>`.
+You can test the voice chat connection of a specific player by typing the command `/voicechat test <PLAYERNAME>` in-game.
+
+
+Starting with version `2.5.2`, you can also test the voice chat connection without any players on the server.
+[This tool](https://github.com/henkelmax/svc-cli-utils) allows you to ping the voice chat server from your command line.
+This is especially useful for just testing if the voice chat UDP port is open.
 
 <ClientOnly>
     <WikiTracker name="setup"/>
