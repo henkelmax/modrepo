@@ -19,7 +19,7 @@
 
 - [Modrinth](https://modrinth.com/plugin/simple-voice-chat/versions?l=bukkit) <Badge type="tip" text="Recommended" />
 - [CurseForge](https://legacy.curseforge.com/minecraft/bukkit-plugins/simple-voice-chat/files/all)
-- [Hangar](https://hangar.papermc.io/henkelmax/SimpleVoiceChat/versions) <Badge type="danger" text="Outdated" />
+- [Hangar](https://hangar.papermc.io/henkelmax/SimpleVoiceChat/versions)
 
 ## Quilt
 
@@ -29,7 +29,9 @@
 ## Velocity
 
 - [Modrinth](https://modrinth.com/mod/simple-voice-chat/versions?l=velocity) <Badge type="tip" text="Recommended" />
+- [Hangar](https://hangar.papermc.io/henkelmax/SimpleVoiceChat/versions)
 
 ## BungeeCord/Waterfall
 
 - [Modrinth](https://modrinth.com/mod/simple-voice-chat/versions?l=bungeecord) <Badge type="tip" text="Recommended" />
+- [Hangar](https://hangar.papermc.io/henkelmax/SimpleVoiceChat/versions)
