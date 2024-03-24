@@ -41,17 +41,38 @@ export default defineConfig({
             { text: 'Discord', link: 'https://discord.gg/4dH2zwTmyX' },
             { text: 'Issues', link: 'https://github.com/henkelmax/simple-voice-chat/issues' },
             { text: 'GitHub', link: 'https://github.com/henkelmax/simple-voice-chat' },
-            { text: 'API', link: 'https://github.com/henkelmax/simple-voice-chat/tree/1.19.3/api' },
           ]
         },
         {
           text: 'Wiki',
           items: [
             { text: 'Installation', link: '/minecraft/voicechat/wiki/installation' },
-            { text: 'Server Setup', link: '/minecraft/voicechat/wiki/server_setup' },
+            {
+              text: 'Setup',
+              items: [
+                { text: 'Client Setup', link: '/minecraft/voicechat/wiki/client_setup' },
+                {
+                  text: 'Server Setup',
+                  link: '/minecraft/voicechat/wiki/server_setup',
+                  items: [
+                    { text: 'Minecraft Hosting Provider', link: '/minecraft/voicechat/wiki/server_setup_mc_hosting' },
+                    { text: 'Self Hosted', link: '/minecraft/voicechat/wiki/server_setup_self_hosted' },
+                  ]
+                },
+                { text: 'Proxy Setup', link: '/minecraft/voicechat/wiki/proxy_setup' },
+              ]
+            },
+            {
+              text: 'Configuration',
+              link: '/minecraft/voicechat/wiki/configuration',
+              items: [
+                { text: 'Client Config File', link: '/minecraft/voicechat/wiki/client_config' },
+                { text: 'Server Config File', link: '/minecraft/voicechat/wiki/server_config' },
+                { text: 'Proxy Config File', link: '/minecraft/voicechat/wiki/proxy_config' },
+              ]
+            },
             { text: 'Troubleshooting Problems', link: '/minecraft/voicechat/wiki/troubleshooting' },
             { text: 'Key Bindings', link: '/minecraft/voicechat/wiki/key_bindings' },
-            { text: 'Configuration', link: '/minecraft/voicechat/wiki/configuration' },
             { text: 'Compatibility', link: '/minecraft/voicechat/wiki/compatibility' },
             { text: 'Supported Versions', link: '/minecraft/voicechat/wiki/supported_versions' },
             { text: 'Commands', link: '/minecraft/voicechat/wiki/commands' },

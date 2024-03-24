@@ -11,7 +11,7 @@ const faq = ref([
     answer: "Yes. But please make sure to give credit.",
   },
   {
-    question: "Where is the config file located? (Forge)",
+    question: "Where is the config file located? (NeoForge/Forge)",
     answer: `There are two types of configs.
             The config for the server side is located in your world folder in a subfolder called <code>serverconfig</code>.
             The client side config is located in your <code>.minecraft</code> folder inside a subfolder called <code>config</code>.

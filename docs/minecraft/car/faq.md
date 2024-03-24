@@ -27,10 +27,6 @@ const faq = [
   {
     question: "How do I fill the tank container?",
     answer: `You can fill the tank container by right-clicking it with a bucket.`,
-  },
-  {
-    question: "Is version 1.12.2 or lower still supported?",
-    answer: `No. I moved on to newer Minecraft versions. These versions won't get any bug fix or feature updates.`,
-  },
+  }
 ];
 </script>

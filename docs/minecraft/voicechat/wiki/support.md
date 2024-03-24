@@ -7,7 +7,7 @@ aside: false
 
 # Get a Support Key
 
-Click the button below to get your support key for the [Discord](https://discord.gg/4dH2zwTmyX).
+Click the button below to get your support key for the [Discord server](https://discord.gg/4dH2zwTmyX).
 
 <button class="button" @click="clickSupportKey">Generate a support key</button>
 

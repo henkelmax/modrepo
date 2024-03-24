@@ -12,7 +12,7 @@ If you are self-hosting your Minecraft server, make sure you followed [these ste
 
 The most likely cause of this is that you didn't open your port correctly.
 
-If you are running your server behind a proxy like BungeeCord or Velocity make sure you followed [these instructions](server_setup#setting-it-up-with-a-proxy).
+If you are running your server behind a proxy like BungeeCord or Velocity make sure you followed [these instructions](proxy_setup).
 
 
 Some servers have a DDoS protection that prevents the voice chat from working.
@@ -40,21 +40,18 @@ moved = true
 
 ## Other people can't be heard
 
-If you can't hear other people talking, you might haven't selected the correct sound output device.
+Please make sure you followed the onboarding setup guide and selected the correct sound output device.
 
-
-You can select your sound device in the voice chat menu by clicking on the `Select Speaker` button and choosing the correct device.
-
+If you already set up the mod, you can select your sound device in the voice chat settings by clicking on the `Select Speaker` button and choosing the correct device.
 
 You can test if it works by clicking the `Enable microphone testing` button.
 
 
 ## Other people can't hear me
 
-If other people can't hear you, you might haven't selected the correct microphone.
+Please make sure you followed the onboarding setup guide and selected the correct microphone.
 
-
-You can select your microphone in the voice chat menu by clicking on the `Select Microphone` button and choosing the correct device.
+If you already set up the mod, you can select your microphone in the voice chat settings by clicking on the `Select Microphone` button and choosing the correct device.
 
 
 You can test if it works by clicking the `Enable microphone testing` button.
@@ -63,11 +60,11 @@ You can test if it works by clicking the `Enable microphone testing` button.
 If you are using MacOS, read [this](macos)!
 
 
-If you are on Windows or Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](configuration#client) of the mod.
+If you are on Windows or Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](client_config) of the mod.
 Note that this is not guaranteed to work in all cases.
 
 
-## The voice chat is constantly reconnecting
+## The voice chat is constantly disconnecting and reconnecting
 
 This might be caused by a bad or unstable internet connection.
 
@@ -106,8 +103,8 @@ You need to install the latest version of the [Fabric Loader](https://fabricmc.n
 
 ## Jar at /mods/voicechat-fabric-X.X.X-X.X.X.jar is corrupted, please redownload it
 
-Please make sure you actually download the mod from CurseForge or Modrinth.
-If you already did that, please double-check that the file has not been modified in any way.
+Please make sure you actually download the mod from [official sources](../downloads).
+If you already did that, please double-check that the file has not been modified in any way or re-download it.
 
 
 ## The mods config file does not exist
@@ -136,7 +133,13 @@ You are most likely just in a group. Leave the group and proximity will work fin
 
 ## I can't find the voice chat port in the 'server.properties' file
 
-This option is **not** located in the `server.properties` file. It is located in the mods server config. For more information read [this](configuration).
+This option is **not** located in the `server.properties` file. It is located in the mods server config. For more information read [this](server_config).
+
+
+## The voice chat does not connect all of a sudden without anything having been changed
+
+If you are renting a server with a Minecraft hosting provider, it is very likely that they have changed something with their networking.
+Please double check that you really didn't change anything on your server and then contact your hosters support.
 
 
 <ClientOnly>

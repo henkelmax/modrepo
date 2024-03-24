@@ -19,7 +19,7 @@ Whether you hear distant audio depends on the voice chat broadcast range of the 
 
 The mod will only send audio of players that are within the configured `broadcast_range` of the player.
 This setting is set to `-1` by default, meaning its the same distance as `max_voice_distance` (`48` blocks by default).
-If you want to hear players further away, you can increase the `broadcast_range` value in the servers [config](configuration#server).
+If you want to hear players further away, you can increase the `broadcast_range` value in the servers [config](server_config).
 But be aware that this will also increase the amount of data that is sent to the client and makes it possible for other players to hear audio that they normally shouldn't be able to hear.
 
 ## Mode `PLAYER`

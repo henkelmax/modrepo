@@ -10,7 +10,7 @@ This page lists all official addons for Simple Voice Chat.
 
 ## AudioPlayer
 
-This server side Fabric mod enables uploading custom audio for music discs and goat horns.
+This server side Fabric mod enables uploading custom audio for music discs, goat horns and note blocks.
 
 - [Modrinth](https://modrinth.com/mod/audioplayer)
 - [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/audioplayer)

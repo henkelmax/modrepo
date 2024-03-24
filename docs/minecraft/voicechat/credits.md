@@ -24,6 +24,13 @@ const credits = [
     },
   },
   {
+    element: { name: "Proxy plugins" },
+    name: {
+      name: "Nila",
+      link: "https://github.com/nilathedragon",
+    },
+  },
+  {
     element: {
       name: "Opus Codec",
       link: "https://opus-codec.org/",
@@ -338,6 +345,20 @@ const translations = [
     name: {
       name: "Bloodaxe",
       link: "https://github.com/Bloodaxe95",
+    },
+  },
+  {
+    element: { name: "Mexican Spanish translation" },
+    name: {
+      name: "CANALETA",
+      link: "https://github.com/CANALETA",
+    },
+  },
+  {
+    element: { name: "Spanish translation" },
+    name: {
+      name: "Christopher",
+      link: "https://github.com/ChrisTVH",
     },
   },
 ];
