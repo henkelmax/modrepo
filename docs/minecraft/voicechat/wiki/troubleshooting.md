@@ -142,6 +142,12 @@ If you are renting a server with a Minecraft hosting provider, it is very likely
 Please double check that you really didn't change anything on your server and then contact your hosters support.
 
 
+## Mixin config voicechat.mixins.json requires mixin subsystem version 0.8 but 0.7.x was found. The mixin config will not be applied.
+
+This is caused by another mod shipping with an older mixin version.
+You can fix this issue by installing [this mod](https://modrinth.com/mod/mixincompat).
+
+
 <ClientOnly>
     <WikiTracker name="troubleshooting"/>
 </ClientOnly>
