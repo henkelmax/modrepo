@@ -9,7 +9,7 @@ This is a little more complicated than setting up a *normal* Minecraft mod.
 
 It is absolutely crucial for the voice chat to work, so please follow the steps very carefully and thoroughly!
 
-In case you are using a proxy, pleasee also read [this](proxy_setup).
+In case you are using a proxy, please also read [this](proxy_setup) to learn how to set it up.
 
 ### If you are hosting your server with a Minecraft hosting provider
 
