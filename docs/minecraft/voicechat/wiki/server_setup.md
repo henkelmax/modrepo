@@ -22,7 +22,7 @@ In case you are using a proxy, please also read [this](proxy_setup) to learn how
 ## Changing the Voice Chat Port
 
 You can change the port that the voice chat is running on in the server config of the mod.
-More information on how to find the config file [here](configuration).
+More information on how to find the config file [here](server_config).
 
 Just set the property `port` to the port you want.
 For example `port=1234` to use port `1234`.
