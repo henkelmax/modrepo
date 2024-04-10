@@ -11,6 +11,15 @@ const faq = ref([
     answer: "Yes. But please make sure to give credit.",
   },
   {
+    question: "How can I contact you?",
+    answer: `If you want to report a bug or submit a translation, please use the respective issue tracker on GitHub.
+    For questions or help, please check the mod description page.
+    If theres no way to get help on the mod page and its really important,
+    you can <a href="https://www.curseforge.com/members/henkelmax" target="_blank">DM me on CurseForge</a>,
+    but please avoid this if possible, as my time is very limited.
+    `,
+  },
+  {
     question: "Where is the config file located? (NeoForge/Forge)",
     answer: `There are two types of configs.
             The config for the server side is located in your world folder in a subfolder called <code>serverconfig</code>.
