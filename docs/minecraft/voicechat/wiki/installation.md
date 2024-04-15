@@ -39,6 +39,13 @@ For the Forge version of the mod, you need to have [Forge](https://files.minecra
 Then copy the [Forge Simple Voice Chat mod jar](https://modrinth.com/mod/simple-voice-chat/versions?l=forge) to the mods folder. The mods folder is located in `/mods`.
 
 
+## Quilt
+
+For the Quilt version of the mod, you need to have the [Quilt Loader](https://quiltmc.org/install/) installed on your client/server.
+
+Then copy the [Quilt Simple Voice Chat mod jar](https://modrinth.com/mod/simple-voice-chat/versions?l=quilt) to the mods folder. The mods folder is located in `/mods`.
+
+
 ## Bukkit/Spigot/Paper
 
 Make sure you put the [Simple Voice Chat plugin jar](https://modrinth.com/plugin/simple-voice-chat/versions?l=bukkit) into the `/plugins` folder of your server.
@@ -47,11 +54,14 @@ Make sure you put the [Simple Voice Chat plugin jar](https://modrinth.com/plugin
 Note that you need the [Fabric](#fabric), [Neoforge](#neoforge), [Forge](#forge) or [Quilt](#quilt) version of the mod installed on your client when using the Bukkit/Spigot/Paper version of Simple Voice Chat on the server!
 :::
 
-## Quilt
+## Velocity/BungeeCord/Waterfall
 
-For the Quilt version of the mod, you need to have the [Quilt Loader](https://quiltmc.org/install/) installed on your client/server.
+Make sure you put the [Simple Voice Chat proxy plugin jar](https://modrinth.com/plugin/simple-voice-chat/versions?l=waterfall&l=bungeecord&l=velocity) into the `/plugins` folder of your proxy.
 
-Then copy the [Quilt Simple Voice Chat mod jar](https://modrinth.com/mod/simple-voice-chat/versions?l=quilt) to the mods folder. The mods folder is located in `/mods`.
+::: danger NOTE
+Note that you still need to install the Simple Voice Chat mod/plugin on the actual Minecraft server.
+Please see the [proxy setup](proxy_setup) for more info.
+:::
 
 <ClientOnly>
     <WikiTracker name="installation"/>

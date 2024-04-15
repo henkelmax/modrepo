@@ -5,7 +5,7 @@ titleTemplate: Simple Voice Chat
 # Server Setup
 
 Setting up your server for Simple Voice Chat requires a special networking setup.
-This is a little more complicated than setting up a *normal* Minecraft mod.
+This is a little more complicated than setting up a *regular* Minecraft mod.
 
 It is absolutely crucial for the voice chat to work, so please follow the steps very carefully and thoroughly!
 
