@@ -44,5 +44,12 @@ const credits = [
       link: "https://github.com/CANALETA",
     },
   },
+  {
+    element: { name: "Japanese translation" },
+    name: {
+      name: "Abbage230",
+      link: "https://github.com/Abbage230",
+    },
+  },
 ];
 </script>
