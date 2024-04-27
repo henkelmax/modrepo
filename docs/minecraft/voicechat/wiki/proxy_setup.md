@@ -8,7 +8,9 @@ titleTemplate: Simple Voice Chat
 
 *This only applies when using a proxy that is designed for Minecraft servers like Velocity or BungeeCord.*
 
-First of all, make sure, you have the mod/plugin installed on every Minecraft server that's running behind your proxy.
+::: danger NOTE
+You need to have the mod/plugin installed on every Minecraft server that's running behind your proxy.
+:::
 
 If the proxy and all Minecraft servers are running on the same machine,
 you have to assign a different port for every instance of voice chat on each Minecraft server.
