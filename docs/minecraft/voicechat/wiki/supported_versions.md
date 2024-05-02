@@ -66,3 +66,4 @@ The latest plugin version of Simple Voice Chat universally supports the followin
 - `1.20.3`
 - `1.20.4`
 - `1.20.5`
+- `1.20.6`
