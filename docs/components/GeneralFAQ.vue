@@ -46,7 +46,7 @@ const faq = ref([
   {
     question:
       "I translated your mod into another language. How do I send it to you?",
-    answer: `Just upload the translation file to something like <a href="https://gist.github.com/" target="_blank">GitHub Gist</a> and open a new issue with the issue template <code>Translation</code>.`,
+    answer: `Just open a ticket on the mods GitHub issue tracker and use the template <code>Translation</code>.`,
   },
   {
     question: "Do I need to install this mod on the client or the server?",
