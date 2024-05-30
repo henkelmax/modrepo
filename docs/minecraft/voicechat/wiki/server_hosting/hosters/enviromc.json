@@ -1,0 +1,16 @@
+{
+    "name": "EnviroMC",
+    "lastUpdate": "2024-05-28",
+    "url": "https://enviromc.host/",
+    "steps": [
+        "Go to <b>Network</b>",
+        "Create a new allocation and copy the port number",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "ej010",
+            "url": "https://discordapp.com/users/683455353743998991"
+        }
+    ]
+}
