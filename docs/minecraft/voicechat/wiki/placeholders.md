@@ -17,4 +17,5 @@ The plugin version of Simple Voice Chat has support for [PlaceholderAPI](https:/
 | `%voicechat_not_installed%` | If the player does not have Simple Voice Chat installed | ` `     |
 | `%voicechat_disabled%`      | If the player disabled voice chat                       | ` `     |
 
+All placeholders are empty by default.
 You can change the value of the placeholders in the translation config file (`plugins/voicechat/translations.properties`).
