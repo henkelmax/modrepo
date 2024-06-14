@@ -116,7 +116,7 @@ If you don't know where the config files are located, read [this](configuration)
 
 ## The changed config values are not affecting the game
 
-Make sure you actually restarted the client/server after changing anything in the config, for it to take effect.
+Make sure you actually restarted the client/server after changing anything in the config for it to take effect.
 
 
 ## Microphone unavailable
