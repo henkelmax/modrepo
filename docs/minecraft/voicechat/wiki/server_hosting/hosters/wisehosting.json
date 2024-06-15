@@ -1,0 +1,21 @@
+{
+    "name": "WiseHosting",
+    "lastUpdate": "2024-06-14",
+    "url": "https://wisehosting.com/",
+    "steps": [
+        "Open up your <code>Game Panel</code> -> <code>Addons</code> -> <code>Presets</code> tab",
+        "Find <code>Voice Chat</code> and click on <code>Install</code>",
+        "Restart your server for the changes to take effect"
+    ],
+    "description": [
+        "<b>Disclaimer</b>: The setup instructions will automatically install the correct version of Simple Voice Chat to your server and configure the port.",
+        "You can check the port you are running Simple Voice Chat on from the Game Panel -> Settings -> Network tab.",
+        "A manual installation guide is also available on their <a href=\"https://help.wisehosting.com/en/articles/15-how-to-install-simple-voice-chat-to-your-minecraft-server\" target=\"_blank\" rel=\"noopener noreferrer\">FAQ</a>."
+    ],
+    "credits": [
+        {
+            "name": "Markz",
+            "url": "https://discordapp.com/users/257250480995041280"
+        }
+    ]
+}
