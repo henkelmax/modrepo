@@ -16,7 +16,7 @@ So for example you can join a server with version `1.2.3`, your client can also 
 
 ## Compatibility between Minecraft versions
 
-Since version `2.1.0` of Simple Voice Chat, the mod is compatible between Minecraft versions with the help of tools like
+Simple Voice Chat is compatible between Minecraft versions with the help of tools like
 [ViaVersion](https://modrinth.com/plugin/viaversion),
 [ViaBackwards](https://modrinth.com/plugin/viabackwards),
 [ViaFabric](https://modrinth.com/mod/viafabric)
