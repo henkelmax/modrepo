@@ -382,5 +382,12 @@ const translations = [
       link: "https://github.com/Alex-Pqn",
     },
   },
+  {
+    element: { name: "Korean translation" },
+    name: {
+      name: "sjhub",
+      link: "https://github.com/sj-hub9796",
+    },
+  },
 ];
 </script>
