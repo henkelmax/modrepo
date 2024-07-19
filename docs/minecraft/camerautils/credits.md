@@ -37,5 +37,12 @@ const credits = [
       link: "https://github.com/Tarteroycc",
     },
   },
+  {
+    element: { name: "Mexican Spanish translation" },
+    name: {
+      name: "Santiago Hernandez",
+      link: "https://github.com/TheLegendofSaram",
+    },
+  },
 ];
 </script>
