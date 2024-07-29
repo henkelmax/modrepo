@@ -44,5 +44,12 @@ const credits = [
       link: "https://github.com/TheLegendofSaram",
     },
   },
+  {
+    element: { name: "Chinese Simplified translation" },
+    name: {
+      name: "ywdmt",
+      link: "https://github.com/316152902",
+    },
+  },
 ];
 </script>
