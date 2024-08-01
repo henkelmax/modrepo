@@ -51,5 +51,12 @@ const credits = [
       link: "https://github.com/316152902",
     },
   },
+  {
+    element: { name: "Traditional Chinese translation" },
+    name: {
+      name: "dirtTW",
+      link: "https://github.com/yichifauzi",
+    },
+  },
 ];
 </script>
