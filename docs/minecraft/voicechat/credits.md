@@ -389,5 +389,12 @@ const translations = [
       link: "https://github.com/sj-hub9796",
     },
   },
+  {
+    element: { name: "Vietnamese translation" },
+    name: {
+      name: "Nguyễn Thế Việt",
+      link: "https://github.com/duchiru",
+    },
+  },
 ];
 </script>
