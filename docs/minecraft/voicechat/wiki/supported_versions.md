@@ -4,7 +4,13 @@ titleTemplate: Simple Voice Chat
 
 # Supported Versions
 
-## Supported Mod Versions
+## Supported Mod/Plugin Versions
+
+You should always use the latest version of the mod/plugin thats tagged as `Release`.
+
+## Supported Minecraft Versions
+
+### For Mods
 
 This is a list containing every Minecraft version, Simple Voice Chat has been released to.
 It shows for which Minecraft versions the mod is still maintained.
@@ -37,7 +43,7 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 | `1.20.6`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
 | `1.21`            | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
 
-## Supported Plugin Versions
+### For Plugins
 
 The latest plugin version of Simple Voice Chat universally supports the following Minecraft versions with the same jar file:
 
