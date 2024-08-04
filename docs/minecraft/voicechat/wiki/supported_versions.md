@@ -13,7 +13,7 @@ You should always use the latest version of the mod/plugin thats tagged as `Rele
 ### For Mods
 
 This is a list containing every Minecraft version, Simple Voice Chat has been released to.
-It shows for which Minecraft versions the mod is still maintained.
+It shows for which Minecraft versions the mod is still maintained and supported.
 
 Snapshots are generally no longer supported after a newer snapshot version is released or the full release of that version is out.
 
