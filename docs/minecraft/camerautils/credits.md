@@ -30,5 +30,33 @@ const credits = [
       link: "https://github.com/mpustovoi",
     },
   },
+  {
+    element: { name: "Ukrainian translation" },
+    name: {
+      name: "Tarteroycc",
+      link: "https://github.com/Tarteroycc",
+    },
+  },
+  {
+    element: { name: "Mexican Spanish translation" },
+    name: {
+      name: "Santiago Hernandez",
+      link: "https://github.com/TheLegendofSaram",
+    },
+  },
+  {
+    element: { name: "Chinese Simplified translation" },
+    name: {
+      name: "ywdmt",
+      link: "https://github.com/316152902",
+    },
+  },
+  {
+    element: { name: "Traditional Chinese translation" },
+    name: {
+      name: "dirtTW",
+      link: "https://github.com/yichifauzi",
+    },
+  },
 ];
 </script>

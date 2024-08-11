@@ -37,5 +37,19 @@ const credits = [
       link: "https://github.com/Amirhan-Taipovjan-Greatest-I",
     },
   },
+  {
+    element: { name: "Belarusian translation" },
+    name: {
+      name: "Alex Gazmanovich",
+      link: "https://github.com/Gazmanovich",
+    },
+  },
+  {
+    element: { name: "Traditional Chinese translation" },
+    name: {
+      name: "dirtTW",
+      link: "https://github.com/yichifauzi",
+    },
+  },
 ];
 </script>
