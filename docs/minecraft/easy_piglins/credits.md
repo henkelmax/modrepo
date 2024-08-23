@@ -44,5 +44,12 @@ const credits = [
       link: "https://github.com/KoshaSigma",
     },
   },
+  {
+    element: { name: "Ukrainian translation" },
+    name: {
+      name: "Andrij Zyniuk",
+      link: "https://github.com/pgmtags",
+    },
+  },
 ];
 </script>
