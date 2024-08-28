@@ -51,5 +51,12 @@ const credits = [
       link: "https://github.com/pgmtags",
     },
   },
+  {
+    element: { name: "Turkish translation" },
+    name: {
+      name: "RuyaSavascisi",
+      link: "https://github.com/RuyaSavascisi",
+    },
+  },
 ];
 </script>
