@@ -107,5 +107,12 @@ const credits = [
       link: "https://github.com/pgmtags",
     },
   },
+  {
+    element: { name: "Chinese Traditional translation" },
+    name: {
+      name: "dirtTW",
+      link: "https://github.com/yichifauzi",
+    },
+  },
 ];
 </script>
