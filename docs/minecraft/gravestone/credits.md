@@ -107,5 +107,12 @@ const credits = [
       link: "https://github.com/mpustovoi",
     },
   },
+  {
+    element: { name: "Chinese Traditional (Taiwan) translation" },
+    name: {
+      name: "dirtTW",
+      link: "https://github.com/yichifauzi",
+    },
+  },
 ];
 </script>
