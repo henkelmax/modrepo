@@ -396,5 +396,33 @@ const translations = [
       link: "https://github.com/duchiru",
     },
   },
+  {
+    element: { name: "Turkish translation" },
+    name: {
+      name: "Hexasan",
+      link: "https://github.com/Hexasan",
+    },
+  },
+  {
+    element: { name: "Chinese Traditional translation" },
+    name: {
+      name: "dirtTW",
+      link: "https://github.com/yichifauzi",
+    },
+  },
+  {
+    element: { name: "Portuguese translation" },
+    name: {
+      name: "WingFrosty",
+      link: "https://github.com/WingFrosty",
+    },
+  },
+  {
+    element: { name: "Ukrainian translation" },
+    name: {
+      name: "Tarteroycc",
+      link: "https://github.com/Tarteroycc",
+    },
+  },
 ];
 </script>

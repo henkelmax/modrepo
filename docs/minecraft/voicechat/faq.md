@@ -90,32 +90,16 @@ If you are hosting the server on your local machine or a self hosted server, tak
     answer: "No. Ngrok does not support UDP.",
   },
   {
-    question: "Does this work with hybrid servers?",
-    answer: `We generally don't provide support for any hybrid servers.`,
-  },
-  {
-    question: "Does this work with Mohist?",
+    question: "Does this work with Mohist/Arclight/Magma/Cardboard or any other hybrid server?",
     answer: `We generally don't provide support any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
   },
   {
-    question: "Does this work with Arclight?",
-    answer: `We generally don't provide support for any hybrid servers.`,
-  },
-  {
-    question: "Does this work with Magma?",
-    answer: `We generally don't provide support for any hybrid servers.`,
-  },
-  {
-    question: "Does this work with Cardboard?",
-    answer: `We generally don't provide support for any hybrid servers.`,
-  },
-  {
     question: "Are custom clients supported?",
-    answer: `No. Custom clients are not supported.`,
+    answer: `We do not provide support for custom clients.`,
   },
   {
-    question: "Can I use this mod with Lunar Client?",
-    answer: `No. Custom clients are not supported.`,
+    question: "Does this work with e4mc or World Host?",
+    answer: `No.`,
   },
   {
     question: "Does this mod work with TCPShield?",
