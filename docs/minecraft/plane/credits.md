@@ -59,5 +59,19 @@ const credits = [
       link: "https://github.com/Aleksszz",
     },
   },
+  {
+    element: { name: "Chinese Simplified (China) translation" },
+    name: {
+      name: "SuoYukii",
+      link: "https://github.com/suoyukii",
+    },
+  },
+  {
+    element: { name: "Turkish translation" },
+    name: {
+      name: "RuyaSavascisi",
+      link: "https://github.com/RuyaSavascisi",
+    },
+  },
 ];
 </script>
