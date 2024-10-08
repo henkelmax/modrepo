@@ -23,5 +23,12 @@ const credits = [
       link: "https://github.com/yichifauzi",
     },
   },
+  {
+    element: { name: "Portuguese translation" },
+    name: {
+      name: "WingFrosty",
+      link: "https://github.com/WingFrosty",
+    },
+  },
 ];
 </script>
