@@ -142,5 +142,12 @@ const credits = [
       link: "https://github.com/yichifauzi",
     },
   },
+  {
+    element: { name: "Turkish translation" },
+    name: {
+      name: "RuyaSavascisi",
+      link: "https://github.com/RuyaSavascisi",
+    },
+  },
 ];
 </script>
