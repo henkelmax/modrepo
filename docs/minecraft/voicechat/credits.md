@@ -431,5 +431,12 @@ const translations = [
       link: "https://github.com/ookkoouu",
     },
   },
+  {
+    element: { name: "English translation" },
+    name: {
+      name: "Greg-21",
+      link: "https://github.com/Greg-21",
+    },
+  },
 ];
 </script>
