@@ -1,19 +1,22 @@
 {
     "name": "PlayIt.gg",
-    "lastUpdate": "2023-03-29",
+    "lastUpdate": "2024-10-08",
     "url": "https://playit.gg/",
     "steps": [
         "Go to <a href=\"https://playit.gg/manage\" target=\"_blank\" rel=\"noopener noreferrer\">https://playit.gg/manage &#x1F855;</a>",
-        "Create a new custom UDP tunnel, it should look something like this: <code>adjective-noun.auto.playit.gg:59931</code>",
-        "Edit the tunnel and change the IP address to your local server IP. Then change the port to the auto generated one at the end of your new tunnel, in this case <code>59931</code>",
-        "Set the <code>port</code> property in the voice chat server config to the port of your custom UDP tunnel - in this case <code>59931</code>",
-        "Change the <code>voice_host</code> property the voice chat server config to your UDP tunnel address, in this case <code>voice_host=adjective-noun.auto.playit.gg</code>",
+        "Create a new UDP tunnel. The address should look something like this: <code>adjective-noun.auto.playit.gg:59931</code>",
+        "Set the <code>port</code> property in the <code>voicechat-server.properties</code> file to the port of your UDP tunnel, in this case <code>59931</code>",
+        "Change the <code>voice_host</code> property in the voice chat config file to your UDP tunnel address without the port included, in this case <code>voice_host=adjective-noun.auto.playit.gg</code>",
         "This is only for the voice chat. When you join a server with your local ip or TCP playit tunnel, voice chat will tell your mod to connect the voice chat over a separate UDP tunnel that you enter in voice_host. You're going to be using two separate tunnels at once"
     ],
     "credits": [
         {
             "name": "lk2107",
             "url": "https://discordapp.com/users/763526050566635571"
+        },
+        {
+            "name": "3v4n",
+            "url": "https://github.com/Aqxorus"
         }
     ]
 }
