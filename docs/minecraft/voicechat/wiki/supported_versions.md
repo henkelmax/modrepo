@@ -48,6 +48,11 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 
 The latest plugin version of Simple Voice Chat universally supports the following Minecraft versions with the same jar file:
 
+::: warning NOTE
+Just because a Minecraft version is supported as plugin does not mean a mod version exists or is actively supported.
+See [compatibility](compatibility) on cross version compatibility.
+:::
+
 - `1.8.8`
 - `1.12`
 - `1.12.1`
