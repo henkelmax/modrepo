@@ -41,12 +41,17 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 | `1.20.4`          |                                | <Badge type="danger" text="No support" />            |
 | `1.20.5`          |                                | <Badge type="danger" text="No support" />            |
 | `1.20.6`          |                                | <Badge type="danger" text="No support" />            |
-| `1.21`            | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
+| `1.21`            |                                | <Badge type="danger" text="No support" />            |
 | `1.21.1`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
 
 ### For Plugins
 
 The latest plugin version of Simple Voice Chat universally supports the following Minecraft versions with the same jar file:
+
+::: warning NOTE
+Just because a Minecraft version is supported as plugin does not mean a mod version exists or is actively supported.
+See [compatibility](compatibility) on cross version compatibility.
+:::
 
 - `1.8.8`
 - `1.12`
