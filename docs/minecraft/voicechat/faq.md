@@ -103,7 +103,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this mod work with TCPShield?",
-    answer: `No. TCPShield only supports TCP.`,
+    answer: `Yes, under their paid plans, currently you have to open a support ticket on their discord, and provide the backend hostname and port and they will provide you with the voice_host for the configuration.`,
   },
   {
     question: "Does the voice chat activate Sculk sensors?",
