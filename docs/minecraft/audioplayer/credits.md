@@ -16,5 +16,15 @@ const credits = [
       link: "https://github.com/GeiloChef",
     },
   },
+  {
+    element: {
+      name: "microhttp",
+      link: "https://github.com/ebarlas/microhttp",
+    },
+    license: {
+      name: "MIT",
+      link: "https://raw.githubusercontent.com/ebarlas/microhttp/refs/heads/main/LICENSE",
+    },
+  }
 ];
 </script>
