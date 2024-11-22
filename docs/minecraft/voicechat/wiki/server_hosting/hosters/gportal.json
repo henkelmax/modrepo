@@ -1,15 +1,6 @@
 {
     "name": "GPortal",
-    "lastUpdate": "2023-07-10",
+    "lastUpdate": "2024-18-11",
     "url": "https://www.g-portal.com",
-    "steps": [
-        "Set the <code>bind_address</code> property in the voice chat server config to the public IP of your server",
-        "Set the <code>port</code> property in the voice chat server config to your server port +1 (ex. 23668 to 23669)"
-    ],
-    "credits": [
-        {
-            "name": "Lays24MC",
-            "url": "https://discordapp.com/users/356440366985117708"
-        }
-    ]
+    "officialGuideUrl": "https://www.g-portal.com/wiki/en/minecraft-simple-voice-chat/"
 }
