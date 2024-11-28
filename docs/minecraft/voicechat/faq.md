@@ -115,7 +115,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Can you add compatibility with mod XY?",
-    answer: `The base mod will not add any integration with other mods. With the <a href="/minecraft/voicechat/api/overview">API</a>, everyone can create an addon mod.`,
+    answer: `The base mod will not add any integration with other mods. With the <a href="/minecraft/voicechat/api/overview">API</a>, everyone can create an addon mod or integrate the API into an existing mod.`,
   },
 ];
 </script>
