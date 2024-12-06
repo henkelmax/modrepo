@@ -21,8 +21,7 @@ const faq = ref([
   },
   {
     question: "Where is the config file located? (For NeoForge mods)",
-    answer: `There are two types of configs.
-            The config for the server side is located in your world folder in a subfolder called <code>serverconfig</code>.
+    answer: `There are two types of configs - client and server configs.
             The configs are located in your <code>.minecraft</code>/server folder inside a subfolder called <code>config</code>.
             Note that the client side and the server side config isn't the same. You can't put stuff from the server config into the client config. If you can't find the option you are looking for in the client config, try looking into the server config.
             There is always a server config, even if you are playing singleplayer, as it also uses an internal server.
