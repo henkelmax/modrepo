@@ -149,5 +149,12 @@ const credits = [
       link: "https://github.com/RuyaSavascisi",
     },
   },
+  {
+    element: { name: "Russian translation" },
+    name: {
+      name: "Heimdallr-1",
+      link: "https://github.com/Heimdallr-1",
+    },
+  },
 ];
 </script>
