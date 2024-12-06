@@ -20,7 +20,16 @@ const faq = ref([
     `,
   },
   {
-    question: "Where is the config file located? (NeoForge/Forge)",
+    question: "Where is the config file located? (For NeoForge mods)",
+    answer: `There are two types of configs.
+            The config for the server side is located in your world folder in a subfolder called <code>serverconfig</code>.
+            The configs are located in your <code>.minecraft</code>/server folder inside a subfolder called <code>config</code>.
+            Note that the client side and the server side config isn't the same. You can't put stuff from the server config into the client config. If you can't find the option you are looking for in the client config, try looking into the server config.
+            There is always a server config, even if you are playing singleplayer, as it also uses an internal server.
+            `,
+  },
+  {
+    question: "Where is the config file located? (For Forge mods)",
     answer: `There are two types of configs.
             The config for the server side is located in your world folder in a subfolder called <code>serverconfig</code>.
             The client side config is located in your <code>.minecraft</code> folder inside a subfolder called <code>config</code>.
@@ -29,7 +38,7 @@ const faq = ref([
             `,
   },
   {
-    question: "Where is the config file located? (Fabric/Quilt)",
+    question: "Where is the config file located? (For Fabric/Quilt mods)",
     answer: `The configs for a Fabric/Quilt mod are located in your <code>.minecraft</code> folder in a subfolder called <code>config</code>.
             In there you can see a folder that is named like the mods ID. This folder contains the configs for the server and client.`,
   },
