@@ -51,6 +51,8 @@ You can test if it works by clicking the `Enable microphone testing` button.
 
 Please make sure you followed the onboarding setup guide and selected the correct microphone.
 
+After finishing the onboarding setup guide, your microphone is automatically muted in case you selected voice activation, so make sure you are not muted.
+
 If you already set up the mod, you can select your microphone in the voice chat settings by clicking on the `Select Microphone` button and choosing the correct device.
 
 
