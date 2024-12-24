@@ -41,6 +41,29 @@ Opening ports is different for every setup. It depends on your OS, your router, 
 - Press `Submit`
 
 
+## With Docker
+
+- We recommend using the [itzg/minecraft-server](https://docker-minecraft-server.readthedocs.io/en/latest/) container
+- Make sure to add the voice chat UDP port
+
+
+*[Example from the itzg/minecraft-server documentation](https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose)*
+``` yaml{8}
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+      - "24454:24454/udp" # Make sure to change the voice chat port if you aren't using the default one
+    environment:
+      EULA: "TRUE"
+    volumes:
+      # attach the relative directory 'data' to the container's /data path
+      - ./data:/data
+```
+
 <ClientOnly>
     <WikiTracker name="setup"/>
 </ClientOnly>

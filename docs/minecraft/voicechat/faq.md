@@ -59,7 +59,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does the mod also need to be installed on the client for it to work?",
-    answer: "Yes!",
+    answer: "You can still join servers without the mod installed on your client, but you won't be able to use any of the mod's features.",
   },
   {
     question: "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server?",

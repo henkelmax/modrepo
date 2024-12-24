@@ -1,0 +1,14 @@
+{
+    "name": "MineKeep",
+    "lastUpdate": "2024-12-08",
+    "url": "https://minekeep.net/",
+    "description": [
+        "Simple Voice Chat is supported and is automatically configured to work out of the box."
+    ],
+    "credits": [
+        {
+            "name": "md5nake",
+            "url": "https://discordapp.com/users/335020378407829506"
+        }
+    ]
+}
