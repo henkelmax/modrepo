@@ -31,6 +31,10 @@ You can change the port in the [voice chat proxy config](proxy_config).
 
 ### Other Minecraft Proxies
 
+::: info NOTE
+This also applies if you are using Velocity, BungeeCord or Waterfall, but you don't want to install the plugin on the proxy.
+:::
+
 Make sure each voice chat port of each Minecraft server is opened to the public in the firewall.
 
 If the proxy and the Minecraft servers are running on different machines,
