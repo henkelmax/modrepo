@@ -7,10 +7,6 @@ aside: false
 
 ## Config File Locations & Documentation
 
-::: danger NOTE
-If you are using older versions of the mod (older than 2.4.0), please check out [this](old_config).
-:::
-
 - [Client Config File](client_config)
 - [Server Config File](server_config)
 - [Proxy Config File](proxy_config)
