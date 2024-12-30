@@ -1,9 +1,6 @@
 {
     "name": "PebbleHost",
-    "lastUpdate": "2023-03-29",
+    "lastUpdate": "2024-12-30",
     "url": "https://pebblehost.com/",
-    "officialGuideUrl": "https://www.youtube.com/watch?v=6uzySM6jfAM",
-    "comments": [
-        "https://www.youtube.com/watch?v=ebnCT0ZtrEw"
-    ]
+    "officialGuideUrl": "https://help.pebblehost.com/en/minecraft/how-to-setup-voice-chat-on-your-server"
 }
