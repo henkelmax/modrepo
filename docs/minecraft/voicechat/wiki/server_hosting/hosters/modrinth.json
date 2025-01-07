@@ -1,17 +1,6 @@
 {
     "name": "Modrinth",
-    "lastUpdate": "2025-01-02",
+    "lastUpdate": "2025-01-05",
     "url": "https://modrinth.com/servers",
-    "steps": [
-        "Go to <b>Options</b> > <b>Network</b> > <b>Allocations</b>",
-        "Create a new allocation",
-        "Copy the generated port number",
-        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
-    ],
-    "credits": [
-        {
-            "name": "Multi",
-            "url": "https://discordapp.com/users/76923353226551296"
-        }
-    ]
+    "officialGuideUrl": "https://support.modrinth.com/en/articles/10351579-adding-simple-voice-chat-to-your-server"
 }
