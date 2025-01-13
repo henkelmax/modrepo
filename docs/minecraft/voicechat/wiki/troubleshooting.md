@@ -127,6 +127,8 @@ First of all, make sure your audio drivers are up to date.
 
 If this doesn't help, try restarting your computer and start your launcher as an administrator.
 
+This could also be caused by not allowing microphone access in your OS settings.
+
 
 ## Players can be heard far away/Proximity is not working
 
