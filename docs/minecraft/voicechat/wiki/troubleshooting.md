@@ -152,6 +152,13 @@ This is caused by another mod shipping with an older mixin version.
 You can fix this issue by installing [this mod](https://modrinth.com/mod/mixincompat).
 
 
+## The whole game sounds choppy/has low quality when the voice chat is not disabled
+
+In case you are using a Bluetooth headset, this is caused by it having not enough bandwidth to send and receive audio at the same time.
+This is **not an issue with the mod**!
+This is purely an issue with your headset.
+
+
 <ClientOnly>
     <WikiTracker name="troubleshooting"/>
 </ClientOnly>
