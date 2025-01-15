@@ -127,6 +127,8 @@ First of all, make sure your audio drivers are up to date.
 
 If this doesn't help, try restarting your computer and start your launcher as an administrator.
 
+This could also be caused by not allowing microphone access in your OS settings.
+
 
 ## Players can be heard far away/Proximity is not working
 
@@ -148,6 +150,13 @@ Please double check that you really didn't change anything on your server and th
 
 This is caused by another mod shipping with an older mixin version.
 You can fix this issue by installing [this mod](https://modrinth.com/mod/mixincompat).
+
+
+## The whole game sounds choppy/has low quality when the voice chat is not disabled
+
+In case you are using a Bluetooth headset, this is caused by it having not enough bandwidth to send and receive audio at the same time.
+This is **not an issue with the mod**!
+This is purely an issue with your headset.
 
 
 <ClientOnly>
