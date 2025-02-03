@@ -445,5 +445,12 @@ const translations = [
       link: "https://github.com/Greg-21",
     },
   },
+  {
+    element: { name: "Chinese Simplified (China) translation" },
+    name: {
+      name: "Missing_Love",
+      link: "https://github.com/Q2297045667",
+    },
+  },
 ];
 </script>
