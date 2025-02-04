@@ -1,7 +1,10 @@
 {
-    "name": "PlayIt.gg",
+    "name": "playit.gg",
     "lastUpdate": "2024-10-08",
     "url": "https://playit.gg/",
+    "description": [
+        "<b>NOTE:</b> This guide is provided by the community. Please do not contact our support for help with playit! Visit <a href=\"https://discord.gg/AXAbujx\" target=\"_blank\" rel=\"noopener noreferrer\">their Discord server</a> for anything related to playit."
+    ],
     "steps": [
         "Go to <a href=\"https://playit.gg/manage\" target=\"_blank\" rel=\"noopener noreferrer\">https://playit.gg/manage &#x1F855;</a>",
         "Create a new UDP tunnel. The address should look something like this: <code>adjective-noun.auto.playit.gg:59931</code>",
