@@ -16,3 +16,17 @@ If you have issues **installing** or **setting up** the launcher, visit the [Pri
 
 Please don't ask them for help with the voice chat mod itself!
 :::
+
+## Alternatives
+
+**CurseForge Launcher**
+
+In order to get micrphone permissions on the CurseForge Launcher, you need to do the following steps:
+
+- Open the **CurseForge Launcher**
+- Go to **Settings**
+- Go to **Game Specific** -> **Minecraft**
+- Scroll down to **Launcher Settings**
+- Select **Skip launcher with CurseForge**
+
+This skips opening the vanilla launcher when launching the game, which will allow the voice chat to ask for microphone permissions.
