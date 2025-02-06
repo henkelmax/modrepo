@@ -9,17 +9,21 @@ MacOS requires any application that wants to use the microphone to show a permis
 Since Minecraft itself doesn't need the microphone, we are not able to request access for it.
 However, some launchers add the ability to ask for microphone permission.
 
-In order to use the voice chat on MacOS, you need to use [Prism Launcher](https://prismlauncher.org/).
+## Supported Launchers
+
+- [Prism Launcher](https://prismlauncher.org/) <Badge type="tip" text="Recommended" />
+- [GDLauncher](hhttps://gdlauncher.com/)
+
 
 ::: warning NOTE
-If you have issues **installing** or **setting up** the launcher, visit the [Prism Launcher Discord server](https://discord.gg/prismlauncher) for help.
+If you have issues **installing** or **setting up** any of these launchers, visit the [Prism Launcher Discord server](https://discord.gg/prismlauncher) or the [GDLauncher Discord server](https://discord.gdlauncher.com/) respectively for help.
 
 Please don't ask them for help with the voice chat mod itself!
 :::
 
 ## Alternatives
 
-**CurseForge Launcher**
+### CurseForge Launcher
 
 In order to get micrphone permissions on the CurseForge Launcher, you need to do the following steps:
 
