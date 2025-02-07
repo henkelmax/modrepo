@@ -43,6 +43,13 @@ const credits = [
       name: "mikoseru",
       link: "https://github.com/mikoseru",
     },
+  },
+  {
+    element: { name: "Turkish translation" },
+    name: {
+      name: "Emirhan Pişgin",
+      link: "https://github.com/emirhanpisgin",
+    },
   }
 ];
 </script>

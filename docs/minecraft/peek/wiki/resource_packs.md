@@ -21,7 +21,9 @@ The built-in `Flat Shulker Icons` resource pack shows shulker boxes directly fro
 
 ## Custom Resource Packs
 
-### Shulker Box Hints
+<!-- TODO Add documentation for 1.21.4+ -->
+
+### Shulker Box Hints (Minecraft 1.19.2 - 1.21.3)
 
 You can create your own resource pack to customize the way items are rendered on shulker boxes.
 Just add the override predicate `peek:shulker_item` to `1` in your item model.
@@ -39,7 +41,7 @@ Example item model override:
 }
 ```
 
-### Decorated Pot Hints
+### Decorated Pot Hints (Minecraft 1.19.2 - 1.21.3)
 
 You can also customize hints on decorated pots by using the predicate `peek:decorated_pot_item`.
 
