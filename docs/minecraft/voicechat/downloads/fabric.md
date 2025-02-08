@@ -1,1 +1,1 @@
-<Redirect path="https://modrinth.com/mod/simple-voice-chat/versions?l=fabric"/>
+<Redirect path="https://modrinth.com/mod/simple-voice-chat/versions?loader=fabric#download"/>
