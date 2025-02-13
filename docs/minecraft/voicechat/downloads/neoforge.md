@@ -1,1 +1,1 @@
-<Redirect path="https://modrinth.com/mod/simple-voice-chat/versions?l=neoforge"/>
+<Redirect path="https://modrinth.com/mod/simple-voice-chat/versions?loader=neoforge#download"/>
