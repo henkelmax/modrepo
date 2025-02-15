@@ -8,5 +8,5 @@ You can access the JavaDocs for older versions of the API by replacing the versi
 
 Replace `<API-VERSION>` in `https://maven.maxhenkel.de/javadoc/releases/de/maxhenkel/voicechat/voicechat-api/<API-VERSION>` with the voice chat API version.
 
-Example for version `2.1.12`:
+Example for API version `2.1.12`:
 [https://maven.maxhenkel.de/javadoc/releases/de/maxhenkel/voicechat/voicechat-api/2.1.12](https://maven.maxhenkel.de/javadoc/releases/de/maxhenkel/voicechat/voicechat-api/2.1.12)
