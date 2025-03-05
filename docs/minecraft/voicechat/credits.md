@@ -459,5 +459,19 @@ const translations = [
       link: "https://github.com/artingj",
     },
   },
+  {
+    element: { name: "Turkish translation" },
+    name: {
+      name: "MemoKing34",
+      link: "https://github.com/MemoKing34",
+    },
+  },
+  {
+    element: { name: "Brazilian Portuguese translation" },
+    name: {
+      name: "Xlr11",
+      link: "https://github.com/Xlr11",
+    },
+  },
 ];
 </script>
