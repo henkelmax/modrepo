@@ -103,7 +103,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this mod work with TCPShield?",
-    answer: `Yes, but you need the paid plan and you need to contact their support.`,
+    answer: `Yes, but only with their paid plan and you need to contact their support.`,
   },
   {
     question: "Does the voice chat activate Sculk sensors?",
