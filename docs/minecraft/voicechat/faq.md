@@ -117,5 +117,9 @@ If you are hosting the server on your local machine or a self hosted server, tak
     question: "Can you add compatibility with mod XY?",
     answer: `The base mod will not add any integration with other mods. With the <a href="/minecraft/voicechat/api/overview">API</a>, everyone can create an addon mod or integrate the API into an existing mod.`,
   },
+  {
+    question: "Is it possible to host the voice chat server standalone?",
+    answer: `No. The voice chat needs to use Minecrafts builtin networking to exchange some information, the voice chat server also requires information thats only present on the server.`,
+  },
 ];
 </script>
