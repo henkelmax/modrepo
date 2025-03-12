@@ -54,7 +54,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
     answer: "Yes. But please make sure to give credit.",
   },
   {
-    question: "Does the mod also need to be installed on the server for it to work?",
+    question: "Does the mod/plugin also need to be installed on the server for it to work?",
     answer: "Yes!",
   },
   {
