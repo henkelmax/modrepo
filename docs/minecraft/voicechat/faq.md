@@ -43,7 +43,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Can vanilla clients still join when the voice chat mod is installed on the server?",
-    answer: "Yes, vanilla clients can join the server, as long as you haven't enabled <code>force_voice_chat</code> in the mods server config.",
+    answer: "Yes, vanilla clients can join the server, as long as you haven't enabled the option <code>force_voice_chat</code> in the voice chat server config.",
   },
   {
     question: "Does this work with LAN worlds/singleplayer?",
