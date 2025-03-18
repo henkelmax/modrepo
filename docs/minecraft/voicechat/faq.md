@@ -43,7 +43,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Can vanilla clients still join when the voice chat mod is installed on the server?",
-    answer: "Yes, vanilla clients can join the server, as long as you haven't enabled <code>force_voice_chat</code> in the mods server config.",
+    answer: "Yes, vanilla clients can join the server, as long as you haven't enabled the option <code>force_voice_chat</code> in the voice chat server config.",
   },
   {
     question: "Does this work with LAN worlds/singleplayer?",
@@ -54,7 +54,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
     answer: "Yes. But please make sure to give credit.",
   },
   {
-    question: "Does the mod also need to be installed on the server for it to work?",
+    question: "Does the mod/plugin also need to be installed on the server for it to work?",
     answer: "Yes!",
   },
   {
@@ -62,7 +62,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
     answer: "You can still join servers without the mod installed on your client, but you won't be able to use any of the mod's features.",
   },
   {
-    question: "Can I join with a Fabric client on a Forge server or with a Forge client on a Fabric server?",
+    question: "Can I join a server that uses another mod loader than my client?",
     answer: "Yes, all mod/plugin loaders are cross compatible.",
   },
   {
@@ -103,7 +103,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this mod work with TCPShield?",
-    answer: `Yes, but you need the paid plan and you need to contact their support.`,
+    answer: `Yes, but only with their paid plan and you need to contact their support.`,
   },
   {
     question: "Does the voice chat activate Sculk sensors?",
@@ -116,6 +116,10 @@ If you are hosting the server on your local machine or a self hosted server, tak
   {
     question: "Can you add compatibility with mod XY?",
     answer: `The base mod will not add any integration with other mods. With the <a href="/minecraft/voicechat/api/overview">API</a>, everyone can create an addon mod or integrate the API into an existing mod.`,
+  },
+  {
+    question: "Is it possible to host the voice chat server standalone?",
+    answer: `No. The voice chat needs to use Minecrafts builtin networking to exchange some information, the voice chat server also requires information thats only present on the server.`,
   },
 ];
 </script>
