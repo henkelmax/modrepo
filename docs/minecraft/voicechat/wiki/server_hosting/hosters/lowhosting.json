@@ -1,14 +1,12 @@
 {
     "name": "LowHosting",
-    "lastUpdate": "2023-08-28",
+    "lastUpdate": "2025-03-24",
     "url": "https://lowhosting.org/",
     "steps": [
-        "Open <a href=\"https://lowhosting.org/clientarea/supporttickets.php\">this</a> page",
-        "At the right of the page press the <b>Open Ticket</b> button",
-        "Call your ticket <b>Minecraft mod requires UDP port</b> and ask if they could please open a port on your server. Specify that the DDoS protection might cause issues and ask to have it disabled.",
-        "Select <b>General</b> in the ticket section and use medium priority",
-        "The staff will open a port for you and give you the port number",
-        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+        "Open a Port in the <b>Network</b> tab by pressing the <b>Create Allocation Button</b>",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step",
+        "Open a <a href=\"https://lowhosting.org/clientarea/supporttickets.php\">support ticket</a> asking them to disable the DDoS protection because you are using Simple Voice Chat",
+        "The staff will then respond to your ticket and disable DDoS protection for you"
     ],
     "credits": [
         {
