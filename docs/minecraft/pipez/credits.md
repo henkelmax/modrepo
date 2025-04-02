@@ -128,5 +128,26 @@ const credits = [
       link: "https://github.com/RuyaSavascisi",
     },
   },
+  {
+    element: { name: "Spanish translation" },
+    name: {
+      name: "SrNadien",
+      link: "https://github.com/SrNadien",
+    },
+  },
+  {
+    element: { name: "Argentinian Spanish translation" },
+    name: {
+      name: "SrNadien",
+      link: "https://github.com/SrNadien",
+    },
+  },
+  {
+    element: { name: "Mexican Spanish translation" },
+    name: {
+      name: "SrNadien",
+      link: "https://github.com/SrNadien",
+    },
+  },
 ];
 </script>
