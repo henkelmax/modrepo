@@ -42,7 +42,7 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 | `1.20.5`          |                                | <Badge type="danger" text="No support" />            |
 | `1.20.6`          |                                | <Badge type="danger" text="No support" />            |
 | `1.21`            |                                | <Badge type="danger" text="No support" />            |
-| `1.21.1`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
+| `1.21.1`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Under active development" /> |
 | `1.21.2`          |                                | <Badge type="danger" text="No support" />            |
 | `1.21.3`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
 | `1.21.4`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Under active development" /> |
