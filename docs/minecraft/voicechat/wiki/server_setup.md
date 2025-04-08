@@ -25,7 +25,7 @@ You can change the port that the voice chat is running on in the server config o
 More information on how to find the config file [here](server_config).
 
 Just set the property `port` to the port you want.
-For example `port=1234` to use port `1234`.
+For example `port=24454` to use port `24454`.
 
 ## Testing the Voice Chat Connection
 
