@@ -5,7 +5,7 @@ aside: false
 
 # Setup
 
-With the config option `show_shulker_box_block_hint`, you can enable the mod to show additional information about the shulker box block on the lid of the shulker box when placed down.
+With the config option `show_shulker_box_block_hint`, you can enable the mod to show additional information about the shulker box on the lid of the shulker box when placed down.
 
 However, the server does not send information about the contents of shulker boxes to the client.
 This means that shulker boxes that are not placed or opened by the player cannot display any information.

@@ -1,5 +1,10 @@
 # Downloads
 
+::: danger WARNING
+Only the download links provided on this page are official.
+Do **not** download Simple Voice Chat from any other sources, as they may contain malware.
+:::
+
 ## Fabric
 
 - [Modrinth](https://modrinth.com/mod/simple-voice-chat/versions?loader=fabric#download) <Badge type="tip" text="Recommended" />

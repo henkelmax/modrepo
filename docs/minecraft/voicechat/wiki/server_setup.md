@@ -25,7 +25,7 @@ You can change the port that the voice chat is running on in the server config o
 More information on how to find the config file [here](server_config).
 
 Just set the property `port` to the port you want.
-For example `port=1234` to use port `1234`.
+For example `port=24454` to use port `24454`.
 
 ## Testing the Voice Chat Connection
 
@@ -35,7 +35,7 @@ You can test the voice chat connection of a specific player by typing the comman
 
 ### Testing from the Command Line
 
-Starting with version `2.5.2`, you can also test the voice chat connection without any players on the server.
+You can also test the voice chat connection without having any players on the server.
 [This tool](https://github.com/henkelmax/svc-cli-utils) allows you to ping the voice chat server from your command line.
 This is especially useful for just testing if the voice chat UDP port is open.
 Make sure that the voice chat server is running when using this tool.
