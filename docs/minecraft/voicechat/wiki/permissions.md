@@ -5,8 +5,10 @@ aside: false
 
 # Permissions
 
-Simple Voice Chat has permissions for the [Bukkit permission system](https://bukkit.fandom.com/wiki/Understanding_Permissions),
-the [Forge permission API](https://mcforge.readthedocs.io/en/1.12.x/utilities/permissionapi/) and the [Fabric Permissions API](https://github.com/lucko/fabric-permissions-api).
+Simple Voice Chat has permissions for the
+[Bukkit permission system](https://bukkit.fandom.com/wiki/Understanding_Permissions),
+the [Forge permission API](https://mcforge.readthedocs.io/en/1.12.x/utilities/permissionapi/),
+the NeoForge permission API and the [Fabric Permissions API](https://github.com/lucko/fabric-permissions-api).
 
 ::: danger NOTE
 We don't support hybrid servers! Please either use only plugins or only mods on your server.
