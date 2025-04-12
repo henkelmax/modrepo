@@ -26,12 +26,16 @@ Note that you still have to consider the compatibility between the mod versions,
 
 ## Compatibility between mod/plugin loaders
 
-Simple Voice Chat is available for Fabric, NeoForge, Forge, Quilt and Bukkit/Spigot/Paper.
-All these versions are cross compatible with each other, considering the above limitations.
-
 ::: danger NOTE
 We don't support hybrid servers! Please either use only plugins or only mods on your server.
 :::
+
+::: warning NOTE
+Due to limitations of Forge/NeoForge, clients using **NeoForge** can't connect to **Forge** servers.
+:::
+
+Simple Voice Chat is available for Fabric, NeoForge, Forge, Quilt and Bukkit/Spigot/Paper.
+All these versions are cross compatible with each other, considering the above limitations.
 
 ## Operating system compatibility
 
