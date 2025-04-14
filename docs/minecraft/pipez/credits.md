@@ -149,5 +149,19 @@ const credits = [
       link: "https://github.com/SrNadien",
     },
   },
+  {
+    element: { name: "Spanish translation" },
+    name: {
+      name: "ArrivedBog593",
+      link: "https://github.com/ArrivedBog593",
+    },
+  },
+  {
+    element: { name: "Mexican Spanish translation" },
+    name: {
+      name: "ArrivedBog593",
+      link: "https://github.com/ArrivedBog593",
+    },
+  },
 ];
 </script>
