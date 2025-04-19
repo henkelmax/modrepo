@@ -7,7 +7,7 @@ titleTemplate: Simple Voice Chat
 You always have to install Simple Voice Chat on your client and your server.
 If you don't have it installed on your client, you can still join, but you won't be able to use any of the mod's features.
 
-It doesn't matter which mod/plugin loader you are using. All of them are cross compatible.
+It doesn't matter which mod/plugin loader you are using. All of them are cross compatible[*](compatibility#compatibility-between-mod-plugin-loaders).
 
 **If you have issues with these loaders, visit their respective Discords for help**:
 
