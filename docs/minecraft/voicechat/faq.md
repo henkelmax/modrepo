@@ -71,7 +71,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this work on Bedrock edition?",
-    answer: "No. Only on Java edition.",
+    answer: "No. Only on Java edition. It is impossible to implement a voice chat in bedrock edition due to technical limitations.",
   },
   {
     question: "Does this mod require something like Discord or Mumble installed?",
