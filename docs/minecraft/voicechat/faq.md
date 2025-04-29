@@ -55,7 +55,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does the mod/plugin also need to be installed on the server for it to work?",
-    answer: "Yes!",
+    answer: "Yes! You can still join servers without the mod installed on your server, but you won't be able to use any of the mod's features.",
   },
   {
     question: "Does the mod also need to be installed on the client for it to work?",
