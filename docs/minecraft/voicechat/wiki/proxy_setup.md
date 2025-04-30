@@ -13,7 +13,7 @@ You need to have the mod/plugin installed on every Minecraft server that's runni
 :::
 
 If the proxy and all Minecraft servers are running on the same machine,
-you have to assign a different port for every instance of voice chat on each Minecraft server.
+you have to assign a **different port** for every instance of voice chat on each Minecraft server.
 
 ### Velocity/BungeeCord/Waterfall
 
