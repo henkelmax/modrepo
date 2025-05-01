@@ -98,7 +98,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
     answer: `We do not provide support for custom clients.`,
   },
   {
-    question: "Does this work with tunneling services like playit.gg, e4mc, World Host or Localtonet?",
+    question: "Does this work with tunneling services like playit.gg, Essential, e4mc, World Host or Localtonet?",
     answer: `These services are not officially supported, as these setups are overly complex, require advanced technical expertise, and are prone to configuration errors.`,
   },
   {
