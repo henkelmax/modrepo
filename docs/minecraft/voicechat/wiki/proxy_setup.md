@@ -44,4 +44,8 @@ You also need to make sure each voice port is opened in the firewall of each ser
 
 ## Generic UDP Proxy Setup
 
+::: info NOTE
+This applies if you just reroute the voice chat UDP traffic.
+:::
+
 You need to set `voice_host` to the proxy address (IP and port) in the [voice chat server config](server_config).
