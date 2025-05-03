@@ -6,7 +6,7 @@ titleTemplate: Simple Voice Chat
 
 ## Supported Mod/Plugin Versions
 
-You should always use the latest version of the mod/plugin thats tagged as `Release` if available.
+You should always use the latest version of the mod/plugin thats tagged as **Release** if available.
 
 ## Supported Minecraft Versions
 

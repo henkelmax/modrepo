@@ -55,7 +55,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does the mod/plugin also need to be installed on the server for it to work?",
-    answer: "Yes!",
+    answer: "Yes! You can still join servers without the mod installed on your server, but you won't be able to use any of the mod's features.",
   },
   {
     question: "Does the mod also need to be installed on the client for it to work?",
@@ -71,7 +71,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this work on Bedrock edition?",
-    answer: "No. Only on Java edition.",
+    answer: "No. Only on Java edition. It is impossible to implement a voice chat in bedrock edition due to technical limitations.",
   },
   {
     question: "Does this mod require something like Discord or Mumble installed?",
@@ -98,7 +98,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
     answer: `We do not provide support for custom clients.`,
   },
   {
-    question: "Does this work with tunneling services like playit.gg, e4mc, World Host or Localtonet?",
+    question: "Does this work with tunneling or world hosting services like playit.gg, Essential, e4mc, World Host or Localtonet?",
     answer: `These services are not officially supported, as these setups are overly complex, require advanced technical expertise, and are prone to configuration errors.`,
   },
   {

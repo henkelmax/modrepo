@@ -15,4 +15,6 @@ We also appreciate updates to existing guides.
 
 ::: warning NOTE
 Please make sure that your guide is as detailed as possible and easy to understand.
+
+Please only submit guides for specific Minecraft hosters and not for general server hosters.
 :::

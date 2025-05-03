@@ -13,7 +13,7 @@ You need to have the mod/plugin installed on every Minecraft server that's runni
 :::
 
 If the proxy and all Minecraft servers are running on the same machine,
-you have to assign a different port for every instance of voice chat on each Minecraft server.
+you have to assign a **different port** for every instance of voice chat on each Minecraft server.
 
 ### Velocity/BungeeCord/Waterfall
 
@@ -43,5 +43,9 @@ of each Minecraft server to the public IP address (Without the port) of the serv
 You also need to make sure each voice port is opened in the firewall of each server.
 
 ## Generic UDP Proxy Setup
+
+::: info NOTE
+This applies if you just reroute the voice chat UDP traffic.
+:::
 
 You need to set `voice_host` to the proxy address (IP and port) in the [voice chat server config](server_config).
