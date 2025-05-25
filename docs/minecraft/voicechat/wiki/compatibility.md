@@ -52,3 +52,5 @@ We support both Intel and ARM based Macs.
 
 Simple Voice Chat should work with every major Linux distribution, as long as it is up-to-date.
 If you encounter any incompatibility on Linux, please let us know.
+
+The only dependency other than what Minecraft already needs is `glibc` `2.29` or later.
