@@ -41,7 +41,7 @@ All these versions are cross compatible with each other, considering the above l
 
 ### Windows
 
-There are no known incompatibilities with any modern version of Windows.
+There are no known incompatibilities with any modern version of Windows (Windows 10 or newer).
 
 ### MacOS
 
