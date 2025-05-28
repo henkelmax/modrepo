@@ -46,7 +46,7 @@ There are no known incompatibilities with any modern version of Windows (Windows
 ### MacOS
 
 MacOS version `10.15` or later is required to run Simple Voice Chat on a Mac.
-We support both Intel and ARM based Macs.
+Both Intel and ARM based Macs are supported.
 
 ### Linux
 
