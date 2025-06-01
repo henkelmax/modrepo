@@ -12,6 +12,8 @@ Generally it is always recommended that you use the exact same version on the se
 This mod follows [Semantic Versioning](https://semver.org/).
 This means version `1.2.3` has a major version of `1`, a minor version of `2` and a patch version of `3`.
 So, as a rule of thumb, **only the major and minor versions need to match**.
+
+
 So if your server has version `1.2.3` of the mod/plugin, your client could also use version `1.2.0` or `1.2.5` to join the server and use the mod.
 
 ## Compatibility between Minecraft versions
@@ -28,6 +30,15 @@ Note that you still have to consider the compatibility between the mod versions,
 
 ::: danger NOTE
 We don't support hybrid servers! Please either use only plugins or only mods on your server.
+
+**Examples of hybrid servers:**
+
+- Mohist
+- Arclight
+- Magma
+- Cardboard
+
+More information about that topic [here](https://essentialsx.net/do-not-use-mohist.html).
 :::
 
 ::: warning NOTE
