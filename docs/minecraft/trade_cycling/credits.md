@@ -37,5 +37,12 @@ const credits = [
       link: "https://github.com/Hexasan",
     },
   },
+  {
+    element: { name: "Simplified Chinese translation" },
+    name: {
+      name: "JinxiHexi602",
+      link: "https://github.com/JinxiHexi602",
+    },
+  },
 ];
 </script>

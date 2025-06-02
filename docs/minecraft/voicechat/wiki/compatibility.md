@@ -11,8 +11,10 @@ Generally it is always recommended that you use the exact same version on the se
 
 This mod follows [Semantic Versioning](https://semver.org/).
 This means version `1.2.3` has a major version of `1`, a minor version of `2` and a patch version of `3`.
-So, as a rule of thumb, only the major and minor versions need to match.
-So for example you can join a server with version `1.2.3`, your client can also have version `1.2.0` or `1.2.5`.
+So, as a rule of thumb, **only the major and minor versions need to match**.
+
+
+So if your server has version `1.2.3` of the mod/plugin, your client could also use version `1.2.0` or `1.2.5` to join the server and use the mod.
 
 ## Compatibility between Minecraft versions
 
@@ -27,7 +29,9 @@ Note that you still have to consider the compatibility between the mod versions,
 ## Compatibility between mod/plugin loaders
 
 ::: danger NOTE
-We don't support hybrid servers! Please either use only plugins or only mods on your server.
+We don't support **hybrid servers**! Please either use only plugins or only mods on your server.
+Examples of hybrid servers are **Mohist**, **Arclight**, **Magma** or **Cardboard**.
+More information about that topic [here](https://essentialsx.net/do-not-use-mohist.html).
 :::
 
 ::: warning NOTE
@@ -41,14 +45,16 @@ All these versions are cross compatible with each other, considering the above l
 
 ### Windows
 
-There are no known incompatibilities with any modern version of Windows.
+There are no known incompatibilities with any modern version of Windows (Windows 10 or newer).
 
 ### MacOS
 
 MacOS version `10.15` or later is required to run Simple Voice Chat on a Mac.
-We support both Intel and ARM based Macs.
+Both Intel and ARM based Macs are supported.
 
 ### Linux
 
-Simple Voice Chat should work with every major Linux distribution, as long as it is up-to-date.
+Simple Voice Chat is compatible with all major Linux distributions, provided they are kept up to date.
 If you encounter any incompatibility on Linux, please let us know.
+
+The only additional requirement beyond Minecraft's usual dependencies is `glibc` version `2.29` or newer.

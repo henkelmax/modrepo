@@ -35,7 +35,7 @@ You can test the voice chat connection of a specific player by typing the comman
 
 ### Testing from the Command Line
 
-You can also test the voice chat connection without having any players on the server.
+You can also test the voice chat connection without having to run your game client.
 [This tool](https://github.com/henkelmax/svc-cli-utils) allows you to ping the voice chat server from your command line.
 This is especially useful for just testing if the voice chat UDP port is open.
 Make sure that the voice chat server is running when using this tool.
