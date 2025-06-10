@@ -156,5 +156,12 @@ const credits = [
       link: "https://github.com/Heimdallr-1",
     },
   },
+  {
+    element: { name: "Hungarian translation" },
+    name: {
+      name: "TGGamesYT",
+      link: "https://github.com/TGGamesYT",
+    },
+  },
 ];
 </script>
