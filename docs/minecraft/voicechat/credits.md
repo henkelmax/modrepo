@@ -62,6 +62,38 @@ const credits = [
   },
   {
     element: {
+      name: "mp3lame-sys",
+      link: "https://github.com/DoumanAsh/mp3lame-sys",
+    },
+    license: {
+      name: "GNU LESSER GENERAL PUBLIC LICENSE",
+      link: "https://raw.githubusercontent.com/DoumanAsh/mp3lame-sys/refs/heads/master/LICENSE",
+    },
+  },
+  {
+    element: {
+      name: "lame4j",
+      link: "https://github.com/henkelmax/lame4j",
+    },
+    license: {
+      name: "GNU LESSER GENERAL PUBLIC LICENSE",
+      link: "https://raw.githubusercontent.com/henkelmax/lame4j/refs/heads/master/license",
+    },
+  },
+  {
+    element: {
+      name: "rnnoise4j",
+      link: "https://github.com/henkelmax/rnnoise4j",
+    },
+  },
+  {
+    element: {
+      name: "opus4j",
+      link: "https://github.com/henkelmax/opus4j",
+    },
+  },
+  {
+    element: {
       name: "adventure",
       link: "https://github.com/KyoriPowered/adventure",
     },
@@ -366,13 +398,6 @@ const translations = [
     name: {
       name: "BAD7777",
       link: "https://github.com/BAD7777",
-    },
-  },
-  {
-    element: { name: "Swedish translation" },
-    name: {
-      name: "Dontknow09",
-      link: "https://github.com/Dontknow09",
     },
   },
   {

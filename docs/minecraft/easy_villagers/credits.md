@@ -121,5 +121,12 @@ const credits = [
       link: "https://github.com/RuyaSavascisi",
     },
   },
+  {
+    element: { name: "Croatian translation" },
+    name: {
+      name: "Ivan Okić",
+      link: "https://github.com/nugeta",
+    },
+  },
 ];
 </script>

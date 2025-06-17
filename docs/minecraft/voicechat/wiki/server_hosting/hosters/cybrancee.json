@@ -1,6 +1,9 @@
 {
     "name": "Cybrancee",
-    "lastUpdate": "2024-10-14",
+    "lastUpdate": "2025-06-11",
     "url": "https://cybrancee.com/",
-    "officialGuideUrl": "https://cybrancee.com/learn/knowledge-base/how-to-add-simple-voice-chat-to-your-minecraft-server/"
+    "officialGuideUrl": "https://cybrancee.com/learn/knowledge-base/how-to-add-simple-voice-chat-to-your-minecraft-server/",
+    "description": [
+        "Theres also a <a href=\"https://youtu.be/lrs3QfgJPaQ\" target=\"_blank\" rel=\"noopener noreferrer\">video guide</a> available."
+    ]
 }

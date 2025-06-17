@@ -99,7 +99,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this work with tunneling or world hosting services like playit.gg, Essential, e4mc, World Host or Localtonet?",
-    answer: `These services are not officially supported, as these setups are overly complex, require advanced technical expertise, and are prone to configuration errors.`,
+    answer: `These services are not officially supported by us, as these setups are overly complex, require advanced technical expertise, and are prone to configuration errors.`,
   },
   {
     question: "Does this mod work with TCPShield?",
