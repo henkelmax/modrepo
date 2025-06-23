@@ -1,0 +1,1 @@
+import{_ as a,o as i,c as r,ag as o}from"./chunks/framework.CD5kgdnZ.js";const m=JSON.parse('{"title":"ModRepo Overview","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),t={name:"index.md"};function n(l,e,d,s,c,f){return i(),r("div",null,e[0]||(e[0]=[o("",5)]))}const _=a(t,[["render",n]]);export{m as __pageData,_ as default};
