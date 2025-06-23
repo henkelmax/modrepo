@@ -49,7 +49,7 @@ There are no known incompatibilities with any modern version of Windows (Windows
 
 ### MacOS
 
-MacOS version `10.15` or later is required to run Simple Voice Chat on a Mac.
+MacOS version `11` or later is required to run Simple Voice Chat on a Mac.
 Both Intel and ARM based Macs are supported.
 
 ### Linux
@@ -57,4 +57,4 @@ Both Intel and ARM based Macs are supported.
 Simple Voice Chat is compatible with all major Linux distributions, provided they are kept up to date.
 If you encounter any incompatibility on Linux, please let us know.
 
-The only additional requirement beyond Minecraft's usual dependencies is `glibc` version `2.29` or newer.
+The only additional requirement beyond Minecraft's usual dependencies is `glibc` version `2.33` or newer.
