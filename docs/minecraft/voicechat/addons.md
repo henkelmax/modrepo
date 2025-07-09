@@ -7,6 +7,9 @@ titleTemplate: Simple Voice Chat
 Simple Voice Chat is designed to be easily extendable with an [API](api/overview).
 This page lists all official addons for Simple Voice Chat.
 
+Additionally, there are many third party addons, which you can find in the `#voicechat-addon-showcase` channel on our [Discord server](https://discord.gg/4dH2zwTmyX).
+If you created your own voice chat addon, feel free to post yours too!
+
 
 ## AudioPlayer
 
