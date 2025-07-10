@@ -42,6 +42,16 @@ const credits = [
   },
   {
     element: {
+      name: "libopus_sys",
+      link: "https://github.com/cijiugechu/libopus_sys",
+    },
+    license: {
+      name: "MIT License",
+      link: "https://github.com/cijiugechu/libopus_sys/blob/master/LICENSE",
+    },
+  },
+  {
+    element: {
       name: "RNNoise",
       link: "https://jmvalin.ca/demo/rnnoise/",
     },
