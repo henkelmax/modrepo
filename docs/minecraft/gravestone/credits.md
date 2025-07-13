@@ -121,5 +121,12 @@ const credits = [
       link: "https://github.com/Hexasan",
     },
   },
+  {
+    element: { name: "Hungarian translation" },
+    name: {
+      name: "Batári Balázs László",
+      link: "https://github.com/bayi",
+    },
+  },
 ];
 </script>

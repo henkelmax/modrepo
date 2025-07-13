@@ -35,9 +35,11 @@ Opening ports is different for every setup. It depends on your OS, your router, 
 
 ## With Pterodactyl
 
+- Go to `Servers > your-server > Build Configuration > Allocation Management > Assign Additional Ports`
+- Add the voice chat port (`24454` by default)
 - Go to `Settings > Nodes > your-node > Allocation`
 - Go to the `Assign New Allocations` panel
-- Enter the servers IP and the voice chat port (`24454` `UDP` by default)
+- Enter the servers IP and the voice chat port (`24454` by default)
 - Press `Submit`
 
 

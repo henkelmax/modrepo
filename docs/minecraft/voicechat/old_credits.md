@@ -40,6 +40,16 @@ const credits = [
   },
   {
     element: {
+      name: "opus-rs",
+      link: "https://github.com/SpaceManiac/opus-rs",
+    },
+    license: {
+      name: "MIT License",
+      link: "https://github.com/SpaceManiac/opus-rs/blob/master/LICENSE-MIT",
+    },
+  },
+  {
+    element: {
       name: "dd-plist",
       link: "https://github.com/3breadt/dd-plist",
     },
