@@ -48,7 +48,8 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 | `1.21.4`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
 | `1.21.5`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
 | `1.21.6`          |                                | <Badge type="danger" text="No support" />      |
-| `1.21.7`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
+| `1.21.7`          |                                | <Badge type="danger" text="No support" />      |
+| `1.21.8`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
 
 ### For Plugins
 
@@ -94,3 +95,4 @@ See [compatibility](compatibility) on cross version compatibility.
 - `1.21.5`
 - `1.21.6`
 - `1.21.7`
+- `1.21.8`
