@@ -159,7 +159,7 @@ const credits = [
     },
     license: {
       name: "Apache License 2.0",
-      link: "https://github.com/QuiltMC/quilted-fabric-api/blob/1.20.1/LICENSE",
+      link: "https://github.com/QuiltMC/quilted-fabric-api/blob/1.21.1/LICENSE",
     },
   }
 ];
