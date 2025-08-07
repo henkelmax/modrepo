@@ -43,13 +43,17 @@ All these versions are cross compatible with each other, considering the above l
 
 ## Operating system compatibility
 
+::: danger NOTE
+32-bit operating systems are not supported.
+:::
+
 ### Windows
 
 There are no known incompatibilities with any modern version of Windows (Windows 10 or later).
 
 ### MacOS
 
-MacOS version `11` or later is required to run Simple Voice Chat on a Mac.
+MacOS version `13` or later is required to run Simple Voice Chat on a Mac.
 Both Intel and ARM based Macs are supported.
 
 ### Linux
