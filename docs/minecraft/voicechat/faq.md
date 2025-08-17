@@ -121,5 +121,9 @@ If you are hosting the server on your local machine or a self hosted server, tak
     question: "Is it possible to host the voice chat server standalone?",
     answer: `No. The voice chat needs to use Minecrafts builtin networking to exchange some information, the voice chat server also requires information thats only present on the server.`,
   },
+  {
+    question: "Are vanish plugins compatible with the voice chat?",
+    answer: `Yes! Starting with version 2.6.0 the voice chat server hides vanished players from the adjust volume list. Note that this only works with Minecraft 1.18.2 and newer.`,
+  },
 ];
 </script>
