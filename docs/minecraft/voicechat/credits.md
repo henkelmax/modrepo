@@ -42,12 +42,8 @@ const credits = [
   },
   {
     element: {
-      name: "libopus_sys",
-      link: "https://github.com/cijiugechu/libopus_sys",
-    },
-    license: {
-      name: "MIT License",
-      link: "https://github.com/cijiugechu/libopus_sys/blob/master/LICENSE",
+      name: "opus4j",
+      link: "https://github.com/henkelmax/opus4j",
     },
   },
   {
@@ -58,6 +54,12 @@ const credits = [
     license: {
       name: 'BSD 3-Clause "New" or "Revised" License',
       link: "https://gitlab.xiph.org/xiph/rnnoise/-/blob/master/COPYING",
+    },
+  },
+    {
+    element: {
+      name: "rnnoise4j",
+      link: "https://github.com/henkelmax/rnnoise4j",
     },
   },
   {
@@ -72,16 +74,6 @@ const credits = [
   },
   {
     element: {
-      name: "mp3lame-sys",
-      link: "https://github.com/DoumanAsh/mp3lame-sys",
-    },
-    license: {
-      name: "GNU LESSER GENERAL PUBLIC LICENSE",
-      link: "https://raw.githubusercontent.com/DoumanAsh/mp3lame-sys/refs/heads/master/LICENSE",
-    },
-  },
-  {
-    element: {
       name: "lame4j",
       link: "https://github.com/henkelmax/lame4j",
     },
@@ -92,24 +84,28 @@ const credits = [
   },
   {
     element: {
-      name: "rnnoise4j",
-      link: "https://github.com/henkelmax/rnnoise4j",
+      name: "Speex",
+      link: "https://www.speex.org/",
+    },
+    license: {
+      name: 'BSD 3-Clause "New" or "Revised" License',
+      link: "https://raw.githubusercontent.com/xiph/speexdsp/refs/heads/master/COPYING",
     },
   },
   {
     element: {
-      name: "opus4j",
-      link: "https://github.com/henkelmax/opus4j",
+      name: "speex4j",
+      link: "https://github.com/henkelmax/speex4j",
     },
   },
   {
     element: {
-      name: "adventure",
-      link: "https://github.com/KyoriPowered/adventure",
+      name: "Native Utils",
+      link: "https://github.com/henkelmax/native-utils",
     },
     license: {
       name: "MIT",
-      link: "https://github.com/KyoriPowered/adventure/blob/master/license.txt",
+      link: "https://raw.githubusercontent.com/henkelmax/native-utils/refs/heads/master/LICENSE",
     },
   },
   {

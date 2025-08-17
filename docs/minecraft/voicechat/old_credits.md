@@ -76,5 +76,35 @@ const credits = [
       link: "https://github.com/cbyrneee",
     },
   },
+    {
+    element: {
+      name: "libopus_sys",
+      link: "https://github.com/cijiugechu/libopus_sys",
+    },
+    license: {
+      name: "MIT License",
+      link: "https://github.com/cijiugechu/libopus_sys/blob/master/LICENSE",
+    },
+  },
+    {
+    element: {
+      name: "mp3lame-sys",
+      link: "https://github.com/DoumanAsh/mp3lame-sys",
+    },
+    license: {
+      name: "GNU LESSER GENERAL PUBLIC LICENSE",
+      link: "https://raw.githubusercontent.com/DoumanAsh/mp3lame-sys/refs/heads/master/LICENSE",
+    },
+  },
+  {
+    element: {
+      name: "adventure",
+      link: "https://github.com/KyoriPowered/adventure",
+    },
+    license: {
+      name: "MIT",
+      link: "https://github.com/KyoriPowered/adventure/blob/master/license.txt",
+    },
+  },
 ];
 </script>
