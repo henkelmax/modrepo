@@ -15,7 +15,7 @@ It doesn't matter which mod/plugin loader you are using. All of them are cross c
 - [NeoForge](https://discord.gg/UvedJ9m)
 - [Forge](https://discord.minecraftforge.net)
 - [Spigot](https://discord.gg/spigotmc)
-- [Paper/Velocity/Waterfall](https://discord.gg/papermc)
+- [Paper/Velocity](https://discord.gg/papermc)
 - [Quilt](https://discord.gg/M7GpuyTBvy)
 
 
