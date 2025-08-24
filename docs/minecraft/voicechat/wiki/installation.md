@@ -11,6 +11,10 @@ It doesn't matter which mod/plugin loader you are using. All of them are cross c
 
 **If you have issues with these loaders, visit their respective Discords for help**:
 
+::: danger IMPORTANT
+Don't contact their support for help with Simple Voice Chat!
+:::
+
 - [Fabric](https://discord.gg/v6v4pMv)
 - [NeoForge](https://discord.gg/UvedJ9m)
 - [Forge](https://discord.minecraftforge.net)
