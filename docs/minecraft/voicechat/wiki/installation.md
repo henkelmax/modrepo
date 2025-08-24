@@ -19,7 +19,7 @@ Don't contact their support for help with Simple Voice Chat!
 - [NeoForge](https://discord.gg/UvedJ9m)
 - [Forge](https://discord.minecraftforge.net)
 - [Spigot](https://discord.gg/spigotmc)
-- [Paper/Velocity/Waterfall](https://discord.gg/papermc)
+- [Paper/Velocity](https://discord.gg/papermc)
 - [Quilt](https://discord.gg/M7GpuyTBvy)
 
 
