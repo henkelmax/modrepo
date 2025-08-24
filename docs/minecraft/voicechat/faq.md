@@ -94,8 +94,8 @@ If you are hosting the server on your local machine or a self hosted server, tak
     answer: `We generally don't provide support any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
   },
   {
-    question: "Are custom clients supported?",
-    answer: `We do not provide support for custom clients.`,
+    question: "Are custom clients like Feather or Lunar supported?",
+    answer: `We do not provide any support for custom clients.`,
   },
   {
     question: "Does this work with tunneling or world hosting services like playit.gg, Essential, e4mc, World Host or Localtonet?",
