@@ -41,6 +41,14 @@ Due to limitations of Forge/NeoForge, clients using **NeoForge** can't connect t
 Simple Voice Chat is available for Fabric, NeoForge, Forge, Quilt and Bukkit/Spigot/Paper.
 All these versions are cross compatible with each other, considering the above limitations.
 
+## Compatibility with other mods and plugins
+
+In case you are using mods or plugins that change the player nametag rendering, Simple Voice Chat won't be able to show any icons next to the player's name.
+This is unfortunately nothing we can fix, as it would need special code for every mod or plugin that does this.
+This is especually the case for server side plugins that use invisible armor stands or display entities.
+
+Other than that, there are no known incompatibilities with any other mods or plugins, given they are up to date.
+
 ## Operating system compatibility
 
 ::: danger NOTE
