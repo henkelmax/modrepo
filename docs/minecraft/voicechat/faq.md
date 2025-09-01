@@ -94,8 +94,8 @@ If you are hosting the server on your local machine or a self hosted server, tak
     answer: `We generally don't provide support any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
   },
   {
-    question: "Are custom clients supported?",
-    answer: `We do not provide support for custom clients.`,
+    question: "Are custom clients like Feather or Lunar supported?",
+    answer: `We do not provide any support for custom clients.`,
   },
   {
     question: "Does this work with tunneling or world hosting services like playit.gg, Essential, e4mc, World Host or Localtonet?",
@@ -120,6 +120,10 @@ If you are hosting the server on your local machine or a self hosted server, tak
   {
     question: "Is it possible to host the voice chat server standalone?",
     answer: `No. The voice chat needs to use Minecrafts builtin networking to exchange some information, the voice chat server also requires information thats only present on the server.`,
+  },
+  {
+    question: "Are vanish plugins compatible with the voice chat?",
+    answer: `Yes! Starting with version 2.6.0 the voice chat server hides vanished players from the adjust volume list. Note that this only works with Minecraft 1.18.2 and newer.`,
   },
 ];
 </script>
