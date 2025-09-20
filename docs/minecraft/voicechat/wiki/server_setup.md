@@ -53,7 +53,7 @@ This command is experimental and subject to change.
 
 If you are using a proxy with the voice chat plugin, you can only test the connection to the voice chat port of the proxy using the tool mentioned above.
 
-Starting with version `2.6.4` of the proxy plugin, you can test the voice chat connection from the proxy to a backend Minecraft server by typing `/voicechatproxy ping <server name> <voice chat port>` in command line of your proxy.
+Starting with version `2.6.4` of the proxy plugin, you can test the voice chat connection from the proxy to a backend Minecraft server by entering `/voicechatproxy ping <server name> <voice chat port>` in the command line of your proxy.
 You can get a list of your backend servers by typing `/voicechatproxy ping`. Note that its important that you provide the correct voice chat port of the backend server as the last argument, as the proxy itself is not aware of the voice chat port of the backend servers.
 
 <ClientOnly>
