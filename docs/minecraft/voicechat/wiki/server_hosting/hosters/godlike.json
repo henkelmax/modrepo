@@ -1,18 +1,6 @@
 {
     "name": "godlike.host",
-    "lastUpdate": "2025-07-23",
+    "lastUpdate": "2025-09-26",
     "url": "https://godlike.host/",
-    "steps": [
-        "Go to the <b>Network Settings</b> tab and open a new port",
-        "Leave the port field blank and click <b>Restart later</b>",
-        "Copy newly created port",
-        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step",
-        "Restart the server"
-    ],
-    "credits": [
-        {
-            "name": "ssstierghoul",
-            "url": "https://discordapp.com/users/338007379331383297"
-        }
-    ]
+    "officialGuideUrl": "https://godlike.host/how-to-install-simple-voice-chat-on-a-minecraft-server-db/"
 }
