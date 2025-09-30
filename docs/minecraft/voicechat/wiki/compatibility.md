@@ -51,6 +51,10 @@ Other than that, there are no known incompatibilities with any other mods or plu
 
 ## Operating system compatibility
 
+::: info INFO
+This section only applies to running the mod on your game, not on servers.
+:::
+
 ::: danger NOTE
 32-bit operating systems are not supported.
 :::
