@@ -23,16 +23,14 @@ The support key itself is to confirm that the [wiki](installation) and the [FAQ]
     <br/>
     To generate a support key, you must have visited at least the following pages:
     <ul>
-        <li><a href="../faq">FAQ</a></li>
-        <li><a href="installation">Installation</a></li>
-        <li><a href="setup">Setup</a></li>
-        <li><a href="troubleshooting">Troubleshooting Problems</a></li>
-        <li><a href="configuration">Configuration</a></li>
+        <li><a href="../faq" target="_blank">FAQ</a> <template v-if="readFaq">✓</template></li>
+        <li><a href="setup" target="_blank">Setup</a> <template v-if="readSetup">✓</template></li>
+        <li><a href="troubleshooting" target="_blank">Troubleshooting Problems</a> <template v-if="readTroubleshooting">✓</template></li>
     </ul>
 </Popup>
 
 <Popup title="Did you read the wiki and FAQ?" :acceptButton="true" :showPopup="showReadWikiPopup" @accept="showReadWikiPopup = false; showSupportKeyPopup = true" @close="showReadWikiPopup = false">
-    By clicking <b>Accept</b>, you confirm that you really read the wiki and the FAQ and your problem is not listed here.
+    By clicking <b>Accept</b>, you confirm that you really read the whole wiki and the FAQ and your problem is not listed there.
 </Popup>
 
 <Popup title="Your Support Key!" :showPopup="showSupportKeyPopup" @close="showSupportKeyPopup = false">
@@ -43,12 +41,15 @@ The support key itself is to confirm that the [wiki](installation) and the [FAQ]
 </Popup>
 
 <script setup>
-    import { ref } from 'vue';
+    import { ref, onUnmounted } from 'vue';
 
     let supportKey = ref(generateSupportKey());
     let showNotReadPopup = ref(false);
     let showReadWikiPopup = ref(false);
     let showSupportKeyPopup = ref(false);
+    let readFaq = ref(false);
+    let readSetup = ref(false);
+    let readTroubleshooting = ref(false);
 
     function clickSupportKey() {
         if( hasReadWiki() ){
@@ -82,6 +83,22 @@ The support key itself is to confirm that the [wiki](installation) and the [FAQ]
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
+
+    let timer = setInterval(() => {
+        readFaq.value = JSON.parse(localStorage.visitedTabs || '[]').includes("faq");
+        readSetup.value = JSON.parse(localStorage.visitedTabs || '[]').includes("setup");
+        readTroubleshooting.value = JSON.parse(localStorage.visitedTabs || '[]').includes("troubleshooting");
+
+        if(showNotReadPopup.value && readFaq.value && readSetup.value && readTroubleshooting.value){
+            showReadWikiPopup.value = true;
+            showNotReadPopup.value = false;
+            showSupportKeyPopup.value = false;
+        }
+    }, 1000);
+
+    onUnmounted(() => {
+        clearInterval(timer);
+    });
 </script>
 
 <style scoped>
