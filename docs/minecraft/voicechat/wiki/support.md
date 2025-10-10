@@ -84,21 +84,23 @@ The support key itself is to confirm that the [wiki](installation) and the [FAQ]
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
-    let timer = setInterval(() => {
-        readFaq.value = JSON.parse(localStorage.visitedTabs || '[]').includes("faq");
-        readSetup.value = JSON.parse(localStorage.visitedTabs || '[]').includes("setup");
-        readTroubleshooting.value = JSON.parse(localStorage.visitedTabs || '[]').includes("troubleshooting");
-
-        if(showNotReadPopup.value && readFaq.value && readSetup.value && readTroubleshooting.value){
-            showReadWikiPopup.value = true;
-            showNotReadPopup.value = false;
-            showSupportKeyPopup.value = false;
-        }
-    }, 1000);
-
-    onUnmounted(() => {
-        clearInterval(timer);
-    });
+    if (!import.meta.env.SSR) {
+        let timer = setInterval(() => {
+            readFaq.value = JSON.parse(localStorage.visitedTabs || '[]').includes("faq");
+            readSetup.value = JSON.parse(localStorage.visitedTabs || '[]').includes("setup");
+            readTroubleshooting.value = JSON.parse(localStorage.visitedTabs || '[]').includes("troubleshooting");
+    
+            if(showNotReadPopup.value && readFaq.value && readSetup.value && readTroubleshooting.value){
+                showReadWikiPopup.value = true;
+                showNotReadPopup.value = false;
+                showSupportKeyPopup.value = false;
+            }
+        }, 1000);
+    
+        onUnmounted(() => {
+            clearInterval(timer);
+        });
+    }
 </script>
 
 <style scoped>
