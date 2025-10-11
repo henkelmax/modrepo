@@ -52,7 +52,7 @@ The support key itself is to confirm that the [wiki](installation) and the [FAQ]
     let readTroubleshooting = ref(false);
 
     function clickSupportKey() {
-        if( hasReadWiki() ){
+        if(hasReadWiki()){
             showReadWikiPopup.value = true;
         } else{
             showNotReadPopup.value = true;
