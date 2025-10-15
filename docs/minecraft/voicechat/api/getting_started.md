@@ -10,6 +10,7 @@ outline: deep
 If you are starting your project from scratch, you can use one of the provided project templates:
 
 - [Fabric Template](https://github.com/henkelmax/voicechat-api-fabric)
+- [NeoForge Template](https://github.com/henkelmax/voicechat-api-neoforge)
 - [Forge Template](https://github.com/henkelmax/voicechat-api-forge)
 - [Bukkit Template](https://github.com/henkelmax/voicechat-api-bukkit)
 
