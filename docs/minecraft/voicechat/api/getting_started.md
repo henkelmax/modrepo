@@ -44,7 +44,7 @@ dependencies {
 }
 ```
 
-To avoid crashes due to outdated voice chat versions, make sure to add `voicechat` to the `depends` section in
+To avoid crashes due to outdated voice chat API versions, make sure to add `voicechat_api` to the `depends` section in
 the `fabric.mod.json`. This prevents your mod from loading if versions of the voice chat are installed, that are older
 than the API version you are targeting.
 
@@ -56,7 +56,8 @@ than the API version you are targeting.
   ...
   "depends": {
     ...
-    "voicechat": ">=${minecraft_version}-${voicechat_api_version}"
+    // Note that the mod ID "voicechat_api" was introduced with API version 2.6.0 - For older versions you need to depend on the mod ID "voicechat"
+    "voicechat_api": ">=${voicechat_api_version}"
   }
 }
 ```
@@ -116,6 +117,10 @@ repositories {
 dependencies {
     ...
     modRuntimeOnly "maven.modrinth:simple-voice-chat:fabric-${voicechat_version}"
+    // On Fabric, you also need to add the API stub dependency, which provides the mod ID "voicechat_api" for you to depend on.
+    // If you install the mod normally, this would already be included, but in development nested mods are not included.
+    // Note that this is available starting with API version 2.6.0
+    modRuntimeOnly "de.maxhenkel.voicechat:voicechat-api:${voicechat_api_version}:fabric-stub"
 }
 ```
 
@@ -157,9 +162,10 @@ modLoader="javafml"
 [[mods]]
 ...
 [[dependencies.yourmod]]
-    modId="voicechat"
+    modId="voicechat_api"
     mandatory=true
-    versionRange="[${minecraft_version}-${voicechat_api_version},)"
+    # Note that the mod ID "voicechat_api" was introduced with API version 2.6.0 - For older versions you need to depend on the mod ID "voicechat"
+    versionRange="[${voicechat_api_version},)"
     ordering="AFTER"
     side="BOTH"
 ```
@@ -203,6 +209,8 @@ dependencies {
     // For Neoforge
     runtimeOnly "maven.modrinth:simple-voice-chat:neoforge-${voicechat_version}"
     // For Forge
+    runtimeOnly "maven.modrinth:simple-voice-chat:forge-${voicechat_version}"
+    // or Forge <1.20.6
     runtimeOnly fg.deobf("maven.modrinth:simple-voice-chat:forge-${voicechat_version}")
 }
 ```
@@ -305,7 +313,7 @@ dependencies {
 }
 ```
 
-To avoid crashes due to outdated voice chat versions, make sure to add `voicechat` to the `depends` section in
+To avoid crashes due to outdated voice chat versions, make sure to add `voicechat_api` to the `depends` section in
 the `quilt.mod.json`. This prevents your mod from loading if versions of the voice chat are installed, that are older
 than the API version you are targeting.
 
@@ -318,8 +326,8 @@ than the API version you are targeting.
   "depends": {
     ...
     {
-      "id": "voicechat",
-      "version": ">=${minecraft_version}-${voicechat_api_version}"
+      "id": "voicechat_api",
+      "version": ">=${voicechat_api_version}"
     }
   }
 }
