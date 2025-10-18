@@ -6,15 +6,13 @@ titleTemplate: Simple Voice Chat
 
 ## Compatibility between mod/plugin versions
 
-Generally it is always recommended that you use the exact same version on the server and client for the best possible experience.
+For the best experience, use the same mod/plugin version on the server and client when possible.
 
+Versions are written as three numbers (for example `1.2.3`).<br>
+Only the **first two numbers need to match** for the mod/plugin to be compatible.
 
-This mod follows [Semantic Versioning](https://semver.org/).
-This means version `1.2.3` has a major version of `1`, a minor version of `2` and a patch version of `3`.
-So, as a rule of thumb, **only the major and minor versions need to match**.
-
-
-So if your server has version `1.2.3` of the mod/plugin, your client could also use version `1.2.0` or `1.2.5` to join the server and use the mod.
+**Example**: If the server is using `1.2.3`, clients running `1.2.0` or `1.2.5` can join.
+Clients running `1.1.x `, `1.3.x `or `2.x.x` cannot.
 
 ## Compatibility between Minecraft versions
 
