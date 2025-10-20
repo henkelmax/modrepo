@@ -22,7 +22,7 @@ Simple Voice Chat is compatible between Minecraft versions with the help of tool
 [ViaFabric](https://modrinth.com/mod/viafabric)
 or
 [multiconnect](https://modrinth.com/mod/multiconnect).
-Note that you still have to consider the compatibility between the mod versions, as described above.
+Note that you still have to consider the compatibility between the mod/plugin versions, as described above.
 
 ## Compatibility between mod/plugin loaders
 
