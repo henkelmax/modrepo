@@ -95,7 +95,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Are custom clients like Feather or Lunar supported?",
-    answer: `We do not provide any support for custom clients.`,
+    answer: `No, we do not provide any support for custom clients.`,
   },
   {
     question: "Does this work with tunneling or world hosting services like playit.gg, Essential, e4mc, World Host or Localtonet?",
