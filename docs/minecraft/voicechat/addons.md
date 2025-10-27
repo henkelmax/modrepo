@@ -41,6 +41,10 @@ Optimized for the use with Simple Voice Chat.
 
 ## Replay Voice Chat
 
+::: warning INFO
+Consider using [Flashback](https://modrinth.com/mod/flashback) which has built-in support for recording Simple Voice Chat.
+:::
+
 A compatibility mod to record Simple Voice Chat with [ReplayMod](https://www.replaymod.com/).
 
 - [Modrinth](https://modrinth.com/mod/replay-voice-chat)
