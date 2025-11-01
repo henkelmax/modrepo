@@ -41,6 +41,10 @@ Optimized for the use with Simple Voice Chat.
 
 ## Replay Voice Chat
 
+::: warning INFO
+Consider using [Flashback](https://modrinth.com/mod/flashback) which has built-in support for recording Simple Voice Chat.
+:::
+
 A compatibility mod to record Simple Voice Chat with [ReplayMod](https://www.replaymod.com/).
 
 - [Modrinth](https://modrinth.com/mod/replay-voice-chat)
@@ -53,30 +57,6 @@ A server side Fabric mod providing useful features to Simple Voice Chat groups.
 
 - [Modrinth](https://modrinth.com/mod/enhanced-groups)
 - [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/enhanced-groups)
-
-
-## Simple Voice Chat Radio
-
-::: warning INFO
-This mod is now maintained by a third party. Please report issues to the issue tracker linked on the mod page.
-:::
-
-A server-side Simple Voice Chat addon mod for Fabric adding a radio block capable of streaming mp3 radio streams.
-
-- [Modrinth](https://modrinth.com/mod/simple-voice-chat-radio)
-- [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/simple-voice-chat-radio)
-
-
-## Wiretap
-
-::: warning INFO
-This mod is now maintained by a third party. Please report issues to the issue tracker linked on the mod page.
-:::
-
-A server-side Simple Voice Chat addon mod for Fabric, that adds a microphone and a speaker block.
-
-- [Modrinth](https://modrinth.com/mod/wiretap)
-- [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/wiretap)
 
 
 ## Voice Chat Broadcast
