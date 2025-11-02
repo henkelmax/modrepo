@@ -18,7 +18,7 @@ This server side Fabric mod enables uploading custom audio for music discs, goat
 
 - [Modrinth](https://modrinth.com/mod/audioplayer)
 - [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/audioplayer)
-- [Third party Paper port](https://github.com/Navoei/CustomDiscs)
+- [Third party Paper port](https://github.com/Navoei/CustomDiscs) <Badge type="warning" text="Not official" />
 
 
 ## Voice Chat Interaction
@@ -27,7 +27,7 @@ This server side Fabric mod allows Simple Voice Chat to interact with your Minec
 
 - [Modrinth](https://modrinth.com/mod/voice-chat-interaction)
 - [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/voice-chat-interaction)
-- [Third party Paper port](https://modrinth.com/plugin/voice-chat-interaction-paper)
+- [Third party Paper port](https://modrinth.com/plugin/voice-chat-interaction-paper) <Badge type="warning" text="Not official" />
 
 
 ## Sound Physics Remastered
@@ -64,4 +64,4 @@ A server side Fabric mod providing useful features to Simple Voice Chat groups.
 This is a simple Bukkit plugin that allows you to broadcast your voice with Simple Voice Chat.
 
 - [GitHub](https://github.com/henkelmax/voicechat-broadcast-plugin)
-- [Third party Fabric port](https://github.com/corfoto4/voicechat-broadcast-mod-fabric)
+- [Third party Fabric port](https://github.com/corfoto4/voicechat-broadcast-mod-fabric) <Badge type="warning" text="Not official" />
