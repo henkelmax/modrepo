@@ -21,6 +21,11 @@ If this is the case, please ask your hoster to either disable it or to create an
 If you are using Docker, make sure you specified `24454:24454/udp` for the port.
 Just doing `24454:24454` will not work as it is only TCP.
 
+If you are the only person thats not able to connect to the voice chat, check if you are experiencing the same issue on other servers.
+If thats the case your internet service provider (ISP) might be blocking UDP.
+This is usually the case if you are using mobile data.
+This issue can also occur if you are using a VPN.
+
 
 ## The config file is empty (This config has been moved to ...)
 
