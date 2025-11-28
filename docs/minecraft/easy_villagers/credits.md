@@ -128,5 +128,12 @@ const credits = [
       link: "https://github.com/nugeta",
     },
   },
+  {
+    element: { name: "Literary Chinese translation" },
+    name: {
+      name: "Bei Dou",
+      link: "https://github.com/BeiDou114514",
+    },
+  },
 ];
 </script>
