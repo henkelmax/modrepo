@@ -51,6 +51,8 @@ Other than that, there are no known incompatibilities with any other mods or plu
 
 ::: info INFO
 This section only applies to running the mod on your game, not on servers.
+
+In case you are using voice chat addons that rely on voice chats native code, this section also applies for servers.
 :::
 
 ::: danger NOTE
