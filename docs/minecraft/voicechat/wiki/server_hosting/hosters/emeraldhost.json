@@ -3,6 +3,9 @@
     "lastUpdate": "2026-01-03",
     "url": "https://emeraldhost.de/",
     "officialGuideUrl": "https://docs.emeraldhost.de/en/gameserver/minecraft-java-edition/mods/setup-simple-voice-chat",
+    "description": [
+        "<a href=\"https://docs.emeraldhost.de/gameserver/minecraft-java-edition/mods/simple-voice-chat-einrichten\" target=\"_blank\" rel=\"noopener noreferrer\">German Guide</a>"
+    ],
     "credits": [
         {
             "name": "herrsammy",
