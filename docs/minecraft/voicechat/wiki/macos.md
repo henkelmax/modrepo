@@ -16,7 +16,7 @@ However, some launchers add the ability to ask for microphone permission.
 
 
 ::: warning NOTE
-If you have issues **installing** or **setting up** any of these launchers, visit the [Prism Launcher Discord server](https://discord.gg/prismlauncher) or the [GDLauncher Discord server](https://discord.gdlauncher.com/) respectively for help.
+If you have issues **installing** or **setting up** any of these launchers, visit the [Prism Launcher Discord server](https://prismlauncher.org/discord) or the [GDLauncher Discord server](https://discord.gdlauncher.com/) respectively for help.
 
 But please don't ask them for help with the voice chat mod itself!
 :::
