@@ -1,0 +1,17 @@
+{
+    "name": "Robotic Node",
+    "lastUpdate": "2025-12-31",
+    "url": "https://roboticnode.com/",
+    "steps": [
+        "Go to <b>Network</b> in your server panel",
+        "Click on <b>Create Allocation</b>",
+        "Copy the port number",
+        "Set the <code>port</code> property in the voice chat server config to the number you chose in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "XtraStarry",
+            "url": "https://discordapp.com/users/1453659375234191466"
+        }
+    ]
+}

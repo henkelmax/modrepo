@@ -164,6 +164,13 @@ This is **not an issue with the mod**!
 This is purely an issue with your headset.
 
 
+## I was banned from using voice chat
+
+Simple Voice Chat **does not have a banning system**.
+If you are banned its most likely a feature added by the server you are playing on.
+**Don't contact us about this!**
+
+
 <ClientOnly>
     <WikiTracker name="troubleshooting"/>
 </ClientOnly>
