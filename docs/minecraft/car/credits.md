@@ -114,5 +114,12 @@ const credits = [
       link: "https://github.com/drewaaaaa",
     },
   },
+  {
+    element: { name: "Mexican Spanish translation" },
+    name: {
+      name: "BrambilaPro",
+      link: "https://github.com/BrambilaPro",
+    },
+  },
 ];
 </script>
