@@ -1,0 +1,15 @@
+{
+    "name": "Campfire Hosting",
+    "lastUpdate": "2026-02-15",
+    "url": "https://www.campfirehosting.com/",
+    "steps": [
+        "Go to the Networking tab in the Control Panel and open a port - Make sure the <code>protocol</code> drop-down is set to UDP",
+        "Set the <code>port</code> property in the voice chat server config to the port you got in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "anonymousfriend27",
+            "url": "https://discordapp.com/users/701146101075542178"
+        }
+    ]
+}
