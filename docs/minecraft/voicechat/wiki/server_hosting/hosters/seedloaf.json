@@ -1,0 +1,17 @@
+{
+    "name": "Seedloaf",
+    "lastUpdate": "2026-02-18",
+    "url": "https://seedloaf.com/",
+    "steps": [
+        "Scroll down until you see additional ports",
+        "Add the port 24454",
+        "Copy the host that has been exposed including the port (e.g. myserver.seedloaf.com:12345)",
+        "Set the <code>voice_host</code> property in the voice chat server config to the value you copied in the previous step"
+    ],
+    "credits": [
+        {
+            "name": "The_PotatoGod",
+            "url": "https://discordapp.com/users/1157828379412803638"
+        }
+    ]
+}
