@@ -69,6 +69,7 @@ If you are using MacOS, read [this](macos)!
 
 If you are on Windows or Linux, you can try setting `java_microphone_implementation` to `true` in the [client config](client_config) of the mod.
 Note that this is not guaranteed to work in all cases.
+If this doesn't work, please revert this setting back to `false`.
 
 
 ## The voice chat is constantly disconnecting and reconnecting
@@ -132,7 +133,7 @@ First of all, make sure your audio drivers are up to date.
 
 If this doesn't help, try restarting your computer and start your launcher as an administrator.
 
-This could also be caused by not allowing microphone access in your OS settings.
+This could also be caused by not allowing microphone access in your OS privacy settings.
 
 
 ## Players can be heard far away/Proximity is not working
