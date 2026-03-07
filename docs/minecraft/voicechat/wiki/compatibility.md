@@ -73,7 +73,7 @@ Both Intel and ARM based Macs are supported.
 
 Not all microphones work with the mod on MacOS.
 If this is the case for you, you can try creating an *aggregate device* in the *audio MIDI setup* that relays the audio of the microphone.
-But note that we wont help you with this workaround.
+But note that we won't help you with this workaround.
 
 ### Linux
 
