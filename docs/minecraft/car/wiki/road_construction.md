@@ -20,7 +20,7 @@ Place markings on the ground by right-clicking.
 
 ## Guardrails
 
-The street safety can be increased by adding guardrails to the side of roads, so that you wont get stuck off the road.
+The street safety can be increased by adding guardrails to the side of roads, so that you won't get stuck off the road.
 
 ## Signs
 
