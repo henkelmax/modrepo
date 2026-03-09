@@ -29,6 +29,50 @@ By default this is the same port as the Minecraft server port of the proxy.
 So by default for velocity, your voice chat port will be `25577`.
 You can change the port in the [voice chat proxy config](proxy_config).
 
+<br/>
+
+
+```mermaid
+graph TD
+    Client[Minecraft client<br/>with voice chat]
+
+    subgraph Proxy
+        ProxyServer[Proxy Server<br/>Velocity / BungeeCord]
+        SVCProxy([Voice chat proxy plugin])
+    end
+
+    subgraph Backend Servers
+        subgraph S1 [ ]
+            Server1[Minecraft Server 1]
+            SVCMod1([Voice chat mod/plugin])
+        end
+        
+        subgraph S2 [ ]
+            Server2[Minecraft Server 2]
+            SVCMod2([Voice chat mod/plugin])
+        end
+        
+        subgraph S3 [ ]
+            Server3[Minecraft Server 3]
+            SVCMod3([Voice chat mod/plugin])
+        end
+    end
+
+    Client -- "Standard Minecraft<br/>TCP networking" --> ProxyServer
+    Client -. "Voice chat<br/>UDP networking" .-> SVCProxy
+
+    ProxyServer -- "Forwarded Minecraft<br/>TCP networking" --> Server1
+    ProxyServer -- "Forwarded Minecraft<br/>TCP networking" --> Server2
+    ProxyServer -- "Forwarded Minecraft<br/>TCP networking" --> Server3
+
+    SVCProxy -. "Forwarded voice chat<br/>UDP networking" .-> SVCMod1
+    SVCProxy -. "Forwarded voice chat<br/>UDP networking" .-> SVCMod2
+    SVCProxy -. "Forwarded voice chat<br/>UDP networking" .-> SVCMod3
+
+    linkStyle 1,5,6,7 stroke:red,stroke-width:2px,stroke-dasharray: 5 5
+```
+*This is a rough visualization of a proxy setup with 3 Minecraft servers.*
+
 ### Other Minecraft Proxies
 
 ::: info NOTE
