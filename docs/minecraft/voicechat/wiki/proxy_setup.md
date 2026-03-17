@@ -42,9 +42,9 @@ graph TD
     end
 
     subgraph Backend Servers
-        subgraph S1 [ ]
-            Server1[Minecraft Server 1]
-            SVCMod1([Voice chat mod/plugin])
+        subgraph S3 [ ]
+            Server3[Minecraft Server 3]
+            SVCMod3([Voice chat mod/plugin])
         end
         
         subgraph S2 [ ]
@@ -52,9 +52,9 @@ graph TD
             SVCMod2([Voice chat mod/plugin])
         end
         
-        subgraph S3 [ ]
-            Server3[Minecraft Server 3]
-            SVCMod3([Voice chat mod/plugin])
+        subgraph S1 [ ]
+            Server1[Minecraft Server 1]
+            SVCMod1([Voice chat mod/plugin])
         end
     end
 
