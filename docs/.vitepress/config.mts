@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress';
+import { withMermaid } from "vitepress-plugin-mermaid";
 import pkg from 'git-describe';
 const { gitDescribeSync } = pkg;
 
-export default defineConfig({
+export default defineConfig(withMermaid({
   title: 'ModRepo',
   description: 'ModRepo',
   cleanUrls: true,
@@ -151,4 +152,4 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://modrepo.de'
   }
-});
+}));
