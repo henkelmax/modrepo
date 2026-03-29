@@ -121,5 +121,12 @@ const credits = [
       link: "https://github.com/BrambilaPro",
     },
   },
+  {
+    element: { name: "Argentinian Spanish translation" },
+    name: {
+      name: "Gregorio Catalan",
+      link: "https://github.com/GregoCatalan",
+    },
+  },
 ];
 </script>
