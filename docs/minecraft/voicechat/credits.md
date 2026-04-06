@@ -504,5 +504,12 @@ const translations = [
       link: "https://github.com/Xlr11",
     },
   },
+  {
+    element: { name: "Esperanto translation" },
+    name: {
+      name: "Ajno",
+      link: "https://github.com/AjnoEO",
+    },
+  },
 ];
 </script>
