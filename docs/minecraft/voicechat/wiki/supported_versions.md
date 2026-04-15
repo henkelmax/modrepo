@@ -107,3 +107,4 @@ See [compatibility](compatibility) on cross version compatibility.
 - `1.21.11`
 - `26.1`
 - `26.1.1`
+- `26.1.2`
