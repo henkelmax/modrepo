@@ -12,7 +12,7 @@ However, some launchers add the ability to ask for microphone permission.
 ## Supported Launchers
 
 - [Prism Launcher](https://prismlauncher.org/) <Badge type="tip" text="Recommended" />
-- [GDLauncher](hhttps://gdlauncher.com/)
+- [GDLauncher](https://gdlauncher.com/)
 
 
 ::: warning NOTE
