@@ -50,10 +50,11 @@ Opening ports is different for every setup. It depends on your OS, your router, 
 
 
 *[Example from the itzg/minecraft-server documentation](https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose)*
-``` yaml{8}
+``` yaml{9}
 services:
   mc:
-    image: itzg/minecraft-server
+    image: itzg/minecraft-server:latest
+    pull_policy: daily
     tty: true
     stdin_open: true
     ports:
