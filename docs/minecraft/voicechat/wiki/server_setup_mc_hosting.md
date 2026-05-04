@@ -31,10 +31,10 @@ This will most likely break your setup!
 *[Want to submit a guide?](submit_hoster)*
 
 <script setup>
-import { ref } from 'vue'
-import { data } from './server_hosting/search_index.data'
+import { ref } from 'vue';
+import { data } from './server_hosting/search_index.data';
 
-const index = ref(data)
+const index = ref(data);
 </script>
 
 <ClientOnly>
