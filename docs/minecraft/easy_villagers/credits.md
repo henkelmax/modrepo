@@ -149,5 +149,12 @@ const credits = [
       link: "https://github.com/BrambilaPro",
     },
   },
+  {
+    element: { name: "Chinese Simplified (China) translation" },
+    name: {
+      name: "FireflyHotaruC",
+      link: "https://github.com/FireflyHotaruC",
+    },
+  },
 ];
 </script>
