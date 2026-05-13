@@ -29,7 +29,7 @@ Note that you still have to consider the compatibility between the mod/plugin ve
 ::: danger NOTE
 We don't support **hybrid servers**! Please either use only plugins or only mods on your server.
 Examples of hybrid servers are **Mohist**, **Arclight**, **Magma** or **Cardboard**.
-More information about that topic [here](https://essentialsx.net/do-not-use-mohist.html).
+More information about that topic [here](https://essentialsx.net/do-not-use-mohist).
 :::
 
 ::: warning NOTE
