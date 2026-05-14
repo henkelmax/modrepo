@@ -29,7 +29,7 @@ Opening ports is different for every setup. It depends on your OS, your router, 
 - Open the voice chat port (`24454` `UDP` by default)
   - In the firewall of the machine, the server is running on
   - In your router
-- When connecting to your Minecraft server in-game, please make sure you use the local IP address of the server in your internal network or `localhost` if the server is running on the same machine, you are playing on
+- When connecting to your Minecraft server in-game, please make sure you use the **local IP address** of the server in your internal network or `localhost` if the server is running on the same machine, you are playing on
 - Make sure your router allows devices in your local network to communicate with each other
 
 
