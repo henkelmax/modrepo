@@ -14,7 +14,7 @@ If you are hosting your server with a Minecraft hosting provider, please look if
 ::: warning NOTE
 If no guide exists, please ask the support of your hoster for help.
 
-Please don't ask us for help before you contacted your hoster!
+Please don't ask us for help about this, as we can't help you with the setup for specific hosters!
 :::
 
 ::: danger WARNING
