@@ -18,7 +18,7 @@ The following permission systems are supported by Simple Voice Chat:
 ::: danger NOTE
 We don't support **hybrid servers**! Please either use only plugins or only mods on your server.
 
-If you for some reason don't have permission for something that is granted to everyone by default, you might have misconfigured your permissions manager or are using a hybrid server.
+If you for some reason don't have permission for something that is granted to everyone by default, you might have misconfigured your permissions manager or you are using a hybrid server.
 :::
 
 
