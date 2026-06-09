@@ -163,5 +163,12 @@ const credits = [
       link: "https://github.com/TGGamesYT",
     },
   },
+  {
+    element: { name: "Russian translation" },
+    name: {
+      name: "lNullCatl",
+      link: "https://github.com/lNullCatl",
+    },
+  },
 ];
 </script>
