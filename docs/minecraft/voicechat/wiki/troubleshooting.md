@@ -14,6 +14,8 @@ The most likely cause of this is that you didn't open your port correctly.
 
 If you are running your server behind a proxy like BungeeCord or Velocity make sure you followed [these instructions](proxy_setup).
 
+[OpSec](https://modrinth.com/mod/opsec) can also prevent voice chat from sending packets to the server.
+Make sure you have **Mod Whitelist** set to `AUTO` or manually add the mods packets to the whitelist.
 
 Some servers have a DDoS protection that prevents the voice chat from working.
 If this is the case, please ask your hoster to either disable it or to create an exception for the voice chat.
