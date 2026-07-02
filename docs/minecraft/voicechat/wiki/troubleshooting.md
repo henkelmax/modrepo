@@ -14,28 +14,26 @@ The most likely cause of this is that you didn't open your port correctly.
 
 If you are running your server behind a proxy like BungeeCord or Velocity make sure you followed [these instructions](proxy_setup).
 
-[OpSec](https://modrinth.com/mod/opsec) can also prevent voice chat from sending packets to the server.
-Make sure you have **Mod Whitelist** set to `AUTO` or manually add the mods packets to the whitelist.
-
 Some servers have a DDoS protection that prevents the voice chat from working.
 If this is the case, please ask your hoster to either disable it or to create an exception for the voice chat.
 
 If you are using Docker, make sure you specified `24454:24454/udp` for the port.
 Just doing `24454:24454` will not work as it is only TCP.
 
+If you're hosting through IPv6, voice chat may use the wrong source address when sending UDP packets to clients.
+This is because IPv6 allows network interfaces to have multiple addresses, so the address with its ports opened may differ from the outgoing address.
+To fix this, either:
+
+- Set `bind_address` in the server config to the IPv6 address that has its ports opened (however, this will prevent IPv4-only players from using voice chat).
+- Disable temporary addresses on the server, and ensure the outgoing IP address is the same as the address your ports are opened to.
+
 If you are the only person thats not able to connect to the voice chat, check if you are experiencing the same issue on other servers.
 If thats the case your internet service provider (ISP) might be blocking UDP.
 This is usually the case if you are using mobile data.
 This issue can also occur if you are using a VPN.
 
-
-If you're hosting through IPv6, voice chat may use the wrong source address when sending UDP packets to clients.
-This is because IPv6 allows network interfaces to have multiple addresses, so the address with its ports opened may differ from the outgoing address.
-
-To fix this, either:
-
-- Set `bind_address` in the server config to the IPv6 address that has its ports opened (however, this will prevent IPv4-only players from using voice chat).
-- Disable temporary addresses on the server, and ensure the outgoing IP address is the same as the address your ports are opened to.
+[OpSec](https://modrinth.com/mod/opsec) can also prevent voice chat from sending packets to the server.
+Make sure you have **Mod Whitelist** set to `AUTO` or manually add the mods packets to the whitelist.
 
 
 ## The config file is empty (This config has been moved to ...)
