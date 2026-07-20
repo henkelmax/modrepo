@@ -1,0 +1,16 @@
+{
+    "name": "SwiftServers",
+    "lastUpdate": "2026-07-17",
+    "url": "https://swiftservers.org/",
+    "steps": [
+        "Go to the Network Tab <b>Resources</b> -> <b>Network</b>",
+        "Press <b>Apply Config for Simple Voice Chat</b>",
+        "Restart the server"
+    ],
+    "credits": [
+        {
+            "name": "mini",
+            "url": "https://discordapp.com/users/717717356553437218"
+        }
+    ]
+}
