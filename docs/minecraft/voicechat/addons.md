@@ -20,6 +20,12 @@ This server side Fabric mod enables uploading custom audio for music discs, goat
 - [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/audioplayer)
 - [Third party Paper port](https://github.com/Navoei/CustomDiscs) <Badge type="warning" text="Not official" />
 
+## Simple Voice Animations
+
+This Fabric mod adds head animations to voice chat.
+
+- [Modrinth](https://modrinth.com/mod/simple-voice-animations)
+- [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/simple-voice-animations)
 
 ## Voice Chat Interaction
 
