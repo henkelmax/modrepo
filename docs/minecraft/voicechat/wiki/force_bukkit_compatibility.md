@@ -12,7 +12,7 @@ Forcing version compatibility could lead to issues - Use at your own risk!
 :::
 
 The plugin version of Simple Voice Chat allows forcing compatibility with a specific version of Bukkit/Paper.
-This is especially helpful for servers that don't strictly follow the Bukkit versioning scheme or if the plugin fails to detect the Bukkit or Paper versioning schema.
+This is especially helpful for servers that don't strictly follow the Bukkit or Paper versioning scheme or if the plugin fails to detect the Bukkit or Paper versioning scheme.
 
 ## Usage
 
