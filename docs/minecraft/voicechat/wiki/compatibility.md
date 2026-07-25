@@ -80,7 +80,7 @@ But note that we won't help you with this workaround.
 Simple Voice Chat is compatible with all major Linux distributions, provided they are kept up to date.
 If you encounter any incompatibility on Linux, please let us know.
 
-The only additional requirement beyond Minecraft's usual dependencies is `glibc` version `2.33` or newer, as well as ALSA and/or PulseAudio for the Microphone.
+The only additional requirement beyond Minecraft's usual dependencies is `glibc` version `2.33` or later, as well as ALSA and/or PulseAudio for the Microphone.
 
 ### Other Operating Systems
 
