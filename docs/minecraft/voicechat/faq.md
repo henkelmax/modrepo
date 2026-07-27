@@ -31,7 +31,7 @@ const faq = [
   {
     question: "How do I open the voice chat port?",
     answer: `
-If you are hosting your server with a Minecraft hosting provider, please take look at <a href="/minecraft/voicechat/wiki/server_setup_mc_hosting">this</a>.
+If you are hosting your server with a Minecraft hosting provider, please take a look at <a href="/minecraft/voicechat/wiki/server_setup_mc_hosting">this</a>.
 If your hoster is not listed here, please ask the support of your hoster for help.
 <br/>
 If you are hosting the server on your local machine or a self hosted server, take a look at <a href="/minecraft/voicechat/wiki/server_setup_self_hosted">this</a>.
