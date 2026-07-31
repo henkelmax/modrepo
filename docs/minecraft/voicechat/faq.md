@@ -91,7 +91,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this work with Mohist/Arclight/Magma/Cardboard or any other hybrid server?",
-    answer: `We generally don't provide support any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
+    answer: `We generally don't provide support for any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
   },
   {
     question: "Are custom clients like Feather or Lunar supported?",
