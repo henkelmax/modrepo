@@ -126,7 +126,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Is it possible to host the voice chat server standalone?",
-    answer: `No. The voice chat needs to use Minecrafts builtin networking to exchange some information, the voice chat server also requires information thats only present on the server.`,
+    answer: `No. The voice chat needs to use Minecraft's built-in networking to exchange some information, and the voice chat server also requires information that's only present on the server.`,
   },
   {
     question: "Are vanish plugins compatible with the voice chat?",
