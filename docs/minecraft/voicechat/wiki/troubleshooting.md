@@ -36,6 +36,13 @@ This issue can also occur if you are using a VPN.
 Make sure you have **Mod Whitelist** set to `AUTO` or manually add the mods packets to the whitelist.
 
 
+## The game freezes for ~30 seconds and then fails to find the microphone
+
+This might happen on linux if you installed your launcher though Snap and didn't give it permission to access the microphone.
+If you are using Prism launcher read [this](https://snapcraft.io/prismlauncher-alpo).
+This freeze unfortunately cannot be fixed from the mod side.
+
+
 ## The config file is empty (This config has been moved to ...)
 
 Starting with version `2.4.0` of the Forge version of the mod, the config location was changed.
