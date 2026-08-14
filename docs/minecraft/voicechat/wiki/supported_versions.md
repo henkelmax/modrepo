@@ -6,31 +6,31 @@ titleTemplate: Simple Voice Chat
 
 ## Supported Mod/Plugin Versions
 
-You should always use the latest version of the mod/plugin thats tagged as **Release** if available.
+You should always use the latest version of the mod/plugin that's tagged as **Release** if available.
 
 ## Supported Minecraft Versions
 
 ### For Mods
 
-This is a list containing every Minecraft version, Simple Voice Chat has been released to.
+This is a list containing every Minecraft version Simple Voice Chat has been released for.
 It shows for which Minecraft versions the mod is still maintained and supported.
 
 Snapshots are generally no longer supported after a newer snapshot version is released or the full release of that version is out.
 
 | Minecraft Version | Loader(s)                      | Support                                        |
 | ----------------- | ------------------------------ | ---------------------------------------------- |
-| `26.2`            | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
-| `26.1.2`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
-| `26.1.1`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
-| `26.1`            | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
-| `1.21.11`         | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
-| `1.21.10`         | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
+| `26.2`            | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
+| `26.1.2`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
+| `26.1.1`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
+| `26.1`            | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
+| `1.21.11`         | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
+| `1.21.10`         | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
 | `1.21.9`          |                                | <Badge type="danger" text="No support" />      |
-| `1.21.8`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
+| `1.21.8`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
 | `1.21.7`          |                                | <Badge type="danger" text="No support" />      |
 | `1.21.6`          |                                | <Badge type="danger" text="No support" />      |
-| `1.21.5`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
-| `1.21.4`          | Fabric, NeoForge, Forge        | <Badge type="tip" text="Actively developed" /> |
+| `1.21.5`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
+| `1.21.4`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
 | `1.21.3`          |                                | <Badge type="danger" text="No support" />      |
 | `1.21.2`          |                                | <Badge type="danger" text="No support" />      |
 | `1.21.1`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
@@ -63,7 +63,7 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 The latest plugin version of Simple Voice Chat universally supports the following Minecraft versions with the same jar file:
 
 ::: warning NOTE
-Just because a Minecraft version is supported as plugin does not mean a mod version exists or is actively supported.
+Just because a Minecraft version is supported as a plugin does not mean a mod version exists or is actively supported.
 See [compatibility](compatibility) on cross version compatibility.
 :::
 
