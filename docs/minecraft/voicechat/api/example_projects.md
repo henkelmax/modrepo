@@ -6,7 +6,7 @@ titleTemplate: Simple Voice Chat
 
 A good way to see how the API should be used is to look at some example projects.
 The following projects are official projects that are using the API.
-It can be used as a reference for your own projects.
+They can be used as a reference for your own projects.
 
 ## Fabric
 

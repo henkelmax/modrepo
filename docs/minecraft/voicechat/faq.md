@@ -31,7 +31,7 @@ const faq = [
   {
     question: "How do I open the voice chat port?",
     answer: `
-If you are hosting your server with a Minecraft hosting provider, please take look at <a href="/minecraft/voicechat/wiki/server_setup_mc_hosting">this</a>.
+If you are hosting your server with a Minecraft hosting provider, please take a look at <a href="/minecraft/voicechat/wiki/server_setup_mc_hosting">this</a>.
 If your hoster is not listed here, please ask the support of your hoster for help.
 <br/>
 If you are hosting the server on your local machine or a self hosted server, take a look at <a href="/minecraft/voicechat/wiki/server_setup_self_hosted">this</a>.
@@ -71,7 +71,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this work on Bedrock edition?",
-    answer: "No. Only on Java edition. It is impossible to implement a voice chat in bedrock edition due to technical limitations.",
+    answer: "No. Only on Java Edition. It is impossible to implement a voice chat in Bedrock Edition due to technical limitations.",
   },
   {
     question: "Does this mod require something like Discord or Mumble installed?",
@@ -91,7 +91,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Does this work with Mohist/Arclight/Magma/Cardboard or any other hybrid server?",
-    answer: `We generally don't provide support any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
+    answer: `We generally don't provide support for any hybrid servers. For more information read <a href="https://essentialsx.net/do-not-use-mohist.html">this</a>.`,
   },
   {
     question: "Are custom clients like Feather or Lunar supported?",
@@ -126,7 +126,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
   },
   {
     question: "Is it possible to host the voice chat server standalone?",
-    answer: `No. The voice chat needs to use Minecrafts builtin networking to exchange some information, the voice chat server also requires information thats only present on the server.`,
+    answer: `No. The voice chat needs to use Minecraft's built-in networking to exchange some information, and the voice chat server also requires information that's only present on the server.`,
   },
   {
     question: "Are vanish plugins compatible with the voice chat?",
