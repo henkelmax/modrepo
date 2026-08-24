@@ -250,5 +250,5 @@ sender.reset(); // Resets the audio sender, indicating to the client that the en
 
 ...
 
-api.unregisterAudioSender(sender); // Unregisters the audio sender. If if its not unregistered, no other plugins can register an audio sender for this player
+api.unregisterAudioSender(sender); // Unregisters the audio sender. If it's not unregistered, no other plugins can register an audio sender for this player
 ```
