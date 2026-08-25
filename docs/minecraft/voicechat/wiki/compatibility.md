@@ -12,7 +12,7 @@ Versions are written as three numbers (for example `1.2.3`).<br>
 Only the **first two numbers need to match** for the mod/plugin to be compatible.
 
 **Example**: If the server is using `1.2.3`, clients running `1.2.0` or `1.2.5` can join.
-Clients running `1.1.x `, `1.3.x `or `2.x.x` cannot.
+Clients running `1.1.x`, `1.3.x` or `2.x.x` cannot.
 
 ## Compatibility between Minecraft versions
 
