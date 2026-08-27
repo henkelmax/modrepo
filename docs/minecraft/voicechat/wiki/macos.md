@@ -25,7 +25,7 @@ But please don't ask them for help with the voice chat mod itself!
 
 ### CurseForge Launcher
 
-In order to get micrphone permissions on the CurseForge Launcher, you need to do the following steps:
+In order to get microphone permissions on the CurseForge Launcher, you need to do the following steps:
 
 - Open the **CurseForge Launcher**
 - Go to **Settings**
