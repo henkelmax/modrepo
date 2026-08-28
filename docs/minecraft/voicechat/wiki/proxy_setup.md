@@ -26,7 +26,7 @@ Use the `voice_host` config option in the [voice chat proxy config](proxy_config
 
 You only need to open a single UDP port for the proxy server.
 By default this is the same port as the Minecraft server port of the proxy.
-So by default for velocity, your voice chat port will be `25577`.
+So by default for Velocity, your voice chat port will be `25577`.
 You can change the port in the [voice chat proxy config](proxy_config).
 
 <br/>
