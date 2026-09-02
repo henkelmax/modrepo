@@ -83,7 +83,7 @@ Make sure each voice chat port of each Minecraft server is opened to the public 
 
 If the proxy and the Minecraft servers are running on different machines,
 you need to set `voice_host` in the [voice chat server config](server_config)
-of each Minecraft server to the public IP address (Without the port) of the server its running on (Not the IP of the proxy).
+of each Minecraft server to the public IP address (without the port) of the server it's running on (not the IP of the proxy).
 You also need to make sure each voice port is opened in the firewall of each server.
 
 ## Generic UDP Proxy Setup
