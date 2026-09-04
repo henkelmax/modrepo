@@ -12,7 +12,7 @@ If you are self-hosting your Minecraft server, make sure you followed [these ste
 
 The most likely cause of this is that you didn't open your port correctly.
 
-If you are running your server behind a proxy like BungeeCord or Velocity make sure you followed [these instructions](proxy_setup).
+If you are running your server behind a proxy like BungeeCord or Velocity, make sure you followed [these instructions](proxy_setup).
 
 Some servers have a DDoS protection that prevents the voice chat from working.
 If this is the case, please ask your hoster to either disable it or to create an exception for the voice chat.
@@ -27,8 +27,8 @@ To fix this, either:
 - Set `bind_address` in the server config to the IPv6 address that has its ports opened (however, this will prevent IPv4-only players from using voice chat).
 - Disable temporary addresses on the server, and ensure the outgoing IP address is the same as the address your ports are opened to.
 
-If you are the only person thats not able to connect to the voice chat, check if you are experiencing the same issue on other servers.
-If thats the case your internet service provider (ISP) might be blocking UDP.
+If you are the only person that's not able to connect to the voice chat, check if you are experiencing the same issue on other servers.
+If that's the case, your internet service provider (ISP) might be blocking UDP.
 This is usually the case if you are using mobile data.
 This issue can also occur if you are using a VPN.
 
