@@ -100,7 +100,7 @@ If you are hosting the server on your local machine or a self hosted server, tak
     <br>
     Report all issues you have directly to their support.
     <br>
-    See <a href="https://www.lunarclient.com/news/how-to-add-your-own-mods-to-lunar-client">lunars</a> and <a href="https://news.feathermc.com/how-to-debug-crashing-client-issues/">feathers</a> pages about dealing with adding mods to their clients.
+    See <a href="https://www.lunarclient.com/news/how-to-add-your-own-mods-to-lunar-client">Lunars</a> and <a href="https://news.feathermc.com/how-to-debug-crashing-client-issues/">Feathers</a> pages about dealing with adding mods to their clients.
     <br>
     <b>Do NOT contact the Simple Voice Chat support if you are using a custom client!</b>`,
   },
