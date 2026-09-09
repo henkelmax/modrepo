@@ -518,5 +518,12 @@ const translations = [
       link: "https://github.com/ookkoouu",
     },
   },
+  {
+    element: { name: "Thai translation" },
+    name: {
+      name: "Healer1-creator",
+      link: "https://github.com/Healer1-creator",
+    },
+  },
 ];
 </script>
