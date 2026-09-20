@@ -19,6 +19,7 @@ Snapshots are generally no longer supported after a newer snapshot version is re
 
 | Minecraft Version | Loader(s)                      | Support                                        |
 | ----------------- | ------------------------------ | ---------------------------------------------- |
+| `26.3`            | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
 | `26.2`            | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
 | `26.1.2`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
 | `26.1.1`          | Fabric, NeoForge, Forge, Quilt | <Badge type="tip" text="Actively developed" /> |
