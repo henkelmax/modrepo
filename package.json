@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "git-describe": "^4.1.1",
-    "mermaid": "^11.16.0",
+    "mermaid": "^12.0.0",
     "vitepress": "^1.6.4",
-    "vitepress-plugin-mermaid": "^2.0.17",
+    "vitepress-plugin-mermaid": "github:henkelmax/vitepress-plugin-mermaid",
     "vue": "^3.5.43"
   },
   "allowScripts": {
