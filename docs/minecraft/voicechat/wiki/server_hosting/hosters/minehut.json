@@ -1,8 +1,6 @@
 {
     "name": "Minehut",
-    "lastUpdate": "2023-03-29",
+    "lastUpdate": "2026-10-13",
     "url": "https://minehut.com/",
-    "description": [
-        "Minehut does <b>not</b> support Simple Voice Chat."
-    ]
+    "officialGuideUrl": "https://support.minehut.com/hc/en-us/articles/55790858408211-Setting-up-Simple-Voice-Chat"
 }
