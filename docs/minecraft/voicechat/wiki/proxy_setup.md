@@ -33,8 +33,22 @@ You can change the port in the [voice chat proxy config](proxy_config).
 
 
 ```mermaid
+---
+config:
+  layout: dagre
+  look: classic
+  themeCSS: |
+    foreignObject .edgeLabel {
+      display: inline-block;
+      padding: 4px 8px;
+    }
+    foreignObject .nodeLabel {
+      display: inline-block;
+      padding: 4px 8px;
+    }
+---
 graph TD
-    Client[Minecraft client<br/>with voice chat]
+    Client[Minecraft&nbsp;client<br/>with&nbsp;voice&nbsp;chat]
 
     subgraph Proxy
         ProxyServer[Proxy Server<br/>Velocity / BungeeCord]
@@ -69,7 +83,7 @@ graph TD
     SVCProxy -. "Forwarded voice chat<br/>UDP networking" .-> SVCMod2
     SVCProxy -. "Forwarded voice chat<br/>UDP networking" .-> SVCMod3
 
-    linkStyle 1,5,6,7 stroke:red,stroke-width:2px,stroke-dasharray: 5 5
+    linkStyle 1,5,6,7 stroke:red,stroke-width:2px,stroke-dasharray:5 5
 ```
 *This is a rough visualization of a proxy setup with 3 Minecraft servers.*
 
