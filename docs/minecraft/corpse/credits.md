@@ -170,5 +170,12 @@ const credits = [
       link: "https://github.com/lNullCatl",
     },
   },
+  {
+    element: { name: "Ukrainian translation" },
+    name: {
+      name: "Ch1sho",
+      link: "https://github.com/Ch1sho",
+    },
+  },
 ];
 </script>
