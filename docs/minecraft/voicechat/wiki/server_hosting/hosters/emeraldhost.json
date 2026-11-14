@@ -1,10 +1,10 @@
 {
     "name": "EmeraldHost",
-    "lastUpdate": "2026-01-03",
+    "lastUpdate": "2026-11-14",
     "url": "https://emeraldhost.de/",
-    "officialGuideUrl": "https://docs.emeraldhost.de/en/gameserver/minecraft-java-edition/mods/setup-simple-voice-chat",
+    "officialGuideUrl": "https://emeraldhost.de/en/guides/gameserver/minecraft/addons/setup-simple-voice-chat",
     "description": [
-        "<a href=\"https://docs.emeraldhost.de/gameserver/minecraft-java-edition/mods/simple-voice-chat-einrichten\" target=\"_blank\" rel=\"noopener noreferrer\">German Guide</a>"
+        "<a href=\"https://emeraldhost.de/de/anleitungen/gameserver/minecraft/addons/simple-voice-chat-einrichten\" target=\"_blank\" rel=\"noopener noreferrer\">German Guide</a>"
     ],
     "credits": [
         {
