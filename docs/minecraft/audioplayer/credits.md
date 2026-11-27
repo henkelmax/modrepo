@@ -25,6 +25,13 @@ const credits = [
       name: "MIT",
       link: "https://raw.githubusercontent.com/ebarlas/microhttp/refs/heads/main/LICENSE",
     },
+  },
+  {
+    element: { name: "Chinese Simplified (China) translation" },
+    name: {
+      name: "Missing_Love",
+      link: "https://github.com/Q2297045667",
+    },
   }
 ];
 </script>
